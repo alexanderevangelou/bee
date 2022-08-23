@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.8.30/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"1.8.30","repo":"alexanderevangelou/bee"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.8.30/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.2","target":"arcade","targetVersion":"1.8.30","repo":"alexanderevangelou/bee"}
 // total=2129182 new=17.16% cached=78.03% other=4.81%
 (function (ectx) {
 'use strict';
@@ -562,7 +562,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P49938(s) {
+function _main___P51007(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1178,13 +1178,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P49938.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P49938.continuations = [ 38,39,40,41 ]
+_main___P51007.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P51007.continuations = [ 38,39,40,41 ]
 
-function _main___P49938_mk(s) {
+function _main___P51007_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P49938, depth: s.depth + 1,
+        parent: s, fn: _main___P51007, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -63629,5 +63629,5 @@ const effects_SceneAnchor__C29673_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["home___49420","homeFood___49423","exit___49426","video___49429","pollen___49432","honny_bee___49476","animaton___49553","statusbar___49674","Exit___49524","pollen1___49479","pollen2___49488","pollen3___49497","pollen4___49506","pollen5___49515","spider___49536","bee_hive___49442","flower___49448","flower_two___49454","flower_three___49460","flower_four___49466","flower_five___49472"])
 
-return _main___P49938
+return _main___P51007
 })
