@@ -1796,6 +1796,7 @@ let flower: Sprite = null
 let bee_hive: Sprite = null
 let statusbar: StatusBarSprite = null
 let honny_bee: Sprite = null
+game.splash("hello heidi and lydia if you are playing!", ":)")
 game.splash("you will be playing as a bee", ":]")
 game.splash("controls are: d = right a = left w = forwards s = backwards", ":D")
 info.setLife(1)
