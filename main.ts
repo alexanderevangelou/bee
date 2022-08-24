@@ -267,9 +267,19 @@ function create_level () {
         `, SpriteKind.Enemy)
     spider.sayText("IM GOING TO EAT YOU BEE!", 2000, true)
     spider.setPosition(randint(30, 120), randint(80, 100))
-    pause(2000)
-    spider.follow(honny_bee, 73)
+    pause(1500)
+    spider.follow(honny_bee, 100)
 }
+sprites.onOverlap(SpriteKind.Player, SpriteKind.queen, function (sprite, otherSprite) {
+    if (statusbar.value >= 100) {
+        game.splash("HONEY BALL!!!")
+        statusbar2.value = 100
+    } else {
+        honny_bee.sayText("YAY!!!", 2000, true)
+    }
+    info.changeScoreBy(statusbar.value / 20)
+    statusbar.value = 0
+})
 function animation2 () {
     animation.runImageAnimation(
     animaton,
@@ -1488,11 +1498,31 @@ function animation2 () {
     false
     )
 }
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
+	
+})
 function gravity () {
     honny_bee.y += 0.5
 }
+sprites.onOverlap(SpriteKind.Player, SpriteKind.exit, function (sprite, otherSprite) {
+    Exit.destroy()
+    setScene()
+    pollen1.destroy()
+    pollen2.destroy()
+    pollen3.destroy()
+    pollen4.destroy()
+    pollen5.destroy()
+    spider.destroy()
+})
+sprites.onOverlap(SpriteKind.Player, SpriteKind.home, function (sprite, otherSprite) {
+    sprites.destroyAllSpritesOfKind(SpriteKind.homeFood)
+    insideHive()
+})
+sprites.onOverlap(SpriteKind.Player, SpriteKind.homeFood, function (sprite, otherSprite) {
+    create_level()
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    if (statusbar2.value == 100) {
+    if (statusbar2.value >= 50) {
         honnyBall = sprites.createProjectileFromSprite(img`
             5 5 5 5 5 5 
             5 4 4 4 4 5 
@@ -1502,17 +1532,10 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
             5 5 5 5 5 5 
             `, honny_bee, 80, 0)
         honnyBall.setKind(SpriteKind.Projectile)
-        statusbar2.value = 0
+        statusbar2.value += -50
     } else {
     	
     }
-})
-sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Projectile, function (sprite, otherSprite) {
-    pause(500)
-    otherSprite.destroy()
-})
-sprites.onOverlap(SpriteKind.Player, SpriteKind.homeFood, function (sprite, otherSprite) {
-    create_level()
 })
 function insideHive () {
     scene.setBackgroundImage(img`
@@ -1666,50 +1689,6 @@ function insideHive () {
         `, SpriteKind.exit2)
     exit2.setPosition(88, 2)
 }
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
-	
-})
-sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSprite) {
-    honny_bee.destroy()
-    animaton = sprites.create(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, SpriteKind.video)
-    animaton.setPosition(8, 6)
-    animation2()
-    pause(5000)
-    game.splash("the spider got you! so you are the spider's lunch ")
-    game.over(false)
-})
-sprites.onOverlap(SpriteKind.Player, SpriteKind.queen, function (sprite, otherSprite) {
-    if (statusbar.value >= 100) {
-        game.splash("HONEY BALL!!!")
-        statusbar2.value = 100
-    } else {
-        honny_bee.sayText("YAY!!!", 2000, true)
-    }
-    info.changeScoreBy(statusbar.value / 20)
-    statusbar.value = 0
-})
-sprites.onOverlap(SpriteKind.Player, SpriteKind.exit2, function (sprite, otherSprite) {
-    exit2.destroy()
-    setScene()
-    queenBee.destroy()
-})
 function setScene () {
     scene.setBackgroundImage(img`
         9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
@@ -1952,23 +1931,44 @@ function setScene () {
         `, SpriteKind.homeFood)
     flower_five.setPosition(53, 87)
 }
-sprites.onOverlap(SpriteKind.Player, SpriteKind.home, function (sprite, otherSprite) {
-    sprites.destroyAllSpritesOfKind(SpriteKind.homeFood)
-    insideHive()
+sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, otherSprite) {
+    sprite.destroy(effects.fire, 1000)
+    otherSprite.destroy(effects.fire, 1000)
+})
+sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSprite) {
+    honny_bee.destroy()
+    animaton = sprites.create(img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        `, SpriteKind.video)
+    animaton.setPosition(8, 6)
+    animation2()
+    pause(5000)
+    game.splash("the spider got you! so you are the spider's lunch ")
+    game.over(false)
+})
+sprites.onOverlap(SpriteKind.Player, SpriteKind.exit2, function (sprite, otherSprite) {
+    exit2.destroy()
+    setScene()
+    queenBee.destroy()
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
     statusbar.value += 20
     otherSprite.destroy()
-})
-sprites.onOverlap(SpriteKind.Player, SpriteKind.exit, function (sprite, otherSprite) {
-    Exit.destroy()
-    setScene()
-    pollen1.destroy()
-    pollen2.destroy()
-    pollen3.destroy()
-    pollen4.destroy()
-    pollen5.destroy()
-    spider.destroy()
 })
 let exit2: Sprite = null
 let queenBee: Sprite = null
@@ -1990,9 +1990,10 @@ let bee_hive: Sprite = null
 let statusbar: StatusBarSprite = null
 let statusbar2: StatusBarSprite = null
 let honny_bee: Sprite = null
-game.splash("hello heidi and lydia if you are playing!", ":)")
-game.splash("you will be playing as a bee", ":]")
-game.splash("controls are: d = right a = left w = forwards s = backwards", ":D")
+game.showLongText("hello heidi and lydia if you are playing!", DialogLayout.Full)
+game.showLongText("Welcome to HONEY BEE!  Goal: get all of the pollen and go to the hive to give it to the queen if you get 5 pollen and give is to the queen then you will get a honey ball", DialogLayout.Full)
+game.showLongText("One day there was a hive of Honey Bees that could speak English and they were poor. you have to give them the Honey  ", DialogLayout.Full)
+game.showLongText("Controls are: d = right, a = left, w = forwards, s = backwards, a = shoot honey ball", DialogLayout.Full)
 info.setLife(1)
 honny_bee = sprites.create(img`
     . . . . . . . . . . . . . . . . 
@@ -2053,7 +2054,7 @@ honny_bee,
 true
 )
 statusbar2 = statusbars.create(20, 4, StatusBarKind.ammo)
-statusbar2.value = 0
+statusbar2.value = 100
 statusbar2.attachToSprite(honny_bee, -25, 0)
 statusbar = statusbars.create(20, 4, StatusBarKind.pollen)
 statusbar.value = 0
@@ -2061,6 +2062,12 @@ statusbar.attachToSprite(honny_bee, -20, 0)
 controller.moveSprite(honny_bee, 110, 110)
 honny_bee.setStayInScreen(true)
 setScene()
+forever(function () {
+    if (info.score() == 20) {
+        game.over(true)
+        game.showLongText("you have collected all the pollen that the hive needs. the queen bee can lay and support hundreds of bees. you were rewarded with honey  ", DialogLayout.Bottom)
+    }
+})
 game.onUpdate(function () {
     gravity()
     if (honny_bee.y > 112) {
@@ -2191,21 +2198,15 @@ game.onUpdate(function () {
     }
 })
 forever(function () {
-    if (statusbar.value == 100) {
-        honny_bee.sayText("time to go back to the hive!", 2000, false)
-    }
-})
-forever(function () {
-    if (info.score() == 200) {
-        game.splash("you have collected all the pollen that the hive needs. the queen bee can lay and support hundreds of bees. you were rewarded with honey  ", ":D")
-        game.over(true)
-    }
-})
-forever(function () {
     music.playMelody("B A B A B A G - ", 250)
     music.playMelody("A C5 A B A B A - ", 250)
     music.playMelody("A - A - A G B A ", 250)
     music.playMelody("B A B A G - G - ", 250)
     music.playMelody("G F - E F G - - ", 250)
     music.playMelody("G F - F G A - - ", 250)
+})
+forever(function () {
+    if (statusbar.value == 100) {
+        honny_bee.sayText("time to go back to the hive!", 2000, false)
+    }
 })
