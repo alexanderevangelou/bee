@@ -1850,8 +1850,8 @@ function setScene () {
         . . . . . . 5 5 5 . . . . . . . 
         . . . . . . . 5 . . . . . . . . 
         . . . . . . . 5 . . . . . . . . 
-        . . . . . . . 7 . . . . . . . . 
-        . . . . . . . 7 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
         `, SpriteKind.homeFood)
     flower.setPosition(133, 97)
     flower_two = sprites.create(img`
@@ -1913,6 +1913,27 @@ function setScene () {
     flower_four.setPosition(20, 103)
     flower_five = sprites.create(img`
         . . . . . . . . . . . . . . . . 
+        . . . . . . . 8 . . . . . . . . 
+        . . . . . . . 8 . . . . . . . . 
+        . . . . . . 8 8 8 . . . . . . . 
+        . . . . . . 8 8 8 . . . . . . . 
+        . . . . . . 8 8 8 . . . . . . . 
+        . . . 8 8 8 f f f 8 8 8 . . . . 
+        . 8 8 8 8 8 f f f 8 8 8 8 8 . . 
+        . . . 8 8 8 f f f 8 8 8 . . . . 
+        . . . . . . 8 8 8 . . . . . . . 
+        . . . . . . 8 8 8 . . . . . . . 
+        . . . . . . 8 8 8 . . . . . . . 
+        . . . . . . . 8 . . . . . . . . 
+        . . . . . . . 8 . . . . . . . . 
+        . . . . . . . 7 . . . . . . . . 
+        . . . . . . . 7 . . . . . . . . 
+        `, SpriteKind.homeFood)
+    flower_five.setPosition(53, 87)
+    animation.runImageAnimation(
+    flower,
+    [img`
+        . . . . . . . . . . . . . . . . 
         . . . . . . . 5 . . . . . . . . 
         . . . . . . . 5 . . . . . . . . 
         . . . . . . 5 5 5 . . . . . . . 
@@ -1926,10 +1947,189 @@ function setScene () {
         . . . . . . 5 5 5 . . . . . . . 
         . . . . . . . 5 . . . . . . . . 
         . . . . . . . 5 . . . . . . . . 
-        . . . . . . . 7 . . . . . . . . 
-        . . . . . . . 7 . . . . . . . . 
-        `, SpriteKind.homeFood)
-    flower_five.setPosition(53, 87)
+        . . . . . . . 6 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        `,img`
+        . . . . . . . . . . . . . . . . 
+        . 5 . . . . . . . . . . . 5 . . 
+        . . 5 . . . . . . . . . 5 . . . 
+        . . . 5 5 5 . . . 5 5 5 . . . . 
+        . . . 5 5 5 . . . 5 5 5 . . . . 
+        . . . 5 5 5 . . . 5 5 5 . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . 5 5 5 . 6 . 5 5 5 . . . . 
+        . . . 5 5 5 . 6 . 5 5 5 . . . . 
+        . . . 5 5 5 . 6 . 5 5 5 . . . . 
+        . . 5 . . . . 6 . . . . 5 . . . 
+        . 5 . . . . . 6 . . . . . 5 . . 
+        . . . . . . . 6 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        `],
+    100,
+    true
+    )
+    animation.runImageAnimation(
+    flower_two,
+    [img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . 3 . . . . . . . . 
+        . . . . . . . 3 . . . . . . . . 
+        . . . . . . 3 3 3 . . . . . . . 
+        . . . . . . 3 3 3 . . . . . . . 
+        . . . . . . 3 3 3 . . . . . . . 
+        . . . 3 3 3 f f f 3 3 3 . . . . 
+        . 3 3 3 3 3 f f f 3 3 3 3 3 . . 
+        . . . 3 3 3 f f f 3 3 3 . . . . 
+        . . . . . . 3 3 3 . . . . . . . 
+        . . . . . . 3 3 3 . . . . . . . 
+        . . . . . . 3 3 3 . . . . . . . 
+        . . . . . . . 3 . . . . . . . . 
+        . . . . . . . 3 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        `,img`
+        . . . . . . . . . . . . . . . . 
+        . 3 . . . . . . . . . . . 3 . . 
+        . . 3 . . . . . . . . . 3 . . . 
+        . . . 3 3 3 . . . 3 3 3 . . . . 
+        . . . 3 3 3 . . . 3 3 3 . . . . 
+        . . . 3 3 3 . . . 3 3 3 . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . 3 3 3 . 6 . 3 3 3 . . . . 
+        . . . 3 3 3 . 6 . 3 3 3 . . . . 
+        . . . 3 3 3 . 6 . 3 3 3 . . . . 
+        . . 3 . . . . 6 . . . . 3 . . . 
+        . 3 . . . . . 6 . . . . . 3 . . 
+        . . . . . . . 6 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        `],
+    200,
+    true
+    )
+    animation.runImageAnimation(
+    flower_three,
+    [img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . 4 . . . . . . . . 
+        . . . . . . . 4 . . . . . . . . 
+        . . . . . . 4 4 4 . . . . . . . 
+        . . . . . . 4 4 4 . . . . . . . 
+        . . . . . . 4 4 4 . . . . . . . 
+        . . . 4 4 4 f f f 4 4 4 . . . . 
+        . 4 4 4 4 4 f f f 4 4 4 4 4 . . 
+        . . . 4 4 4 f f f 4 4 4 . . . . 
+        . . . . . . 4 4 4 . . . . . . . 
+        . . . . . . 4 4 4 . . . . . . . 
+        . . . . . . 4 4 4 . . . . . . . 
+        . . . . . . . 4 . . . . . . . . 
+        . . . . . . . 4 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        `,img`
+        . . . . . . . . . . . . . . . . 
+        . 4 . . . . . . . . . . . 4 . . 
+        . . 4 . . . . . . . . . 4 . . . 
+        . . . 4 4 4 . . . 4 4 4 . . . . 
+        . . . 4 4 4 . . . 4 4 4 . . . . 
+        . . . 4 4 4 . . . 4 4 4 . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . 4 4 4 . 6 . 4 4 4 . . . . 
+        . . . 4 4 4 . 6 . 4 4 4 . . . . 
+        . . . 4 4 4 . 6 . 4 4 4 . . . . 
+        . . 4 . . . . 6 . . . . 4 . . . 
+        . 4 . . . . . 6 . . . . . 4 . . 
+        . . . . . . . 6 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        `],
+    300,
+    true
+    )
+    animation.runImageAnimation(
+    flower_four,
+    [img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . a . . . . . . . . 
+        . . . . . . . a . . . . . . . . 
+        . . . . . . a a a . . . . . . . 
+        . . . . . . a a a . . . . . . . 
+        . . . . . . a a a . . . . . . . 
+        . . . a a a f f f a a a . . . . 
+        . a a a a a f f f a a a a a . . 
+        . . . a a a f f f a a a . . . . 
+        . . . . . . a a a . . . . . . . 
+        . . . . . . a a a . . . . . . . 
+        . . . . . . a a a . . . . . . . 
+        . . . . . . . a . . . . . . . . 
+        . . . . . . . a . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        `,img`
+        . . . . . . . . . . . . . . . . 
+        . a . . . . . . . . . . . a . . 
+        . . a . . . . . . . . . a . . . 
+        . . . a a a . . . a a a . . . . 
+        . . . a a a . . . a a a . . . . 
+        . . . a a a . . . a a a . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . a a a . 6 . a a a . . . . 
+        . . . a a a . 6 . a a a . . . . 
+        . . . a a a . 6 . a a a . . . . 
+        . . a . . . . 6 . . . . a . . . 
+        . a . . . . . 6 . . . . . a . . 
+        . . . . . . . 6 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        `],
+    400,
+    true
+    )
+    animation.runImageAnimation(
+    flower_five,
+    [img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . 8 . . . . . . . . 
+        . . . . . . . 8 . . . . . . . . 
+        . . . . . . 8 8 8 . . . . . . . 
+        . . . . . . 8 8 8 . . . . . . . 
+        . . . . . . 8 8 8 . . . . . . . 
+        . . . 8 8 8 f f f 8 8 8 . . . . 
+        . 8 8 8 8 8 f f f 8 8 8 8 8 . . 
+        . . . 8 8 8 f f f 8 8 8 . . . . 
+        . . . . . . 8 8 8 . . . . . . . 
+        . . . . . . 8 8 8 . . . . . . . 
+        . . . . . . 8 8 8 . . . . . . . 
+        . . . . . . . 8 . . . . . . . . 
+        . . . . . . . 8 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        `,img`
+        . . . . . . . . . . . . . . . . 
+        . 8 . . . . . . . . . . . 8 . . 
+        . . 8 . . . . . . . . . 8 . . . 
+        . . . 8 8 8 . . . 8 8 8 . . . . 
+        . . . 8 8 8 . . . 8 8 8 . . . . 
+        . . . 8 8 8 . . . 8 8 8 . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . . . . f f f . . . . . . . 
+        . . . 8 8 8 . 6 . 8 8 8 . . . . 
+        . . . 8 8 8 . 6 . 8 8 8 . . . . 
+        . . . 8 8 8 . 6 . 8 8 8 . . . . 
+        . . 8 . . . . 6 . . . . 8 . . . 
+        . 8 . . . . . 6 . . . . . 8 . . 
+        . . . . . . . 6 . . . . . . . . 
+        . . . . . . . 6 . . . . . . . . 
+        `],
+    500,
+    true
+    )
 }
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, otherSprite) {
     sprite.destroy(effects.fire, 1000)
@@ -1992,7 +2192,7 @@ let statusbar2: StatusBarSprite = null
 let honny_bee: Sprite = null
 game.showLongText("hello heidi and lydia if you are playing!", DialogLayout.Full)
 game.showLongText("Welcome to HONEY BEE!  Goal: get all of the pollen and go to the hive to give it to the queen if you get 5 pollen and give is to the queen then you will get a honey ball", DialogLayout.Full)
-game.showLongText("One day there was a hive of Honey Bees that could speak English and they were poor. you have to give them the Honey  ", DialogLayout.Full)
+game.showLongText("One day there was a hive of Honey Bees that could speak English and they were poor. you have to give them the Honey get 20 pollen to WIN!", DialogLayout.Full)
 game.showLongText("Controls are: d = right, a = left, w = forwards, s = backwards, a = shoot honey ball", DialogLayout.Full)
 info.setLife(1)
 honny_bee = sprites.create(img`
@@ -2192,12 +2392,6 @@ game.onUpdate(function () {
     }
 })
 forever(function () {
-    if (info.score() == 20) {
-        game.showLongText("you have collected all the pollen that the hive needs. the queen bee can lay and support hundreds of bees. you were rewarded with honey  ", DialogLayout.Bottom)
-        game.over(true)
-    }
-})
-forever(function () {
     music.playMelody("B A B A B A G - ", 250)
     music.playMelody("A C5 A B A B A - ", 250)
     music.playMelody("A - A - A G B A ", 250)
@@ -2208,5 +2402,11 @@ forever(function () {
 forever(function () {
     if (statusbar.value == 100) {
         honny_bee.sayText("time to go back to the hive!", 2000, false)
+    }
+})
+forever(function () {
+    if (info.score() == 30) {
+        game.showLongText("you have collected all the pollen that the hive needs. the queen bee can lay and support hundreds of bees. you were rewarded with honey  ", DialogLayout.Full)
+        game.over(true)
     }
 })
