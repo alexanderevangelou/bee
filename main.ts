@@ -2062,12 +2062,6 @@ statusbar.attachToSprite(honny_bee, -20, 0)
 controller.moveSprite(honny_bee, 110, 110)
 honny_bee.setStayInScreen(true)
 setScene()
-forever(function () {
-    if (info.score() == 20) {
-        game.over(true)
-        game.showLongText("you have collected all the pollen that the hive needs. the queen bee can lay and support hundreds of bees. you were rewarded with honey  ", DialogLayout.Bottom)
-    }
-})
 game.onUpdate(function () {
     gravity()
     if (honny_bee.y > 112) {
@@ -2195,6 +2189,12 @@ game.onUpdate(function () {
             `)
         game.splash("you were out of control because you didn't know how to fly")
         game.over(false, effects.splatter)
+    }
+})
+forever(function () {
+    if (info.score() == 20) {
+        game.showLongText("you have collected all the pollen that the hive needs. the queen bee can lay and support hundreds of bees. you were rewarded with honey  ", DialogLayout.Bottom)
+        game.over(true)
     }
 })
 forever(function () {
