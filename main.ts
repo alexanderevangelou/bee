@@ -2387,7 +2387,7 @@ game.onUpdate(function () {
             ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
             ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
             `)
-        game.splash("you were out of control because you didn't know how to fly")
+        game.showLongText("you were out of control because you didn't know how to fly", DialogLayout.Bottom)
         game.over(false, effects.splatter)
     }
 })
