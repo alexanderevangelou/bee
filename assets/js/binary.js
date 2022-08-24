@@ -1,5 +1,5 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.8.30/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.4","target":"arcade","targetVersion":"1.8.30","repo":"alexanderevangelou/bee"}
-// total=2267633 new=17.79% cached=77.45% other=4.76%
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.8.30/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.1.0","target":"arcade","targetVersion":"1.8.30","repo":"alexanderevangelou/bee"}
+// total=2273653 new=18.01% cached=77.24% other=4.75%
 (function (ectx) {
 'use strict';
 const runtime = ectx.runtime;
@@ -568,7 +568,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P57393(s) {
+function _main___P84609(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1019,277 +1019,277 @@ switch (step) {
     s.callLocIdx = 63; s.pc = 43; return s.tmp_0;
   case 43:
     r0 = s.retval;
-    globals.home___52979 = (r0);
+    globals.home___83521 = (r0);
     s.tmp_0 = SpriteKind_create__P29272_mk(s);
     s.callLocIdx = 64; s.pc = 44; return s.tmp_0;
   case 44:
     r0 = s.retval;
-    globals.homeFood___52982 = (r0);
+    globals.homeFood___83524 = (r0);
     s.tmp_0 = SpriteKind_create__P29272_mk(s);
     s.callLocIdx = 65; s.pc = 45; return s.tmp_0;
   case 45:
     r0 = s.retval;
-    globals.exit___52985 = (r0);
+    globals.exit___83527 = (r0);
     s.tmp_0 = SpriteKind_create__P29272_mk(s);
     s.callLocIdx = 66; s.pc = 46; return s.tmp_0;
   case 46:
     r0 = s.retval;
-    globals.video___52988 = (r0);
+    globals.video___83530 = (r0);
     s.tmp_0 = SpriteKind_create__P29272_mk(s);
     s.callLocIdx = 67; s.pc = 47; return s.tmp_0;
   case 47:
     r0 = s.retval;
-    globals.queen___52991 = (r0);
+    globals.queen___83533 = (r0);
     s.tmp_0 = SpriteKind_create__P29272_mk(s);
     s.callLocIdx = 68; s.pc = 48; return s.tmp_0;
   case 48:
     r0 = s.retval;
-    globals.exit2___52994 = (r0);
+    globals.exit2___83536 = (r0);
     s.tmp_0 = StatusBarKind_create__P31052_mk(s);
     s.callLocIdx = 69; s.pc = 49; return s.tmp_0;
   case 49:
     r0 = s.retval;
-    globals.pollen___52997 = (r0);
+    globals.pollen___83539 = (r0);
     s.tmp_0 = StatusBarKind_create__P31052_mk(s);
     s.callLocIdx = 70; s.pc = 50; return s.tmp_0;
   case 50:
     r0 = s.retval;
-    globals.ammo___53000 = (r0);
+    globals.ammo___83542 = (r0);
     s.tmp_0 = sprites_onOverlap__P29251_mk(s);
     s.tmp_0.arg0 = globals.Player___29273;
-    s.tmp_0.arg1 = globals.queen___52991;
-    s.tmp_0.arg2 = inline__P53145;
+    s.tmp_0.arg1 = globals.queen___83533;
+    s.tmp_0.arg2 = inline__P83687;
     s.callLocIdx = 104; s.pc = 51; return s.tmp_0;
   case 51:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P29251_mk(s);
     s.tmp_0.arg0 = globals.Player___29273;
     s.tmp_0.arg1 = 1;
-    s.tmp_0.arg2 = inline__P53196;
+    s.tmp_0.arg2 = inline__P83738;
     s.callLocIdx = 106; s.pc = 52; return s.tmp_0;
   case 52:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P29251_mk(s);
     s.tmp_0.arg0 = globals.Player___29273;
-    s.tmp_0.arg1 = globals.exit___52985;
-    s.tmp_0.arg2 = inline__P53208;
+    s.tmp_0.arg1 = globals.exit___83527;
+    s.tmp_0.arg2 = inline__P83750;
     s.callLocIdx = 117; s.pc = 53; return s.tmp_0;
   case 53:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P29251_mk(s);
     s.tmp_0.arg0 = globals.Player___29273;
-    s.tmp_0.arg1 = globals.home___52979;
-    s.tmp_0.arg2 = inline__P53244;
+    s.tmp_0.arg1 = globals.home___83521;
+    s.tmp_0.arg2 = inline__P83786;
     s.callLocIdx = 120; s.pc = 54; return s.tmp_0;
   case 54:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P29251_mk(s);
     s.tmp_0.arg0 = globals.Player___29273;
-    s.tmp_0.arg1 = globals.homeFood___52982;
-    s.tmp_0.arg2 = inline__P53256;
+    s.tmp_0.arg1 = globals.homeFood___83524;
+    s.tmp_0.arg2 = inline__P83798;
     s.callLocIdx = 122; s.pc = 55; return s.tmp_0;
   case 55:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P28992_mk(s);
     s.tmp_0.arg0 = globals.A___28913;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P53263;
+    s.tmp_0.arg2 = inline__P83805;
     s.callLocIdx = 128; s.pc = 56; return s.tmp_0;
   case 56:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P29251_mk(s);
     s.tmp_0.arg0 = 1;
     s.tmp_0.arg1 = globals.Enemy___29276;
-    s.tmp_0.arg2 = inline__P53358;
-    s.callLocIdx = 151; s.pc = 57; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P83935;
+    s.callLocIdx = 156; s.pc = 57; return s.tmp_0;
   case 57:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P29251_mk(s);
     s.tmp_0.arg0 = globals.Enemy___29276;
     s.tmp_0.arg1 = globals.Player___29273;
-    s.tmp_0.arg2 = inline__P53370;
-    s.callLocIdx = 159; s.pc = 58; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P83947;
+    s.callLocIdx = 164; s.pc = 58; return s.tmp_0;
   case 58:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P29251_mk(s);
     s.tmp_0.arg0 = globals.Player___29273;
-    s.tmp_0.arg1 = globals.exit2___52994;
-    s.tmp_0.arg2 = inline__P53393;
-    s.callLocIdx = 163; s.pc = 59; return s.tmp_0;
+    s.tmp_0.arg1 = globals.exit2___83536;
+    s.tmp_0.arg2 = inline__P83970;
+    s.callLocIdx = 168; s.pc = 59; return s.tmp_0;
   case 59:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P29251_mk(s);
     s.tmp_0.arg0 = globals.Player___29273;
     s.tmp_0.arg1 = globals.Food___29275;
-    s.tmp_0.arg2 = inline__P53408;
-    s.callLocIdx = 167; s.pc = 60; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P83985;
+    s.callLocIdx = 172; s.pc = 60; return s.tmp_0;
   case 60:
     r0 = s.retval;
-    globals.exit2___53302 = (null);
-    globals.queenBee___53293 = (null);
-    globals.honnyBall___53268 = (null);
-    globals.animaton___53170 = (null);
-    globals.spider___53124 = (null);
-    globals.Exit___53112 = (null);
-    globals.pollen5___53099 = (null);
-    globals.pollen4___53086 = (null);
-    globals.pollen3___53073 = (null);
-    globals.pollen2___53060 = (null);
-    globals.pollen1___53047 = (null);
-    globals.flower_five___53040 = (null);
-    globals.flower_four___53034 = (null);
-    globals.flower_three___53028 = (null);
-    globals.flower_two___53022 = (null);
-    globals.flower___53016 = (null);
-    globals.bee_hive___53010 = (null);
-    globals.statusbar___53151 = (null);
-    globals.statusbar2___53157 = (null);
-    globals.honny_bee___53044 = (null);
+    globals.exit2___83844 = (null);
+    globals.queenBee___83835 = (null);
+    globals.honnyBall___83810 = (null);
+    globals.animaton___83712 = (null);
+    globals.spider___83666 = (null);
+    globals.Exit___83654 = (null);
+    globals.pollen5___83641 = (null);
+    globals.pollen4___83628 = (null);
+    globals.pollen3___83615 = (null);
+    globals.pollen2___83602 = (null);
+    globals.pollen1___83589 = (null);
+    globals.flower_five___83582 = (null);
+    globals.flower_four___83576 = (null);
+    globals.flower_three___83570 = (null);
+    globals.flower_two___83564 = (null);
+    globals.flower___83558 = (null);
+    globals.bee_hive___83552 = (null);
+    globals.statusbar___83693 = (null);
+    globals.statusbar2___83699 = (null);
+    globals.honny_bee___83586 = (null);
     s.tmp_0 = game_showLongText__P29688_mk(s);
     s.tmp_0.arg0 = "hello heidi and lydia if you are playing!";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 168; s.pc = 61; return s.tmp_0;
+    s.callLocIdx = 173; s.pc = 61; return s.tmp_0;
   case 61:
     r0 = s.retval;
     s.tmp_0 = game_showLongText__P29688_mk(s);
     s.tmp_0.arg0 = "Welcome to HONEY BEE!  Goal: get all of the pollen and go to the hive to give it to the queen if you get 5 pollen and give is to the queen then you will get a honey ball";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 169; s.pc = 62; return s.tmp_0;
+    s.callLocIdx = 174; s.pc = 62; return s.tmp_0;
   case 62:
     r0 = s.retval;
     s.tmp_0 = game_showLongText__P29688_mk(s);
-    s.tmp_0.arg0 = "One day there was a hive of Honey Bees that could speak English and they were poor. you have to give them the Honey  ";
+    s.tmp_0.arg0 = "One day there was a hive of Honey Bees that could speak English and they were poor. you have to give them the Honey get 20 pollen to WIN!";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 170; s.pc = 63; return s.tmp_0;
+    s.callLocIdx = 175; s.pc = 63; return s.tmp_0;
   case 63:
     r0 = s.retval;
     s.tmp_0 = game_showLongText__P29688_mk(s);
     s.tmp_0.arg0 = "Controls are: d = right, a = left, w = forwards, s = backwards, a = shoot honey ball";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 171; s.pc = 64; return s.tmp_0;
+    s.callLocIdx = 176; s.pc = 64; return s.tmp_0;
   case 64:
     r0 = s.retval;
     s.tmp_0 = info_setLife__P29359_mk(s);
     s.tmp_0.arg0 = 1;
-    s.callLocIdx = 172; s.pc = 65; return s.tmp_0;
+    s.callLocIdx = 177; s.pc = 65; return s.tmp_0;
   case 65:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53432);
+    r0 = pxsim.image.ofBuffer(_hex84009);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___29273;
-    s.callLocIdx = 173; s.pc = 66; return s.tmp_0;
+    s.callLocIdx = 178; s.pc = 66; return s.tmp_0;
   case 66:
     r0 = s.retval;
-    globals.honny_bee___53044 = (r0);
+    globals.honny_bee___83586 = (r0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
-    r0 = pxsim.image.ofBuffer(_hex53438);
+    r0 = pxsim.image.ofBuffer(_hex84015);
     s.tmp_1 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
-    r0 = pxsim.image.ofBuffer(_hex53440);
+    r0 = pxsim.image.ofBuffer(_hex84017);
     s.tmp_2 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
     s.tmp_3 = animation_runImageAnimation__P30079_mk(s);
-    s.tmp_3.arg0 = globals.honny_bee___53044;
+    s.tmp_3.arg0 = globals.honny_bee___83586;
     s.tmp_3.arg1 = s.tmp_0;
     s.tmp_3.arg2 = 100;
     s.tmp_3.arg3 = true;
-    s.callLocIdx = 174; s.pc = 67; return s.tmp_3;
+    s.callLocIdx = 179; s.pc = 67; return s.tmp_3;
   case 67:
     r0 = s.retval;
     s.tmp_0 = statusbars_create__P31113_mk(s);
     s.tmp_0.arg0 = 20;
     s.tmp_0.arg1 = 4;
-    s.tmp_0.arg2 = globals.ammo___53000;
-    s.callLocIdx = 175; s.pc = 68; return s.tmp_0;
+    s.tmp_0.arg2 = globals.ammo___83542;
+    s.callLocIdx = 180; s.pc = 68; return s.tmp_0;
   case 68:
     r0 = s.retval;
-    globals.statusbar2___53157 = (r0);
+    globals.statusbar2___83699 = (r0);
     s.tmp_0 = StatusBarSprite_value__P31060_mk(s);
-    s.tmp_0.arg0 = globals.statusbar2___53157;
+    s.tmp_0.arg0 = globals.statusbar2___83699;
     s.tmp_0.arg1 = 100;
-    s.callLocIdx = 176; s.pc = 69; return s.tmp_0;
+    s.callLocIdx = 181; s.pc = 69; return s.tmp_0;
   case 69:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_attachToSprite__P31063_mk(s);
-    s.tmp_0.arg0 = globals.statusbar2___53157;
-    s.tmp_0.arg1 = globals.honny_bee___53044;
+    s.tmp_0.arg0 = globals.statusbar2___83699;
+    s.tmp_0.arg1 = globals.honny_bee___83586;
     s.tmp_0.arg2 = -25;
     s.tmp_0.arg3 = 0;
-    s.callLocIdx = 177; s.pc = 70; return s.tmp_0;
+    s.callLocIdx = 182; s.pc = 70; return s.tmp_0;
   case 70:
     r0 = s.retval;
     s.tmp_0 = statusbars_create__P31113_mk(s);
     s.tmp_0.arg0 = 20;
     s.tmp_0.arg1 = 4;
-    s.tmp_0.arg2 = globals.pollen___52997;
-    s.callLocIdx = 178; s.pc = 71; return s.tmp_0;
+    s.tmp_0.arg2 = globals.pollen___83539;
+    s.callLocIdx = 183; s.pc = 71; return s.tmp_0;
   case 71:
     r0 = s.retval;
-    globals.statusbar___53151 = (r0);
+    globals.statusbar___83693 = (r0);
     s.tmp_0 = StatusBarSprite_value__P31060_mk(s);
-    s.tmp_0.arg0 = globals.statusbar___53151;
+    s.tmp_0.arg0 = globals.statusbar___83693;
     s.tmp_0.arg1 = 0;
-    s.callLocIdx = 179; s.pc = 72; return s.tmp_0;
+    s.callLocIdx = 184; s.pc = 72; return s.tmp_0;
   case 72:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_attachToSprite__P31063_mk(s);
-    s.tmp_0.arg0 = globals.statusbar___53151;
-    s.tmp_0.arg1 = globals.honny_bee___53044;
+    s.tmp_0.arg0 = globals.statusbar___83693;
+    s.tmp_0.arg1 = globals.honny_bee___83586;
     s.tmp_0.arg2 = -20;
     s.tmp_0.arg3 = 0;
-    s.callLocIdx = 180; s.pc = 73; return s.tmp_0;
+    s.callLocIdx = 185; s.pc = 73; return s.tmp_0;
   case 73:
     r0 = s.retval;
     s.tmp_0 = controller_moveSprite__P28963_mk(s);
-    s.tmp_0.arg0 = globals.honny_bee___53044;
+    s.tmp_0.arg0 = globals.honny_bee___83586;
     s.tmp_0.arg1 = 110;
     s.tmp_0.arg2 = 110;
-    s.callLocIdx = 181; s.pc = 74; return s.tmp_0;
+    s.callLocIdx = 186; s.pc = 74; return s.tmp_0;
   case 74:
     r0 = s.retval;
     s.tmp_0 = Sprite_setStayInScreen__P29210_mk(s);
-    s.tmp_0.arg0 = globals.honny_bee___53044;
+    s.tmp_0.arg0 = globals.honny_bee___83586;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 182; s.pc = 75; return s.tmp_0;
+    s.callLocIdx = 187; s.pc = 75; return s.tmp_0;
   case 75:
     r0 = s.retval;
-    s.tmp_0 = setScene__P53216_mk(s);
-    s.callLocIdx = 183; s.pc = 76; return s.tmp_0;
+    s.tmp_0 = setScene__P83758_mk(s);
+    s.callLocIdx = 188; s.pc = 76; return s.tmp_0;
   case 76:
     r0 = s.retval;
-    s.tmp_0 = forever__P28883_mk(s);
-    s.tmp_0.arg0 = inline__P53467;
-    s.callLocIdx = 187; s.pc = 77; return s.tmp_0;
+    s.tmp_0 = game_onUpdate__P29718_mk(s);
+    s.tmp_0.arg0 = inline__P84044;
+    s.callLocIdx = 194; s.pc = 77; return s.tmp_0;
   case 77:
     r0 = s.retval;
-    s.tmp_0 = game_onUpdate__P29718_mk(s);
-    s.tmp_0.arg0 = inline__P53476;
-    s.callLocIdx = 193; s.pc = 78; return s.tmp_0;
+    s.tmp_0 = forever__P28883_mk(s);
+    s.tmp_0.arg0 = inline__P84057;
+    s.callLocIdx = 201; s.pc = 78; return s.tmp_0;
   case 78:
     r0 = s.retval;
     s.tmp_0 = forever__P28883_mk(s);
-    s.tmp_0.arg0 = inline__P53489;
-    s.callLocIdx = 200; s.pc = 79; return s.tmp_0;
+    s.tmp_0.arg0 = inline__P84065;
+    s.callLocIdx = 204; s.pc = 79; return s.tmp_0;
   case 79:
     r0 = s.retval;
     s.tmp_0 = forever__P28883_mk(s);
-    s.tmp_0.arg0 = inline__P53497;
-    s.callLocIdx = 203; s.pc = 80; return s.tmp_0;
+    s.tmp_0.arg0 = inline__P84072;
+    s.callLocIdx = 208; s.pc = 80; return s.tmp_0;
   case 80:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-_main___P57393.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P57393.continuations = [ 39,40,41,42 ]
+_main___P84609.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P84609.continuations = [ 39,40,41,42 ]
 
-function _main___P57393_mk(s) {
+function _main___P84609_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P57393, depth: s.depth + 1,
+        parent: s, fn: _main___P84609, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1315,9 +1315,9 @@ const _hex31875 = pxsim.BufferMethods.createBufferFromHex("870420002000000000000
 const _hex31877 = pxsim.BufferMethods.createBufferFromHex("870420002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cc00000000000000b0bbbbbbbbcb00c0cd000000000000001bddddddddbd0c1ccd000000000000b011cbccccccbc0c1ccd000000000000b01d6c666666bc0cbccd000000000000b01d6c616661bc0c1ccd000000000000b01d6c161666bccc1bcd000000000000b01d6c666166bcccbbcd000000000000b01d6c666666bccc1bcd000000000000b01d6c666661bccc1bcd000000000000b01d6c666661bcccbbcd000000000000b01d6c666661bccc1bcd000000000000b01d6c666666bc0c1ccd000000000000b01dcbccccccbc0cbccd000000000000c0b1bbbbbbbbbb0cdccb000000000000c0bbbbbbbbbbcb00dc0c00000000000000cccccccccc0c00cc000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 const _hex31879 = pxsim.BufferMethods.createBufferFromHex("87042000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004004000000000000000000000000000054450000000000000000000000440b00bbbb00b0440000000000000040550b00000000b0550400000000000040b5000044bb00005b04000000000000b00b0044ddddbb00b00b0000000000000000405d55d5dd0b00000000000000000000d4555555ddbd0000000000000000000054555555d5bd0000000000000000b44055555555d5dd0b4b000000000040b54055555555d5dd0b5b040000000040b54055555555d5dd0b5b040000000000b44055115555d5dd0b4b000000000000000054115555d5bd00000000000000000000d4555555ddbd00000000000000000000405d55d5dd0b0000000000000000b00b0044ddddbb00b00b00000000000040b5000044bb00005b0400000000000040550b00000000b0550400000000000000440b00bbbb00b0440000000000000000000000544500000000000000000000000000004004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 const _hex31881 = pxsim.BufferMethods.createBufferFromHex("870420002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbb00000000000000000000000000b055bb00bbbbbb000000000000000000b0b5bdbcbbbbddcb0000000000000000b0dbcb5b5555bbdd0c00000000000000b0cbdcbdbb5b55dbcd0000000000000000c0dddb11d15bb5bd0c00000000000000bbbd111111b155bb0c00000000000000db1b111111115bb5cb00000000000000db1bb11d1199b9d5cb00000000000000db1b11bb9199b955cb000000000000005b1b11b19b99995bcb000000000000005b1d1111bb99995ccb00000000000000b0b511bbbb99995ccb00000000000000b0d51d919999d95b0b00000000000000005bdb919999c9d50b0000000000000000b0d51b99d9bcb5000000000000000000005bd5bbbc550b00000000000000000000b05b5555bd000000000000000000000000b0bbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex53432 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000f000000000000000f000000000000000f000000b0bb00f0ff000000b0dd0bf0ff000000b0ddbdfbff0f000000db5dbb5555000000bb5bb55555000000b0ffbfffff0f0000b0fbffffff0f0000db5d5555550000b0dd5b5555550000b0bd00ffff0f0000000000ffff0f0000000000dfff0f0000000000ffff0f0000")
-const _hex53438 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000f000000000000000f000000000000000f000000b0bb00f0ff000000b0dd0bf0ff000000b0ddbdfbff0f000000db5dbb5555000000bb5bb55555000000b0ffbfffff0f0000b0fbffffff0f0000db5d5555550000b0dd5b5555550000b0bd00ffff0f0000b0bb00ffff0f0000000000dfff0f0000000000ffff0f0000")
-const _hex53440 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000f000000000000000f000000000000000f00000000bb0bf0ff00000000dbbdf0ff00000000dbddfbff0f000000b0ddbb5555000000b0bbb55555000000b0ffbfffff0f0000b0fbffffff0f0000b0dd555555000000dbbd555555000000db0bffff0f000000bb0bffff0f0000000000dfff0f0000000000ffff0f0000")
+const _hex84009 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000f000000000000000f000000000000000f000000b0bb00f0ff000000b0dd0bf0ff000000b0ddbdfbff0f000000db5dbb5555000000bb5bb55555000000b0ffbfffff0f0000b0fbffffff0f0000db5d5555550000b0dd5b5555550000b0bd00ffff0f0000000000ffff0f0000000000dfff0f0000000000ffff0f0000")
+const _hex84015 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000f000000000000000f000000000000000f000000b0bb00f0ff000000b0dd0bf0ff000000b0ddbdfbff0f000000db5dbb5555000000bb5bb55555000000b0ffbfffff0f0000b0fbffffff0f0000db5d5555550000b0dd5b5555550000b0bd00ffff0f0000b0bb00ffff0f0000000000dfff0f0000000000ffff0f0000")
+const _hex84017 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000f000000000000000f000000000000000f00000000bb0bf0ff00000000dbbdf0ff00000000dbddfbff0f000000b0ddbb5555000000b0bbb55555000000b0ffbfffff0f0000b0fbffffff0f0000b0dd555555000000dbbd555555000000db0bffff0f000000bb0bffff0f0000000000dfff0f0000000000ffff0f0000")
 
 
 
@@ -1521,7 +1521,7 @@ function info_inline__P31488_mk(s) {
 
 
 
-function inline__P53145(s) {
+function inline__P83687(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1537,7 +1537,7 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_2 = StatusBarSprite_value__P31059_mk(s);
-    s.tmp_2.arg0 = globals.statusbar___53151;
+    s.tmp_2.arg0 = globals.statusbar___83693;
     s.callLocIdx = 97; s.pc = 3; return s.tmp_2;
   case 3:
     r0 = s.retval;
@@ -1553,7 +1553,7 @@ switch (step) {
   case 4:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_value__P31060_mk(s);
-    s.tmp_0.arg0 = globals.statusbar2___53157;
+    s.tmp_0.arg0 = globals.statusbar2___83699;
     s.tmp_0.arg1 = 100;
     s.callLocIdx = 99; s.pc = 5; return s.tmp_0;
   case 5:
@@ -1561,7 +1561,7 @@ switch (step) {
     { step = 2; continue; }
   case 1:
     s.tmp_0 = Sprite_sayText__P29205_mk(s);
-    s.tmp_0.arg0 = globals.honny_bee___53044;
+    s.tmp_0.arg0 = globals.honny_bee___83586;
     s.tmp_0.arg1 = "YAY!!!";
     s.tmp_0.arg2 = 2000;
     s.tmp_0.arg3 = true;
@@ -1573,7 +1573,7 @@ switch (step) {
   case 2:
     s.tmp_0 = info_changeScoreBy__P29356_mk(s);
     s.tmp_2 = StatusBarSprite_value__P31059_mk(s);
-    s.tmp_2.arg0 = globals.statusbar___53151;
+    s.tmp_2.arg0 = globals.statusbar___83693;
     s.callLocIdx = 101; s.pc = 8; return s.tmp_2;
   case 8:
     r0 = s.retval;
@@ -1584,7 +1584,7 @@ switch (step) {
   case 7:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_value__P31060_mk(s);
-    s.tmp_0.arg0 = globals.statusbar___53151;
+    s.tmp_0.arg0 = globals.statusbar___83693;
     s.tmp_0.arg1 = 0;
     s.callLocIdx = 103; s.pc = 9; return s.tmp_0;
   case 9:
@@ -1593,12 +1593,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53145.info = {"start":27255,"length":272,"line":272,"column":55,"endLine":281,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P83687.info = {"start":27255,"length":272,"line":272,"column":55,"endLine":281,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P53145_mk(s) {
+function inline__P83687_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53145, depth: s.depth + 1,
+        parent: s, fn: inline__P83687, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1612,7 +1612,7 @@ function inline__P53145_mk(s) {
 
 
 
-function inline__P53196(s) {
+function inline__P83738(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1631,12 +1631,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53196.info = {"start":230645,"length":36,"line":1500,"column":60,"endLine":1502,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P83738.info = {"start":230645,"length":36,"line":1500,"column":60,"endLine":1502,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P53196_mk(s) {
+function inline__P83738_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53196, depth: s.depth + 1,
+        parent: s, fn: inline__P83738, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   arg0: undefined,
   arg1: undefined,
@@ -1646,7 +1646,7 @@ function inline__P53196_mk(s) {
 
 
 
-function inline__P53208(s) {
+function inline__P83750(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1662,53 +1662,53 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.Exit___53112;
+    s.tmp_0.arg0 = globals.Exit___83654;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 109; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
-    s.tmp_0 = setScene__P53216_mk(s);
+    s.tmp_0 = setScene__P83758_mk(s);
     s.callLocIdx = 110; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.pollen1___53047;
+    s.tmp_0.arg0 = globals.pollen1___83589;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 111; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.pollen2___53060;
+    s.tmp_0.arg0 = globals.pollen2___83602;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 112; s.pc = 4; return s.tmp_0;
   case 4:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.pollen3___53073;
+    s.tmp_0.arg0 = globals.pollen3___83615;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 113; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.pollen4___53086;
+    s.tmp_0.arg0 = globals.pollen4___83628;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 114; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.pollen5___53099;
+    s.tmp_0.arg0 = globals.pollen5___83641;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 115; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.spider___53124;
+    s.tmp_0.arg0 = globals.spider___83666;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 116; s.pc = 8; return s.tmp_0;
@@ -1718,12 +1718,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53208.info = {"start":230784,"length":199,"line":1506,"column":54,"endLine":1515,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P83750.info = {"start":230784,"length":199,"line":1506,"column":54,"endLine":1515,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P53208_mk(s) {
+function inline__P83750_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53208, depth: s.depth + 1,
+        parent: s, fn: inline__P83750, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -1734,7 +1734,7 @@ function inline__P53208_mk(s) {
 
 
 
-function inline__P53244(s) {
+function inline__P83786(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1750,13 +1750,13 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = sprites_destroyAllSpritesOfKind__P29073_mk(s);
-    s.tmp_0.arg0 = globals.homeFood___52982;
+    s.tmp_0.arg0 = globals.homeFood___83524;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 118; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
-    s.tmp_0 = insideHive__P53252_mk(s);
+    s.tmp_0 = insideHive__P83794_mk(s);
     s.callLocIdx = 119; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
@@ -1764,12 +1764,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53244.info = {"start":231039,"length":108,"line":1516,"column":54,"endLine":1519,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P83786.info = {"start":231039,"length":108,"line":1516,"column":54,"endLine":1519,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P53244_mk(s) {
+function inline__P83786_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53244, depth: s.depth + 1,
+        parent: s, fn: inline__P83786, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -1780,7 +1780,7 @@ function inline__P53244_mk(s) {
 
 
 
-function inline__P53256(s) {
+function inline__P83798(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1795,7 +1795,7 @@ switch (step) {
       s.arg1 = (s.lambdaArgs[1]);
       s.lambdaArgs = null;
     }
-    s.tmp_0 = create_level__P53002_mk(s);
+    s.tmp_0 = create_level__P83544_mk(s);
     s.callLocIdx = 121; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
@@ -1803,12 +1803,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53256.info = {"start":231207,"length":53,"line":1520,"column":58,"endLine":1522,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P83798.info = {"start":231207,"length":53,"line":1520,"column":58,"endLine":1522,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P53256_mk(s) {
+function inline__P83798_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53256, depth: s.depth + 1,
+        parent: s, fn: inline__P83798, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -1819,7 +1819,7 @@ function inline__P53256_mk(s) {
 
 
 
-function inline__P53263(s) {
+function inline__P83805(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1830,7 +1830,7 @@ switch (step) {
   case 0:
 
     s.tmp_2 = StatusBarSprite_value__P31059_mk(s);
-    s.tmp_2.arg0 = globals.statusbar2___53157;
+    s.tmp_2.arg0 = globals.statusbar2___83699;
     s.callLocIdx = 123; s.pc = 3; return s.tmp_2;
   case 3:
     r0 = s.retval;
@@ -1840,23 +1840,23 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_3 = sprites_createProjectileFromSprite__P29075_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53272);
+    r0 = pxsim.image.ofBuffer(_hex83814);
     s.tmp_3.arg0 = r0;
-    s.tmp_3.arg1 = globals.honny_bee___53044;
+    s.tmp_3.arg1 = globals.honny_bee___83586;
     s.tmp_3.arg2 = 80;
     s.tmp_3.arg3 = 0;
     s.callLocIdx = 124; s.pc = 4; return s.tmp_3;
   case 4:
     r0 = s.retval;
-    globals.honnyBall___53268 = (r0);
+    globals.honnyBall___83810 = (r0);
     s.tmp_0 = Sprite_setKind__P29201_mk(s);
-    s.tmp_0.arg0 = globals.honnyBall___53268;
+    s.tmp_0.arg0 = globals.honnyBall___83810;
     s.tmp_0.arg1 = 1;
     s.callLocIdx = 125; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_value__P31060_mk(s);
-    s.tmp_1 = r0 = globals.statusbar2___53157;
+    s.tmp_1 = r0 = globals.statusbar2___83699;
     s.tmp_0.arg0 = r0;
     s.tmp_3 = StatusBarSprite_value__P31059_mk(s);
     s.tmp_3.arg0 = s.tmp_1;
@@ -1875,12 +1875,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53263.info = {"start":231314,"length":398,"line":1523,"column":52,"endLine":1538,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P83805.info = {"start":231314,"length":398,"line":1523,"column":52,"endLine":1538,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P53263_mk(s) {
+function inline__P83805_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53263, depth: s.depth + 1,
+        parent: s, fn: inline__P83805, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1888,12 +1888,12 @@ function inline__P53263_mk(s) {
   tmp_3: undefined,
 } }
 
-const _hex53272 = pxsim.BufferMethods.createBufferFromHex("8704060006000000555555004544540045555400455554004544540055555500")
+const _hex83814 = pxsim.BufferMethods.createBufferFromHex("8704060006000000555555004544540045555400455554004544540055555500")
 
 
 
 
-function inline__P53358(s) {
+function inline__P83935(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1912,26 +1912,26 @@ switch (step) {
     s.tmp_0.arg0 = s.arg0;
     s.tmp_0.arg1 = globals.fire___29973;
     s.tmp_0.arg2 = 1000;
-    s.callLocIdx = 149; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 154; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
     s.tmp_0.arg0 = s.arg1;
     s.tmp_0.arg1 = globals.fire___29973;
     s.tmp_0.arg2 = 1000;
-    s.callLocIdx = 150; s.pc = 2; return s.tmp_0;
+    s.callLocIdx = 155; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53358.info = {"start":279938,"length":117,"line":1933,"column":59,"endLine":1936,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P83935.info = {"start":287048,"length":117,"line":2133,"column":59,"endLine":2136,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P53358_mk(s) {
+function inline__P83935_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53358, depth: s.depth + 1,
+        parent: s, fn: inline__P83935, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -1942,7 +1942,7 @@ function inline__P53358_mk(s) {
 
 
 
-function inline__P53370(s) {
+function inline__P83947(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1958,70 +1958,70 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.honny_bee___53044;
+    s.tmp_0.arg0 = globals.honny_bee___83586;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 152; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 157; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53380);
+    r0 = pxsim.image.ofBuffer(_hex83957);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.video___52988;
-    s.callLocIdx = 153; s.pc = 2; return s.tmp_0;
+    s.tmp_0.arg1 = globals.video___83530;
+    s.callLocIdx = 158; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
-    globals.animaton___53170 = (r0);
+    globals.animaton___83712 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.animaton___53170;
+    s.tmp_0.arg0 = globals.animaton___83712;
     s.tmp_0.arg1 = 8;
     s.tmp_0.arg2 = 6;
-    s.callLocIdx = 154; s.pc = 3; return s.tmp_0;
+    s.callLocIdx = 159; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
-    s.tmp_0 = animation2__P53167_mk(s);
-    s.callLocIdx = 155; s.pc = 4; return s.tmp_0;
+    s.tmp_0 = animation2__P83709_mk(s);
+    s.callLocIdx = 160; s.pc = 4; return s.tmp_0;
   case 4:
     r0 = s.retval;
     s.tmp_0 = pause__P27418_mk(s);
     s.tmp_0.arg0 = 5000;
-    s.callLocIdx = 156; s.pc = 5; return s.tmp_0;
+    s.callLocIdx = 161; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = game_splash__P29693_mk(s);
     s.tmp_0.arg0 = "the spider got you! so you are the spider's lunch ";
     s.tmp_0.arg1 = undefined;
-    s.callLocIdx = 157; s.pc = 6; return s.tmp_0;
+    s.callLocIdx = 162; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
     s.tmp_0 = game_over__P29709_mk(s);
     s.tmp_0.arg0 = false;
     s.tmp_0.arg1 = undefined;
-    s.callLocIdx = 158; s.pc = 7; return s.tmp_0;
+    s.callLocIdx = 163; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53370.info = {"start":280112,"length":933,"line":1937,"column":55,"endLine":1962,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P83947.info = {"start":287222,"length":933,"line":2137,"column":55,"endLine":2162,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P53370_mk(s) {
+function inline__P83947_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53370, depth: s.depth + 1,
+        parent: s, fn: inline__P83947, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
   arg1: undefined,
 } }
 
-const _hex53380 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex83957 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function inline__P53393(s) {
+function inline__P83970(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2037,33 +2037,33 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.exit2___53302;
+    s.tmp_0.arg0 = globals.exit2___83844;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 160; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 165; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
-    s.tmp_0 = setScene__P53216_mk(s);
-    s.callLocIdx = 161; s.pc = 2; return s.tmp_0;
+    s.tmp_0 = setScene__P83758_mk(s);
+    s.callLocIdx = 166; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.queenBee___53293;
+    s.tmp_0.arg0 = globals.queenBee___83835;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 162; s.pc = 3; return s.tmp_0;
+    s.callLocIdx = 167; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53393.info = {"start":281102,"length":92,"line":1963,"column":55,"endLine":1967,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P83970.info = {"start":288212,"length":92,"line":2163,"column":55,"endLine":2167,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P53393_mk(s) {
+function inline__P83970_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53393, depth: s.depth + 1,
+        parent: s, fn: inline__P83970, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -2074,7 +2074,7 @@ function inline__P53393_mk(s) {
 
 
 
-function inline__P53408(s) {
+function inline__P83985(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2090,36 +2090,36 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = StatusBarSprite_value__P31060_mk(s);
-    s.tmp_1 = r0 = globals.statusbar___53151;
+    s.tmp_1 = r0 = globals.statusbar___83693;
     s.tmp_0.arg0 = r0;
     s.tmp_3 = StatusBarSprite_value__P31059_mk(s);
     s.tmp_3.arg0 = s.tmp_1;
-    s.callLocIdx = 164; s.pc = 2; return s.tmp_3;
+    s.callLocIdx = 169; s.pc = 2; return s.tmp_3;
   case 2:
     r0 = s.retval;
     s.tmp_2 = r0;
     r0 = (s.tmp_2 + 20);
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 165; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 170; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
     s.tmp_0.arg0 = s.arg1;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 166; s.pc = 3; return s.tmp_0;
+    s.callLocIdx = 171; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53408.info = {"start":281250,"length":86,"line":1968,"column":54,"endLine":1971,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P83985.info = {"start":288360,"length":86,"line":2168,"column":54,"endLine":2171,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P53408_mk(s) {
+function inline__P83985_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53408, depth: s.depth + 1,
+        parent: s, fn: inline__P83985, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2133,7 +2133,7 @@ function inline__P53408_mk(s) {
 
 
 
-function inline__P53467(s) {
+function inline__P84044(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2143,67 +2143,13 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.tmp_2 = info_score__P29352_mk(s);
-    s.callLocIdx = 184; s.pc = 3; return s.tmp_2;
-  case 3:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 == 20);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    s.tmp_3 = game_over__P29709_mk(s);
-    s.tmp_3.arg0 = true;
-    s.tmp_3.arg1 = undefined;
-    s.callLocIdx = 185; s.pc = 4; return s.tmp_3;
-  case 4:
-    r0 = s.retval;
-    s.tmp_0 = game_showLongText__P29688_mk(s);
-    s.tmp_0.arg0 = "you have collected all the pollen that the hive needs. the queen bee can lay and support hundreds of bees. you were rewarded with honey  ";
-    s.tmp_0.arg1 = 0;
-    s.callLocIdx = 186; s.pc = 5; return s.tmp_0;
-  case 5:
-    r0 = s.retval;
-  case 1:
-  case 2:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-inline__P53467.info = {"start":284762,"length":263,"line":2064,"column":8,"endLine":2069,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
-
-function inline__P53467_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: inline__P53467, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-} }
-
-
-
-
-
-function inline__P53476(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.tmp_0 = gravity__P53199_mk(s);
-    s.callLocIdx = 188; s.pc = 3; return s.tmp_0;
+    s.tmp_0 = gravity__P83741_mk(s);
+    s.callLocIdx = 189; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_2 = Sprite_y__P29149_mk(s);
-    s.tmp_2.arg0 = globals.honny_bee___53044;
-    s.callLocIdx = 189; s.pc = 4; return s.tmp_2;
+    s.tmp_2.arg0 = globals.honny_bee___83586;
+    s.callLocIdx = 190; s.pc = 4; return s.tmp_2;
   case 4:
     r0 = s.retval;
     s.tmp_1 = r0;
@@ -2212,21 +2158,21 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_3 = scene_setBackgroundImage__P29626_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53483);
+    r0 = pxsim.image.ofBuffer(_hex84051);
     s.tmp_3.arg0 = r0;
-    s.callLocIdx = 190; s.pc = 5; return s.tmp_3;
+    s.callLocIdx = 191; s.pc = 5; return s.tmp_3;
   case 5:
     r0 = s.retval;
     s.tmp_0 = game_splash__P29693_mk(s);
     s.tmp_0.arg0 = "you were out of control because you didn't know how to fly";
     s.tmp_0.arg1 = undefined;
-    s.callLocIdx = 191; s.pc = 6; return s.tmp_0;
+    s.callLocIdx = 192; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
     s.tmp_0 = game_over__P29709_mk(s);
     s.tmp_0.arg0 = false;
     s.tmp_0.arg1 = globals.splatter___29992;
-    s.callLocIdx = 192; s.pc = 7; return s.tmp_0;
+    s.callLocIdx = 193; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
   case 1:
@@ -2235,12 +2181,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53476.info = {"start":285041,"length":21002,"line":2070,"column":14,"endLine":2198,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P84044.info = {"start":291898,"length":21002,"line":2264,"column":14,"endLine":2392,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P53476_mk(s) {
+function inline__P84044_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53476, depth: s.depth + 1,
+        parent: s, fn: inline__P84044, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2248,12 +2194,12 @@ function inline__P53476_mk(s) {
   tmp_3: undefined,
 } }
 
-const _hex53483 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
+const _hex84051 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
 
 
 
 
-function inline__P53489(s) {
+function inline__P84057(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2266,49 +2212,49 @@ switch (step) {
     s.tmp_0 = music_playMelody__P28614_mk(s);
     s.tmp_0.arg0 = "B A B A B A G - ";
     s.tmp_0.arg1 = 250;
-    s.callLocIdx = 194; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 195; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = music_playMelody__P28614_mk(s);
     s.tmp_0.arg0 = "A C5 A B A B A - ";
     s.tmp_0.arg1 = 250;
-    s.callLocIdx = 195; s.pc = 2; return s.tmp_0;
+    s.callLocIdx = 196; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     s.tmp_0 = music_playMelody__P28614_mk(s);
     s.tmp_0.arg0 = "A - A - A G B A ";
     s.tmp_0.arg1 = 250;
-    s.callLocIdx = 196; s.pc = 3; return s.tmp_0;
+    s.callLocIdx = 197; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = music_playMelody__P28614_mk(s);
     s.tmp_0.arg0 = "B A B A G - G - ";
     s.tmp_0.arg1 = 250;
-    s.callLocIdx = 197; s.pc = 4; return s.tmp_0;
+    s.callLocIdx = 198; s.pc = 4; return s.tmp_0;
   case 4:
     r0 = s.retval;
     s.tmp_0 = music_playMelody__P28614_mk(s);
     s.tmp_0.arg0 = "G F - E F G - - ";
     s.tmp_0.arg1 = 250;
-    s.callLocIdx = 198; s.pc = 5; return s.tmp_0;
+    s.callLocIdx = 199; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = music_playMelody__P28614_mk(s);
     s.tmp_0.arg0 = "G F - F G A - - ";
     s.tmp_0.arg1 = 250;
-    s.callLocIdx = 199; s.pc = 6; return s.tmp_0;
+    s.callLocIdx = 200; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53489.info = {"start":306053,"length":292,"line":2199,"column":8,"endLine":2206,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P84057.info = {"start":312910,"length":292,"line":2393,"column":8,"endLine":2400,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P53489_mk(s) {
+function inline__P84057_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53489, depth: s.depth + 1,
+        parent: s, fn: inline__P84057, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
@@ -2317,7 +2263,7 @@ function inline__P53489_mk(s) {
 
 
 
-function inline__P53497(s) {
+function inline__P84065(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2328,8 +2274,8 @@ switch (step) {
   case 0:
 
     s.tmp_2 = StatusBarSprite_value__P31059_mk(s);
-    s.tmp_2.arg0 = globals.statusbar___53151;
-    s.callLocIdx = 201; s.pc = 3; return s.tmp_2;
+    s.tmp_2.arg0 = globals.statusbar___83693;
+    s.callLocIdx = 202; s.pc = 3; return s.tmp_2;
   case 3:
     r0 = s.retval;
     s.tmp_1 = r0;
@@ -2338,13 +2284,13 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_3 = Sprite_sayText__P29205_mk(s);
-    s.tmp_3.arg0 = globals.honny_bee___53044;
+    s.tmp_3.arg0 = globals.honny_bee___83586;
     s.tmp_3.arg1 = "time to go back to the hive!";
     s.tmp_3.arg2 = 2000;
     s.tmp_3.arg3 = false;
     s.tmp_3.arg4 = 15;
     s.tmp_3.arg5 = 1;
-    s.callLocIdx = 202; s.pc = 4; return s.tmp_3;
+    s.callLocIdx = 203; s.pc = 4; return s.tmp_3;
   case 4:
     r0 = s.retval;
   case 1:
@@ -2353,17 +2299,4267 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P53497.info = {"start":306355,"length":126,"line":2207,"column":8,"endLine":2211,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P84065.info = {"start":313212,"length":126,"line":2401,"column":8,"endLine":2405,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P53497_mk(s) {
+function inline__P84065_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P53497, depth: s.depth + 1,
+        parent: s, fn: inline__P84065, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
   tmp_2: undefined,
   tmp_3: undefined,
+} }
+
+
+
+
+
+function inline__P84072(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.tmp_2 = info_score__P29352_mk(s);
+    s.callLocIdx = 205; s.pc = 3; return s.tmp_2;
+  case 3:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 == 30);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    s.tmp_3 = game_showLongText__P29688_mk(s);
+    s.tmp_3.arg0 = "you have collected all the pollen that the hive needs. the queen bee can lay and support hundreds of bees. you were rewarded with honey  ";
+    s.tmp_3.arg1 = 5;
+    s.callLocIdx = 206; s.pc = 4; return s.tmp_3;
+  case 4:
+    r0 = s.retval;
+    s.tmp_0 = game_over__P29709_mk(s);
+    s.tmp_0.arg0 = true;
+    s.tmp_0.arg1 = undefined;
+    s.callLocIdx = 207; s.pc = 5; return s.tmp_0;
+  case 5:
+    r0 = s.retval;
+  case 1:
+  case 2:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+inline__P84072.info = {"start":313348,"length":261,"line":2406,"column":8,"endLine":2411,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+
+function inline__P84072_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: inline__P84072, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+} }
+
+
+
+
+
+function info_score__P29352(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.tmp_0 = info_PlayerInfo_score__P29390_mk(s);
+    s.tmp_0.arg0 = globals.player1___29406;
+    s.callLocIdx = 1062; s.pc = 1; return s.tmp_0;
+  case 1:
+    r0 = s.retval;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_score__P29352.info = {"start":6818,"length":63,"line":225,"column":4,"endLine":227,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"score","argumentNames":[]}
+
+function info_score__P29352_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_score__P29352, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+} }
+
+
+
+
+
+function info_PlayerInfo_constructor__P29387(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
+    r0 = (s.arg0).fields["_player"] = (s.arg1);
+    r0 = (s.arg0).fields["border"] = (1);
+    r0 = (s.arg0).fields["fc"] = (1);
+    r0 = (s.arg0).fields["visibility"] = (0);
+    r0 = (s.arg0).fields["showScore"] = (undefined);
+    r0 = (s.arg0).fields["showLife"] = (undefined);
+    r0 = (s.arg0).fields["showPlayer"] = (undefined);
+    r0 = (s.arg0).fields["left"] = (undefined);
+    r0 = (s.arg0).fields["up"] = (undefined);
+    r0 = s.arg0.fields["_player"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 === 1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 3; continue; }
+    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
+    s.tmp_2 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_2);
+    if (!r0) { step = 1; continue; }
+    r0 = 0;
+    { step = 2; continue; }
+  case 1:
+    r0 = 2;
+  case 2:
+    // jmp value (already in r0)
+    s.tmp_3 = r0;
+    r0 = (s.arg0).fields["bg"] = (s.tmp_3);
+    r0 = (s.arg0).fields["x"] = (0);
+    r0 = (s.arg0).fields["y"] = (0);
+    { step = 14; continue; }
+  case 3:
+    r0 = (s.arg1 === 2);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 6; continue; }
+    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
+    s.tmp_1 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_1);
+    if (!r0) { step = 4; continue; }
+    r0 = 0;
+    { step = 5; continue; }
+  case 4:
+    r0 = 8;
+  case 5:
+    // jmp value (already in r0)
+    s.tmp_2 = r0;
+    r0 = (s.arg0).fields["bg"] = (s.tmp_2);
+    s.tmp_0 = r0 = s.arg0;
+    r0 = pxsim_ImageMethods.width(globals.screen___28834);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0).fields["x"] = (s.tmp_1);
+    r0 = (s.arg0).fields["y"] = (0);
+    r0 = (s.arg0).fields["left"] = (true);
+    { step = 13; continue; }
+  case 6:
+    r0 = (s.arg1 === 3);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 9; continue; }
+    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
+    s.tmp_1 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_1);
+    if (!r0) { step = 7; continue; }
+    r0 = 0;
+    { step = 8; continue; }
+  case 7:
+    r0 = 4;
+  case 8:
+    // jmp value (already in r0)
+    s.tmp_2 = r0;
+    r0 = (s.arg0).fields["bg"] = (s.tmp_2);
+    r0 = (s.arg0).fields["x"] = (0);
+    s.tmp_0 = r0 = s.arg0;
+    r0 = pxsim_ImageMethods.height(globals.screen___28834);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0).fields["y"] = (s.tmp_1);
+    r0 = (s.arg0).fields["up"] = (true);
+    { step = 12; continue; }
+  case 9:
+    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 10; continue; }
+    r0 = 0;
+    { step = 11; continue; }
+  case 10:
+    r0 = 7;
+  case 11:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = (s.arg0).fields["bg"] = (s.tmp_1);
+    s.tmp_0 = r0 = s.arg0;
+    r0 = pxsim_ImageMethods.width(globals.screen___28834);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0).fields["x"] = (s.tmp_1);
+    s.tmp_0 = r0 = s.arg0;
+    r0 = pxsim_ImageMethods.height(globals.screen___28834);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0).fields["y"] = (s.tmp_1);
+    r0 = (s.arg0).fields["left"] = (true);
+    r0 = (s.arg0).fields["up"] = (true);
+  case 12:
+  case 13:
+  case 14:
+    r0 = pxsim_numops_toBoolDecr(globals.players___31470);
+    s.tmp_1 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 15; continue; }
+    r0 = pxsim_Array__mk();
+    globals.players___31470 = (r0);
+  case 15:
+  case 16:
+    s.tmp_0 = r0 = globals.players___31470;
+    r0 = s.arg0.fields["_player"];
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 - 1);
+    s.tmp_1 = r0;
+    r0 = pxsim_Array_.setAt(s.tmp_0, s.tmp_1, s.arg0);
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_PlayerInfo_constructor__P29387.info = {"start":15637,"length":1370,"line":519,"column":8,"endLine":556,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":["this","player"]}
+
+function info_PlayerInfo_constructor__P29387_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_PlayerInfo_constructor__P29387, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  arg0: undefined,
+  arg1: undefined,
+} }
+
+
+
+
+
+function info_PlayerInfo_score__P29390(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.state___35920 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
+    r0 = s.arg0.fields["showScore"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 === undefined);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    r0 = (s.arg0).fields["showScore"] = (true);
+  case 1:
+  case 2:
+    r0 = s.arg0.fields["showPlayer"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 === undefined);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 3; continue; }
+    r0 = (s.arg0).fields["showPlayer"] = (true);
+  case 3:
+  case 4:
+    s.tmp_0 = info_PlayerInfo_getState__P29388_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.callLocIdx = 1084; s.pc = 7; return s.tmp_0;
+  case 7:
+    r0 = s.retval;
+    s.state___35920 = (r0);
+    r0 = s.state___35920.fields["score"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 == null);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 5; continue; }
+    r0 = (s.state___35920).fields["score"] = (0);
+  case 5:
+  case 6:
+    r0 = s.state___35920.fields["score"];
+    return leave(s, r0)
+  default: oops()
+} } }
+info_PlayerInfo_score__P29390.info = {"start":17683,"length":314,"line":582,"column":8,"endLine":591,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"score","argumentNames":["this"]}
+
+function info_PlayerInfo_score__P29390_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_PlayerInfo_score__P29390, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  state___35920: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_PlayerInfo_getState__P29388(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
+    s.tmp_0 = info_PlayerInfo_init__P31521_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.callLocIdx = 1083; s.pc = 1; return s.tmp_0;
+  case 1:
+    r0 = s.retval;
+    r0 = globals.infoState___31469.fields["playerStates"];
+    s.tmp_0 = r0;
+    r0 = s.arg0.fields["_player"];
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 - 1);
+    s.tmp_1 = r0;
+    r0 = pxsim_Array__getAt(s.tmp_0, s.tmp_1);
+    return leave(s, r0)
+  default: oops()
+} } }
+info_PlayerInfo_getState__P29388.info = {"start":17279,"length":121,"line":566,"column":8,"endLine":569,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"getState","argumentNames":["this"]}
+
+function info_PlayerInfo_getState__P29388_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_PlayerInfo_getState__P29388, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_PlayerInfo_init__P31521(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
+    s.tmp_0 = info_initHUD__P31515_mk(s);
+    s.callLocIdx = 1080; s.pc = 5; return s.tmp_0;
+  case 5:
+    r0 = s.retval;
+    r0 = s.arg0.fields["_player"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 > 1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    s.tmp_2 = info_initMultiHUD__P31516_mk(s);
+    s.callLocIdx = 1081; s.pc = 6; return s.tmp_2;
+  case 6:
+    r0 = s.retval;
+  case 1:
+  case 2:
+    r0 = globals.infoState___31469.fields["playerStates"];
+    s.tmp_3 = r0;
+    r0 = s.arg0.fields["_player"];
+    s.tmp_5 = r0;
+    r0 = (s.tmp_5 - 1);
+    s.tmp_4 = r0;
+    r0 = pxsim_Array__getAt(s.tmp_3, s.tmp_4);
+    s.tmp_2 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_2);
+    s.tmp_1 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 3; continue; }
+    r0 = pxsim_pxtcore_mkClassInstance(info_PlayerState__C29346_VT);
+    s.tmp_6 = r0;
+    r0 = undefined;
+    r0 = globals.infoState___31469.fields["playerStates"];
+    s.tmp_7 = r0;
+    r0 = s.arg0.fields["_player"];
+    s.tmp_9 = r0;
+    r0 = (s.tmp_9 - 1);
+    s.tmp_8 = r0;
+    r0 = pxsim_Array_.setAt(s.tmp_7, s.tmp_8, s.tmp_6);
+  case 3:
+  case 4:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_PlayerInfo_init__P31521.info = {"start":17017,"length":252,"line":558,"column":8,"endLine":564,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"init","argumentNames":["this"]}
+
+function info_PlayerInfo_init__P31521_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_PlayerInfo_init__P31521, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  tmp_5: undefined,
+  tmp_6: undefined,
+  tmp_7: undefined,
+  tmp_8: undefined,
+  tmp_9: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_initMultiHUD__P31516(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    r0 = globals.infoState___31469.fields["visibilityFlag"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 & 16);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    { step = 5; continue; }
+  case 1:
+  case 2:
+    s.tmp_2 = r0 = globals.infoState___31469;
+    r0 = s.tmp_2.fields["visibilityFlag"];
+    s.tmp_4 = r0;
+    r0 = (s.tmp_4 | 16);
+    s.tmp_3 = r0;
+    r0 = (s.tmp_2).fields["visibilityFlag"] = (s.tmp_3);
+    r0 = globals.infoState___31469.fields["visibilityFlag"];
+    s.tmp_3 = r0;
+    r0 = (s.tmp_3 & 32);
+    s.tmp_2 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_2);
+    s.tmp_1 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 3; continue; }
+    s.tmp_4 = r0 = globals.infoState___31469;
+    s.tmp_6 = info_defaultMultiplayerHeartImage__P31518_mk(s);
+    s.callLocIdx = 1054; s.pc = 6; return s.tmp_6;
+  case 6:
+    r0 = s.retval;
+    s.tmp_5 = r0;
+    r0 = (s.tmp_4).fields["heartImage"] = (s.tmp_5);
+  case 3:
+  case 4:
+    s.tmp_0 = r0 = globals.infoState___31469;
+    r0 = pxsim.image.ofBuffer(_hex35985);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0).fields["multiplierImage"] = (s.tmp_1);
+  case 5:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_initMultiHUD__P31516.info = {"start":4757,"length":393,"line":151,"column":4,"endLine":162,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"initMultiHUD","argumentNames":[]}
+
+function info_initMultiHUD__P31516_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_initMultiHUD__P31516, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  tmp_5: undefined,
+  tmp_6: undefined,
+} }
+
+const _hex35985 = pxsim.BufferMethods.createBufferFromHex("8704030003000000010100001000000001010000")
+
+
+
+
+function info_defaultMultiplayerHeartImage__P31518(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    r0 = pxsim.image.ofBuffer(_hex35989);
+    { step = 2; continue; }
+  case 1:
+    r0 = pxsim.image.ofBuffer(_hex35991);
+  case 2:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = s.tmp_1;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_defaultMultiplayerHeartImage__P31518.info = {"start":5754,"length":503,"line":187,"column":4,"endLine":204,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"defaultMultiplayerHeartImage","argumentNames":[]}
+
+function info_defaultMultiplayerHeartImage__P31518_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_defaultMultiplayerHeartImage__P31518, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+} }
+
+const _hex35989 = pxsim.BufferMethods.createBufferFromHex("870407000500000000000000100100000110000010000100011000001001000000000000")
+const _hex35991 = pxsim.BufferMethods.createBufferFromHex("870407000500000000000000100100002112000010240100411200001001000000000000")
+
+
+
+
+function info_initHUD__P31515(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    r0 = pxsim_numops_toBoolDecr(globals.infoState___31469);
+    if (!r0) { step = 1; continue; }
+    { step = 3; continue; }
+  case 1:
+  case 2:
+    r0 = pxsim_pxtcore_mkClassInstance(info_InfoState__C31466_VT);
+    s.tmp_0 = r0;
+    s.tmp_1 = info_InfoState_constructor__P31467_mk(s);
+    s.tmp_1.arg0 = s.tmp_0;
+    s.callLocIdx = 1037; s.pc = 4; return s.tmp_1;
+  case 4:
+    r0 = s.retval;
+    globals.infoState___31469 = (s.tmp_0);
+    s.tmp_0 = scene_createRenderable__P29549_mk(s);
+    s.tmp_0.arg0 = 100;
+    s.tmp_0.arg1 = info_initHUD_inline__P35999;
+    s.tmp_0.arg2 = undefined;
+    s.callLocIdx = 1053; s.pc = 5; return s.tmp_0;
+  case 5:
+    r0 = s.retval;
+  case 3:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_initHUD__P31515.info = {"start":2671,"length":2080,"line":99,"column":4,"endLine":149,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"initHUD","argumentNames":[]}
+
+function info_initHUD__P31515_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_initHUD__P31515, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+} }
+
+
+
+
+
+function info_initHUD_inline__P35999(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.ps___36008 = undefined;
+    s.p___36029 = undefined;
+    s.scene___36063 = undefined;
+    s.elapsed___36066 = undefined;
+    s.t___36074 = undefined;
+    r0 = pxsim_numops_toBoolDecr(globals.infoState___31469);
+    s.tmp_1 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    { step = 23; continue; }
+  case 1:
+  case 2:
+    r0 = globals.infoState___31469.fields["visibilityFlag"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 & 16);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 3; continue; }
+    s.tmp_2 = helpers_arrayFilter__P27115_mk(s);
+    s.tmp_2.arg0 = globals.players___31470;
+    s.tmp_2.arg1 = ps_inline__P36010;
+    s.callLocIdx = 1038; s.pc = 24; return s.tmp_2;
+  case 24:
+    r0 = s.retval;
+    s.ps___36008 = (r0);
+    s.tmp_0 = helpers_arrayForEach__P27114_mk(s);
+    s.tmp_0.arg0 = s.ps___36008;
+    s.tmp_0.arg1 = info_initHUD_inline__P36019;
+    s.callLocIdx = 1040; s.pc = 25; return s.tmp_0;
+  case 25:
+    r0 = s.retval;
+    s.tmp_0 = helpers_arrayForEach__P27114_mk(s);
+    s.tmp_0.arg0 = s.ps___36008;
+    s.tmp_0.arg1 = info_initHUD_inline__P36025;
+    s.callLocIdx = 1042; s.pc = 26; return s.tmp_0;
+  case 26:
+    r0 = s.retval;
+    { step = 12; continue; }
+  case 3:
+    s.p___36029 = (globals.player1___29406);
+    s.tmp_1 = info_PlayerInfo_hasScore__P29393_mk(s);
+    s.tmp_1.arg0 = s.p___36029;
+    s.callLocIdx = 1043; s.pc = 27; return s.tmp_1;
+  case 27:
+    r0 = s.retval;
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (r0) { step = 4; continue; }
+    r0 = s.tmp_0;
+    { step = 5; continue; }
+  case 4:
+    r0 = globals.infoState___31469.fields["visibilityFlag"];
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 & 2);
+  case 5:
+    // jmp value (already in r0)
+    s.tmp_3 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
+    if (!r0) { step = 6; continue; }
+    s.tmp_4 = info_PlayerInfo_drawScore__P29401_mk(s);
+    s.tmp_4.arg0 = s.p___36029;
+    s.callLocIdx = 1044; s.pc = 28; return s.tmp_4;
+  case 28:
+    r0 = s.retval;
+  case 6:
+  case 7:
+    s.tmp_1 = info_PlayerInfo_hasLife__P29397_mk(s);
+    s.tmp_1.arg0 = s.p___36029;
+    s.callLocIdx = 1045; s.pc = 29; return s.tmp_1;
+  case 29:
+    r0 = s.retval;
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (r0) { step = 8; continue; }
+    r0 = s.tmp_0;
+    { step = 9; continue; }
+  case 8:
+    r0 = globals.infoState___31469.fields["visibilityFlag"];
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 & 4);
+  case 9:
+    // jmp value (already in r0)
+    s.tmp_3 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
+    if (!r0) { step = 10; continue; }
+    s.tmp_4 = info_PlayerInfo_drawLives__P29402_mk(s);
+    s.tmp_4.arg0 = s.p___36029;
+    s.callLocIdx = 1046; s.pc = 30; return s.tmp_4;
+  case 30:
+    r0 = s.retval;
+  case 10:
+  case 11:
+    s.tmp_0 = info_PlayerInfo_raiseLifeZero__P29399_mk(s);
+    s.tmp_0.arg0 = s.p___36029;
+    s.tmp_0.arg1 = true;
+    s.callLocIdx = 1047; s.pc = 31; return s.tmp_0;
+  case 31:
+    r0 = s.retval;
+  case 12:
+    r0 = globals.infoState___31469.fields["gameEnd"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 !== undefined);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (r0) { step = 13; continue; }
+    r0 = s.tmp_0;
+    { step = 14; continue; }
+  case 13:
+    r0 = globals.infoState___31469.fields["visibilityFlag"];
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 & 1);
+  case 14:
+    // jmp value (already in r0)
+    s.tmp_3 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
+    if (!r0) { step = 21; continue; }
+    s.tmp_4 = game_currentScene__P29699_mk(s);
+    s.callLocIdx = 1048; s.pc = 32; return s.tmp_4;
+  case 32:
+    r0 = s.retval;
+    s.scene___36063 = (r0);
+    r0 = globals.infoState___31469.fields["gameEnd"];
+    s.tmp_0 = r0;
+    r0 = s.scene___36063.fields["_millis"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0 - s.tmp_1);
+    s.elapsed___36066 = (r0);
+    s.tmp_0 = info_drawTimer__P31520_mk(s);
+    s.tmp_0.arg0 = s.elapsed___36066;
+    s.callLocIdx = 1050; s.pc = 33; return s.tmp_0;
+  case 33:
+    r0 = s.retval;
+    r0 = (s.elapsed___36066 / 1000);
+    s.t___36074 = (r0);
+    r0 = (s.t___36074 <= 0);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 19; continue; }
+    s.t___36074 = (0);
+    r0 = globals.infoState___31469.fields["countdownExpired"];
+    s.tmp_2 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_2);
+    s.tmp_1 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 17; continue; }
+    r0 = (globals.infoState___31469).fields["countdownExpired"] = (true);
+    r0 = (globals.infoState___31469).fields["gameEnd"] = (undefined);
+    r0 = globals.infoState___31469.fields["countdownEndHandler"];
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 15; continue; }
+    s.tmp_1 = if_countdownEndHandler_1_mk(s);
+    s.tmp_1.arg0 = globals.infoState___31469;
+    if (!s.tmp_1.arg0.vtable.iface) {
+      setupLambda(s.tmp_1, pxsim_pxtrt.mapGetByString(s.tmp_1.arg0, "countdownEndHandler"), 1);
+      s.callLocIdx = 1051; s.pc = 34; return s.tmp_1;
+    } else {
+      s.tmp_1.fn = s.tmp_1.arg0.vtable.iface["countdownEndHandler"];
+      if (s.tmp_1.fn == null) { setupLambda(s.tmp_1, s.tmp_1.arg0.fields["countdownEndHandler"], 1); s.callLocIdx = 1051; s.pc = 34; return s.tmp_1; }
+      else if (s.tmp_1.fn.isGetter) { s.tmp_1.stage2Call = true; s.callLocIdx = 1051; s.pc = 34; return s.tmp_1;; }
+     else { s.callLocIdx = 1051; s.pc = 34; return s.tmp_1; }
+    }
+  case 34:
+    r0 = s.retval;
+    { step = 16; continue; }
+  case 15:
+    s.tmp_0 = game_over__P29709_mk(s);
+    s.tmp_0.arg0 = false;
+    s.tmp_0.arg1 = undefined;
+    s.callLocIdx = 1052; s.pc = 35; return s.tmp_0;
+  case 35:
+    r0 = s.retval;
+  case 16:
+  case 17:
+  case 18:
+  case 19:
+  case 20:
+  case 21:
+  case 22:
+  case 23:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_initHUD_inline__P35999.info = {"start":2831,"length":1903,"line":106,"column":12,"endLine":147,"endColumn":13,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":[]}
+
+function info_initHUD_inline__P35999_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_initHUD_inline__P35999, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  ps___36008: undefined,
+  p___36029: undefined,
+  scene___36063: undefined,
+  elapsed___36066: undefined,
+  t___36074: undefined,
+} }
+
+
+
+
+
+function ps_inline__P36010(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = pxsim_numops_toBoolDecr(s.arg0);
+    s.tmp_2 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_2);
+    s.tmp_1 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_1);
+    s.tmp_0 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_0);
+    return leave(s, r0)
+  default: oops()
+} } }
+ps_inline__P36010.info = {"start":3079,"length":8,"line":111,"column":46,"endLine":111,"endColumn":54,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":["p"]}
+
+function ps_inline__P36010_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: ps_inline__P36010, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_initHUD_inline__P36019(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    s.tmp_0 = info_PlayerInfo_drawPlayer__P29400_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.callLocIdx = 1039; s.pc = 1; return s.tmp_0;
+  case 1:
+    r0 = s.retval;
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_initHUD_inline__P36019.info = {"start":3163,"length":19,"line":113,"column":31,"endLine":113,"endColumn":50,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":["p"]}
+
+function info_initHUD_inline__P36019_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_initHUD_inline__P36019, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_initHUD_inline__P36025(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    s.tmp_0 = info_PlayerInfo_raiseLifeZero__P29399_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.tmp_0.arg1 = false;
+    s.callLocIdx = 1041; s.pc = 1; return s.tmp_0;
+  case 1:
+    r0 = s.retval;
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_initHUD_inline__P36025.info = {"start":3265,"length":27,"line":115,"column":31,"endLine":115,"endColumn":58,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":["p"]}
+
+function info_initHUD_inline__P36025_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_initHUD_inline__P36025, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_drawTimer__P31520(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.font___36103 = undefined;
+    s.smallFont___36105 = undefined;
+    s.seconds___36107 = undefined;
+    s.width___36111 = undefined;
+    s.left___36116 = undefined;
+    s.color1___36126 = undefined;
+    s.color2___36130 = undefined;
+    s.temp___36143 = undefined;
+    s.remainder___36179 = undefined;
+    s.decimalLeft___36198 = undefined;
+    s.minutes___36216 = undefined;
+    s.remainder___36220 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = (s.arg0 < 0);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    s.arg0 = (0);
+  case 1:
+  case 2:
+    r0 = (s.arg0 | 0);
+    s.arg0 = (r0);
+    s.font___36103 = (globals.font8___28777);
+    s.smallFont___36105 = (globals.font5___28782);
+    r0 = pxsim.Math_.idiv(s.arg0, 1000);
+    s.seconds___36107 = (r0);
+    s.tmp_2 = if_charWidth_1_mk(s);
+    s.tmp_2.arg0 = s.font___36103;
+    if (!s.tmp_2.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charWidth");
+    } else {
+      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charWidth"];
+      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charWidth"]; }
+      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
+     else { s.callLocIdx = 1067; s.pc = 11; return s.tmp_2; }
+    }
+  case 11:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 * 5);
+    s.tmp_0 = r0;
+    r0 = (s.tmp_0 - 2);
+    s.width___36111 = (r0);
+    r0 = pxsim_ImageMethods.width(globals.screen___28834);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 >> 1);
+    s.tmp_1 = r0;
+    r0 = (s.width___36111 >> 1);
+    s.tmp_3 = r0;
+    r0 = (s.tmp_1 - s.tmp_3);
+    s.tmp_0 = r0;
+    r0 = (s.tmp_0 + 1);
+    s.left___36116 = (r0);
+    r0 = globals.infoState___31469.fields["fontColor"];
+    s.color1___36126 = (r0);
+    r0 = globals.infoState___31469.fields["bgColor"];
+    s.color2___36130 = (r0);
+    r0 = (s.seconds___36107 < 10);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (r0) { step = 3; continue; }
+    r0 = s.tmp_0;
+    { step = 4; continue; }
+  case 3:
+    r0 = (s.seconds___36107 & 1);
+  case 4:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = pxsim_numops_toBool(s.tmp_1);
+    if (r0) { step = 5; continue; }
+    r0 = s.tmp_1;
+    { step = 6; continue; }
+  case 5:
+    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
+    s.tmp_3 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
+    s.tmp_2 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_2);
+  case 6:
+    // jmp value (already in r0)
+    s.tmp_4 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_4);
+    if (!r0) { step = 7; continue; }
+    s.temp___36143 = (s.color1___36126);
+    s.color1___36126 = (s.color2___36130);
+    s.color2___36130 = (s.temp___36143);
+  case 7:
+  case 8:
+    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    r0 = (s.left___36116 - 3);
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 0;
+    r0 = (s.width___36111 + 6);
+    s.tmp_0.arg3 = r0;
+    s.tmp_2 = if_charHeight_1_mk(s);
+    s.tmp_2.arg0 = s.font___36103;
+    if (!s.tmp_2.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charHeight");
+    } else {
+      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charHeight"];
+      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charHeight"]; }
+      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
+     else { s.callLocIdx = 1068; s.pc = 13; return s.tmp_2; }
+    }
+  case 13:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 + 3);
+    s.tmp_0.arg4 = r0;
+    r0 = globals.infoState___31469.fields["borderColor"];
+    s.tmp_0.arg5 = r0;
+    s.callLocIdx = 1069; s.pc = 12; return s.tmp_0;
+  case 12:
+    r0 = s.retval;
+    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    r0 = (s.left___36116 - 2);
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 0;
+    r0 = (s.width___36111 + 4);
+    s.tmp_0.arg3 = r0;
+    s.tmp_2 = if_charHeight_1_mk(s);
+    s.tmp_2.arg0 = s.font___36103;
+    if (!s.tmp_2.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charHeight");
+    } else {
+      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charHeight"];
+      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charHeight"]; }
+      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
+     else { s.callLocIdx = 1070; s.pc = 15; return s.tmp_2; }
+    }
+  case 15:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 + 2);
+    s.tmp_0.arg4 = r0;
+    s.tmp_0.arg5 = s.color2___36130;
+    s.callLocIdx = 1071; s.pc = 14; return s.tmp_0;
+  case 14:
+    r0 = s.retval;
+    r0 = (s.seconds___36107 < 60);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 9; continue; }
+    r0 = (s.arg0 % 1000);
+    s.tmp_1 = r0;
+    r0 = pxsim.Math_.idiv(s.tmp_1, 10);
+    s.remainder___36179 = (r0);
+    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    s.tmp_3 = info_formatDecimal__P31522_mk(s);
+    s.tmp_3.arg0 = s.seconds___36107;
+    s.callLocIdx = 1072; s.pc = 17; return s.tmp_3;
+  case 17:
+    r0 = s.retval;
+    s.tmp_2 = r0;
+    if ((s.tmp_2) && (s.tmp_2).vtable) {
+    setupResume(s, 18);
+    pxsim_String__stringConv(s.tmp_2);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (s.tmp_2) + ""; }
+  case 18:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = pxsim_String__concat(s.tmp_1, ".");
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = s.left___36116;
+    s.tmp_0.arg3 = 1;
+    s.tmp_0.arg4 = s.color1___36126;
+    s.tmp_0.arg5 = s.font___36103;
+    s.tmp_0.arg6 = undefined;
+    s.callLocIdx = 1073; s.pc = 16; return s.tmp_0;
+  case 16:
+    r0 = s.retval;
+    s.tmp_0 = r0 = s.left___36116;
+    s.tmp_3 = if_charWidth_1_mk(s);
+    s.tmp_3.arg0 = s.font___36103;
+    if (!s.tmp_3.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_3.arg0, "charWidth");
+    } else {
+      s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["charWidth"];
+      if (s.tmp_3.fn == null) { s.retval = s.tmp_3.arg0.fields["charWidth"]; }
+      else if (!s.tmp_3.fn.isGetter) { s.retval = bind(s.tmp_3); }
+     else { s.callLocIdx = 1074; s.pc = 19; return s.tmp_3; }
+    }
+  case 19:
+    r0 = s.retval;
+    s.tmp_2 = r0;
+    r0 = (3 * s.tmp_2);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0 + s.tmp_1);
+    s.decimalLeft___36198 = (r0);
+    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    s.tmp_1 = info_formatDecimal__P31522_mk(s);
+    s.tmp_1.arg0 = s.remainder___36179;
+    s.callLocIdx = 1075; s.pc = 21; return s.tmp_1;
+  case 21:
+    r0 = s.retval;
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = s.decimalLeft___36198;
+    s.tmp_0.arg3 = 3;
+    s.tmp_0.arg4 = s.color1___36126;
+    s.tmp_0.arg5 = s.smallFont___36105;
+    s.tmp_0.arg6 = undefined;
+    s.callLocIdx = 1076; s.pc = 20; return s.tmp_0;
+  case 20:
+    r0 = s.retval;
+    { step = 10; continue; }
+  case 9:
+    r0 = pxsim.Math_.idiv(s.seconds___36107, 60);
+    s.minutes___36216 = (r0);
+    r0 = (s.seconds___36107 % 60);
+    s.remainder___36220 = (r0);
+    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    s.tmp_5 = info_formatDecimal__P31522_mk(s);
+    s.tmp_5.arg0 = s.minutes___36216;
+    s.callLocIdx = 1077; s.pc = 23; return s.tmp_5;
+  case 23:
+    r0 = s.retval;
+    s.tmp_4 = r0;
+    if ((s.tmp_4) && (s.tmp_4).vtable) {
+    setupResume(s, 24);
+    pxsim_String__stringConv(s.tmp_4);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (s.tmp_4) + ""; }
+  case 24:
+    r0 = s.retval;
+    s.tmp_3 = r0;
+    r0 = pxsim_String__concat(s.tmp_3, ":");
+    s.tmp_2 = r0;
+    if ((s.tmp_2) && (s.tmp_2).vtable) {
+    setupResume(s, 25);
+    pxsim_String__stringConv(s.tmp_2);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (s.tmp_2) + ""; }
+  case 25:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    s.tmp_8 = info_formatDecimal__P31522_mk(s);
+    s.tmp_8.arg0 = s.remainder___36220;
+    s.callLocIdx = 1078; s.pc = 26; return s.tmp_8;
+  case 26:
+    r0 = s.retval;
+    s.tmp_7 = r0;
+    if ((s.tmp_7) && (s.tmp_7).vtable) {
+    setupResume(s, 27);
+    pxsim_String__stringConv(s.tmp_7);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (s.tmp_7) + ""; }
+  case 27:
+    r0 = s.retval;
+    s.tmp_6 = r0;
+    r0 = pxsim_String__concat(s.tmp_1, s.tmp_6);
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = s.left___36116;
+    s.tmp_0.arg3 = 1;
+    s.tmp_0.arg4 = s.color1___36126;
+    s.tmp_0.arg5 = s.font___36103;
+    s.tmp_0.arg6 = undefined;
+    s.callLocIdx = 1079; s.pc = 22; return s.tmp_0;
+  case 22:
+    r0 = s.retval;
+  case 10:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_drawTimer__P31520.info = {"start":13679,"length":1328,"line":466,"column":4,"endLine":501,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"drawTimer","argumentNames":["millis"]}
+
+function info_drawTimer__P31520_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_drawTimer__P31520, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  tmp_5: undefined,
+  tmp_6: undefined,
+  tmp_7: undefined,
+  tmp_8: undefined,
+  font___36103: undefined,
+  smallFont___36105: undefined,
+  seconds___36107: undefined,
+  width___36111: undefined,
+  left___36116: undefined,
+  color1___36126: undefined,
+  color2___36130: undefined,
+  temp___36143: undefined,
+  remainder___36179: undefined,
+  decimalLeft___36198: undefined,
+  minutes___36216: undefined,
+  remainder___36220: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_formatDecimal__P31522(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = (s.arg0 | 0);
+    s.arg0 = (r0);
+    r0 = (s.arg0 < 10);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    if ((s.arg0) && (s.arg0).vtable) {
+    setupResume(s, 4);
+    pxsim_String__stringConv(s.arg0);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (s.arg0) + ""; }
+  case 4:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = pxsim_String__concat("0", s.tmp_1);
+    { step = 3; continue; }
+  case 1:
+  case 2:
+    r0 = pxsim_numops.toString(s.arg0);
+  case 3:
+    return leave(s, r0)
+  default: oops()
+} } }
+info_formatDecimal__P31522.info = {"start":28812,"length":156,"line":924,"column":4,"endLine":930,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"formatDecimal","argumentNames":["val"]}
+
+function info_formatDecimal__P31522_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_formatDecimal__P31522, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function helpers_imagePrint__P28792(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.x0___36277 = undefined;
+    s.cp___36279 = undefined;
+    s.mult___36280 = undefined;
+    s.dataW___36285 = undefined;
+    s.dataH___36291 = undefined;
+    s.byteHeight___36297 = undefined;
+    s.charSize___36303 = undefined;
+    s.dataSize___36307 = undefined;
+    s.fontdata___36311 = undefined;
+    s.lastchar___36314 = undefined;
+    s.imgBuf___36321 = undefined;
+    s.xOffset___36345 = undefined;
+    s.yOffset___36346 = undefined;
+    s.ch___36361 = undefined;
+    s.l___36380 = undefined;
+    s.r___36381 = undefined;
+    s.off___36383 = undefined;
+    s.guess___36384 = undefined;
+    s.m___36403 = undefined;
+    s.v___36412 = undefined;
+    s.i___36468 = undefined;
+    s.j___36473 = undefined;
+    s.mask___36474 = undefined;
+    s.c___36475 = undefined;
+    s.n___36492 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.arg2 = (s.lambdaArgs[2]);
+      s.arg3 = (s.lambdaArgs[3]);
+      s.arg4 = (s.lambdaArgs[4]);
+      s.arg5 = (s.lambdaArgs[5]);
+      s.arg6 = (s.lambdaArgs[6]);
+      s.lambdaArgs = null;
+    }
+    r0 = (s.arg2 | 0);
+    s.arg2 = (r0);
+    r0 = (s.arg3 | 0);
+    s.arg3 = (r0);
+    r0 = pxsim_numops_toBoolDecr(s.arg5);
+    s.tmp_1 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    s.tmp_2 = image_getFontForText__P28779_mk(s);
+    s.tmp_2.arg0 = s.arg1;
+    s.callLocIdx = 141; s.pc = 39; return s.tmp_2;
+  case 39:
+    r0 = s.retval;
+    s.arg5 = (r0);
+  case 1:
+  case 2:
+    r0 = pxsim_numops_toBoolDecr(s.arg4);
+    s.tmp_1 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 3; continue; }
+    s.arg4 = (1);
+  case 3:
+  case 4:
+    s.x0___36277 = (s.arg2);
+    s.cp___36279 = (0);
+    s.tmp_1 = if_multiplier_1_mk(s);
+    s.tmp_1.arg0 = s.arg5;
+    if (!s.tmp_1.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_1.arg0, "multiplier");
+    } else {
+      s.tmp_1.fn = s.tmp_1.arg0.vtable.iface["multiplier"];
+      if (s.tmp_1.fn == null) { s.retval = s.tmp_1.arg0.fields["multiplier"]; }
+      else if (!s.tmp_1.fn.isGetter) { s.retval = bind(s.tmp_1); }
+     else { s.callLocIdx = 142; s.pc = 40; return s.tmp_1; }
+    }
+  case 40:
+    r0 = s.retval;
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 5; continue; }
+    s.tmp_2 = if_multiplier_1_mk(s);
+    s.tmp_2.arg0 = s.arg5;
+    if (!s.tmp_2.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "multiplier");
+    } else {
+      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["multiplier"];
+      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["multiplier"]; }
+      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
+     else { s.callLocIdx = 143; s.pc = 41; return s.tmp_2; }
+    }
+  case 41:
+    r0 = s.retval;
+    { step = 6; continue; }
+  case 5:
+    r0 = 1;
+  case 6:
+    // jmp value (already in r0)
+    s.tmp_3 = r0;
+    s.mult___36280 = (s.tmp_3);
+    s.tmp_1 = if_charWidth_1_mk(s);
+    s.tmp_1.arg0 = s.arg5;
+    if (!s.tmp_1.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_1.arg0, "charWidth");
+    } else {
+      s.tmp_1.fn = s.tmp_1.arg0.vtable.iface["charWidth"];
+      if (s.tmp_1.fn == null) { s.retval = s.tmp_1.arg0.fields["charWidth"]; }
+      else if (!s.tmp_1.fn.isGetter) { s.retval = bind(s.tmp_1); }
+     else { s.callLocIdx = 144; s.pc = 42; return s.tmp_1; }
+    }
+  case 42:
+    r0 = s.retval;
+    s.tmp_0 = r0;
+    r0 = pxsim.Math_.idiv(s.tmp_0, s.mult___36280);
+    s.dataW___36285 = (r0);
+    s.tmp_1 = if_charHeight_1_mk(s);
+    s.tmp_1.arg0 = s.arg5;
+    if (!s.tmp_1.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_1.arg0, "charHeight");
+    } else {
+      s.tmp_1.fn = s.tmp_1.arg0.vtable.iface["charHeight"];
+      if (s.tmp_1.fn == null) { s.retval = s.tmp_1.arg0.fields["charHeight"]; }
+      else if (!s.tmp_1.fn.isGetter) { s.retval = bind(s.tmp_1); }
+     else { s.callLocIdx = 145; s.pc = 43; return s.tmp_1; }
+    }
+  case 43:
+    r0 = s.retval;
+    s.tmp_0 = r0;
+    r0 = pxsim.Math_.idiv(s.tmp_0, s.mult___36280);
+    s.dataH___36291 = (r0);
+    r0 = (s.dataH___36291 + 7);
+    s.tmp_0 = r0;
+    r0 = (s.tmp_0 >> 3);
+    s.byteHeight___36297 = (r0);
+    r0 = (s.byteHeight___36297 * s.dataW___36285);
+    s.charSize___36303 = (r0);
+    r0 = (2 + s.charSize___36303);
+    s.dataSize___36307 = (r0);
+    s.tmp_0 = if_data_1_mk(s);
+    s.tmp_0.arg0 = s.arg5;
+    if (!s.tmp_0.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_0.arg0, "data");
+    } else {
+      s.tmp_0.fn = s.tmp_0.arg0.vtable.iface["data"];
+      if (s.tmp_0.fn == null) { s.retval = s.tmp_0.arg0.fields["data"]; }
+      else if (!s.tmp_0.fn.isGetter) { s.retval = bind(s.tmp_0); }
+     else { s.callLocIdx = 146; s.pc = 44; return s.tmp_0; }
+    }
+  case 44:
+    r0 = s.retval;
+    s.fontdata___36311 = (r0);
+    r0 = pxsim.BufferMethods.length(s.fontdata___36311);
+    s.tmp_1 = r0;
+    r0 = pxsim.Math_.idiv(s.tmp_1, s.dataSize___36307);
+    s.tmp_0 = r0;
+    r0 = (s.tmp_0 - 1);
+    s.lastchar___36314 = (r0);
+    r0 = (s.mult___36280 == 1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 7; continue; }
+    r0 = (8 + s.charSize___36303);
+    s.tmp_1 = r0;
+    r0 = pxsim.control.createBuffer(s.tmp_1);
+    s.imgBuf___36321 = (r0);
+    r0 = pxsim.BufferMethods.setByte(s.imgBuf___36321, 0, 135);
+    r0 = pxsim.BufferMethods.setByte(s.imgBuf___36321, 1, 1);
+    r0 = pxsim.BufferMethods.setByte(s.imgBuf___36321, 2, s.dataW___36285);
+    r0 = pxsim.BufferMethods.setByte(s.imgBuf___36321, 4, s.dataH___36291);
+  case 7:
+  case 8:
+  case 9:
+    s.tmp_1 = r0 = s.cp___36279;
+    r0 = pxsim_String_.length(s.arg1);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_1 < s.tmp_2);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 38; continue; }
+    s.xOffset___36345 = (0);
+    s.yOffset___36346 = (0);
+    s.tmp_0 = r0 = s.arg6;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (r0) { step = 10; continue; }
+    r0 = s.tmp_0;
+    { step = 11; continue; }
+  case 10:
+    s.tmp_1 = r0 = s.cp___36279;
+    r0 = pxsim_Array__length(s.arg6);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_1 < s.tmp_2);
+  case 11:
+    // jmp value (already in r0)
+    s.tmp_3 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
+    if (!r0) { step = 12; continue; }
+    s.tmp_4 = if_xOffset_1_mk(s);
+    r0 = pxsim_Array__getAt(s.arg6, s.cp___36279);
+    s.tmp_4.arg0 = r0;
+    if (!s.tmp_4.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_4.arg0, "xOffset");
+    } else {
+      s.tmp_4.fn = s.tmp_4.arg0.vtable.iface["xOffset"];
+      if (s.tmp_4.fn == null) { s.retval = s.tmp_4.arg0.fields["xOffset"]; }
+      else if (!s.tmp_4.fn.isGetter) { s.retval = bind(s.tmp_4); }
+     else { s.callLocIdx = 147; s.pc = 45; return s.tmp_4; }
+    }
+  case 45:
+    r0 = s.retval;
+    s.xOffset___36345 = (r0);
+    s.tmp_0 = if_yOffset_1_mk(s);
+    r0 = pxsim_Array__getAt(s.arg6, s.cp___36279);
+    s.tmp_0.arg0 = r0;
+    if (!s.tmp_0.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_0.arg0, "yOffset");
+    } else {
+      s.tmp_0.fn = s.tmp_0.arg0.vtable.iface["yOffset"];
+      if (s.tmp_0.fn == null) { s.retval = s.tmp_0.arg0.fields["yOffset"]; }
+      else if (!s.tmp_0.fn.isGetter) { s.retval = bind(s.tmp_0); }
+     else { s.callLocIdx = 148; s.pc = 46; return s.tmp_0; }
+    }
+  case 46:
+    r0 = s.retval;
+    s.yOffset___36346 = (r0);
+  case 12:
+  case 13:
+    s.tmp_0 = r0 = s.cp___36279;
+    r0 = (s.tmp_0 + 1);
+    s.cp___36279 = (r0);
+    r0 = pxsim_String_.charCodeAt(s.arg1, s.tmp_0);
+    s.ch___36361 = (r0);
+    r0 = (s.ch___36361 == 10);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 14; continue; }
+    s.tmp_1 = r0 = s.arg3;
+    s.tmp_4 = if_charHeight_1_mk(s);
+    s.tmp_4.arg0 = s.arg5;
+    if (!s.tmp_4.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_4.arg0, "charHeight");
+    } else {
+      s.tmp_4.fn = s.tmp_4.arg0.vtable.iface["charHeight"];
+      if (s.tmp_4.fn == null) { s.retval = s.tmp_4.arg0.fields["charHeight"]; }
+      else if (!s.tmp_4.fn.isGetter) { s.retval = bind(s.tmp_4); }
+     else { s.callLocIdx = 149; s.pc = 47; return s.tmp_4; }
+    }
+  case 47:
+    r0 = s.retval;
+    s.tmp_3 = r0;
+    r0 = (s.tmp_3 + 2);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_1 + s.tmp_2);
+    s.arg3 = (r0);
+    s.arg2 = (s.x0___36277);
+  case 14:
+  case 15:
+    r0 = (s.ch___36361 < 32);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 16; continue; }
+    { step = 9; continue; }
+  case 16:
+  case 17:
+    s.l___36380 = (0);
+    s.r___36381 = (s.lastchar___36314);
+    s.off___36383 = (0);
+    r0 = (s.ch___36361 - 32);
+    s.tmp_0 = r0;
+    r0 = (s.tmp_0 * s.dataSize___36307);
+    s.guess___36384 = (r0);
+    r0 = pxsim.BufferMethods.getNumber(s.fontdata___36311, 4, s.guess___36384);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 == s.ch___36361);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 18; continue; }
+    s.off___36383 = (s.guess___36384);
+    { step = 25; continue; }
+  case 18:
+  case 19:
+    r0 = (s.l___36380 <= s.r___36381);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 24; continue; }
+    s.tmp_1 = r0 = s.l___36380;
+    r0 = (s.r___36381 - s.l___36380);
+    s.tmp_3 = r0;
+    r0 = (s.tmp_3 >> 1);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_1 + s.tmp_2);
+    s.m___36403 = (r0);
+    s.tmp_0 = r0 = s.fontdata___36311;
+    r0 = (s.m___36403 * s.dataSize___36307);
+    s.tmp_1 = r0;
+    r0 = pxsim.BufferMethods.getNumber(s.tmp_0, 4, s.tmp_1);
+    s.v___36412 = (r0);
+    r0 = (s.v___36412 == s.ch___36361);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 20; continue; }
+    r0 = (s.m___36403 * s.dataSize___36307);
+    s.off___36383 = (r0);
+    { step = 24; continue; }
+  case 20:
+  case 21:
+    r0 = (s.v___36412 < s.ch___36361);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 22; continue; }
+    r0 = (s.m___36403 + 1);
+    s.l___36380 = (r0);
+    { step = 23; continue; }
+  case 22:
+    r0 = (s.m___36403 - 1);
+    s.r___36381 = (r0);
+  case 23:
+    { step = 19; continue; }
+  case 24:
+  case 25:
+    r0 = (s.mult___36280 == 1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 26; continue; }
+    s.tmp_1 = r0 = s.imgBuf___36321;
+    s.tmp_3 = r0 = s.fontdata___36311;
+    r0 = (s.off___36383 + 2);
+    s.tmp_4 = r0;
+    r0 = pxsim.BufferMethods.slice(s.tmp_3, s.tmp_4, s.charSize___36303);
+    s.tmp_2 = r0;
+    r0 = pxsim.BufferMethods.write(s.tmp_1, 8, s.tmp_2);
+    s.tmp_0 = helpers_imageDrawIcon__P28759_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.tmp_0.arg1 = s.imgBuf___36321;
+    r0 = (s.arg2 + s.xOffset___36345);
+    s.tmp_0.arg2 = r0;
+    r0 = (s.arg3 + s.yOffset___36346);
+    s.tmp_0.arg3 = r0;
+    s.tmp_0.arg4 = s.arg4;
+    s.callLocIdx = 150; s.pc = 48; return s.tmp_0;
+  case 48:
+    r0 = s.retval;
+    s.tmp_0 = r0 = s.arg2;
+    s.tmp_2 = if_charWidth_1_mk(s);
+    s.tmp_2.arg0 = s.arg5;
+    if (!s.tmp_2.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charWidth");
+    } else {
+      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charWidth"];
+      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charWidth"]; }
+      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
+     else { s.callLocIdx = 151; s.pc = 49; return s.tmp_2; }
+    }
+  case 49:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0 + s.tmp_1);
+    s.arg2 = (r0);
+    { step = 37; continue; }
+  case 26:
+    r0 = (s.off___36383 + 2);
+    s.off___36383 = (r0);
+    s.i___36468 = (0);
+  case 27:
+    r0 = (s.i___36468 < s.dataW___36285);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 36; continue; }
+    s.j___36473 = (0);
+    s.mask___36474 = (1);
+    s.tmp_0 = r0 = s.off___36383;
+    r0 = (s.tmp_0 + 1);
+    s.off___36383 = (r0);
+    r0 = pxsim.BufferMethods.getByte(s.fontdata___36311, s.tmp_0);
+    s.c___36475 = (r0);
+  case 28:
+    r0 = (s.j___36473 < s.dataH___36291);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 35; continue; }
+    r0 = (s.mask___36474 == 256);
+    s.tmp_1 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_1);
+    if (!r0) { step = 29; continue; }
+    s.tmp_2 = r0 = s.off___36383;
+    r0 = (s.tmp_2 + 1);
+    s.off___36383 = (r0);
+    r0 = pxsim.BufferMethods.getByte(s.fontdata___36311, s.tmp_2);
+    s.c___36475 = (r0);
+    s.mask___36474 = (1);
+  case 29:
+  case 30:
+    s.n___36492 = (0);
+  case 31:
+    r0 = (s.c___36475 & s.mask___36474);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 32; continue; }
+    r0 = (s.n___36492 + 1);
+    s.n___36492 = (r0);
+    r0 = (s.mask___36474 << 1);
+    s.mask___36474 = (r0);
+    { step = 31; continue; }
+  case 32:
+    r0 = pxsim_numops_toBoolDecr(s.n___36492);
+    if (!r0) { step = 33; continue; }
+    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.tmp_1 = r0 = s.arg2;
+    r0 = (s.xOffset___36345 * s.mult___36280);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_1 + s.tmp_2);
+    s.tmp_0.arg1 = r0;
+    s.tmp_3 = r0 = s.arg3;
+    r0 = (s.j___36473 + s.yOffset___36346);
+    s.tmp_5 = r0;
+    r0 = (s.tmp_5 * s.mult___36280);
+    s.tmp_4 = r0;
+    r0 = (s.tmp_3 + s.tmp_4);
+    s.tmp_0.arg2 = r0;
+    s.tmp_0.arg3 = s.mult___36280;
+    r0 = (s.mult___36280 * s.n___36492);
+    s.tmp_0.arg4 = r0;
+    s.tmp_0.arg5 = s.arg4;
+    s.callLocIdx = 152; s.pc = 50; return s.tmp_0;
+  case 50:
+    r0 = s.retval;
+    r0 = (s.j___36473 + s.n___36492);
+    s.j___36473 = (r0);
+    { step = 34; continue; }
+  case 33:
+    r0 = (s.mask___36474 << 1);
+    s.mask___36474 = (r0);
+    r0 = (s.j___36473 + 1);
+    s.j___36473 = (r0);
+  case 34:
+    { step = 28; continue; }
+  case 35:
+    r0 = (s.arg2 + s.mult___36280);
+    s.arg2 = (r0);
+    r0 = (s.i___36468 + 1);
+    s.i___36468 = (r0);
+    { step = 27; continue; }
+  case 36:
+  case 37:
+    { step = 9; continue; }
+  case 38:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+helpers_imagePrint__P28792.info = {"start":15326,"length":3300,"line":213,"column":4,"endLine":306,"endColumn":5,"fileName":"pxt_modules/screen---st7735/text.ts","functionName":"imagePrint","argumentNames":["img","text","x","y","color","font","offsets"]}
+
+function helpers_imagePrint__P28792_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: helpers_imagePrint__P28792, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  tmp_5: undefined,
+  x0___36277: undefined,
+  cp___36279: undefined,
+  mult___36280: undefined,
+  dataW___36285: undefined,
+  dataH___36291: undefined,
+  byteHeight___36297: undefined,
+  charSize___36303: undefined,
+  dataSize___36307: undefined,
+  fontdata___36311: undefined,
+  lastchar___36314: undefined,
+  imgBuf___36321: undefined,
+  xOffset___36345: undefined,
+  yOffset___36346: undefined,
+  ch___36361: undefined,
+  l___36380: undefined,
+  r___36381: undefined,
+  off___36383: undefined,
+  guess___36384: undefined,
+  m___36403: undefined,
+  v___36412: undefined,
+  i___36468: undefined,
+  j___36473: undefined,
+  mask___36474: undefined,
+  c___36475: undefined,
+  n___36492: undefined,
+  arg0: undefined,
+  arg1: undefined,
+  arg2: undefined,
+  arg3: undefined,
+  arg4: undefined,
+  arg5: undefined,
+  arg6: undefined,
+} }
+
+
+
+
+
+function image_getFontForText__P28779(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.i___36571 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    s.i___36571 = (0);
+  case 1:
+    s.tmp_1 = r0 = s.i___36571;
+    r0 = pxsim_String_.length(s.arg0);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_1 < s.tmp_2);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 4; continue; }
+    r0 = pxsim_String_.charCodeAt(s.arg0, s.i___36571);
+    s.tmp_4 = r0;
+    r0 = (s.tmp_4 > 8192);
+    s.tmp_3 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
+    if (!r0) { step = 2; continue; }
+    r0 = globals.font12___28778;
+    { step = 5; continue; }
+  case 2:
+  case 3:
+    r0 = (s.i___36571 + 1);
+    s.i___36571 = (r0);
+    { step = 1; continue; }
+  case 4:
+    r0 = globals.font8___28777;
+  case 5:
+    return leave(s, r0)
+  default: oops()
+} } }
+image_getFontForText__P28779.info = {"start":11713,"length":259,"line":136,"column":4,"endLine":143,"endColumn":5,"fileName":"pxt_modules/screen---st7735/text.ts","functionName":"getFontForText","argumentNames":["text"]}
+
+function image_getFontForText__P28779_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: image_getFontForText__P28779, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  i___36571: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function helpers_imageDrawIcon__P28759(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.arg2 = (s.lambdaArgs[2]);
+      s.arg3 = (s.lambdaArgs[3]);
+      s.arg4 = (s.lambdaArgs[4]);
+      s.lambdaArgs = null;
+    }
+    s.tmp_0 = r0 = s.arg0;
+    s.tmp_1 = r0 = s.arg1;
+    s.tmp_3 = helpers_pack__P31320_mk(s);
+    s.tmp_3.arg0 = s.arg2;
+    s.tmp_3.arg1 = s.arg3;
+    s.callLocIdx = 122; s.pc = 1; return s.tmp_3;
+  case 1:
+    r0 = s.retval;
+    s.tmp_2 = r0;
+    r0 = pxsim_ImageMethods._drawIcon(s.tmp_0, s.tmp_1, s.tmp_2, s.arg4);
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+helpers_imageDrawIcon__P28759.info = {"start":4684,"length":145,"line":155,"column":4,"endLine":157,"endColumn":5,"fileName":"pxt_modules/screen---st7735/image.ts","functionName":"imageDrawIcon","argumentNames":["img","icon","x","y","c"]}
+
+function helpers_imageDrawIcon__P28759_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: helpers_imageDrawIcon__P28759, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  arg0: undefined,
+  arg1: undefined,
+  arg2: undefined,
+  arg3: undefined,
+  arg4: undefined,
+} }
+
+
+
+
+
+function helpers_pack__P31320(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.lambdaArgs = null;
+    }
+    s.tmp_2 = Math_clamp__P27132_mk(s);
+    s.tmp_2.arg0 = -30000;
+    s.tmp_2.arg1 = 30000;
+    r0 = (s.arg0 | 0);
+    s.tmp_2.arg2 = r0;
+    s.callLocIdx = 120; s.pc = 1; return s.tmp_2;
+  case 1:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 & 65535);
+    s.tmp_0 = r0;
+    s.tmp_5 = Math_clamp__P27132_mk(s);
+    s.tmp_5.arg0 = -30000;
+    s.tmp_5.arg1 = 30000;
+    r0 = (s.arg1 | 0);
+    s.tmp_5.arg2 = r0;
+    s.callLocIdx = 121; s.pc = 2; return s.tmp_5;
+  case 2:
+    r0 = s.retval;
+    s.tmp_4 = r0;
+    r0 = (s.tmp_4 << 16);
+    s.tmp_3 = r0;
+    r0 = (s.tmp_0 | s.tmp_3);
+    return leave(s, r0)
+  default: oops()
+} } }
+helpers_pack__P31320.info = {"start":3658,"length":145,"line":130,"column":4,"endLine":132,"endColumn":5,"fileName":"pxt_modules/screen---st7735/image.ts","functionName":"pack","argumentNames":["x","y"]}
+
+function helpers_pack__P31320_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: helpers_pack__P31320, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  tmp_5: undefined,
+  arg0: undefined,
+  arg1: undefined,
+} }
+
+
+
+
+
+function Math_clamp__P27132(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.arg2 = (s.lambdaArgs[2]);
+      s.lambdaArgs = null;
+    }
+    s.tmp_0 = Math_min__P27136_mk(s);
+    s.tmp_0.arg0 = s.arg1;
+    s.tmp_1 = Math_max__P27135_mk(s);
+    s.tmp_1.arg0 = s.arg0;
+    s.tmp_1.arg1 = s.arg2;
+    s.callLocIdx = 16; s.pc = 2; return s.tmp_1;
+  case 2:
+    r0 = s.retval;
+    s.tmp_0.arg1 = r0;
+    s.callLocIdx = 17; s.pc = 1; return s.tmp_0;
+  case 1:
+    r0 = s.retval;
+    return leave(s, r0)
+  default: oops()
+} } }
+Math_clamp__P27132.info = {"start":15643,"length":130,"line":528,"column":4,"endLine":530,"endColumn":5,"fileName":"pxt_modules/base/pxt-helpers.ts","functionName":"clamp","argumentNames":["min","max","value"]}
+
+function Math_clamp__P27132_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: Math_clamp__P27132, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  arg0: undefined,
+  arg1: undefined,
+  arg2: undefined,
+} }
+
+
+
+
+
+function Math_min__P27136(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.lambdaArgs = null;
+    }
+    r0 = (s.arg0 <= s.arg1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    r0 = s.arg0;
+    { step = 3; continue; }
+  case 1:
+  case 2:
+    r0 = s.arg1;
+  case 3:
+    return leave(s, r0)
+  default: oops()
+} } }
+Math_min__P27136.info = {"start":16779,"length":105,"line":565,"column":4,"endLine":568,"endColumn":5,"fileName":"pxt_modules/base/pxt-helpers.ts","functionName":"min","argumentNames":["a","b"]}
+
+function Math_min__P27136_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: Math_min__P27136, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  arg0: undefined,
+  arg1: undefined,
+} }
+
+
+
+
+
+function Math_max__P27135(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.lambdaArgs = null;
+    }
+    r0 = (s.arg0 >= s.arg1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    r0 = s.arg0;
+    { step = 3; continue; }
+  case 1:
+  case 2:
+    r0 = s.arg1;
+  case 3:
+    return leave(s, r0)
+  default: oops()
+} } }
+Math_max__P27135.info = {"start":16564,"length":105,"line":556,"column":4,"endLine":559,"endColumn":5,"fileName":"pxt_modules/base/pxt-helpers.ts","functionName":"max","argumentNames":["a","b"]}
+
+function Math_max__P27135_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: Math_max__P27135, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  arg0: undefined,
+  arg1: undefined,
+} }
+
+
+
+
+
+function helpers_imageFillRect__P28760(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.arg2 = (s.lambdaArgs[2]);
+      s.arg3 = (s.lambdaArgs[3]);
+      s.arg4 = (s.lambdaArgs[4]);
+      s.arg5 = (s.lambdaArgs[5]);
+      s.lambdaArgs = null;
+    }
+    s.tmp_0 = r0 = s.arg0;
+    s.tmp_2 = helpers_pack__P31320_mk(s);
+    s.tmp_2.arg0 = s.arg1;
+    s.tmp_2.arg1 = s.arg2;
+    s.callLocIdx = 123; s.pc = 1; return s.tmp_2;
+  case 1:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    s.tmp_4 = helpers_pack__P31320_mk(s);
+    s.tmp_4.arg0 = s.arg3;
+    s.tmp_4.arg1 = s.arg4;
+    s.callLocIdx = 124; s.pc = 2; return s.tmp_4;
+  case 2:
+    r0 = s.retval;
+    s.tmp_3 = r0;
+    r0 = pxsim_ImageMethods._fillRect(s.tmp_0, s.tmp_1, s.tmp_3, s.arg5);
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+helpers_imageFillRect__P28760.info = {"start":4834,"length":159,"line":158,"column":4,"endLine":160,"endColumn":5,"fileName":"pxt_modules/screen---st7735/image.ts","functionName":"imageFillRect","argumentNames":["img","x","y","w","h","c"]}
+
+function helpers_imageFillRect__P28760_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: helpers_imageFillRect__P28760, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  arg0: undefined,
+  arg1: undefined,
+  arg2: undefined,
+  arg3: undefined,
+  arg4: undefined,
+  arg5: undefined,
+} }
+
+
+
+
+
+function info_InfoState_constructor__P31467(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_InfoState__C31466_VT)) failedCast(r0);
+    r0 = (s.arg0).fields["visibilityFlag"] = (8);
+    s.tmp_0 = r0 = s.arg0;
+    r0 = pxsim_Array__mk();
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0).fields["playerStates"] = (s.tmp_1);
+    s.tmp_0 = r0 = s.arg0;
+    s.tmp_2 = info_defaultHeartImage__P31517_mk(s);
+    s.callLocIdx = 1031; s.pc = 7; return s.tmp_2;
+  case 7:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0).fields["heartImage"] = (s.tmp_1);
+    s.tmp_0 = r0 = s.arg0;
+    r0 = pxsim.image.ofBuffer(_hex37301);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0).fields["multiplierImage"] = (s.tmp_1);
+    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    r0 = 0;
+    { step = 2; continue; }
+  case 1:
+    r0 = 1;
+  case 2:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = (s.arg0).fields["bgColor"] = (s.tmp_1);
+    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 3; continue; }
+    r0 = 1;
+    { step = 4; continue; }
+  case 3:
+    r0 = 3;
+  case 4:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = (s.arg0).fields["borderColor"] = (s.tmp_1);
+    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 5; continue; }
+    r0 = 1;
+    { step = 6; continue; }
+  case 5:
+    r0 = 3;
+  case 6:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = (s.arg0).fields["fontColor"] = (s.tmp_1);
+    r0 = (s.arg0).fields["countdownExpired"] = (undefined);
+    r0 = (s.arg0).fields["countdownEndHandler"] = (undefined);
+    r0 = (s.arg0).fields["gameEnd"] = (undefined);
+    s.tmp_0 = r0 = s.arg0;
+    r0 = pxsim_Array__mk();
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0).fields["playerStates"] = (s.tmp_1);
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_InfoState_constructor__P31467.info = {"start":1121,"length":674,"line":45,"column":8,"endLine":63,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":["this"]}
+
+function info_InfoState_constructor__P31467_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_InfoState_constructor__P31467, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  arg0: undefined,
+} }
+
+const _hex37301 = pxsim.BufferMethods.createBufferFromHex("87040500050000000100010010100000000100001010000001000100")
+
+
+
+
+function info_defaultHeartImage__P31517(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    r0 = pxsim.image.ofBuffer(_hex37329);
+    { step = 2; continue; }
+  case 1:
+    r0 = pxsim.image.ofBuffer(_hex37331);
+  case 2:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = s.tmp_1;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_defaultHeartImage__P31517.info = {"start":5156,"length":592,"line":164,"column":4,"endLine":185,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"defaultHeartImage","argumentNames":[]}
+
+function info_defaultHeartImage__P31517_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_defaultHeartImage__P31517, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+} }
+
+const _hex37329 = pxsim.BufferMethods.createBufferFromHex("87040800070000001011000001000100010010001000000101001000010001001011000000000000")
+const _hex37331 = pxsim.BufferMethods.createBufferFromHex("8704080007000000c0cc00002c220c002222c2002222220c20222202222422004222020020220000")
+
+
+
+
+function scene_Scene_millis__P29610(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, scene_Scene__C29585_VT)) failedCast(r0);
+    r0 = s.arg0.fields["_millis"];
+    return leave(s, r0)
+  default: oops()
+} } }
+scene_Scene_millis__P29610.info = {"start":6898,"length":61,"line":191,"column":8,"endLine":193,"endColumn":9,"fileName":"pxt_modules/game/scene.ts","functionName":"millis","argumentNames":["this"]}
+
+function scene_Scene_millis__P29610_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: scene_Scene_millis__P29610, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  arg0: undefined,
+} }
+
+
+
+
+
+function scene_createRenderable__P29549(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.renderable___37235 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.arg2 = (s.lambdaArgs[2]);
+      s.lambdaArgs = null;
+    }
+    r0 = pxsim_pxtcore_mkClassInstance(scene_Renderable__C29544_VT);
+    s.tmp_0 = r0;
+    s.tmp_1 = r0 = s.arg2;
+    r0 = pxsim_numops_toBool(s.tmp_1);
+    if (!r0) { step = 1; continue; }
+    r0 = s.tmp_1;
+    { step = 2; continue; }
+  case 1:
+    r0 = renderable_inline__P37241;
+  case 2:
+    // jmp value (already in r0)
+    s.tmp_2 = r0;
+    s.tmp_3 = scene_Renderable_constructor__P29545_mk(s);
+    s.tmp_3.arg0 = s.tmp_0;
+    s.tmp_3.arg1 = s.arg1;
+    s.tmp_3.arg2 = s.tmp_2;
+    s.tmp_3.arg3 = s.arg0;
+    s.callLocIdx = 1239; s.pc = 3; return s.tmp_3;
+  case 3:
+    r0 = s.retval;
+    s.renderable___37235 = (s.tmp_0);
+    r0 = s.renderable___37235;
+    return leave(s, r0)
+  default: oops()
+} } }
+scene_createRenderable__P29549.info = {"start":608,"length":339,"line":24,"column":4,"endLine":36,"endColumn":5,"fileName":"pxt_modules/game/renderable.ts","functionName":"createRenderable","argumentNames":["z","handler","shouldBeVisible"]}
+
+function scene_createRenderable__P29549_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: scene_createRenderable__P29549, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  renderable___37235: undefined,
+  arg0: undefined,
+  arg1: undefined,
+  arg2: undefined,
+} }
+
+
+
+
+
+function renderable_inline__P37241(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    r0 = true;
+    return leave(s, r0)
+  default: oops()
+} } }
+renderable_inline__P37241.info = {"start":875,"length":10,"line":31,"column":32,"endLine":31,"endColumn":42,"fileName":"pxt_modules/game/renderable.ts","functionName":"inline","argumentNames":[]}
+
+function renderable_inline__P37241_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: renderable_inline__P37241, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+} }
+
+
+
+
+
+function scene_Renderable_constructor__P29545(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.arg2 = (s.lambdaArgs[2]);
+      s.arg3 = (s.lambdaArgs[3]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, scene_Renderable__C29544_VT)) failedCast(r0);
+    r0 = (s.arg0).fields["handler"] = (s.arg1);
+    r0 = (s.arg0).fields["shouldBeVisible"] = (s.arg2);
+    s.tmp_0 = sprites_BaseSprite_constructor__P28896_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.tmp_0.arg1 = s.arg3;
+    s.callLocIdx = 1236; s.pc = 1; return s.tmp_0;
+  case 1:
+    r0 = s.retval;
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+scene_Renderable_constructor__P29545.info = {"start":83,"length":212,"line":2,"column":8,"endLine":8,"endColumn":9,"fileName":"pxt_modules/game/renderable.ts","functionName":"inline","argumentNames":["this","handler","shouldBeVisible","z"]}
+
+function scene_Renderable_constructor__P29545_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: scene_Renderable_constructor__P29545, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  arg0: undefined,
+  arg1: undefined,
+  arg2: undefined,
+  arg3: undefined,
+} }
+
+
+
+
+
+function sprites_BaseSprite_constructor__P28896(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, sprites_BaseSprite__C28894_VT)) failedCast(r0);
+    s.tmp_0 = sprites_BaseSprite_z__P28899_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.tmp_0.arg1 = s.arg1;
+    s.callLocIdx = 177; s.pc = 1; return s.tmp_0;
+  case 1:
+    r0 = s.retval;
+    s.tmp_0 = scene_Scene_addSprite__P29611_mk(s);
+    s.tmp_1 = game_currentScene__P29699_mk(s);
+    s.callLocIdx = 178; s.pc = 3; return s.tmp_1;
+  case 3:
+    r0 = s.retval;
+    s.tmp_0.arg0 = r0;
+    s.tmp_0.arg1 = s.arg0;
+    s.callLocIdx = 179; s.pc = 2; return s.tmp_0;
+  case 2:
+    r0 = s.retval;
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+sprites_BaseSprite_constructor__P28896.info = {"start":344,"length":170,"line":15,"column":8,"endLine":20,"endColumn":9,"fileName":"pxt_modules/game/basesprite.ts","functionName":"inline","argumentNames":["this","z"]}
+
+function sprites_BaseSprite_constructor__P28896_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: sprites_BaseSprite_constructor__P28896, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  arg0: undefined,
+  arg1: undefined,
+} }
+
+
+
+
+
+function scene_Scene_addSprite__P29611(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, scene_Scene__C29585_VT)) failedCast(r0);
+    r0 = s.arg0.fields["allSprites"];
+    s.tmp_0 = r0;
+    r0 = pxsim_Array__push(s.tmp_0, s.arg1);
+    s.tmp_0 = r0 = s.arg0;
+    r0 = s.tmp_0.fields["spriteNextId"];
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 + 1);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0).fields["spriteNextId"] = (s.tmp_1);
+    s.tmp_3 = if_id_2_mk(s);
+    s.tmp_3.arg0 = s.arg1;
+    s.tmp_3.arg1 = s.tmp_2;
+    if (!s.tmp_3.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapSetByString(s.tmp_3.arg0, "id", s.tmp_3.arg1);
+    } else {
+      s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["set/id"];
+      if (s.tmp_3.fn === null) { s.tmp_3.arg0.fields["id"] = s.tmp_3.arg1; }
+      else if (s.tmp_3.fn === undefined) { failedCast(s.tmp_3.arg0) } 
+     else { s.callLocIdx = 1263; s.pc = 1; return s.tmp_3; }
+    }
+  case 1:
+    r0 = s.retval;
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+scene_Scene_addSprite__P29611.info = {"start":6969,"length":128,"line":195,"column":8,"endLine":198,"endColumn":9,"fileName":"pxt_modules/game/scene.ts","functionName":"addSprite","argumentNames":["this","sprite"]}
+
+function scene_Scene_addSprite__P29611_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: scene_Scene_addSprite__P29611, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  arg0: undefined,
+  arg1: undefined,
+} }
+
+
+
+
+
+function sprites_BaseSprite_z__P28899(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, sprites_BaseSprite__C28894_VT)) failedCast(r0);
+    r0 = s.arg0.fields["_z"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 !== s.arg1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    r0 = (s.arg0).fields["_z"] = (s.arg1);
+    s.tmp_1 = game_currentScene__P29699_mk(s);
+    s.callLocIdx = 180; s.pc = 3; return s.tmp_1;
+  case 3:
+    r0 = s.retval;
+    s.tmp_0 = r0;
+    r0 = s.tmp_0.fields["flags"];
+    s.tmp_3 = r0;
+    r0 = (s.tmp_3 | 1);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_0).fields["flags"] = (s.tmp_2);
+  case 1:
+  case 2:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+sprites_BaseSprite_z__P28899.info = {"start":656,"length":174,"line":30,"column":8,"endLine":35,"endColumn":9,"fileName":"pxt_modules/game/basesprite.ts","functionName":"z","argumentNames":["this","v"]}
+
+function sprites_BaseSprite_z__P28899_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: sprites_BaseSprite_z__P28899, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  arg0: undefined,
+  arg1: undefined,
+} }
+
+
+
+
+
+function sprites_BaseSprite_z__P28898(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, sprites_BaseSprite__C28894_VT)) failedCast(r0);
+    r0 = s.arg0.fields["_z"];
+    return leaveAccessor(s, r0)
+  default: oops()
+} } }
+sprites_BaseSprite_z__P28898.info = {"start":591,"length":55,"line":26,"column":8,"endLine":28,"endColumn":9,"fileName":"pxt_modules/game/basesprite.ts","functionName":"z","argumentNames":["this"]}
+sprites_BaseSprite_z__P28898.isGetter = true;
+
+function sprites_BaseSprite_z__P28898_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: sprites_BaseSprite_z__P28898, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_PlayerInfo_drawLives__P29402(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.state___36612 = undefined;
+    s.font___36618 = undefined;
+    s.i___36661 = undefined;
+    s.num___36683 = undefined;
+    s.textWidth___36690 = undefined;
+    s.mult___36742 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
+    s.tmp_0 = info_PlayerInfo_getState__P29388_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.callLocIdx = 1123; s.pc = 8; return s.tmp_0;
+  case 8:
+    r0 = s.retval;
+    s.state___36612 = (r0);
+    r0 = s.state___36612.fields["life"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 < 0);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    { step = 7; continue; }
+  case 1:
+  case 2:
+    s.font___36618 = (globals.font8___28777);
+    r0 = s.state___36612.fields["life"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 <= 4);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 5; continue; }
+    s.tmp_2 = helpers_imageFillRect__P28760_mk(s);
+    s.tmp_2.arg0 = globals.screen___28834;
+    s.tmp_2.arg1 = 0;
+    s.tmp_2.arg2 = 0;
+    r0 = s.state___36612.fields["life"];
+    s.tmp_4 = r0;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_7 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_7);
+    s.tmp_6 = r0;
+    r0 = (s.tmp_6 + 1);
+    s.tmp_5 = r0;
+    r0 = (s.tmp_4 * s.tmp_5);
+    s.tmp_3 = r0;
+    r0 = (s.tmp_3 + 3);
+    s.tmp_2.arg3 = r0;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_9 = r0;
+    r0 = pxsim_ImageMethods.height(s.tmp_9);
+    s.tmp_8 = r0;
+    r0 = (s.tmp_8 + 4);
+    s.tmp_2.arg4 = r0;
+    r0 = globals.infoState___31469.fields["borderColor"];
+    s.tmp_2.arg5 = r0;
+    s.callLocIdx = 1124; s.pc = 9; return s.tmp_2;
+  case 9:
+    r0 = s.retval;
+    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    s.tmp_0.arg1 = 0;
+    s.tmp_0.arg2 = 0;
+    r0 = s.state___36612.fields["life"];
+    s.tmp_2 = r0;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_5 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_5);
+    s.tmp_4 = r0;
+    r0 = (s.tmp_4 + 1);
+    s.tmp_3 = r0;
+    r0 = (s.tmp_2 * s.tmp_3);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 + 2);
+    s.tmp_0.arg3 = r0;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_7 = r0;
+    r0 = pxsim_ImageMethods.height(s.tmp_7);
+    s.tmp_6 = r0;
+    r0 = (s.tmp_6 + 3);
+    s.tmp_0.arg4 = r0;
+    r0 = globals.infoState___31469.fields["bgColor"];
+    s.tmp_0.arg5 = r0;
+    s.callLocIdx = 1125; s.pc = 10; return s.tmp_0;
+  case 10:
+    r0 = s.retval;
+    s.i___36661 = (0);
+  case 3:
+    r0 = s.state___36612.fields["life"];
+    s.tmp_1 = r0;
+    r0 = (s.i___36661 < s.tmp_1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 4; continue; }
+    s.tmp_2 = r0 = globals.screen___28834;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_3 = r0;
+    s.tmp_6 = r0 = s.i___36661;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_9 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_9);
+    s.tmp_8 = r0;
+    r0 = (s.tmp_8 + 1);
+    s.tmp_7 = r0;
+    r0 = (s.tmp_6 * s.tmp_7);
+    s.tmp_5 = r0;
+    r0 = (1 + s.tmp_5);
+    s.tmp_4 = r0;
+    r0 = pxsim_ImageMethods.drawTransparentImage(s.tmp_2, s.tmp_3, s.tmp_4, 1);
+    r0 = (s.i___36661 + 1);
+    s.i___36661 = (r0);
+    { step = 3; continue; }
+  case 4:
+    { step = 6; continue; }
+  case 5:
+    r0 = s.state___36612.fields["life"];
+    s.tmp_1 = r0;
+    if ((s.tmp_1) && (s.tmp_1).vtable) {
+    setupResume(s, 11);
+    pxsim_String__stringConv(s.tmp_1);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (s.tmp_1) + ""; }
+  case 11:
+    r0 = s.retval;
+    s.tmp_0 = r0;
+    r0 = pxsim_String_.mkEmpty();
+    s.tmp_2 = r0;
+    r0 = pxsim_String__concat(s.tmp_0, s.tmp_2);
+    s.num___36683 = (r0);
+    r0 = pxsim_String_.length(s.num___36683);
+    s.tmp_1 = r0;
+    s.tmp_3 = if_charWidth_1_mk(s);
+    s.tmp_3.arg0 = s.font___36618;
+    if (!s.tmp_3.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_3.arg0, "charWidth");
+    } else {
+      s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["charWidth"];
+      if (s.tmp_3.fn == null) { s.retval = s.tmp_3.arg0.fields["charWidth"]; }
+      else if (!s.tmp_3.fn.isGetter) { s.retval = bind(s.tmp_3); }
+     else { s.callLocIdx = 1126; s.pc = 12; return s.tmp_3; }
+    }
+  case 12:
+    r0 = s.retval;
+    s.tmp_2 = r0;
+    r0 = (s.tmp_1 * s.tmp_2);
+    s.tmp_0 = r0;
+    r0 = (s.tmp_0 - 1);
+    s.textWidth___36690 = (r0);
+    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    s.tmp_0.arg1 = 0;
+    s.tmp_0.arg2 = 0;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_4 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_4);
+    s.tmp_3 = r0;
+    r0 = globals.infoState___31469.fields["multiplierImage"];
+    s.tmp_6 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_6);
+    s.tmp_5 = r0;
+    r0 = (s.tmp_3 + s.tmp_5);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 + s.textWidth___36690);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 + 5);
+    s.tmp_0.arg3 = r0;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_8 = r0;
+    r0 = pxsim_ImageMethods.height(s.tmp_8);
+    s.tmp_7 = r0;
+    r0 = (s.tmp_7 + 4);
+    s.tmp_0.arg4 = r0;
+    r0 = globals.infoState___31469.fields["borderColor"];
+    s.tmp_0.arg5 = r0;
+    s.callLocIdx = 1127; s.pc = 13; return s.tmp_0;
+  case 13:
+    r0 = s.retval;
+    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    s.tmp_0.arg1 = 0;
+    s.tmp_0.arg2 = 0;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_4 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_4);
+    s.tmp_3 = r0;
+    r0 = globals.infoState___31469.fields["multiplierImage"];
+    s.tmp_6 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_6);
+    s.tmp_5 = r0;
+    r0 = (s.tmp_3 + s.tmp_5);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 + s.textWidth___36690);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 + 4);
+    s.tmp_0.arg3 = r0;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_8 = r0;
+    r0 = pxsim_ImageMethods.height(s.tmp_8);
+    s.tmp_7 = r0;
+    r0 = (s.tmp_7 + 3);
+    s.tmp_0.arg4 = r0;
+    r0 = globals.infoState___31469.fields["bgColor"];
+    s.tmp_0.arg5 = r0;
+    s.callLocIdx = 1128; s.pc = 14; return s.tmp_0;
+  case 14:
+    r0 = s.retval;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_0 = r0;
+    r0 = pxsim_ImageMethods.drawTransparentImage(globals.screen___28834, s.tmp_0, 1, 1);
+    r0 = globals.infoState___31469.fields["multiplierImage"];
+    s.tmp_0 = r0;
+    r0 = pxsim_ImageMethods.clone(s.tmp_0);
+    s.mult___36742 = (r0);
+    r0 = globals.infoState___31469.fields["fontColor"];
+    s.tmp_0 = r0;
+    r0 = pxsim_ImageMethods.replace(s.mult___36742, 1, s.tmp_0);
+    s.tmp_0 = r0 = globals.screen___28834;
+    s.tmp_1 = r0 = s.mult___36742;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_4 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_4);
+    s.tmp_3 = r0;
+    r0 = (s.tmp_3 + 2);
+    s.tmp_2 = r0;
+    s.tmp_8 = if_charHeight_1_mk(s);
+    s.tmp_8.arg0 = s.font___36618;
+    if (!s.tmp_8.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_8.arg0, "charHeight");
+    } else {
+      s.tmp_8.fn = s.tmp_8.arg0.vtable.iface["charHeight"];
+      if (s.tmp_8.fn == null) { s.retval = s.tmp_8.arg0.fields["charHeight"]; }
+      else if (!s.tmp_8.fn.isGetter) { s.retval = bind(s.tmp_8); }
+     else { s.callLocIdx = 1129; s.pc = 15; return s.tmp_8; }
+    }
+  case 15:
+    r0 = s.retval;
+    s.tmp_7 = r0;
+    r0 = globals.infoState___31469.fields["multiplierImage"];
+    s.tmp_10 = r0;
+    r0 = pxsim_ImageMethods.height(s.tmp_10);
+    s.tmp_9 = r0;
+    r0 = (s.tmp_7 - s.tmp_9);
+    s.tmp_6 = r0;
+    r0 = (s.tmp_6 - 1);
+    s.tmp_5 = r0;
+    r0 = pxsim_ImageMethods.drawTransparentImage(s.tmp_0, s.tmp_1, s.tmp_2, s.tmp_5);
+    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    s.tmp_0.arg1 = s.num___36683;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_3 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_3);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 + 3);
+    s.tmp_1 = r0;
+    r0 = globals.infoState___31469.fields["multiplierImage"];
+    s.tmp_5 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_5);
+    s.tmp_4 = r0;
+    r0 = (s.tmp_1 + s.tmp_4);
+    s.tmp_0.arg2 = r0;
+    s.tmp_0.arg3 = 1;
+    r0 = globals.infoState___31469.fields["fontColor"];
+    s.tmp_0.arg4 = r0;
+    s.tmp_0.arg5 = s.font___36618;
+    s.tmp_0.arg6 = undefined;
+    s.callLocIdx = 1130; s.pc = 16; return s.tmp_0;
+  case 16:
+    r0 = s.retval;
+  case 6:
+  case 7:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_PlayerInfo_drawLives__P29402.info = {"start":26342,"length":2458,"line":855,"column":8,"endLine":921,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"drawLives","argumentNames":["this"]}
+
+function info_PlayerInfo_drawLives__P29402_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_PlayerInfo_drawLives__P29402, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  tmp_5: undefined,
+  tmp_6: undefined,
+  tmp_7: undefined,
+  tmp_8: undefined,
+  tmp_9: undefined,
+  tmp_10: undefined,
+  state___36612: undefined,
+  font___36618: undefined,
+  i___36661: undefined,
+  num___36683: undefined,
+  textWidth___36690: undefined,
+  mult___36742: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_PlayerInfo_drawScore__P29401(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.s___36798 = undefined;
+    s.font___36802 = undefined;
+    s.offsetY___36803 = undefined;
+    s.num___36812 = undefined;
+    s.width___36816 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
+    s.tmp_1 = info_PlayerInfo_score__P29390_mk(s);
+    s.tmp_1.arg0 = s.arg0;
+    s.callLocIdx = 1116; s.pc = 3; return s.tmp_1;
+  case 3:
+    r0 = s.retval;
+    s.tmp_0 = r0;
+    r0 = (s.tmp_0 | 0);
+    s.s___36798 = (r0);
+    r0 = (s.s___36798 >= 1000000);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    s.offsetY___36803 = (2);
+    s.font___36802 = (globals.font5___28782);
+    { step = 2; continue; }
+  case 1:
+    s.offsetY___36803 = (1);
+    s.font___36802 = (globals.font8___28777);
+  case 2:
+    r0 = pxsim_numops.toString(s.s___36798);
+    s.num___36812 = (r0);
+    r0 = pxsim_String_.length(s.num___36812);
+    s.tmp_0 = r0;
+    s.tmp_2 = if_charWidth_1_mk(s);
+    s.tmp_2.arg0 = s.font___36802;
+    if (!s.tmp_2.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charWidth");
+    } else {
+      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charWidth"];
+      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charWidth"]; }
+      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
+     else { s.callLocIdx = 1117; s.pc = 4; return s.tmp_2; }
+    }
+  case 4:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0 * s.tmp_1);
+    s.width___36816 = (r0);
+    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    r0 = pxsim_ImageMethods.width(globals.screen___28834);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 - s.width___36816);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 - 2);
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 0;
+    r0 = pxsim_ImageMethods.width(globals.screen___28834);
+    s.tmp_0.arg3 = r0;
+    s.tmp_4 = if_charHeight_1_mk(s);
+    s.tmp_4.arg0 = globals.font8___28777;
+    if (!s.tmp_4.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_4.arg0, "charHeight");
+    } else {
+      s.tmp_4.fn = s.tmp_4.arg0.vtable.iface["charHeight"];
+      if (s.tmp_4.fn == null) { s.retval = s.tmp_4.arg0.fields["charHeight"]; }
+      else if (!s.tmp_4.fn.isGetter) { s.retval = bind(s.tmp_4); }
+     else { s.callLocIdx = 1118; s.pc = 6; return s.tmp_4; }
+    }
+  case 6:
+    r0 = s.retval;
+    s.tmp_3 = r0;
+    r0 = (s.tmp_3 + 3);
+    s.tmp_0.arg4 = r0;
+    r0 = globals.infoState___31469.fields["borderColor"];
+    s.tmp_0.arg5 = r0;
+    s.callLocIdx = 1119; s.pc = 5; return s.tmp_0;
+  case 5:
+    r0 = s.retval;
+    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    r0 = pxsim_ImageMethods.width(globals.screen___28834);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 - s.width___36816);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 - 1);
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 0;
+    r0 = pxsim_ImageMethods.width(globals.screen___28834);
+    s.tmp_0.arg3 = r0;
+    s.tmp_4 = if_charHeight_1_mk(s);
+    s.tmp_4.arg0 = globals.font8___28777;
+    if (!s.tmp_4.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_4.arg0, "charHeight");
+    } else {
+      s.tmp_4.fn = s.tmp_4.arg0.vtable.iface["charHeight"];
+      if (s.tmp_4.fn == null) { s.retval = s.tmp_4.arg0.fields["charHeight"]; }
+      else if (!s.tmp_4.fn.isGetter) { s.retval = bind(s.tmp_4); }
+     else { s.callLocIdx = 1120; s.pc = 8; return s.tmp_4; }
+    }
+  case 8:
+    r0 = s.retval;
+    s.tmp_3 = r0;
+    r0 = (s.tmp_3 + 2);
+    s.tmp_0.arg4 = r0;
+    r0 = globals.infoState___31469.fields["bgColor"];
+    s.tmp_0.arg5 = r0;
+    s.callLocIdx = 1121; s.pc = 7; return s.tmp_0;
+  case 7:
+    r0 = s.retval;
+    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    s.tmp_0.arg1 = s.num___36812;
+    r0 = pxsim_ImageMethods.width(globals.screen___28834);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 - s.width___36816);
+    s.tmp_0.arg2 = r0;
+    s.tmp_0.arg3 = s.offsetY___36803;
+    r0 = globals.infoState___31469.fields["fontColor"];
+    s.tmp_0.arg4 = r0;
+    s.tmp_0.arg5 = s.font___36802;
+    s.tmp_0.arg6 = undefined;
+    s.callLocIdx = 1122; s.pc = 9; return s.tmp_0;
+  case 9:
+    r0 = s.retval;
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_PlayerInfo_drawScore__P29401.info = {"start":25284,"length":1048,"line":815,"column":8,"endLine":853,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"drawScore","argumentNames":["this"]}
+
+function info_PlayerInfo_drawScore__P29401_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_PlayerInfo_drawScore__P29401, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  s___36798: undefined,
+  font___36802: undefined,
+  offsetY___36803: undefined,
+  num___36812: undefined,
+  width___36816: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_PlayerInfo_drawPlayer__P29400(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.state___36896 = undefined;
+    s.font___36899 = undefined;
+    s.score___36901 = undefined;
+    s.life___36902 = undefined;
+    s.height___36903 = undefined;
+    s.scoreWidth___36904 = undefined;
+    s.lifeWidth___36905 = undefined;
+    s.offsetY___36908 = undefined;
+    s.showScore___36909 = undefined;
+    s.showLife___36917 = undefined;
+    s.width___36985 = undefined;
+    s.x___36995 = undefined;
+    s.y___37002 = undefined;
+    s.bump___37035 = undefined;
+    s.xLoc___37060 = undefined;
+    s.mult___37071 = undefined;
+    s.pNum___37133 = undefined;
+    s.iconWidth___37140 = undefined;
+    s.iconHeight___37148 = undefined;
+    s.iconX___37156 = undefined;
+    s.iconY___37168 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
+    s.tmp_0 = info_PlayerInfo_getState__P29388_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.callLocIdx = 1099; s.pc = 43; return s.tmp_0;
+  case 43:
+    r0 = s.retval;
+    s.state___36896 = (r0);
+    s.font___36899 = (globals.font5___28782);
+    s.height___36903 = (4);
+    s.scoreWidth___36904 = (0);
+    s.lifeWidth___36905 = (0);
+    s.offsetY___36908 = (2);
+    r0 = s.arg0.fields["showScore"];
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (r0) { step = 1; continue; }
+    r0 = s.tmp_0;
+    { step = 2; continue; }
+  case 1:
+    r0 = s.state___36896.fields["score"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 !== undefined);
+  case 2:
+    // jmp value (already in r0)
+    s.tmp_2 = r0;
+    s.showScore___36909 = (s.tmp_2);
+    r0 = s.arg0.fields["showLife"];
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (r0) { step = 3; continue; }
+    r0 = s.tmp_0;
+    { step = 4; continue; }
+  case 3:
+    r0 = s.state___36896.fields["life"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 !== undefined);
+  case 4:
+    // jmp value (already in r0)
+    s.tmp_2 = r0;
+    s.showLife___36917 = (s.tmp_2);
+    r0 = pxsim_numops_toBoolDecr(s.showScore___36909);
+    if (!r0) { step = 5; continue; }
+    r0 = pxsim_String_.mkEmpty();
+    s.tmp_0 = r0;
+    r0 = s.state___36896.fields["score"];
+    s.tmp_2 = r0;
+    if ((s.tmp_2) && (s.tmp_2).vtable) {
+    setupResume(s, 44);
+    pxsim_String__stringConv(s.tmp_2);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (s.tmp_2) + ""; }
+  case 44:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = pxsim_String__concat(s.tmp_0, s.tmp_1);
+    s.score___36901 = (r0);
+    r0 = pxsim_String_.length(s.score___36901);
+    s.tmp_1 = r0;
+    s.tmp_3 = if_charWidth_1_mk(s);
+    s.tmp_3.arg0 = s.font___36899;
+    if (!s.tmp_3.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_3.arg0, "charWidth");
+    } else {
+      s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["charWidth"];
+      if (s.tmp_3.fn == null) { s.retval = s.tmp_3.arg0.fields["charWidth"]; }
+      else if (!s.tmp_3.fn.isGetter) { s.retval = bind(s.tmp_3); }
+     else { s.callLocIdx = 1100; s.pc = 45; return s.tmp_3; }
+    }
+  case 45:
+    r0 = s.retval;
+    s.tmp_2 = r0;
+    r0 = (s.tmp_1 * s.tmp_2);
+    s.tmp_0 = r0;
+    r0 = (s.tmp_0 + 3);
+    s.scoreWidth___36904 = (r0);
+    s.tmp_0 = r0 = s.height___36903;
+    s.tmp_2 = if_charHeight_1_mk(s);
+    s.tmp_2.arg0 = s.font___36899;
+    if (!s.tmp_2.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charHeight");
+    } else {
+      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charHeight"];
+      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charHeight"]; }
+      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
+     else { s.callLocIdx = 1101; s.pc = 46; return s.tmp_2; }
+    }
+  case 46:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0 + s.tmp_1);
+    s.height___36903 = (r0);
+    s.tmp_0 = r0 = s.offsetY___36908;
+    s.tmp_3 = if_charHeight_1_mk(s);
+    s.tmp_3.arg0 = s.font___36899;
+    if (!s.tmp_3.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_3.arg0, "charHeight");
+    } else {
+      s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["charHeight"];
+      if (s.tmp_3.fn == null) { s.retval = s.tmp_3.arg0.fields["charHeight"]; }
+      else if (!s.tmp_3.fn.isGetter) { s.retval = bind(s.tmp_3); }
+     else { s.callLocIdx = 1102; s.pc = 47; return s.tmp_3; }
+    }
+  case 47:
+    r0 = s.retval;
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 + 1);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0 + s.tmp_1);
+    s.offsetY___36908 = (r0);
+  case 5:
+  case 6:
+    r0 = pxsim_numops_toBoolDecr(s.showLife___36917);
+    if (!r0) { step = 9; continue; }
+    r0 = s.state___36896.fields["life"];
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (!r0) { step = 7; continue; }
+    r0 = s.tmp_0;
+    { step = 8; continue; }
+  case 7:
+    r0 = 0;
+  case 8:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = pxsim_String_.mkEmpty();
+    s.tmp_2 = r0;
+    if ((s.tmp_1) && (s.tmp_1).vtable) {
+    setupResume(s, 48);
+    pxsim_String__stringConv(s.tmp_1);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (s.tmp_1) + ""; }
+  case 48:
+    r0 = s.retval;
+    s.tmp_3 = r0;
+    r0 = pxsim_String__concat(s.tmp_2, s.tmp_3);
+    s.life___36902 = (r0);
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_3 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_3);
+    s.tmp_2 = r0;
+    r0 = globals.infoState___31469.fields["multiplierImage"];
+    s.tmp_5 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_5);
+    s.tmp_4 = r0;
+    r0 = (s.tmp_2 + s.tmp_4);
+    s.tmp_1 = r0;
+    r0 = pxsim_String_.length(s.life___36902);
+    s.tmp_7 = r0;
+    s.tmp_9 = if_charWidth_1_mk(s);
+    s.tmp_9.arg0 = s.font___36899;
+    if (!s.tmp_9.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_9.arg0, "charWidth");
+    } else {
+      s.tmp_9.fn = s.tmp_9.arg0.vtable.iface["charWidth"];
+      if (s.tmp_9.fn == null) { s.retval = s.tmp_9.arg0.fields["charWidth"]; }
+      else if (!s.tmp_9.fn.isGetter) { s.retval = bind(s.tmp_9); }
+     else { s.callLocIdx = 1103; s.pc = 49; return s.tmp_9; }
+    }
+  case 49:
+    r0 = s.retval;
+    s.tmp_8 = r0;
+    r0 = (s.tmp_7 * s.tmp_8);
+    s.tmp_6 = r0;
+    r0 = (s.tmp_1 + s.tmp_6);
+    s.tmp_0 = r0;
+    r0 = (s.tmp_0 + 3);
+    s.lifeWidth___36905 = (r0);
+    s.tmp_0 = r0 = s.height___36903;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_2 = r0;
+    r0 = pxsim_ImageMethods.height(s.tmp_2);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_0 + s.tmp_1);
+    s.height___36903 = (r0);
+  case 9:
+  case 10:
+    s.tmp_0 = Math_max__P27135_mk(s);
+    s.tmp_0.arg0 = s.scoreWidth___36904;
+    s.tmp_0.arg1 = s.lifeWidth___36905;
+    s.callLocIdx = 1104; s.pc = 50; return s.tmp_0;
+  case 50:
+    r0 = s.retval;
+    s.width___36985 = (r0);
+    s.tmp_0 = r0 = s.showScore___36909;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (r0) { step = 11; continue; }
+    r0 = s.tmp_0;
+    { step = 12; continue; }
+  case 11:
+    r0 = s.showLife___36917;
+  case 12:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_1);
+    if (!r0) { step = 13; continue; }
+    r0 = (s.height___36903 + 1);
+    s.height___36903 = (r0);
+  case 13:
+  case 14:
+    r0 = s.arg0.fields["left"];
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 15; continue; }
+    r0 = s.width___36985;
+    { step = 16; continue; }
+  case 15:
+    r0 = 0;
+  case 16:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = s.arg0.fields["x"];
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 - s.tmp_1);
+    s.x___36995 = (r0);
+    r0 = s.arg0.fields["up"];
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 17; continue; }
+    r0 = s.height___36903;
+    { step = 18; continue; }
+  case 17:
+    r0 = 0;
+  case 18:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = s.arg0.fields["y"];
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 - s.tmp_1);
+    s.y___37002 = (r0);
+    s.tmp_0 = r0 = s.showScore___36909;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (!r0) { step = 19; continue; }
+    r0 = s.tmp_0;
+    { step = 20; continue; }
+  case 19:
+    r0 = s.showLife___36917;
+  case 20:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_1);
+    if (!r0) { step = 21; continue; }
+    s.tmp_2 = helpers_imageFillRect__P28760_mk(s);
+    s.tmp_2.arg0 = globals.screen___28834;
+    s.tmp_2.arg1 = s.x___36995;
+    s.tmp_2.arg2 = s.y___37002;
+    s.tmp_2.arg3 = s.width___36985;
+    s.tmp_2.arg4 = s.height___36903;
+    r0 = s.arg0.fields["border"];
+    s.tmp_2.arg5 = r0;
+    s.callLocIdx = 1105; s.pc = 51; return s.tmp_2;
+  case 51:
+    r0 = s.retval;
+    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    r0 = (s.x___36995 + 1);
+    s.tmp_0.arg1 = r0;
+    r0 = (s.y___37002 + 1);
+    s.tmp_0.arg2 = r0;
+    r0 = (s.width___36985 - 2);
+    s.tmp_0.arg3 = r0;
+    r0 = (s.height___36903 - 2);
+    s.tmp_0.arg4 = r0;
+    r0 = s.arg0.fields["bg"];
+    s.tmp_0.arg5 = r0;
+    s.callLocIdx = 1106; s.pc = 52; return s.tmp_0;
+  case 52:
+    r0 = s.retval;
+  case 21:
+  case 22:
+    r0 = pxsim_numops_toBoolDecr(s.showScore___36909);
+    if (!r0) { step = 25; continue; }
+    r0 = s.arg0.fields["left"];
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 23; continue; }
+    r0 = (s.width___36985 - s.scoreWidth___36904);
+    { step = 24; continue; }
+  case 23:
+    r0 = 0;
+  case 24:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    s.bump___37035 = (s.tmp_1);
+    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    s.tmp_0.arg1 = s.score___36901;
+    r0 = (s.x___36995 + 1);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 + s.bump___37035);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 + 1);
+    s.tmp_0.arg2 = r0;
+    r0 = (s.y___37002 + 2);
+    s.tmp_0.arg3 = r0;
+    r0 = s.arg0.fields["fc"];
+    s.tmp_0.arg4 = r0;
+    s.tmp_0.arg5 = s.font___36899;
+    s.tmp_0.arg6 = undefined;
+    s.callLocIdx = 1107; s.pc = 53; return s.tmp_0;
+  case 53:
+    r0 = s.retval;
+  case 25:
+  case 26:
+    r0 = pxsim_numops_toBoolDecr(s.showLife___36917);
+    if (!r0) { step = 29; continue; }
+    r0 = s.arg0.fields["left"];
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 27; continue; }
+    r0 = (s.width___36985 - s.lifeWidth___36905);
+    { step = 28; continue; }
+  case 27:
+    r0 = 0;
+  case 28:
+    // jmp value (already in r0)
+    s.tmp_1 = r0;
+    r0 = (s.x___36995 + 1);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 + s.tmp_1);
+    s.xLoc___37060 = (r0);
+    r0 = globals.infoState___31469.fields["multiplierImage"];
+    s.tmp_0 = r0;
+    r0 = pxsim_ImageMethods.clone(s.tmp_0);
+    s.mult___37071 = (r0);
+    r0 = s.arg0.fields["fc"];
+    s.tmp_0 = r0;
+    r0 = pxsim_ImageMethods.replace(s.mult___37071, 1, s.tmp_0);
+    s.tmp_0 = r0 = globals.screen___28834;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_1 = r0;
+    s.tmp_2 = r0 = s.xLoc___37060;
+    r0 = (s.y___37002 + s.offsetY___36908);
+    s.tmp_3 = r0;
+    r0 = pxsim_ImageMethods.drawTransparentImage(s.tmp_0, s.tmp_1, s.tmp_2, s.tmp_3);
+    s.tmp_0 = r0 = globals.screen___28834;
+    s.tmp_1 = r0 = s.mult___37071;
+    s.tmp_3 = r0 = s.xLoc___37060;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_5 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_5);
+    s.tmp_4 = r0;
+    r0 = (s.tmp_3 + s.tmp_4);
+    s.tmp_2 = r0;
+    r0 = (s.y___37002 + s.offsetY___36908);
+    s.tmp_9 = r0;
+    s.tmp_11 = if_charHeight_1_mk(s);
+    s.tmp_11.arg0 = s.font___36899;
+    if (!s.tmp_11.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_11.arg0, "charHeight");
+    } else {
+      s.tmp_11.fn = s.tmp_11.arg0.vtable.iface["charHeight"];
+      if (s.tmp_11.fn == null) { s.retval = s.tmp_11.arg0.fields["charHeight"]; }
+      else if (!s.tmp_11.fn.isGetter) { s.retval = bind(s.tmp_11); }
+     else { s.callLocIdx = 1108; s.pc = 54; return s.tmp_11; }
+    }
+  case 54:
+    r0 = s.retval;
+    s.tmp_10 = r0;
+    r0 = (s.tmp_9 + s.tmp_10);
+    s.tmp_8 = r0;
+    r0 = globals.infoState___31469.fields["multiplierImage"];
+    s.tmp_13 = r0;
+    r0 = pxsim_ImageMethods.height(s.tmp_13);
+    s.tmp_12 = r0;
+    r0 = (s.tmp_8 - s.tmp_12);
+    s.tmp_7 = r0;
+    r0 = (s.tmp_7 - 1);
+    s.tmp_6 = r0;
+    r0 = pxsim_ImageMethods.drawTransparentImage(s.tmp_0, s.tmp_1, s.tmp_2, s.tmp_6);
+    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    s.tmp_0.arg1 = s.life___36902;
+    s.tmp_3 = r0 = s.xLoc___37060;
+    r0 = globals.infoState___31469.fields["heartImage"];
+    s.tmp_5 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_5);
+    s.tmp_4 = r0;
+    r0 = (s.tmp_3 + s.tmp_4);
+    s.tmp_2 = r0;
+    r0 = globals.infoState___31469.fields["multiplierImage"];
+    s.tmp_7 = r0;
+    r0 = pxsim_ImageMethods.width(s.tmp_7);
+    s.tmp_6 = r0;
+    r0 = (s.tmp_2 + s.tmp_6);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 + 1);
+    s.tmp_0.arg2 = r0;
+    r0 = (s.y___37002 + s.offsetY___36908);
+    s.tmp_0.arg3 = r0;
+    r0 = s.arg0.fields["fc"];
+    s.tmp_0.arg4 = r0;
+    s.tmp_0.arg5 = s.font___36899;
+    s.tmp_0.arg6 = undefined;
+    s.callLocIdx = 1109; s.pc = 55; return s.tmp_0;
+  case 55:
+    r0 = s.retval;
+  case 29:
+  case 30:
+    r0 = s.arg0.fields["showPlayer"];
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 41; continue; }
+    r0 = pxsim_String_.mkEmpty();
+    s.tmp_1 = r0;
+    r0 = s.arg0.fields["_player"];
+    s.tmp_3 = r0;
+    if ((s.tmp_3) && (s.tmp_3).vtable) {
+    setupResume(s, 56);
+    pxsim_String__stringConv(s.tmp_3);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (s.tmp_3) + ""; }
+  case 56:
+    r0 = s.retval;
+    s.tmp_2 = r0;
+    r0 = pxsim_String__concat(s.tmp_1, s.tmp_2);
+    s.pNum___37133 = (r0);
+    r0 = pxsim_String_.length(s.pNum___37133);
+    s.tmp_1 = r0;
+    s.tmp_3 = if_charWidth_1_mk(s);
+    s.tmp_3.arg0 = s.font___36899;
+    if (!s.tmp_3.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_3.arg0, "charWidth");
+    } else {
+      s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["charWidth"];
+      if (s.tmp_3.fn == null) { s.retval = s.tmp_3.arg0.fields["charWidth"]; }
+      else if (!s.tmp_3.fn.isGetter) { s.retval = bind(s.tmp_3); }
+     else { s.callLocIdx = 1110; s.pc = 57; return s.tmp_3; }
+    }
+  case 57:
+    r0 = s.retval;
+    s.tmp_2 = r0;
+    r0 = (s.tmp_1 * s.tmp_2);
+    s.tmp_0 = r0;
+    r0 = (s.tmp_0 + 1);
+    s.iconWidth___37140 = (r0);
+    s.tmp_0 = Math_max__P27135_mk(s);
+    s.tmp_0.arg0 = s.height___36903;
+    s.tmp_2 = if_charHeight_1_mk(s);
+    s.tmp_2.arg0 = s.font___36899;
+    if (!s.tmp_2.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charHeight");
+    } else {
+      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charHeight"];
+      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charHeight"]; }
+      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
+     else { s.callLocIdx = 1111; s.pc = 59; return s.tmp_2; }
+    }
+  case 59:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 + 2);
+    s.tmp_0.arg1 = r0;
+    s.callLocIdx = 1112; s.pc = 58; return s.tmp_0;
+  case 58:
+    r0 = s.retval;
+    s.iconHeight___37148 = (r0);
+    r0 = s.arg0.fields["left"];
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 31; continue; }
+    r0 = (s.x___36995 - s.iconWidth___37140);
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 + 1);
+    { step = 32; continue; }
+  case 31:
+    r0 = (s.x___36995 + s.width___36985);
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 - 1);
+  case 32:
+    // jmp value (already in r0)
+    s.tmp_3 = r0;
+    s.iconX___37156 = (s.tmp_3);
+    s.iconY___37168 = (s.y___37002);
+    r0 = pxsim_numops_toBoolDecr(s.showScore___36909);
+    s.tmp_1 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (r0) { step = 33; continue; }
+    r0 = s.tmp_0;
+    { step = 34; continue; }
+  case 33:
+    r0 = pxsim_numops_toBoolDecr(s.showLife___36917);
+    s.tmp_2 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_2);
+  case 34:
+    // jmp value (already in r0)
+    s.tmp_3 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
+    if (!r0) { step = 39; continue; }
+    r0 = s.arg0.fields["left"];
+    s.tmp_4 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_4);
+    if (!r0) { step = 35; continue; }
+    r0 = -1;
+    { step = 36; continue; }
+  case 35:
+    r0 = 1;
+  case 36:
+    // jmp value (already in r0)
+    s.tmp_5 = r0;
+    r0 = (s.iconX___37156 + s.tmp_5);
+    s.iconX___37156 = (r0);
+    r0 = s.arg0.fields["up"];
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 37; continue; }
+    r0 = (s.iconY___37168 - 3);
+    s.iconY___37168 = (r0);
+  case 37:
+  case 38:
+  case 39:
+  case 40:
+    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    s.tmp_0.arg1 = s.iconX___37156;
+    s.tmp_0.arg2 = s.iconY___37168;
+    s.tmp_0.arg3 = s.iconWidth___37140;
+    s.tmp_0.arg4 = s.iconHeight___37148;
+    r0 = s.arg0.fields["border"];
+    s.tmp_0.arg5 = r0;
+    s.callLocIdx = 1113; s.pc = 60; return s.tmp_0;
+  case 60:
+    r0 = s.retval;
+    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
+    s.tmp_0.arg0 = globals.screen___28834;
+    s.tmp_0.arg1 = s.pNum___37133;
+    r0 = (s.iconX___37156 + 1);
+    s.tmp_0.arg2 = r0;
+    s.tmp_2 = r0 = s.iconY___37168;
+    r0 = (s.iconHeight___37148 >> 1);
+    s.tmp_3 = r0;
+    r0 = (s.tmp_2 + s.tmp_3);
+    s.tmp_1 = r0;
+    s.tmp_6 = if_charHeight_1_mk(s);
+    s.tmp_6.arg0 = s.font___36899;
+    if (!s.tmp_6.arg0.vtable.iface) {
+      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_6.arg0, "charHeight");
+    } else {
+      s.tmp_6.fn = s.tmp_6.arg0.vtable.iface["charHeight"];
+      if (s.tmp_6.fn == null) { s.retval = s.tmp_6.arg0.fields["charHeight"]; }
+      else if (!s.tmp_6.fn.isGetter) { s.retval = bind(s.tmp_6); }
+     else { s.callLocIdx = 1114; s.pc = 62; return s.tmp_6; }
+    }
+  case 62:
+    r0 = s.retval;
+    s.tmp_5 = r0;
+    r0 = (s.tmp_5 >> 1);
+    s.tmp_4 = r0;
+    r0 = (s.tmp_1 - s.tmp_4);
+    s.tmp_0.arg3 = r0;
+    r0 = s.arg0.fields["bg"];
+    s.tmp_0.arg4 = r0;
+    s.tmp_0.arg5 = s.font___36899;
+    s.tmp_0.arg6 = undefined;
+    s.callLocIdx = 1115; s.pc = 61; return s.tmp_0;
+  case 61:
+    r0 = s.retval;
+  case 41:
+  case 42:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_PlayerInfo_drawPlayer__P29400.info = {"start":21639,"length":3635,"line":710,"column":8,"endLine":813,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"drawPlayer","argumentNames":["this"]}
+
+function info_PlayerInfo_drawPlayer__P29400_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_PlayerInfo_drawPlayer__P29400, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  tmp_5: undefined,
+  tmp_6: undefined,
+  tmp_7: undefined,
+  tmp_8: undefined,
+  tmp_9: undefined,
+  tmp_10: undefined,
+  tmp_11: undefined,
+  tmp_12: undefined,
+  tmp_13: undefined,
+  state___36896: undefined,
+  font___36899: undefined,
+  score___36901: undefined,
+  life___36902: undefined,
+  height___36903: undefined,
+  scoreWidth___36904: undefined,
+  lifeWidth___36905: undefined,
+  offsetY___36908: undefined,
+  showScore___36909: undefined,
+  showLife___36917: undefined,
+  width___36985: undefined,
+  x___36995: undefined,
+  y___37002: undefined,
+  bump___37035: undefined,
+  xLoc___37060: undefined,
+  mult___37071: undefined,
+  pNum___37133: undefined,
+  iconWidth___37140: undefined,
+  iconHeight___37148: undefined,
+  iconX___37156: undefined,
+  iconY___37168: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_PlayerInfo_raiseLifeZero__P29399(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.state___36874 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
+    s.tmp_0 = info_PlayerInfo_getState__P29388_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.callLocIdx = 1096; s.pc = 9; return s.tmp_0;
+  case 9:
+    r0 = s.retval;
+    s.state___36874 = (r0);
+    r0 = s.state___36874.fields["life"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 !== null);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (r0) { step = 1; continue; }
+    r0 = s.tmp_0;
+    { step = 2; continue; }
+  case 1:
+    r0 = s.state___36874.fields["life"];
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 <= 0);
+  case 2:
+    // jmp value (already in r0)
+    s.tmp_3 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
+    if (!r0) { step = 7; continue; }
+    r0 = (s.state___36874).fields["life"] = (null);
+    r0 = s.state___36874.fields["lifeZeroHandler"];
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 3; continue; }
+    s.tmp_1 = if_lifeZeroHandler_1_mk(s);
+    s.tmp_1.arg0 = s.state___36874;
+    if (!s.tmp_1.arg0.vtable.iface) {
+      setupLambda(s.tmp_1, pxsim_pxtrt.mapGetByString(s.tmp_1.arg0, "lifeZeroHandler"), 1);
+      s.callLocIdx = 1097; s.pc = 10; return s.tmp_1;
+    } else {
+      s.tmp_1.fn = s.tmp_1.arg0.vtable.iface["lifeZeroHandler"];
+      if (s.tmp_1.fn == null) { setupLambda(s.tmp_1, s.tmp_1.arg0.fields["lifeZeroHandler"], 1); s.callLocIdx = 1097; s.pc = 10; return s.tmp_1; }
+      else if (s.tmp_1.fn.isGetter) { s.tmp_1.stage2Call = true; s.callLocIdx = 1097; s.pc = 10; return s.tmp_1;; }
+     else { s.callLocIdx = 1097; s.pc = 10; return s.tmp_1; }
+    }
+  case 10:
+    r0 = s.retval;
+    { step = 6; continue; }
+  case 3:
+    r0 = pxsim_numops_toBoolDecr(s.arg1);
+    if (!r0) { step = 4; continue; }
+    s.tmp_0 = game_over__P29709_mk(s);
+    s.tmp_0.arg0 = false;
+    s.tmp_0.arg1 = undefined;
+    s.callLocIdx = 1098; s.pc = 11; return s.tmp_0;
+  case 11:
+    r0 = s.retval;
+  case 4:
+  case 5:
+  case 6:
+  case 7:
+  case 8:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_PlayerInfo_raiseLifeZero__P29399.info = {"start":21255,"length":374,"line":698,"column":8,"endLine":708,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"raiseLifeZero","argumentNames":["this","gameOver"]}
+
+function info_PlayerInfo_raiseLifeZero__P29399_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_PlayerInfo_raiseLifeZero__P29399, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  state___36874: undefined,
+  arg0: undefined,
+  arg1: undefined,
+} }
+
+
+
+
+
+function info_PlayerInfo_hasLife__P29397(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.state___36785 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
+    s.tmp_0 = info_PlayerInfo_getState__P29388_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.callLocIdx = 1095; s.pc = 3; return s.tmp_0;
+  case 3:
+    r0 = s.retval;
+    s.state___36785 = (r0);
+    r0 = s.state___36785.fields["life"];
+    s.tmp_1 = r0;
+    r0 = (s.tmp_1 !== undefined);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBool(s.tmp_0);
+    if (r0) { step = 1; continue; }
+    r0 = s.tmp_0;
+    { step = 2; continue; }
+  case 1:
+    r0 = s.state___36785.fields["life"];
+    s.tmp_2 = r0;
+    r0 = (s.tmp_2 !== null);
+  case 2:
+    // jmp value (already in r0)
+    s.tmp_3 = r0;
+    r0 = s.tmp_3;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_PlayerInfo_hasLife__P29397.info = {"start":20732,"length":141,"line":681,"column":8,"endLine":684,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"hasLife","argumentNames":["this"]}
+
+function info_PlayerInfo_hasLife__P29397_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_PlayerInfo_hasLife__P29397, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  state___36785: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_PlayerInfo_hasScore__P29393(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.state___36865 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
+    s.tmp_0 = info_PlayerInfo_getState__P29388_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.callLocIdx = 1090; s.pc = 1; return s.tmp_0;
+  case 1:
+    r0 = s.retval;
+    s.state___36865 = (r0);
+    r0 = s.state___36865.fields["score"];
+    s.tmp_0 = r0;
+    r0 = (s.tmp_0 !== undefined);
+    return leave(s, r0)
+  default: oops()
+} } }
+info_PlayerInfo_hasScore__P29393.info = {"start":18908,"length":111,"line":622,"column":8,"endLine":625,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"hasScore","argumentNames":["this"]}
+
+function info_PlayerInfo_hasScore__P29393_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_PlayerInfo_hasScore__P29393, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  state___36865: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function helpers_arrayFilter__P27115(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.res___35210 = undefined;
+    s.len___35212 = undefined;
+    s.i___35215 = undefined;
+    s.v___35220 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.lambdaArgs = null;
+    }
+    r0 = pxsim_Array__mk();
+    s.res___35210 = (r0);
+    r0 = pxsim_Array__length(s.arg0);
+    s.len___35212 = (r0);
+    s.i___35215 = (0);
+  case 1:
+    r0 = (s.i___35215 < s.len___35212);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 4; continue; }
+    r0 = pxsim_Array__getAt(s.arg0, s.i___35215);
+    s.v___35220 = (r0);
+    s.tmp_1 = lambda_3_mk(s);
+    s.tmp_1.argL = s.arg1;
+    s.tmp_1.arg0 = s.v___35220;
+    s.tmp_1.arg1 = s.i___35215;
+    setupLambda(s.tmp_1, s.tmp_1.argL);
+    s.callLocIdx = 7; s.pc = 5; return s.tmp_1;
+  case 5:
+    r0 = s.retval;
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 2; continue; }
+    r0 = pxsim_Array__push(s.res___35210, s.v___35220);
+  case 2:
+  case 3:
+    r0 = (s.i___35215 + 1);
+    s.i___35215 = (r0);
+    { step = 1; continue; }
+  case 4:
+    r0 = s.res___35210;
+    return leave(s, r0)
+  default: oops()
+} } }
+helpers_arrayFilter__P27115.info = {"start":7695,"length":317,"line":261,"column":4,"endLine":269,"endColumn":5,"fileName":"pxt_modules/base/pxt-helpers.ts","functionName":"arrayFilter","argumentNames":["arr","callbackfn"]}
+
+function helpers_arrayFilter__P27115_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: helpers_arrayFilter__P27115, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  res___35210: undefined,
+  len___35212: undefined,
+  i___35215: undefined,
+  v___35220: undefined,
+  arg0: undefined,
+  arg1: undefined,
+} }
+
+
+
+
+
+function helpers_arrayForEach__P27114(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.len___37217 = undefined;
+    s.i___37220 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.lambdaArgs = null;
+    }
+    r0 = pxsim_Array__length(s.arg0);
+    s.len___37217 = (r0);
+    s.i___37220 = (0);
+  case 1:
+    r0 = (s.i___37220 < s.len___37217);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 2; continue; }
+    s.tmp_1 = lambda_3_mk(s);
+    s.tmp_1.argL = s.arg1;
+    r0 = pxsim_Array__getAt(s.arg0, s.i___37220);
+    s.tmp_1.arg0 = r0;
+    s.tmp_1.arg1 = s.i___37220;
+    setupLambda(s.tmp_1, s.tmp_1.argL);
+    s.callLocIdx = 6; s.pc = 3; return s.tmp_1;
+  case 3:
+    r0 = s.retval;
+    r0 = (s.i___37220 + 1);
+    s.i___37220 = (r0);
+    { step = 1; continue; }
+  case 2:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+helpers_arrayForEach__P27114.info = {"start":7439,"length":250,"line":254,"column":4,"endLine":259,"endColumn":5,"fileName":"pxt_modules/base/pxt-helpers.ts","functionName":"arrayForEach","argumentNames":["arr","callbackfn"]}
+
+function helpers_arrayForEach__P27114_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: helpers_arrayForEach__P27114, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  len___37217: undefined,
+  i___37220: undefined,
+  arg0: undefined,
+  arg1: undefined,
+} }
+
+
+
+
+
+function info_PlayerState_constructor__P29350(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_PlayerState__C29346_VT)) failedCast(r0);
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+info_PlayerState_constructor__P29350.info = {"start":684,"length":17,"line":29,"column":8,"endLine":29,"endColumn":25,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":["this"]}
+
+function info_PlayerState_constructor__P29350_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_PlayerState_constructor__P29350, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  arg0: undefined,
 } }
 
 
@@ -4379,143 +8575,6 @@ function music_enableAmp__P31275_mk(s) {
 
 
 
-function Math_min__P27136(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.lambdaArgs = null;
-    }
-    r0 = (s.arg0 <= s.arg1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    r0 = s.arg0;
-    { step = 3; continue; }
-  case 1:
-  case 2:
-    r0 = s.arg1;
-  case 3:
-    return leave(s, r0)
-  default: oops()
-} } }
-Math_min__P27136.info = {"start":16779,"length":105,"line":565,"column":4,"endLine":568,"endColumn":5,"fileName":"pxt_modules/base/pxt-helpers.ts","functionName":"min","argumentNames":["a","b"]}
-
-function Math_min__P27136_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: Math_min__P27136, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  arg0: undefined,
-  arg1: undefined,
-} }
-
-
-
-
-
-function Math_max__P27135(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.lambdaArgs = null;
-    }
-    r0 = (s.arg0 >= s.arg1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    r0 = s.arg0;
-    { step = 3; continue; }
-  case 1:
-  case 2:
-    r0 = s.arg1;
-  case 3:
-    return leave(s, r0)
-  default: oops()
-} } }
-Math_max__P27135.info = {"start":16564,"length":105,"line":556,"column":4,"endLine":559,"endColumn":5,"fileName":"pxt_modules/base/pxt-helpers.ts","functionName":"max","argumentNames":["a","b"]}
-
-function Math_max__P27135_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: Math_max__P27135, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  arg0: undefined,
-  arg1: undefined,
-} }
-
-
-
-
-
-function Math_clamp__P27132(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.arg2 = (s.lambdaArgs[2]);
-      s.lambdaArgs = null;
-    }
-    s.tmp_0 = Math_min__P27136_mk(s);
-    s.tmp_0.arg0 = s.arg1;
-    s.tmp_1 = Math_max__P27135_mk(s);
-    s.tmp_1.arg0 = s.arg0;
-    s.tmp_1.arg1 = s.arg2;
-    s.callLocIdx = 16; s.pc = 2; return s.tmp_1;
-  case 2:
-    r0 = s.retval;
-    s.tmp_0.arg1 = r0;
-    s.callLocIdx = 17; s.pc = 1; return s.tmp_0;
-  case 1:
-    r0 = s.retval;
-    return leave(s, r0)
-  default: oops()
-} } }
-Math_clamp__P27132.info = {"start":15643,"length":130,"line":528,"column":4,"endLine":530,"endColumn":5,"fileName":"pxt_modules/base/pxt-helpers.ts","functionName":"clamp","argumentNames":["min","max","value"]}
-
-function Math_clamp__P27132_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: Math_clamp__P27132, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  arg0: undefined,
-  arg1: undefined,
-  arg2: undefined,
-} }
-
-
-
-
-
 function parseInt__P27102(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
@@ -5428,7 +9487,7 @@ function helpers_stringSlice__P27124_mk(s) {
 
 
 
-function helpers_arrayFilter__P27115(s) {
+function forever__P28883(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -5438,62 +9497,268 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.res___35210 = undefined;
-    s.len___35212 = undefined;
-    s.i___35215 = undefined;
-    s.v___35220 = undefined;
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    s.tmp_0 = game_forever__P29710_mk(s);
+    s.tmp_0.arg0 = s.arg0;
+    s.callLocIdx = 176; s.pc = 1; return s.tmp_0;
+  case 1:
+    r0 = s.retval;
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+forever__P28883.info = {"start":264,"length":62,"line":6,"column":0,"endLine":8,"endColumn":1,"fileName":"pxt_modules/game/gameoverrides.ts","functionName":"forever","argumentNames":["a"]}
+
+function forever__P28883_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: forever__P28883, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function game_forever__P29710(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = pxsim_numops_toBoolDecr(globals.foreverRunning___31598);
+    s.tmp_1 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    globals.foreverRunning___31598 = (true);
+    r0 = pxsim.control.runInParallel(game_forever_inline__P37341);
+  case 1:
+  case 2:
+    r0 = pxsim_pxtcore_mkClassInstance(scene_GameForeverHandler__C29564_VT);
+    s.tmp_0 = r0;
+    s.tmp_1 = scene_GameForeverHandler_constructor__P29566_mk(s);
+    s.tmp_1.arg0 = s.tmp_0;
+    s.tmp_1.arg1 = s.arg0;
+    s.callLocIdx = 1446; s.pc = 3; return s.tmp_1;
+  case 3:
+    r0 = s.retval;
+    s.tmp_3 = game_currentScene__P29699_mk(s);
+    s.callLocIdx = 1445; s.pc = 4; return s.tmp_3;
+  case 4:
+    r0 = s.retval;
+    r0 = r0.fields["gameForeverHandlers"];
+    s.tmp_2 = r0;
+    r0 = pxsim_Array__push(s.tmp_2, s.tmp_0);
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+game_forever__P29710.info = {"start":7421,"length":820,"line":243,"column":4,"endLine":266,"endColumn":5,"fileName":"pxt_modules/game/game.ts","functionName":"forever","argumentNames":["action"]}
+
+function game_forever__P29710_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: game_forever__P29710, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function game_forever_inline__P37341(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.handlers___37343 = undefined;
+  case 1:
+    r0 = pxsim_numops_toBoolDecr(1);
+    if (!r0) { step = 2; continue; }
+    s.tmp_0 = game_currentScene__P29699_mk(s);
+    s.callLocIdx = 1441; s.pc = 3; return s.tmp_0;
+  case 3:
+    r0 = s.retval;
+    r0 = r0.fields["gameForeverHandlers"];
+    s.handlers___37343 = (r0);
+    s.tmp_0 = helpers_arrayForEach__P27114_mk(s);
+    s.tmp_0.arg0 = s.handlers___37343;
+    s.tmp_0.arg1 = game_forever_inline__P37349;
+    s.callLocIdx = 1443; s.pc = 4; return s.tmp_0;
+  case 4:
+    r0 = s.retval;
+    s.tmp_0 = pause__P27418_mk(s);
+    s.tmp_0.arg0 = 20;
+    s.callLocIdx = 1444; s.pc = 5; return s.tmp_0;
+  case 5:
+    r0 = s.retval;
+    { step = 1; continue; }
+  case 2:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+game_forever_inline__P37341.info = {"start":7573,"length":535,"line":246,"column":34,"endLine":260,"endColumn":13,"fileName":"pxt_modules/game/game.ts","functionName":"inline","argumentNames":[]}
+
+function game_forever_inline__P37341_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: game_forever_inline__P37341, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  handlers___37343: undefined,
+} }
+
+
+
+
+
+function game_forever_inline__P37349(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0.fields["lock"];
+    s.tmp_2 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_2);
+    s.tmp_1 = r0;
+    r0 = pxsim_Boolean__bang(s.tmp_1);
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    r0 = (s.arg0).fields["lock"] = (true);
+    r0 = pxsim_pxtcore_mkAction(1, game_forever_inline__P37358);
+    s.tmp_0 = r0;
+    r0 = pxsim_pxtrt_stclo(s.tmp_0, 0, s.arg0);
+    r0 = pxsim.control.runInParallel(s.tmp_0);
+  case 1:
+  case 2:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+game_forever_inline__P37349.info = {"start":7724,"length":319,"line":249,"column":37,"endLine":257,"endColumn":21,"fileName":"pxt_modules/game/game.ts","functionName":"inline","argumentNames":["h"]}
+
+function game_forever_inline__P37349_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: game_forever_inline__P37349, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  arg0: undefined,
+} }
+
+
+
+
+
+function game_forever_inline__P37358(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    s.tmp_0 = if_handler_1_mk(s);
+    s.tmp_0.arg0 = s.caps[0];
+    if (!s.tmp_0.arg0.vtable.iface) {
+      setupLambda(s.tmp_0, pxsim_pxtrt.mapGetByString(s.tmp_0.arg0, "handler"), 1);
+      s.callLocIdx = 1442; s.pc = 1; return s.tmp_0;
+    } else {
+      s.tmp_0.fn = s.tmp_0.arg0.vtable.iface["handler"];
+      if (s.tmp_0.fn == null) { setupLambda(s.tmp_0, s.tmp_0.arg0.fields["handler"], 1); s.callLocIdx = 1442; s.pc = 1; return s.tmp_0; }
+      else if (s.tmp_0.fn.isGetter) { s.tmp_0.stage2Call = true; s.callLocIdx = 1442; s.pc = 1; return s.tmp_0;; }
+     else { s.callLocIdx = 1442; s.pc = 1; return s.tmp_0; }
+    }
+  case 1:
+    r0 = s.retval;
+    r0 = (s.caps[0]).fields["lock"] = (false);
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+game_forever_inline__P37358.info = {"start":7863,"length":130,"line":252,"column":50,"endLine":255,"endColumn":29,"fileName":"pxt_modules/game/game.ts","functionName":"inline","argumentNames":[]}
+
+function game_forever_inline__P37358_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: game_forever_inline__P37358, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+} }
+
+
+
+
+
+function scene_GameForeverHandler_constructor__P29566(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.arg1 = (s.lambdaArgs[1]);
       s.lambdaArgs = null;
     }
-    r0 = pxsim_Array__mk();
-    s.res___35210 = (r0);
-    r0 = pxsim_Array__length(s.arg0);
-    s.len___35212 = (r0);
-    s.i___35215 = (0);
-  case 1:
-    r0 = (s.i___35215 < s.len___35212);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 4; continue; }
-    r0 = pxsim_Array__getAt(s.arg0, s.i___35215);
-    s.v___35220 = (r0);
-    s.tmp_1 = lambda_3_mk(s);
-    s.tmp_1.argL = s.arg1;
-    s.tmp_1.arg0 = s.v___35220;
-    s.tmp_1.arg1 = s.i___35215;
-    setupLambda(s.tmp_1, s.tmp_1.argL);
-    s.callLocIdx = 7; s.pc = 5; return s.tmp_1;
-  case 5:
-    r0 = s.retval;
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__push(s.res___35210, s.v___35220);
-  case 2:
-  case 3:
-    r0 = (s.i___35215 + 1);
-    s.i___35215 = (r0);
-    { step = 1; continue; }
-  case 4:
-    r0 = s.res___35210;
+    r0 = s.arg0;
+    if (!checkSubtype(r0, scene_GameForeverHandler__C29564_VT)) failedCast(r0);
+    r0 = (s.arg0).fields["handler"] = (s.arg1);
+    r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-helpers_arrayFilter__P27115.info = {"start":7695,"length":317,"line":261,"column":4,"endLine":269,"endColumn":5,"fileName":"pxt_modules/base/pxt-helpers.ts","functionName":"arrayFilter","argumentNames":["arr","callbackfn"]}
+scene_GameForeverHandler_constructor__P29566.info = {"start":1340,"length":65,"line":47,"column":8,"endLine":49,"endColumn":13,"fileName":"pxt_modules/game/scene.ts","functionName":"inline","argumentNames":["this","handler"]}
 
-function helpers_arrayFilter__P27115_mk(s) {
+function scene_GameForeverHandler_constructor__P29566_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: helpers_arrayFilter__P27115, depth: s.depth + 1,
+        parent: s, fn: scene_GameForeverHandler_constructor__P29566, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  res___35210: undefined,
-  len___35212: undefined,
-  i___35215: undefined,
-  v___35220: undefined,
   arg0: undefined,
   arg1: undefined,
 } }
@@ -6112,7 +10377,7 @@ function Fx_add__P27162_mk(s) {
 
 
 
-function gravity__P53199(s) {
+function gravity__P83741(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6123,7 +10388,7 @@ switch (step) {
   case 0:
 
     s.tmp_0 = Sprite_y__P29150_mk(s);
-    s.tmp_1 = r0 = globals.honny_bee___53044;
+    s.tmp_1 = r0 = globals.honny_bee___83586;
     s.tmp_0.arg0 = r0;
     s.tmp_3 = Sprite_y__P29149_mk(s);
     s.tmp_3.arg0 = s.tmp_1;
@@ -6140,12 +10405,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-gravity__P53199.info = {"start":230683,"length":46,"line":1503,"column":0,"endLine":1505,"endColumn":1,"fileName":"main.ts","functionName":"gravity","argumentNames":[]}
+gravity__P83741.info = {"start":230683,"length":46,"line":1503,"column":0,"endLine":1505,"endColumn":1,"fileName":"main.ts","functionName":"gravity","argumentNames":[]}
 
-function gravity__P53199_mk(s) {
+function gravity__P83741_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: gravity__P53199, depth: s.depth + 1,
+        parent: s, fn: gravity__P83741, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -7890,4271 +12155,6 @@ function control_EventHandler_register_inline__P35701_mk(s) {
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
-} }
-
-
-
-
-
-function info_score__P29352(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.tmp_0 = info_PlayerInfo_score__P29390_mk(s);
-    s.tmp_0.arg0 = globals.player1___29406;
-    s.callLocIdx = 1062; s.pc = 1; return s.tmp_0;
-  case 1:
-    r0 = s.retval;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_score__P29352.info = {"start":6818,"length":63,"line":225,"column":4,"endLine":227,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"score","argumentNames":[]}
-
-function info_score__P29352_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_score__P29352, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-} }
-
-
-
-
-
-function info_PlayerInfo_constructor__P29387(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
-    r0 = (s.arg0).fields["_player"] = (s.arg1);
-    r0 = (s.arg0).fields["border"] = (1);
-    r0 = (s.arg0).fields["fc"] = (1);
-    r0 = (s.arg0).fields["visibility"] = (0);
-    r0 = (s.arg0).fields["showScore"] = (undefined);
-    r0 = (s.arg0).fields["showLife"] = (undefined);
-    r0 = (s.arg0).fields["showPlayer"] = (undefined);
-    r0 = (s.arg0).fields["left"] = (undefined);
-    r0 = (s.arg0).fields["up"] = (undefined);
-    r0 = s.arg0.fields["_player"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 === 1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 3; continue; }
-    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
-    s.tmp_2 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_2);
-    if (!r0) { step = 1; continue; }
-    r0 = 0;
-    { step = 2; continue; }
-  case 1:
-    r0 = 2;
-  case 2:
-    // jmp value (already in r0)
-    s.tmp_3 = r0;
-    r0 = (s.arg0).fields["bg"] = (s.tmp_3);
-    r0 = (s.arg0).fields["x"] = (0);
-    r0 = (s.arg0).fields["y"] = (0);
-    { step = 14; continue; }
-  case 3:
-    r0 = (s.arg1 === 2);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 6; continue; }
-    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
-    s.tmp_1 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_1);
-    if (!r0) { step = 4; continue; }
-    r0 = 0;
-    { step = 5; continue; }
-  case 4:
-    r0 = 8;
-  case 5:
-    // jmp value (already in r0)
-    s.tmp_2 = r0;
-    r0 = (s.arg0).fields["bg"] = (s.tmp_2);
-    s.tmp_0 = r0 = s.arg0;
-    r0 = pxsim_ImageMethods.width(globals.screen___28834);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0).fields["x"] = (s.tmp_1);
-    r0 = (s.arg0).fields["y"] = (0);
-    r0 = (s.arg0).fields["left"] = (true);
-    { step = 13; continue; }
-  case 6:
-    r0 = (s.arg1 === 3);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 9; continue; }
-    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
-    s.tmp_1 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_1);
-    if (!r0) { step = 7; continue; }
-    r0 = 0;
-    { step = 8; continue; }
-  case 7:
-    r0 = 4;
-  case 8:
-    // jmp value (already in r0)
-    s.tmp_2 = r0;
-    r0 = (s.arg0).fields["bg"] = (s.tmp_2);
-    r0 = (s.arg0).fields["x"] = (0);
-    s.tmp_0 = r0 = s.arg0;
-    r0 = pxsim_ImageMethods.height(globals.screen___28834);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0).fields["y"] = (s.tmp_1);
-    r0 = (s.arg0).fields["up"] = (true);
-    { step = 12; continue; }
-  case 9:
-    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 10; continue; }
-    r0 = 0;
-    { step = 11; continue; }
-  case 10:
-    r0 = 7;
-  case 11:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = (s.arg0).fields["bg"] = (s.tmp_1);
-    s.tmp_0 = r0 = s.arg0;
-    r0 = pxsim_ImageMethods.width(globals.screen___28834);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0).fields["x"] = (s.tmp_1);
-    s.tmp_0 = r0 = s.arg0;
-    r0 = pxsim_ImageMethods.height(globals.screen___28834);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0).fields["y"] = (s.tmp_1);
-    r0 = (s.arg0).fields["left"] = (true);
-    r0 = (s.arg0).fields["up"] = (true);
-  case 12:
-  case 13:
-  case 14:
-    r0 = pxsim_numops_toBoolDecr(globals.players___31470);
-    s.tmp_1 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 15; continue; }
-    r0 = pxsim_Array__mk();
-    globals.players___31470 = (r0);
-  case 15:
-  case 16:
-    s.tmp_0 = r0 = globals.players___31470;
-    r0 = s.arg0.fields["_player"];
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 - 1);
-    s.tmp_1 = r0;
-    r0 = pxsim_Array_.setAt(s.tmp_0, s.tmp_1, s.arg0);
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_PlayerInfo_constructor__P29387.info = {"start":15637,"length":1370,"line":519,"column":8,"endLine":556,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":["this","player"]}
-
-function info_PlayerInfo_constructor__P29387_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_PlayerInfo_constructor__P29387, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  arg0: undefined,
-  arg1: undefined,
-} }
-
-
-
-
-
-function info_PlayerInfo_score__P29390(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.state___35920 = undefined;
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
-    r0 = s.arg0.fields["showScore"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 === undefined);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    r0 = (s.arg0).fields["showScore"] = (true);
-  case 1:
-  case 2:
-    r0 = s.arg0.fields["showPlayer"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 === undefined);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 3; continue; }
-    r0 = (s.arg0).fields["showPlayer"] = (true);
-  case 3:
-  case 4:
-    s.tmp_0 = info_PlayerInfo_getState__P29388_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.callLocIdx = 1084; s.pc = 7; return s.tmp_0;
-  case 7:
-    r0 = s.retval;
-    s.state___35920 = (r0);
-    r0 = s.state___35920.fields["score"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 == null);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 5; continue; }
-    r0 = (s.state___35920).fields["score"] = (0);
-  case 5:
-  case 6:
-    r0 = s.state___35920.fields["score"];
-    return leave(s, r0)
-  default: oops()
-} } }
-info_PlayerInfo_score__P29390.info = {"start":17683,"length":314,"line":582,"column":8,"endLine":591,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"score","argumentNames":["this"]}
-
-function info_PlayerInfo_score__P29390_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_PlayerInfo_score__P29390, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  state___35920: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function info_PlayerInfo_getState__P29388(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
-    s.tmp_0 = info_PlayerInfo_init__P31521_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.callLocIdx = 1083; s.pc = 1; return s.tmp_0;
-  case 1:
-    r0 = s.retval;
-    r0 = globals.infoState___31469.fields["playerStates"];
-    s.tmp_0 = r0;
-    r0 = s.arg0.fields["_player"];
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 - 1);
-    s.tmp_1 = r0;
-    r0 = pxsim_Array__getAt(s.tmp_0, s.tmp_1);
-    return leave(s, r0)
-  default: oops()
-} } }
-info_PlayerInfo_getState__P29388.info = {"start":17279,"length":121,"line":566,"column":8,"endLine":569,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"getState","argumentNames":["this"]}
-
-function info_PlayerInfo_getState__P29388_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_PlayerInfo_getState__P29388, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function info_PlayerInfo_init__P31521(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
-    s.tmp_0 = info_initHUD__P31515_mk(s);
-    s.callLocIdx = 1080; s.pc = 5; return s.tmp_0;
-  case 5:
-    r0 = s.retval;
-    r0 = s.arg0.fields["_player"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 > 1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    s.tmp_2 = info_initMultiHUD__P31516_mk(s);
-    s.callLocIdx = 1081; s.pc = 6; return s.tmp_2;
-  case 6:
-    r0 = s.retval;
-  case 1:
-  case 2:
-    r0 = globals.infoState___31469.fields["playerStates"];
-    s.tmp_3 = r0;
-    r0 = s.arg0.fields["_player"];
-    s.tmp_5 = r0;
-    r0 = (s.tmp_5 - 1);
-    s.tmp_4 = r0;
-    r0 = pxsim_Array__getAt(s.tmp_3, s.tmp_4);
-    s.tmp_2 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_2);
-    s.tmp_1 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 3; continue; }
-    r0 = pxsim_pxtcore_mkClassInstance(info_PlayerState__C29346_VT);
-    s.tmp_6 = r0;
-    r0 = undefined;
-    r0 = globals.infoState___31469.fields["playerStates"];
-    s.tmp_7 = r0;
-    r0 = s.arg0.fields["_player"];
-    s.tmp_9 = r0;
-    r0 = (s.tmp_9 - 1);
-    s.tmp_8 = r0;
-    r0 = pxsim_Array_.setAt(s.tmp_7, s.tmp_8, s.tmp_6);
-  case 3:
-  case 4:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_PlayerInfo_init__P31521.info = {"start":17017,"length":252,"line":558,"column":8,"endLine":564,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"init","argumentNames":["this"]}
-
-function info_PlayerInfo_init__P31521_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_PlayerInfo_init__P31521, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  tmp_5: undefined,
-  tmp_6: undefined,
-  tmp_7: undefined,
-  tmp_8: undefined,
-  tmp_9: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function info_initMultiHUD__P31516(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    r0 = globals.infoState___31469.fields["visibilityFlag"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 & 16);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    { step = 5; continue; }
-  case 1:
-  case 2:
-    s.tmp_2 = r0 = globals.infoState___31469;
-    r0 = s.tmp_2.fields["visibilityFlag"];
-    s.tmp_4 = r0;
-    r0 = (s.tmp_4 | 16);
-    s.tmp_3 = r0;
-    r0 = (s.tmp_2).fields["visibilityFlag"] = (s.tmp_3);
-    r0 = globals.infoState___31469.fields["visibilityFlag"];
-    s.tmp_3 = r0;
-    r0 = (s.tmp_3 & 32);
-    s.tmp_2 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_2);
-    s.tmp_1 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 3; continue; }
-    s.tmp_4 = r0 = globals.infoState___31469;
-    s.tmp_6 = info_defaultMultiplayerHeartImage__P31518_mk(s);
-    s.callLocIdx = 1054; s.pc = 6; return s.tmp_6;
-  case 6:
-    r0 = s.retval;
-    s.tmp_5 = r0;
-    r0 = (s.tmp_4).fields["heartImage"] = (s.tmp_5);
-  case 3:
-  case 4:
-    s.tmp_0 = r0 = globals.infoState___31469;
-    r0 = pxsim.image.ofBuffer(_hex35985);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0).fields["multiplierImage"] = (s.tmp_1);
-  case 5:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_initMultiHUD__P31516.info = {"start":4757,"length":393,"line":151,"column":4,"endLine":162,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"initMultiHUD","argumentNames":[]}
-
-function info_initMultiHUD__P31516_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_initMultiHUD__P31516, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  tmp_5: undefined,
-  tmp_6: undefined,
-} }
-
-const _hex35985 = pxsim.BufferMethods.createBufferFromHex("8704030003000000010100001000000001010000")
-
-
-
-
-function info_defaultMultiplayerHeartImage__P31518(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    r0 = pxsim.image.ofBuffer(_hex35989);
-    { step = 2; continue; }
-  case 1:
-    r0 = pxsim.image.ofBuffer(_hex35991);
-  case 2:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = s.tmp_1;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_defaultMultiplayerHeartImage__P31518.info = {"start":5754,"length":503,"line":187,"column":4,"endLine":204,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"defaultMultiplayerHeartImage","argumentNames":[]}
-
-function info_defaultMultiplayerHeartImage__P31518_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_defaultMultiplayerHeartImage__P31518, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-} }
-
-const _hex35989 = pxsim.BufferMethods.createBufferFromHex("870407000500000000000000100100000110000010000100011000001001000000000000")
-const _hex35991 = pxsim.BufferMethods.createBufferFromHex("870407000500000000000000100100002112000010240100411200001001000000000000")
-
-
-
-
-function info_initHUD__P31515(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    r0 = pxsim_numops_toBoolDecr(globals.infoState___31469);
-    if (!r0) { step = 1; continue; }
-    { step = 3; continue; }
-  case 1:
-  case 2:
-    r0 = pxsim_pxtcore_mkClassInstance(info_InfoState__C31466_VT);
-    s.tmp_0 = r0;
-    s.tmp_1 = info_InfoState_constructor__P31467_mk(s);
-    s.tmp_1.arg0 = s.tmp_0;
-    s.callLocIdx = 1037; s.pc = 4; return s.tmp_1;
-  case 4:
-    r0 = s.retval;
-    globals.infoState___31469 = (s.tmp_0);
-    s.tmp_0 = scene_createRenderable__P29549_mk(s);
-    s.tmp_0.arg0 = 100;
-    s.tmp_0.arg1 = info_initHUD_inline__P35999;
-    s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 1053; s.pc = 5; return s.tmp_0;
-  case 5:
-    r0 = s.retval;
-  case 3:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_initHUD__P31515.info = {"start":2671,"length":2080,"line":99,"column":4,"endLine":149,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"initHUD","argumentNames":[]}
-
-function info_initHUD__P31515_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_initHUD__P31515, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-} }
-
-
-
-
-
-function info_initHUD_inline__P35999(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.ps___36008 = undefined;
-    s.p___36029 = undefined;
-    s.scene___36063 = undefined;
-    s.elapsed___36066 = undefined;
-    s.t___36074 = undefined;
-    r0 = pxsim_numops_toBoolDecr(globals.infoState___31469);
-    s.tmp_1 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    { step = 23; continue; }
-  case 1:
-  case 2:
-    r0 = globals.infoState___31469.fields["visibilityFlag"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 & 16);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 3; continue; }
-    s.tmp_2 = helpers_arrayFilter__P27115_mk(s);
-    s.tmp_2.arg0 = globals.players___31470;
-    s.tmp_2.arg1 = ps_inline__P36010;
-    s.callLocIdx = 1038; s.pc = 24; return s.tmp_2;
-  case 24:
-    r0 = s.retval;
-    s.ps___36008 = (r0);
-    s.tmp_0 = helpers_arrayForEach__P27114_mk(s);
-    s.tmp_0.arg0 = s.ps___36008;
-    s.tmp_0.arg1 = info_initHUD_inline__P36019;
-    s.callLocIdx = 1040; s.pc = 25; return s.tmp_0;
-  case 25:
-    r0 = s.retval;
-    s.tmp_0 = helpers_arrayForEach__P27114_mk(s);
-    s.tmp_0.arg0 = s.ps___36008;
-    s.tmp_0.arg1 = info_initHUD_inline__P36025;
-    s.callLocIdx = 1042; s.pc = 26; return s.tmp_0;
-  case 26:
-    r0 = s.retval;
-    { step = 12; continue; }
-  case 3:
-    s.p___36029 = (globals.player1___29406);
-    s.tmp_1 = info_PlayerInfo_hasScore__P29393_mk(s);
-    s.tmp_1.arg0 = s.p___36029;
-    s.callLocIdx = 1043; s.pc = 27; return s.tmp_1;
-  case 27:
-    r0 = s.retval;
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (r0) { step = 4; continue; }
-    r0 = s.tmp_0;
-    { step = 5; continue; }
-  case 4:
-    r0 = globals.infoState___31469.fields["visibilityFlag"];
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 & 2);
-  case 5:
-    // jmp value (already in r0)
-    s.tmp_3 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
-    if (!r0) { step = 6; continue; }
-    s.tmp_4 = info_PlayerInfo_drawScore__P29401_mk(s);
-    s.tmp_4.arg0 = s.p___36029;
-    s.callLocIdx = 1044; s.pc = 28; return s.tmp_4;
-  case 28:
-    r0 = s.retval;
-  case 6:
-  case 7:
-    s.tmp_1 = info_PlayerInfo_hasLife__P29397_mk(s);
-    s.tmp_1.arg0 = s.p___36029;
-    s.callLocIdx = 1045; s.pc = 29; return s.tmp_1;
-  case 29:
-    r0 = s.retval;
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (r0) { step = 8; continue; }
-    r0 = s.tmp_0;
-    { step = 9; continue; }
-  case 8:
-    r0 = globals.infoState___31469.fields["visibilityFlag"];
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 & 4);
-  case 9:
-    // jmp value (already in r0)
-    s.tmp_3 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
-    if (!r0) { step = 10; continue; }
-    s.tmp_4 = info_PlayerInfo_drawLives__P29402_mk(s);
-    s.tmp_4.arg0 = s.p___36029;
-    s.callLocIdx = 1046; s.pc = 30; return s.tmp_4;
-  case 30:
-    r0 = s.retval;
-  case 10:
-  case 11:
-    s.tmp_0 = info_PlayerInfo_raiseLifeZero__P29399_mk(s);
-    s.tmp_0.arg0 = s.p___36029;
-    s.tmp_0.arg1 = true;
-    s.callLocIdx = 1047; s.pc = 31; return s.tmp_0;
-  case 31:
-    r0 = s.retval;
-  case 12:
-    r0 = globals.infoState___31469.fields["gameEnd"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 !== undefined);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (r0) { step = 13; continue; }
-    r0 = s.tmp_0;
-    { step = 14; continue; }
-  case 13:
-    r0 = globals.infoState___31469.fields["visibilityFlag"];
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 & 1);
-  case 14:
-    // jmp value (already in r0)
-    s.tmp_3 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
-    if (!r0) { step = 21; continue; }
-    s.tmp_4 = game_currentScene__P29699_mk(s);
-    s.callLocIdx = 1048; s.pc = 32; return s.tmp_4;
-  case 32:
-    r0 = s.retval;
-    s.scene___36063 = (r0);
-    r0 = globals.infoState___31469.fields["gameEnd"];
-    s.tmp_0 = r0;
-    r0 = s.scene___36063.fields["_millis"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0 - s.tmp_1);
-    s.elapsed___36066 = (r0);
-    s.tmp_0 = info_drawTimer__P31520_mk(s);
-    s.tmp_0.arg0 = s.elapsed___36066;
-    s.callLocIdx = 1050; s.pc = 33; return s.tmp_0;
-  case 33:
-    r0 = s.retval;
-    r0 = (s.elapsed___36066 / 1000);
-    s.t___36074 = (r0);
-    r0 = (s.t___36074 <= 0);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 19; continue; }
-    s.t___36074 = (0);
-    r0 = globals.infoState___31469.fields["countdownExpired"];
-    s.tmp_2 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_2);
-    s.tmp_1 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 17; continue; }
-    r0 = (globals.infoState___31469).fields["countdownExpired"] = (true);
-    r0 = (globals.infoState___31469).fields["gameEnd"] = (undefined);
-    r0 = globals.infoState___31469.fields["countdownEndHandler"];
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 15; continue; }
-    s.tmp_1 = if_countdownEndHandler_1_mk(s);
-    s.tmp_1.arg0 = globals.infoState___31469;
-    if (!s.tmp_1.arg0.vtable.iface) {
-      setupLambda(s.tmp_1, pxsim_pxtrt.mapGetByString(s.tmp_1.arg0, "countdownEndHandler"), 1);
-      s.callLocIdx = 1051; s.pc = 34; return s.tmp_1;
-    } else {
-      s.tmp_1.fn = s.tmp_1.arg0.vtable.iface["countdownEndHandler"];
-      if (s.tmp_1.fn == null) { setupLambda(s.tmp_1, s.tmp_1.arg0.fields["countdownEndHandler"], 1); s.callLocIdx = 1051; s.pc = 34; return s.tmp_1; }
-      else if (s.tmp_1.fn.isGetter) { s.tmp_1.stage2Call = true; s.callLocIdx = 1051; s.pc = 34; return s.tmp_1;; }
-     else { s.callLocIdx = 1051; s.pc = 34; return s.tmp_1; }
-    }
-  case 34:
-    r0 = s.retval;
-    { step = 16; continue; }
-  case 15:
-    s.tmp_0 = game_over__P29709_mk(s);
-    s.tmp_0.arg0 = false;
-    s.tmp_0.arg1 = undefined;
-    s.callLocIdx = 1052; s.pc = 35; return s.tmp_0;
-  case 35:
-    r0 = s.retval;
-  case 16:
-  case 17:
-  case 18:
-  case 19:
-  case 20:
-  case 21:
-  case 22:
-  case 23:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_initHUD_inline__P35999.info = {"start":2831,"length":1903,"line":106,"column":12,"endLine":147,"endColumn":13,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":[]}
-
-function info_initHUD_inline__P35999_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_initHUD_inline__P35999, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  ps___36008: undefined,
-  p___36029: undefined,
-  scene___36063: undefined,
-  elapsed___36066: undefined,
-  t___36074: undefined,
-} }
-
-
-
-
-
-function ps_inline__P36010(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = pxsim_numops_toBoolDecr(s.arg0);
-    s.tmp_2 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_2);
-    s.tmp_1 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_1);
-    s.tmp_0 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_0);
-    return leave(s, r0)
-  default: oops()
-} } }
-ps_inline__P36010.info = {"start":3079,"length":8,"line":111,"column":46,"endLine":111,"endColumn":54,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":["p"]}
-
-function ps_inline__P36010_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: ps_inline__P36010, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function info_initHUD_inline__P36019(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    s.tmp_0 = info_PlayerInfo_drawPlayer__P29400_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.callLocIdx = 1039; s.pc = 1; return s.tmp_0;
-  case 1:
-    r0 = s.retval;
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_initHUD_inline__P36019.info = {"start":3163,"length":19,"line":113,"column":31,"endLine":113,"endColumn":50,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":["p"]}
-
-function info_initHUD_inline__P36019_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_initHUD_inline__P36019, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function info_initHUD_inline__P36025(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    s.tmp_0 = info_PlayerInfo_raiseLifeZero__P29399_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.tmp_0.arg1 = false;
-    s.callLocIdx = 1041; s.pc = 1; return s.tmp_0;
-  case 1:
-    r0 = s.retval;
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_initHUD_inline__P36025.info = {"start":3265,"length":27,"line":115,"column":31,"endLine":115,"endColumn":58,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":["p"]}
-
-function info_initHUD_inline__P36025_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_initHUD_inline__P36025, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function info_drawTimer__P31520(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.font___36103 = undefined;
-    s.smallFont___36105 = undefined;
-    s.seconds___36107 = undefined;
-    s.width___36111 = undefined;
-    s.left___36116 = undefined;
-    s.color1___36126 = undefined;
-    s.color2___36130 = undefined;
-    s.temp___36143 = undefined;
-    s.remainder___36179 = undefined;
-    s.decimalLeft___36198 = undefined;
-    s.minutes___36216 = undefined;
-    s.remainder___36220 = undefined;
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = (s.arg0 < 0);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    s.arg0 = (0);
-  case 1:
-  case 2:
-    r0 = (s.arg0 | 0);
-    s.arg0 = (r0);
-    s.font___36103 = (globals.font8___28777);
-    s.smallFont___36105 = (globals.font5___28782);
-    r0 = pxsim.Math_.idiv(s.arg0, 1000);
-    s.seconds___36107 = (r0);
-    s.tmp_2 = if_charWidth_1_mk(s);
-    s.tmp_2.arg0 = s.font___36103;
-    if (!s.tmp_2.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charWidth");
-    } else {
-      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charWidth"];
-      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charWidth"]; }
-      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
-     else { s.callLocIdx = 1067; s.pc = 11; return s.tmp_2; }
-    }
-  case 11:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 * 5);
-    s.tmp_0 = r0;
-    r0 = (s.tmp_0 - 2);
-    s.width___36111 = (r0);
-    r0 = pxsim_ImageMethods.width(globals.screen___28834);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 >> 1);
-    s.tmp_1 = r0;
-    r0 = (s.width___36111 >> 1);
-    s.tmp_3 = r0;
-    r0 = (s.tmp_1 - s.tmp_3);
-    s.tmp_0 = r0;
-    r0 = (s.tmp_0 + 1);
-    s.left___36116 = (r0);
-    r0 = globals.infoState___31469.fields["fontColor"];
-    s.color1___36126 = (r0);
-    r0 = globals.infoState___31469.fields["bgColor"];
-    s.color2___36130 = (r0);
-    r0 = (s.seconds___36107 < 10);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (r0) { step = 3; continue; }
-    r0 = s.tmp_0;
-    { step = 4; continue; }
-  case 3:
-    r0 = (s.seconds___36107 & 1);
-  case 4:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = pxsim_numops_toBool(s.tmp_1);
-    if (r0) { step = 5; continue; }
-    r0 = s.tmp_1;
-    { step = 6; continue; }
-  case 5:
-    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
-    s.tmp_3 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
-    s.tmp_2 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_2);
-  case 6:
-    // jmp value (already in r0)
-    s.tmp_4 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_4);
-    if (!r0) { step = 7; continue; }
-    s.temp___36143 = (s.color1___36126);
-    s.color1___36126 = (s.color2___36130);
-    s.color2___36130 = (s.temp___36143);
-  case 7:
-  case 8:
-    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    r0 = (s.left___36116 - 3);
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = 0;
-    r0 = (s.width___36111 + 6);
-    s.tmp_0.arg3 = r0;
-    s.tmp_2 = if_charHeight_1_mk(s);
-    s.tmp_2.arg0 = s.font___36103;
-    if (!s.tmp_2.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charHeight");
-    } else {
-      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charHeight"];
-      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charHeight"]; }
-      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
-     else { s.callLocIdx = 1068; s.pc = 13; return s.tmp_2; }
-    }
-  case 13:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 + 3);
-    s.tmp_0.arg4 = r0;
-    r0 = globals.infoState___31469.fields["borderColor"];
-    s.tmp_0.arg5 = r0;
-    s.callLocIdx = 1069; s.pc = 12; return s.tmp_0;
-  case 12:
-    r0 = s.retval;
-    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    r0 = (s.left___36116 - 2);
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = 0;
-    r0 = (s.width___36111 + 4);
-    s.tmp_0.arg3 = r0;
-    s.tmp_2 = if_charHeight_1_mk(s);
-    s.tmp_2.arg0 = s.font___36103;
-    if (!s.tmp_2.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charHeight");
-    } else {
-      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charHeight"];
-      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charHeight"]; }
-      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
-     else { s.callLocIdx = 1070; s.pc = 15; return s.tmp_2; }
-    }
-  case 15:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 + 2);
-    s.tmp_0.arg4 = r0;
-    s.tmp_0.arg5 = s.color2___36130;
-    s.callLocIdx = 1071; s.pc = 14; return s.tmp_0;
-  case 14:
-    r0 = s.retval;
-    r0 = (s.seconds___36107 < 60);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 9; continue; }
-    r0 = (s.arg0 % 1000);
-    s.tmp_1 = r0;
-    r0 = pxsim.Math_.idiv(s.tmp_1, 10);
-    s.remainder___36179 = (r0);
-    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    s.tmp_3 = info_formatDecimal__P31522_mk(s);
-    s.tmp_3.arg0 = s.seconds___36107;
-    s.callLocIdx = 1072; s.pc = 17; return s.tmp_3;
-  case 17:
-    r0 = s.retval;
-    s.tmp_2 = r0;
-    if ((s.tmp_2) && (s.tmp_2).vtable) {
-    setupResume(s, 18);
-    pxsim_String__stringConv(s.tmp_2);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (s.tmp_2) + ""; }
-  case 18:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = pxsim_String__concat(s.tmp_1, ".");
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = s.left___36116;
-    s.tmp_0.arg3 = 1;
-    s.tmp_0.arg4 = s.color1___36126;
-    s.tmp_0.arg5 = s.font___36103;
-    s.tmp_0.arg6 = undefined;
-    s.callLocIdx = 1073; s.pc = 16; return s.tmp_0;
-  case 16:
-    r0 = s.retval;
-    s.tmp_0 = r0 = s.left___36116;
-    s.tmp_3 = if_charWidth_1_mk(s);
-    s.tmp_3.arg0 = s.font___36103;
-    if (!s.tmp_3.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_3.arg0, "charWidth");
-    } else {
-      s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["charWidth"];
-      if (s.tmp_3.fn == null) { s.retval = s.tmp_3.arg0.fields["charWidth"]; }
-      else if (!s.tmp_3.fn.isGetter) { s.retval = bind(s.tmp_3); }
-     else { s.callLocIdx = 1074; s.pc = 19; return s.tmp_3; }
-    }
-  case 19:
-    r0 = s.retval;
-    s.tmp_2 = r0;
-    r0 = (3 * s.tmp_2);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0 + s.tmp_1);
-    s.decimalLeft___36198 = (r0);
-    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    s.tmp_1 = info_formatDecimal__P31522_mk(s);
-    s.tmp_1.arg0 = s.remainder___36179;
-    s.callLocIdx = 1075; s.pc = 21; return s.tmp_1;
-  case 21:
-    r0 = s.retval;
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = s.decimalLeft___36198;
-    s.tmp_0.arg3 = 3;
-    s.tmp_0.arg4 = s.color1___36126;
-    s.tmp_0.arg5 = s.smallFont___36105;
-    s.tmp_0.arg6 = undefined;
-    s.callLocIdx = 1076; s.pc = 20; return s.tmp_0;
-  case 20:
-    r0 = s.retval;
-    { step = 10; continue; }
-  case 9:
-    r0 = pxsim.Math_.idiv(s.seconds___36107, 60);
-    s.minutes___36216 = (r0);
-    r0 = (s.seconds___36107 % 60);
-    s.remainder___36220 = (r0);
-    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    s.tmp_5 = info_formatDecimal__P31522_mk(s);
-    s.tmp_5.arg0 = s.minutes___36216;
-    s.callLocIdx = 1077; s.pc = 23; return s.tmp_5;
-  case 23:
-    r0 = s.retval;
-    s.tmp_4 = r0;
-    if ((s.tmp_4) && (s.tmp_4).vtable) {
-    setupResume(s, 24);
-    pxsim_String__stringConv(s.tmp_4);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (s.tmp_4) + ""; }
-  case 24:
-    r0 = s.retval;
-    s.tmp_3 = r0;
-    r0 = pxsim_String__concat(s.tmp_3, ":");
-    s.tmp_2 = r0;
-    if ((s.tmp_2) && (s.tmp_2).vtable) {
-    setupResume(s, 25);
-    pxsim_String__stringConv(s.tmp_2);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (s.tmp_2) + ""; }
-  case 25:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    s.tmp_8 = info_formatDecimal__P31522_mk(s);
-    s.tmp_8.arg0 = s.remainder___36220;
-    s.callLocIdx = 1078; s.pc = 26; return s.tmp_8;
-  case 26:
-    r0 = s.retval;
-    s.tmp_7 = r0;
-    if ((s.tmp_7) && (s.tmp_7).vtable) {
-    setupResume(s, 27);
-    pxsim_String__stringConv(s.tmp_7);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (s.tmp_7) + ""; }
-  case 27:
-    r0 = s.retval;
-    s.tmp_6 = r0;
-    r0 = pxsim_String__concat(s.tmp_1, s.tmp_6);
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = s.left___36116;
-    s.tmp_0.arg3 = 1;
-    s.tmp_0.arg4 = s.color1___36126;
-    s.tmp_0.arg5 = s.font___36103;
-    s.tmp_0.arg6 = undefined;
-    s.callLocIdx = 1079; s.pc = 22; return s.tmp_0;
-  case 22:
-    r0 = s.retval;
-  case 10:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_drawTimer__P31520.info = {"start":13679,"length":1328,"line":466,"column":4,"endLine":501,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"drawTimer","argumentNames":["millis"]}
-
-function info_drawTimer__P31520_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_drawTimer__P31520, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  tmp_5: undefined,
-  tmp_6: undefined,
-  tmp_7: undefined,
-  tmp_8: undefined,
-  font___36103: undefined,
-  smallFont___36105: undefined,
-  seconds___36107: undefined,
-  width___36111: undefined,
-  left___36116: undefined,
-  color1___36126: undefined,
-  color2___36130: undefined,
-  temp___36143: undefined,
-  remainder___36179: undefined,
-  decimalLeft___36198: undefined,
-  minutes___36216: undefined,
-  remainder___36220: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function info_formatDecimal__P31522(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = (s.arg0 | 0);
-    s.arg0 = (r0);
-    r0 = (s.arg0 < 10);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    if ((s.arg0) && (s.arg0).vtable) {
-    setupResume(s, 4);
-    pxsim_String__stringConv(s.arg0);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (s.arg0) + ""; }
-  case 4:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = pxsim_String__concat("0", s.tmp_1);
-    { step = 3; continue; }
-  case 1:
-  case 2:
-    r0 = pxsim_numops.toString(s.arg0);
-  case 3:
-    return leave(s, r0)
-  default: oops()
-} } }
-info_formatDecimal__P31522.info = {"start":28812,"length":156,"line":924,"column":4,"endLine":930,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"formatDecimal","argumentNames":["val"]}
-
-function info_formatDecimal__P31522_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_formatDecimal__P31522, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function helpers_imagePrint__P28792(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.x0___36277 = undefined;
-    s.cp___36279 = undefined;
-    s.mult___36280 = undefined;
-    s.dataW___36285 = undefined;
-    s.dataH___36291 = undefined;
-    s.byteHeight___36297 = undefined;
-    s.charSize___36303 = undefined;
-    s.dataSize___36307 = undefined;
-    s.fontdata___36311 = undefined;
-    s.lastchar___36314 = undefined;
-    s.imgBuf___36321 = undefined;
-    s.xOffset___36345 = undefined;
-    s.yOffset___36346 = undefined;
-    s.ch___36361 = undefined;
-    s.l___36380 = undefined;
-    s.r___36381 = undefined;
-    s.off___36383 = undefined;
-    s.guess___36384 = undefined;
-    s.m___36403 = undefined;
-    s.v___36412 = undefined;
-    s.i___36468 = undefined;
-    s.j___36473 = undefined;
-    s.mask___36474 = undefined;
-    s.c___36475 = undefined;
-    s.n___36492 = undefined;
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.arg2 = (s.lambdaArgs[2]);
-      s.arg3 = (s.lambdaArgs[3]);
-      s.arg4 = (s.lambdaArgs[4]);
-      s.arg5 = (s.lambdaArgs[5]);
-      s.arg6 = (s.lambdaArgs[6]);
-      s.lambdaArgs = null;
-    }
-    r0 = (s.arg2 | 0);
-    s.arg2 = (r0);
-    r0 = (s.arg3 | 0);
-    s.arg3 = (r0);
-    r0 = pxsim_numops_toBoolDecr(s.arg5);
-    s.tmp_1 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    s.tmp_2 = image_getFontForText__P28779_mk(s);
-    s.tmp_2.arg0 = s.arg1;
-    s.callLocIdx = 141; s.pc = 39; return s.tmp_2;
-  case 39:
-    r0 = s.retval;
-    s.arg5 = (r0);
-  case 1:
-  case 2:
-    r0 = pxsim_numops_toBoolDecr(s.arg4);
-    s.tmp_1 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 3; continue; }
-    s.arg4 = (1);
-  case 3:
-  case 4:
-    s.x0___36277 = (s.arg2);
-    s.cp___36279 = (0);
-    s.tmp_1 = if_multiplier_1_mk(s);
-    s.tmp_1.arg0 = s.arg5;
-    if (!s.tmp_1.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_1.arg0, "multiplier");
-    } else {
-      s.tmp_1.fn = s.tmp_1.arg0.vtable.iface["multiplier"];
-      if (s.tmp_1.fn == null) { s.retval = s.tmp_1.arg0.fields["multiplier"]; }
-      else if (!s.tmp_1.fn.isGetter) { s.retval = bind(s.tmp_1); }
-     else { s.callLocIdx = 142; s.pc = 40; return s.tmp_1; }
-    }
-  case 40:
-    r0 = s.retval;
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 5; continue; }
-    s.tmp_2 = if_multiplier_1_mk(s);
-    s.tmp_2.arg0 = s.arg5;
-    if (!s.tmp_2.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "multiplier");
-    } else {
-      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["multiplier"];
-      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["multiplier"]; }
-      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
-     else { s.callLocIdx = 143; s.pc = 41; return s.tmp_2; }
-    }
-  case 41:
-    r0 = s.retval;
-    { step = 6; continue; }
-  case 5:
-    r0 = 1;
-  case 6:
-    // jmp value (already in r0)
-    s.tmp_3 = r0;
-    s.mult___36280 = (s.tmp_3);
-    s.tmp_1 = if_charWidth_1_mk(s);
-    s.tmp_1.arg0 = s.arg5;
-    if (!s.tmp_1.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_1.arg0, "charWidth");
-    } else {
-      s.tmp_1.fn = s.tmp_1.arg0.vtable.iface["charWidth"];
-      if (s.tmp_1.fn == null) { s.retval = s.tmp_1.arg0.fields["charWidth"]; }
-      else if (!s.tmp_1.fn.isGetter) { s.retval = bind(s.tmp_1); }
-     else { s.callLocIdx = 144; s.pc = 42; return s.tmp_1; }
-    }
-  case 42:
-    r0 = s.retval;
-    s.tmp_0 = r0;
-    r0 = pxsim.Math_.idiv(s.tmp_0, s.mult___36280);
-    s.dataW___36285 = (r0);
-    s.tmp_1 = if_charHeight_1_mk(s);
-    s.tmp_1.arg0 = s.arg5;
-    if (!s.tmp_1.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_1.arg0, "charHeight");
-    } else {
-      s.tmp_1.fn = s.tmp_1.arg0.vtable.iface["charHeight"];
-      if (s.tmp_1.fn == null) { s.retval = s.tmp_1.arg0.fields["charHeight"]; }
-      else if (!s.tmp_1.fn.isGetter) { s.retval = bind(s.tmp_1); }
-     else { s.callLocIdx = 145; s.pc = 43; return s.tmp_1; }
-    }
-  case 43:
-    r0 = s.retval;
-    s.tmp_0 = r0;
-    r0 = pxsim.Math_.idiv(s.tmp_0, s.mult___36280);
-    s.dataH___36291 = (r0);
-    r0 = (s.dataH___36291 + 7);
-    s.tmp_0 = r0;
-    r0 = (s.tmp_0 >> 3);
-    s.byteHeight___36297 = (r0);
-    r0 = (s.byteHeight___36297 * s.dataW___36285);
-    s.charSize___36303 = (r0);
-    r0 = (2 + s.charSize___36303);
-    s.dataSize___36307 = (r0);
-    s.tmp_0 = if_data_1_mk(s);
-    s.tmp_0.arg0 = s.arg5;
-    if (!s.tmp_0.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_0.arg0, "data");
-    } else {
-      s.tmp_0.fn = s.tmp_0.arg0.vtable.iface["data"];
-      if (s.tmp_0.fn == null) { s.retval = s.tmp_0.arg0.fields["data"]; }
-      else if (!s.tmp_0.fn.isGetter) { s.retval = bind(s.tmp_0); }
-     else { s.callLocIdx = 146; s.pc = 44; return s.tmp_0; }
-    }
-  case 44:
-    r0 = s.retval;
-    s.fontdata___36311 = (r0);
-    r0 = pxsim.BufferMethods.length(s.fontdata___36311);
-    s.tmp_1 = r0;
-    r0 = pxsim.Math_.idiv(s.tmp_1, s.dataSize___36307);
-    s.tmp_0 = r0;
-    r0 = (s.tmp_0 - 1);
-    s.lastchar___36314 = (r0);
-    r0 = (s.mult___36280 == 1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 7; continue; }
-    r0 = (8 + s.charSize___36303);
-    s.tmp_1 = r0;
-    r0 = pxsim.control.createBuffer(s.tmp_1);
-    s.imgBuf___36321 = (r0);
-    r0 = pxsim.BufferMethods.setByte(s.imgBuf___36321, 0, 135);
-    r0 = pxsim.BufferMethods.setByte(s.imgBuf___36321, 1, 1);
-    r0 = pxsim.BufferMethods.setByte(s.imgBuf___36321, 2, s.dataW___36285);
-    r0 = pxsim.BufferMethods.setByte(s.imgBuf___36321, 4, s.dataH___36291);
-  case 7:
-  case 8:
-  case 9:
-    s.tmp_1 = r0 = s.cp___36279;
-    r0 = pxsim_String_.length(s.arg1);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_1 < s.tmp_2);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 38; continue; }
-    s.xOffset___36345 = (0);
-    s.yOffset___36346 = (0);
-    s.tmp_0 = r0 = s.arg6;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (r0) { step = 10; continue; }
-    r0 = s.tmp_0;
-    { step = 11; continue; }
-  case 10:
-    s.tmp_1 = r0 = s.cp___36279;
-    r0 = pxsim_Array__length(s.arg6);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_1 < s.tmp_2);
-  case 11:
-    // jmp value (already in r0)
-    s.tmp_3 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
-    if (!r0) { step = 12; continue; }
-    s.tmp_4 = if_xOffset_1_mk(s);
-    r0 = pxsim_Array__getAt(s.arg6, s.cp___36279);
-    s.tmp_4.arg0 = r0;
-    if (!s.tmp_4.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_4.arg0, "xOffset");
-    } else {
-      s.tmp_4.fn = s.tmp_4.arg0.vtable.iface["xOffset"];
-      if (s.tmp_4.fn == null) { s.retval = s.tmp_4.arg0.fields["xOffset"]; }
-      else if (!s.tmp_4.fn.isGetter) { s.retval = bind(s.tmp_4); }
-     else { s.callLocIdx = 147; s.pc = 45; return s.tmp_4; }
-    }
-  case 45:
-    r0 = s.retval;
-    s.xOffset___36345 = (r0);
-    s.tmp_0 = if_yOffset_1_mk(s);
-    r0 = pxsim_Array__getAt(s.arg6, s.cp___36279);
-    s.tmp_0.arg0 = r0;
-    if (!s.tmp_0.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_0.arg0, "yOffset");
-    } else {
-      s.tmp_0.fn = s.tmp_0.arg0.vtable.iface["yOffset"];
-      if (s.tmp_0.fn == null) { s.retval = s.tmp_0.arg0.fields["yOffset"]; }
-      else if (!s.tmp_0.fn.isGetter) { s.retval = bind(s.tmp_0); }
-     else { s.callLocIdx = 148; s.pc = 46; return s.tmp_0; }
-    }
-  case 46:
-    r0 = s.retval;
-    s.yOffset___36346 = (r0);
-  case 12:
-  case 13:
-    s.tmp_0 = r0 = s.cp___36279;
-    r0 = (s.tmp_0 + 1);
-    s.cp___36279 = (r0);
-    r0 = pxsim_String_.charCodeAt(s.arg1, s.tmp_0);
-    s.ch___36361 = (r0);
-    r0 = (s.ch___36361 == 10);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 14; continue; }
-    s.tmp_1 = r0 = s.arg3;
-    s.tmp_4 = if_charHeight_1_mk(s);
-    s.tmp_4.arg0 = s.arg5;
-    if (!s.tmp_4.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_4.arg0, "charHeight");
-    } else {
-      s.tmp_4.fn = s.tmp_4.arg0.vtable.iface["charHeight"];
-      if (s.tmp_4.fn == null) { s.retval = s.tmp_4.arg0.fields["charHeight"]; }
-      else if (!s.tmp_4.fn.isGetter) { s.retval = bind(s.tmp_4); }
-     else { s.callLocIdx = 149; s.pc = 47; return s.tmp_4; }
-    }
-  case 47:
-    r0 = s.retval;
-    s.tmp_3 = r0;
-    r0 = (s.tmp_3 + 2);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_1 + s.tmp_2);
-    s.arg3 = (r0);
-    s.arg2 = (s.x0___36277);
-  case 14:
-  case 15:
-    r0 = (s.ch___36361 < 32);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 16; continue; }
-    { step = 9; continue; }
-  case 16:
-  case 17:
-    s.l___36380 = (0);
-    s.r___36381 = (s.lastchar___36314);
-    s.off___36383 = (0);
-    r0 = (s.ch___36361 - 32);
-    s.tmp_0 = r0;
-    r0 = (s.tmp_0 * s.dataSize___36307);
-    s.guess___36384 = (r0);
-    r0 = pxsim.BufferMethods.getNumber(s.fontdata___36311, 4, s.guess___36384);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 == s.ch___36361);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 18; continue; }
-    s.off___36383 = (s.guess___36384);
-    { step = 25; continue; }
-  case 18:
-  case 19:
-    r0 = (s.l___36380 <= s.r___36381);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 24; continue; }
-    s.tmp_1 = r0 = s.l___36380;
-    r0 = (s.r___36381 - s.l___36380);
-    s.tmp_3 = r0;
-    r0 = (s.tmp_3 >> 1);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_1 + s.tmp_2);
-    s.m___36403 = (r0);
-    s.tmp_0 = r0 = s.fontdata___36311;
-    r0 = (s.m___36403 * s.dataSize___36307);
-    s.tmp_1 = r0;
-    r0 = pxsim.BufferMethods.getNumber(s.tmp_0, 4, s.tmp_1);
-    s.v___36412 = (r0);
-    r0 = (s.v___36412 == s.ch___36361);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 20; continue; }
-    r0 = (s.m___36403 * s.dataSize___36307);
-    s.off___36383 = (r0);
-    { step = 24; continue; }
-  case 20:
-  case 21:
-    r0 = (s.v___36412 < s.ch___36361);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 22; continue; }
-    r0 = (s.m___36403 + 1);
-    s.l___36380 = (r0);
-    { step = 23; continue; }
-  case 22:
-    r0 = (s.m___36403 - 1);
-    s.r___36381 = (r0);
-  case 23:
-    { step = 19; continue; }
-  case 24:
-  case 25:
-    r0 = (s.mult___36280 == 1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 26; continue; }
-    s.tmp_1 = r0 = s.imgBuf___36321;
-    s.tmp_3 = r0 = s.fontdata___36311;
-    r0 = (s.off___36383 + 2);
-    s.tmp_4 = r0;
-    r0 = pxsim.BufferMethods.slice(s.tmp_3, s.tmp_4, s.charSize___36303);
-    s.tmp_2 = r0;
-    r0 = pxsim.BufferMethods.write(s.tmp_1, 8, s.tmp_2);
-    s.tmp_0 = helpers_imageDrawIcon__P28759_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.tmp_0.arg1 = s.imgBuf___36321;
-    r0 = (s.arg2 + s.xOffset___36345);
-    s.tmp_0.arg2 = r0;
-    r0 = (s.arg3 + s.yOffset___36346);
-    s.tmp_0.arg3 = r0;
-    s.tmp_0.arg4 = s.arg4;
-    s.callLocIdx = 150; s.pc = 48; return s.tmp_0;
-  case 48:
-    r0 = s.retval;
-    s.tmp_0 = r0 = s.arg2;
-    s.tmp_2 = if_charWidth_1_mk(s);
-    s.tmp_2.arg0 = s.arg5;
-    if (!s.tmp_2.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charWidth");
-    } else {
-      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charWidth"];
-      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charWidth"]; }
-      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
-     else { s.callLocIdx = 151; s.pc = 49; return s.tmp_2; }
-    }
-  case 49:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0 + s.tmp_1);
-    s.arg2 = (r0);
-    { step = 37; continue; }
-  case 26:
-    r0 = (s.off___36383 + 2);
-    s.off___36383 = (r0);
-    s.i___36468 = (0);
-  case 27:
-    r0 = (s.i___36468 < s.dataW___36285);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 36; continue; }
-    s.j___36473 = (0);
-    s.mask___36474 = (1);
-    s.tmp_0 = r0 = s.off___36383;
-    r0 = (s.tmp_0 + 1);
-    s.off___36383 = (r0);
-    r0 = pxsim.BufferMethods.getByte(s.fontdata___36311, s.tmp_0);
-    s.c___36475 = (r0);
-  case 28:
-    r0 = (s.j___36473 < s.dataH___36291);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 35; continue; }
-    r0 = (s.mask___36474 == 256);
-    s.tmp_1 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_1);
-    if (!r0) { step = 29; continue; }
-    s.tmp_2 = r0 = s.off___36383;
-    r0 = (s.tmp_2 + 1);
-    s.off___36383 = (r0);
-    r0 = pxsim.BufferMethods.getByte(s.fontdata___36311, s.tmp_2);
-    s.c___36475 = (r0);
-    s.mask___36474 = (1);
-  case 29:
-  case 30:
-    s.n___36492 = (0);
-  case 31:
-    r0 = (s.c___36475 & s.mask___36474);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 32; continue; }
-    r0 = (s.n___36492 + 1);
-    s.n___36492 = (r0);
-    r0 = (s.mask___36474 << 1);
-    s.mask___36474 = (r0);
-    { step = 31; continue; }
-  case 32:
-    r0 = pxsim_numops_toBoolDecr(s.n___36492);
-    if (!r0) { step = 33; continue; }
-    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.tmp_1 = r0 = s.arg2;
-    r0 = (s.xOffset___36345 * s.mult___36280);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_1 + s.tmp_2);
-    s.tmp_0.arg1 = r0;
-    s.tmp_3 = r0 = s.arg3;
-    r0 = (s.j___36473 + s.yOffset___36346);
-    s.tmp_5 = r0;
-    r0 = (s.tmp_5 * s.mult___36280);
-    s.tmp_4 = r0;
-    r0 = (s.tmp_3 + s.tmp_4);
-    s.tmp_0.arg2 = r0;
-    s.tmp_0.arg3 = s.mult___36280;
-    r0 = (s.mult___36280 * s.n___36492);
-    s.tmp_0.arg4 = r0;
-    s.tmp_0.arg5 = s.arg4;
-    s.callLocIdx = 152; s.pc = 50; return s.tmp_0;
-  case 50:
-    r0 = s.retval;
-    r0 = (s.j___36473 + s.n___36492);
-    s.j___36473 = (r0);
-    { step = 34; continue; }
-  case 33:
-    r0 = (s.mask___36474 << 1);
-    s.mask___36474 = (r0);
-    r0 = (s.j___36473 + 1);
-    s.j___36473 = (r0);
-  case 34:
-    { step = 28; continue; }
-  case 35:
-    r0 = (s.arg2 + s.mult___36280);
-    s.arg2 = (r0);
-    r0 = (s.i___36468 + 1);
-    s.i___36468 = (r0);
-    { step = 27; continue; }
-  case 36:
-  case 37:
-    { step = 9; continue; }
-  case 38:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-helpers_imagePrint__P28792.info = {"start":15326,"length":3300,"line":213,"column":4,"endLine":306,"endColumn":5,"fileName":"pxt_modules/screen---st7735/text.ts","functionName":"imagePrint","argumentNames":["img","text","x","y","color","font","offsets"]}
-
-function helpers_imagePrint__P28792_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: helpers_imagePrint__P28792, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  tmp_5: undefined,
-  x0___36277: undefined,
-  cp___36279: undefined,
-  mult___36280: undefined,
-  dataW___36285: undefined,
-  dataH___36291: undefined,
-  byteHeight___36297: undefined,
-  charSize___36303: undefined,
-  dataSize___36307: undefined,
-  fontdata___36311: undefined,
-  lastchar___36314: undefined,
-  imgBuf___36321: undefined,
-  xOffset___36345: undefined,
-  yOffset___36346: undefined,
-  ch___36361: undefined,
-  l___36380: undefined,
-  r___36381: undefined,
-  off___36383: undefined,
-  guess___36384: undefined,
-  m___36403: undefined,
-  v___36412: undefined,
-  i___36468: undefined,
-  j___36473: undefined,
-  mask___36474: undefined,
-  c___36475: undefined,
-  n___36492: undefined,
-  arg0: undefined,
-  arg1: undefined,
-  arg2: undefined,
-  arg3: undefined,
-  arg4: undefined,
-  arg5: undefined,
-  arg6: undefined,
-} }
-
-
-
-
-
-function image_getFontForText__P28779(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.i___36571 = undefined;
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    s.i___36571 = (0);
-  case 1:
-    s.tmp_1 = r0 = s.i___36571;
-    r0 = pxsim_String_.length(s.arg0);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_1 < s.tmp_2);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 4; continue; }
-    r0 = pxsim_String_.charCodeAt(s.arg0, s.i___36571);
-    s.tmp_4 = r0;
-    r0 = (s.tmp_4 > 8192);
-    s.tmp_3 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
-    if (!r0) { step = 2; continue; }
-    r0 = globals.font12___28778;
-    { step = 5; continue; }
-  case 2:
-  case 3:
-    r0 = (s.i___36571 + 1);
-    s.i___36571 = (r0);
-    { step = 1; continue; }
-  case 4:
-    r0 = globals.font8___28777;
-  case 5:
-    return leave(s, r0)
-  default: oops()
-} } }
-image_getFontForText__P28779.info = {"start":11713,"length":259,"line":136,"column":4,"endLine":143,"endColumn":5,"fileName":"pxt_modules/screen---st7735/text.ts","functionName":"getFontForText","argumentNames":["text"]}
-
-function image_getFontForText__P28779_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: image_getFontForText__P28779, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  i___36571: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function helpers_imageDrawIcon__P28759(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.arg2 = (s.lambdaArgs[2]);
-      s.arg3 = (s.lambdaArgs[3]);
-      s.arg4 = (s.lambdaArgs[4]);
-      s.lambdaArgs = null;
-    }
-    s.tmp_0 = r0 = s.arg0;
-    s.tmp_1 = r0 = s.arg1;
-    s.tmp_3 = helpers_pack__P31320_mk(s);
-    s.tmp_3.arg0 = s.arg2;
-    s.tmp_3.arg1 = s.arg3;
-    s.callLocIdx = 122; s.pc = 1; return s.tmp_3;
-  case 1:
-    r0 = s.retval;
-    s.tmp_2 = r0;
-    r0 = pxsim_ImageMethods._drawIcon(s.tmp_0, s.tmp_1, s.tmp_2, s.arg4);
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-helpers_imageDrawIcon__P28759.info = {"start":4684,"length":145,"line":155,"column":4,"endLine":157,"endColumn":5,"fileName":"pxt_modules/screen---st7735/image.ts","functionName":"imageDrawIcon","argumentNames":["img","icon","x","y","c"]}
-
-function helpers_imageDrawIcon__P28759_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: helpers_imageDrawIcon__P28759, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  arg0: undefined,
-  arg1: undefined,
-  arg2: undefined,
-  arg3: undefined,
-  arg4: undefined,
-} }
-
-
-
-
-
-function helpers_pack__P31320(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.lambdaArgs = null;
-    }
-    s.tmp_2 = Math_clamp__P27132_mk(s);
-    s.tmp_2.arg0 = -30000;
-    s.tmp_2.arg1 = 30000;
-    r0 = (s.arg0 | 0);
-    s.tmp_2.arg2 = r0;
-    s.callLocIdx = 120; s.pc = 1; return s.tmp_2;
-  case 1:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 & 65535);
-    s.tmp_0 = r0;
-    s.tmp_5 = Math_clamp__P27132_mk(s);
-    s.tmp_5.arg0 = -30000;
-    s.tmp_5.arg1 = 30000;
-    r0 = (s.arg1 | 0);
-    s.tmp_5.arg2 = r0;
-    s.callLocIdx = 121; s.pc = 2; return s.tmp_5;
-  case 2:
-    r0 = s.retval;
-    s.tmp_4 = r0;
-    r0 = (s.tmp_4 << 16);
-    s.tmp_3 = r0;
-    r0 = (s.tmp_0 | s.tmp_3);
-    return leave(s, r0)
-  default: oops()
-} } }
-helpers_pack__P31320.info = {"start":3658,"length":145,"line":130,"column":4,"endLine":132,"endColumn":5,"fileName":"pxt_modules/screen---st7735/image.ts","functionName":"pack","argumentNames":["x","y"]}
-
-function helpers_pack__P31320_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: helpers_pack__P31320, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  tmp_5: undefined,
-  arg0: undefined,
-  arg1: undefined,
-} }
-
-
-
-
-
-function helpers_imageFillRect__P28760(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.arg2 = (s.lambdaArgs[2]);
-      s.arg3 = (s.lambdaArgs[3]);
-      s.arg4 = (s.lambdaArgs[4]);
-      s.arg5 = (s.lambdaArgs[5]);
-      s.lambdaArgs = null;
-    }
-    s.tmp_0 = r0 = s.arg0;
-    s.tmp_2 = helpers_pack__P31320_mk(s);
-    s.tmp_2.arg0 = s.arg1;
-    s.tmp_2.arg1 = s.arg2;
-    s.callLocIdx = 123; s.pc = 1; return s.tmp_2;
-  case 1:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    s.tmp_4 = helpers_pack__P31320_mk(s);
-    s.tmp_4.arg0 = s.arg3;
-    s.tmp_4.arg1 = s.arg4;
-    s.callLocIdx = 124; s.pc = 2; return s.tmp_4;
-  case 2:
-    r0 = s.retval;
-    s.tmp_3 = r0;
-    r0 = pxsim_ImageMethods._fillRect(s.tmp_0, s.tmp_1, s.tmp_3, s.arg5);
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-helpers_imageFillRect__P28760.info = {"start":4834,"length":159,"line":158,"column":4,"endLine":160,"endColumn":5,"fileName":"pxt_modules/screen---st7735/image.ts","functionName":"imageFillRect","argumentNames":["img","x","y","w","h","c"]}
-
-function helpers_imageFillRect__P28760_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: helpers_imageFillRect__P28760, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  arg0: undefined,
-  arg1: undefined,
-  arg2: undefined,
-  arg3: undefined,
-  arg4: undefined,
-  arg5: undefined,
-} }
-
-
-
-
-
-function info_InfoState_constructor__P31467(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_InfoState__C31466_VT)) failedCast(r0);
-    r0 = (s.arg0).fields["visibilityFlag"] = (8);
-    s.tmp_0 = r0 = s.arg0;
-    r0 = pxsim_Array__mk();
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0).fields["playerStates"] = (s.tmp_1);
-    s.tmp_0 = r0 = s.arg0;
-    s.tmp_2 = info_defaultHeartImage__P31517_mk(s);
-    s.callLocIdx = 1031; s.pc = 7; return s.tmp_2;
-  case 7:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0).fields["heartImage"] = (s.tmp_1);
-    s.tmp_0 = r0 = s.arg0;
-    r0 = pxsim.image.ofBuffer(_hex37301);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0).fields["multiplierImage"] = (s.tmp_1);
-    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    r0 = 0;
-    { step = 2; continue; }
-  case 1:
-    r0 = 1;
-  case 2:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = (s.arg0).fields["bgColor"] = (s.tmp_1);
-    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 3; continue; }
-    r0 = 1;
-    { step = 4; continue; }
-  case 3:
-    r0 = 3;
-  case 4:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = (s.arg0).fields["borderColor"] = (s.tmp_1);
-    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 5; continue; }
-    r0 = 1;
-    { step = 6; continue; }
-  case 5:
-    r0 = 3;
-  case 6:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = (s.arg0).fields["fontColor"] = (s.tmp_1);
-    r0 = (s.arg0).fields["countdownExpired"] = (undefined);
-    r0 = (s.arg0).fields["countdownEndHandler"] = (undefined);
-    r0 = (s.arg0).fields["gameEnd"] = (undefined);
-    s.tmp_0 = r0 = s.arg0;
-    r0 = pxsim_Array__mk();
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0).fields["playerStates"] = (s.tmp_1);
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_InfoState_constructor__P31467.info = {"start":1121,"length":674,"line":45,"column":8,"endLine":63,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":["this"]}
-
-function info_InfoState_constructor__P31467_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_InfoState_constructor__P31467, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  arg0: undefined,
-} }
-
-const _hex37301 = pxsim.BufferMethods.createBufferFromHex("87040500050000000100010010100000000100001010000001000100")
-
-
-
-
-function info_defaultHeartImage__P31517(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    r0 = pxsim_ImageMethods.isMono(globals.screen___28834);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    r0 = pxsim.image.ofBuffer(_hex37329);
-    { step = 2; continue; }
-  case 1:
-    r0 = pxsim.image.ofBuffer(_hex37331);
-  case 2:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = s.tmp_1;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_defaultHeartImage__P31517.info = {"start":5156,"length":592,"line":164,"column":4,"endLine":185,"endColumn":5,"fileName":"pxt_modules/game/info.ts","functionName":"defaultHeartImage","argumentNames":[]}
-
-function info_defaultHeartImage__P31517_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_defaultHeartImage__P31517, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-} }
-
-const _hex37329 = pxsim.BufferMethods.createBufferFromHex("87040800070000001011000001000100010010001000000101001000010001001011000000000000")
-const _hex37331 = pxsim.BufferMethods.createBufferFromHex("8704080007000000c0cc00002c220c002222c2002222220c20222202222422004222020020220000")
-
-
-
-
-function scene_Scene_millis__P29610(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, scene_Scene__C29585_VT)) failedCast(r0);
-    r0 = s.arg0.fields["_millis"];
-    return leave(s, r0)
-  default: oops()
-} } }
-scene_Scene_millis__P29610.info = {"start":6898,"length":61,"line":191,"column":8,"endLine":193,"endColumn":9,"fileName":"pxt_modules/game/scene.ts","functionName":"millis","argumentNames":["this"]}
-
-function scene_Scene_millis__P29610_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: scene_Scene_millis__P29610, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  arg0: undefined,
-} }
-
-
-
-
-
-function scene_createRenderable__P29549(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.renderable___37235 = undefined;
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.arg2 = (s.lambdaArgs[2]);
-      s.lambdaArgs = null;
-    }
-    r0 = pxsim_pxtcore_mkClassInstance(scene_Renderable__C29544_VT);
-    s.tmp_0 = r0;
-    s.tmp_1 = r0 = s.arg2;
-    r0 = pxsim_numops_toBool(s.tmp_1);
-    if (!r0) { step = 1; continue; }
-    r0 = s.tmp_1;
-    { step = 2; continue; }
-  case 1:
-    r0 = renderable_inline__P37241;
-  case 2:
-    // jmp value (already in r0)
-    s.tmp_2 = r0;
-    s.tmp_3 = scene_Renderable_constructor__P29545_mk(s);
-    s.tmp_3.arg0 = s.tmp_0;
-    s.tmp_3.arg1 = s.arg1;
-    s.tmp_3.arg2 = s.tmp_2;
-    s.tmp_3.arg3 = s.arg0;
-    s.callLocIdx = 1239; s.pc = 3; return s.tmp_3;
-  case 3:
-    r0 = s.retval;
-    s.renderable___37235 = (s.tmp_0);
-    r0 = s.renderable___37235;
-    return leave(s, r0)
-  default: oops()
-} } }
-scene_createRenderable__P29549.info = {"start":608,"length":339,"line":24,"column":4,"endLine":36,"endColumn":5,"fileName":"pxt_modules/game/renderable.ts","functionName":"createRenderable","argumentNames":["z","handler","shouldBeVisible"]}
-
-function scene_createRenderable__P29549_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: scene_createRenderable__P29549, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  renderable___37235: undefined,
-  arg0: undefined,
-  arg1: undefined,
-  arg2: undefined,
-} }
-
-
-
-
-
-function renderable_inline__P37241(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    r0 = true;
-    return leave(s, r0)
-  default: oops()
-} } }
-renderable_inline__P37241.info = {"start":875,"length":10,"line":31,"column":32,"endLine":31,"endColumn":42,"fileName":"pxt_modules/game/renderable.ts","functionName":"inline","argumentNames":[]}
-
-function renderable_inline__P37241_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: renderable_inline__P37241, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-} }
-
-
-
-
-
-function scene_Renderable_constructor__P29545(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.arg2 = (s.lambdaArgs[2]);
-      s.arg3 = (s.lambdaArgs[3]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, scene_Renderable__C29544_VT)) failedCast(r0);
-    r0 = (s.arg0).fields["handler"] = (s.arg1);
-    r0 = (s.arg0).fields["shouldBeVisible"] = (s.arg2);
-    s.tmp_0 = sprites_BaseSprite_constructor__P28896_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.tmp_0.arg1 = s.arg3;
-    s.callLocIdx = 1236; s.pc = 1; return s.tmp_0;
-  case 1:
-    r0 = s.retval;
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-scene_Renderable_constructor__P29545.info = {"start":83,"length":212,"line":2,"column":8,"endLine":8,"endColumn":9,"fileName":"pxt_modules/game/renderable.ts","functionName":"inline","argumentNames":["this","handler","shouldBeVisible","z"]}
-
-function scene_Renderable_constructor__P29545_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: scene_Renderable_constructor__P29545, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  arg0: undefined,
-  arg1: undefined,
-  arg2: undefined,
-  arg3: undefined,
-} }
-
-
-
-
-
-function sprites_BaseSprite_constructor__P28896(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, sprites_BaseSprite__C28894_VT)) failedCast(r0);
-    s.tmp_0 = sprites_BaseSprite_z__P28899_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.tmp_0.arg1 = s.arg1;
-    s.callLocIdx = 177; s.pc = 1; return s.tmp_0;
-  case 1:
-    r0 = s.retval;
-    s.tmp_0 = scene_Scene_addSprite__P29611_mk(s);
-    s.tmp_1 = game_currentScene__P29699_mk(s);
-    s.callLocIdx = 178; s.pc = 3; return s.tmp_1;
-  case 3:
-    r0 = s.retval;
-    s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = s.arg0;
-    s.callLocIdx = 179; s.pc = 2; return s.tmp_0;
-  case 2:
-    r0 = s.retval;
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-sprites_BaseSprite_constructor__P28896.info = {"start":344,"length":170,"line":15,"column":8,"endLine":20,"endColumn":9,"fileName":"pxt_modules/game/basesprite.ts","functionName":"inline","argumentNames":["this","z"]}
-
-function sprites_BaseSprite_constructor__P28896_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: sprites_BaseSprite_constructor__P28896, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  arg0: undefined,
-  arg1: undefined,
-} }
-
-
-
-
-
-function scene_Scene_addSprite__P29611(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, scene_Scene__C29585_VT)) failedCast(r0);
-    r0 = s.arg0.fields["allSprites"];
-    s.tmp_0 = r0;
-    r0 = pxsim_Array__push(s.tmp_0, s.arg1);
-    s.tmp_0 = r0 = s.arg0;
-    r0 = s.tmp_0.fields["spriteNextId"];
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 + 1);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0).fields["spriteNextId"] = (s.tmp_1);
-    s.tmp_3 = if_id_2_mk(s);
-    s.tmp_3.arg0 = s.arg1;
-    s.tmp_3.arg1 = s.tmp_2;
-    if (!s.tmp_3.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapSetByString(s.tmp_3.arg0, "id", s.tmp_3.arg1);
-    } else {
-      s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["set/id"];
-      if (s.tmp_3.fn === null) { s.tmp_3.arg0.fields["id"] = s.tmp_3.arg1; }
-      else if (s.tmp_3.fn === undefined) { failedCast(s.tmp_3.arg0) } 
-     else { s.callLocIdx = 1263; s.pc = 1; return s.tmp_3; }
-    }
-  case 1:
-    r0 = s.retval;
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-scene_Scene_addSprite__P29611.info = {"start":6969,"length":128,"line":195,"column":8,"endLine":198,"endColumn":9,"fileName":"pxt_modules/game/scene.ts","functionName":"addSprite","argumentNames":["this","sprite"]}
-
-function scene_Scene_addSprite__P29611_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: scene_Scene_addSprite__P29611, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  arg0: undefined,
-  arg1: undefined,
-} }
-
-
-
-
-
-function sprites_BaseSprite_z__P28899(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, sprites_BaseSprite__C28894_VT)) failedCast(r0);
-    r0 = s.arg0.fields["_z"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 !== s.arg1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    r0 = (s.arg0).fields["_z"] = (s.arg1);
-    s.tmp_1 = game_currentScene__P29699_mk(s);
-    s.callLocIdx = 180; s.pc = 3; return s.tmp_1;
-  case 3:
-    r0 = s.retval;
-    s.tmp_0 = r0;
-    r0 = s.tmp_0.fields["flags"];
-    s.tmp_3 = r0;
-    r0 = (s.tmp_3 | 1);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_0).fields["flags"] = (s.tmp_2);
-  case 1:
-  case 2:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-sprites_BaseSprite_z__P28899.info = {"start":656,"length":174,"line":30,"column":8,"endLine":35,"endColumn":9,"fileName":"pxt_modules/game/basesprite.ts","functionName":"z","argumentNames":["this","v"]}
-
-function sprites_BaseSprite_z__P28899_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: sprites_BaseSprite_z__P28899, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  arg0: undefined,
-  arg1: undefined,
-} }
-
-
-
-
-
-function sprites_BaseSprite_z__P28898(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, sprites_BaseSprite__C28894_VT)) failedCast(r0);
-    r0 = s.arg0.fields["_z"];
-    return leaveAccessor(s, r0)
-  default: oops()
-} } }
-sprites_BaseSprite_z__P28898.info = {"start":591,"length":55,"line":26,"column":8,"endLine":28,"endColumn":9,"fileName":"pxt_modules/game/basesprite.ts","functionName":"z","argumentNames":["this"]}
-sprites_BaseSprite_z__P28898.isGetter = true;
-
-function sprites_BaseSprite_z__P28898_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: sprites_BaseSprite_z__P28898, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  arg0: undefined,
-} }
-
-
-
-
-
-function info_PlayerInfo_drawLives__P29402(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.state___36612 = undefined;
-    s.font___36618 = undefined;
-    s.i___36661 = undefined;
-    s.num___36683 = undefined;
-    s.textWidth___36690 = undefined;
-    s.mult___36742 = undefined;
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
-    s.tmp_0 = info_PlayerInfo_getState__P29388_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.callLocIdx = 1123; s.pc = 8; return s.tmp_0;
-  case 8:
-    r0 = s.retval;
-    s.state___36612 = (r0);
-    r0 = s.state___36612.fields["life"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 < 0);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    { step = 7; continue; }
-  case 1:
-  case 2:
-    s.font___36618 = (globals.font8___28777);
-    r0 = s.state___36612.fields["life"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 <= 4);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 5; continue; }
-    s.tmp_2 = helpers_imageFillRect__P28760_mk(s);
-    s.tmp_2.arg0 = globals.screen___28834;
-    s.tmp_2.arg1 = 0;
-    s.tmp_2.arg2 = 0;
-    r0 = s.state___36612.fields["life"];
-    s.tmp_4 = r0;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_7 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_7);
-    s.tmp_6 = r0;
-    r0 = (s.tmp_6 + 1);
-    s.tmp_5 = r0;
-    r0 = (s.tmp_4 * s.tmp_5);
-    s.tmp_3 = r0;
-    r0 = (s.tmp_3 + 3);
-    s.tmp_2.arg3 = r0;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_9 = r0;
-    r0 = pxsim_ImageMethods.height(s.tmp_9);
-    s.tmp_8 = r0;
-    r0 = (s.tmp_8 + 4);
-    s.tmp_2.arg4 = r0;
-    r0 = globals.infoState___31469.fields["borderColor"];
-    s.tmp_2.arg5 = r0;
-    s.callLocIdx = 1124; s.pc = 9; return s.tmp_2;
-  case 9:
-    r0 = s.retval;
-    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    s.tmp_0.arg1 = 0;
-    s.tmp_0.arg2 = 0;
-    r0 = s.state___36612.fields["life"];
-    s.tmp_2 = r0;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_5 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_5);
-    s.tmp_4 = r0;
-    r0 = (s.tmp_4 + 1);
-    s.tmp_3 = r0;
-    r0 = (s.tmp_2 * s.tmp_3);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 + 2);
-    s.tmp_0.arg3 = r0;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_7 = r0;
-    r0 = pxsim_ImageMethods.height(s.tmp_7);
-    s.tmp_6 = r0;
-    r0 = (s.tmp_6 + 3);
-    s.tmp_0.arg4 = r0;
-    r0 = globals.infoState___31469.fields["bgColor"];
-    s.tmp_0.arg5 = r0;
-    s.callLocIdx = 1125; s.pc = 10; return s.tmp_0;
-  case 10:
-    r0 = s.retval;
-    s.i___36661 = (0);
-  case 3:
-    r0 = s.state___36612.fields["life"];
-    s.tmp_1 = r0;
-    r0 = (s.i___36661 < s.tmp_1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 4; continue; }
-    s.tmp_2 = r0 = globals.screen___28834;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_3 = r0;
-    s.tmp_6 = r0 = s.i___36661;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_9 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_9);
-    s.tmp_8 = r0;
-    r0 = (s.tmp_8 + 1);
-    s.tmp_7 = r0;
-    r0 = (s.tmp_6 * s.tmp_7);
-    s.tmp_5 = r0;
-    r0 = (1 + s.tmp_5);
-    s.tmp_4 = r0;
-    r0 = pxsim_ImageMethods.drawTransparentImage(s.tmp_2, s.tmp_3, s.tmp_4, 1);
-    r0 = (s.i___36661 + 1);
-    s.i___36661 = (r0);
-    { step = 3; continue; }
-  case 4:
-    { step = 6; continue; }
-  case 5:
-    r0 = s.state___36612.fields["life"];
-    s.tmp_1 = r0;
-    if ((s.tmp_1) && (s.tmp_1).vtable) {
-    setupResume(s, 11);
-    pxsim_String__stringConv(s.tmp_1);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (s.tmp_1) + ""; }
-  case 11:
-    r0 = s.retval;
-    s.tmp_0 = r0;
-    r0 = pxsim_String_.mkEmpty();
-    s.tmp_2 = r0;
-    r0 = pxsim_String__concat(s.tmp_0, s.tmp_2);
-    s.num___36683 = (r0);
-    r0 = pxsim_String_.length(s.num___36683);
-    s.tmp_1 = r0;
-    s.tmp_3 = if_charWidth_1_mk(s);
-    s.tmp_3.arg0 = s.font___36618;
-    if (!s.tmp_3.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_3.arg0, "charWidth");
-    } else {
-      s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["charWidth"];
-      if (s.tmp_3.fn == null) { s.retval = s.tmp_3.arg0.fields["charWidth"]; }
-      else if (!s.tmp_3.fn.isGetter) { s.retval = bind(s.tmp_3); }
-     else { s.callLocIdx = 1126; s.pc = 12; return s.tmp_3; }
-    }
-  case 12:
-    r0 = s.retval;
-    s.tmp_2 = r0;
-    r0 = (s.tmp_1 * s.tmp_2);
-    s.tmp_0 = r0;
-    r0 = (s.tmp_0 - 1);
-    s.textWidth___36690 = (r0);
-    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    s.tmp_0.arg1 = 0;
-    s.tmp_0.arg2 = 0;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_4 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_4);
-    s.tmp_3 = r0;
-    r0 = globals.infoState___31469.fields["multiplierImage"];
-    s.tmp_6 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_6);
-    s.tmp_5 = r0;
-    r0 = (s.tmp_3 + s.tmp_5);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 + s.textWidth___36690);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 + 5);
-    s.tmp_0.arg3 = r0;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_8 = r0;
-    r0 = pxsim_ImageMethods.height(s.tmp_8);
-    s.tmp_7 = r0;
-    r0 = (s.tmp_7 + 4);
-    s.tmp_0.arg4 = r0;
-    r0 = globals.infoState___31469.fields["borderColor"];
-    s.tmp_0.arg5 = r0;
-    s.callLocIdx = 1127; s.pc = 13; return s.tmp_0;
-  case 13:
-    r0 = s.retval;
-    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    s.tmp_0.arg1 = 0;
-    s.tmp_0.arg2 = 0;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_4 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_4);
-    s.tmp_3 = r0;
-    r0 = globals.infoState___31469.fields["multiplierImage"];
-    s.tmp_6 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_6);
-    s.tmp_5 = r0;
-    r0 = (s.tmp_3 + s.tmp_5);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 + s.textWidth___36690);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 + 4);
-    s.tmp_0.arg3 = r0;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_8 = r0;
-    r0 = pxsim_ImageMethods.height(s.tmp_8);
-    s.tmp_7 = r0;
-    r0 = (s.tmp_7 + 3);
-    s.tmp_0.arg4 = r0;
-    r0 = globals.infoState___31469.fields["bgColor"];
-    s.tmp_0.arg5 = r0;
-    s.callLocIdx = 1128; s.pc = 14; return s.tmp_0;
-  case 14:
-    r0 = s.retval;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_0 = r0;
-    r0 = pxsim_ImageMethods.drawTransparentImage(globals.screen___28834, s.tmp_0, 1, 1);
-    r0 = globals.infoState___31469.fields["multiplierImage"];
-    s.tmp_0 = r0;
-    r0 = pxsim_ImageMethods.clone(s.tmp_0);
-    s.mult___36742 = (r0);
-    r0 = globals.infoState___31469.fields["fontColor"];
-    s.tmp_0 = r0;
-    r0 = pxsim_ImageMethods.replace(s.mult___36742, 1, s.tmp_0);
-    s.tmp_0 = r0 = globals.screen___28834;
-    s.tmp_1 = r0 = s.mult___36742;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_4 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_4);
-    s.tmp_3 = r0;
-    r0 = (s.tmp_3 + 2);
-    s.tmp_2 = r0;
-    s.tmp_8 = if_charHeight_1_mk(s);
-    s.tmp_8.arg0 = s.font___36618;
-    if (!s.tmp_8.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_8.arg0, "charHeight");
-    } else {
-      s.tmp_8.fn = s.tmp_8.arg0.vtable.iface["charHeight"];
-      if (s.tmp_8.fn == null) { s.retval = s.tmp_8.arg0.fields["charHeight"]; }
-      else if (!s.tmp_8.fn.isGetter) { s.retval = bind(s.tmp_8); }
-     else { s.callLocIdx = 1129; s.pc = 15; return s.tmp_8; }
-    }
-  case 15:
-    r0 = s.retval;
-    s.tmp_7 = r0;
-    r0 = globals.infoState___31469.fields["multiplierImage"];
-    s.tmp_10 = r0;
-    r0 = pxsim_ImageMethods.height(s.tmp_10);
-    s.tmp_9 = r0;
-    r0 = (s.tmp_7 - s.tmp_9);
-    s.tmp_6 = r0;
-    r0 = (s.tmp_6 - 1);
-    s.tmp_5 = r0;
-    r0 = pxsim_ImageMethods.drawTransparentImage(s.tmp_0, s.tmp_1, s.tmp_2, s.tmp_5);
-    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    s.tmp_0.arg1 = s.num___36683;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_3 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_3);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 + 3);
-    s.tmp_1 = r0;
-    r0 = globals.infoState___31469.fields["multiplierImage"];
-    s.tmp_5 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_5);
-    s.tmp_4 = r0;
-    r0 = (s.tmp_1 + s.tmp_4);
-    s.tmp_0.arg2 = r0;
-    s.tmp_0.arg3 = 1;
-    r0 = globals.infoState___31469.fields["fontColor"];
-    s.tmp_0.arg4 = r0;
-    s.tmp_0.arg5 = s.font___36618;
-    s.tmp_0.arg6 = undefined;
-    s.callLocIdx = 1130; s.pc = 16; return s.tmp_0;
-  case 16:
-    r0 = s.retval;
-  case 6:
-  case 7:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_PlayerInfo_drawLives__P29402.info = {"start":26342,"length":2458,"line":855,"column":8,"endLine":921,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"drawLives","argumentNames":["this"]}
-
-function info_PlayerInfo_drawLives__P29402_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_PlayerInfo_drawLives__P29402, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  tmp_5: undefined,
-  tmp_6: undefined,
-  tmp_7: undefined,
-  tmp_8: undefined,
-  tmp_9: undefined,
-  tmp_10: undefined,
-  state___36612: undefined,
-  font___36618: undefined,
-  i___36661: undefined,
-  num___36683: undefined,
-  textWidth___36690: undefined,
-  mult___36742: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function info_PlayerInfo_drawScore__P29401(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.s___36798 = undefined;
-    s.font___36802 = undefined;
-    s.offsetY___36803 = undefined;
-    s.num___36812 = undefined;
-    s.width___36816 = undefined;
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
-    s.tmp_1 = info_PlayerInfo_score__P29390_mk(s);
-    s.tmp_1.arg0 = s.arg0;
-    s.callLocIdx = 1116; s.pc = 3; return s.tmp_1;
-  case 3:
-    r0 = s.retval;
-    s.tmp_0 = r0;
-    r0 = (s.tmp_0 | 0);
-    s.s___36798 = (r0);
-    r0 = (s.s___36798 >= 1000000);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    s.offsetY___36803 = (2);
-    s.font___36802 = (globals.font5___28782);
-    { step = 2; continue; }
-  case 1:
-    s.offsetY___36803 = (1);
-    s.font___36802 = (globals.font8___28777);
-  case 2:
-    r0 = pxsim_numops.toString(s.s___36798);
-    s.num___36812 = (r0);
-    r0 = pxsim_String_.length(s.num___36812);
-    s.tmp_0 = r0;
-    s.tmp_2 = if_charWidth_1_mk(s);
-    s.tmp_2.arg0 = s.font___36802;
-    if (!s.tmp_2.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charWidth");
-    } else {
-      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charWidth"];
-      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charWidth"]; }
-      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
-     else { s.callLocIdx = 1117; s.pc = 4; return s.tmp_2; }
-    }
-  case 4:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0 * s.tmp_1);
-    s.width___36816 = (r0);
-    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    r0 = pxsim_ImageMethods.width(globals.screen___28834);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 - s.width___36816);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 - 2);
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = 0;
-    r0 = pxsim_ImageMethods.width(globals.screen___28834);
-    s.tmp_0.arg3 = r0;
-    s.tmp_4 = if_charHeight_1_mk(s);
-    s.tmp_4.arg0 = globals.font8___28777;
-    if (!s.tmp_4.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_4.arg0, "charHeight");
-    } else {
-      s.tmp_4.fn = s.tmp_4.arg0.vtable.iface["charHeight"];
-      if (s.tmp_4.fn == null) { s.retval = s.tmp_4.arg0.fields["charHeight"]; }
-      else if (!s.tmp_4.fn.isGetter) { s.retval = bind(s.tmp_4); }
-     else { s.callLocIdx = 1118; s.pc = 6; return s.tmp_4; }
-    }
-  case 6:
-    r0 = s.retval;
-    s.tmp_3 = r0;
-    r0 = (s.tmp_3 + 3);
-    s.tmp_0.arg4 = r0;
-    r0 = globals.infoState___31469.fields["borderColor"];
-    s.tmp_0.arg5 = r0;
-    s.callLocIdx = 1119; s.pc = 5; return s.tmp_0;
-  case 5:
-    r0 = s.retval;
-    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    r0 = pxsim_ImageMethods.width(globals.screen___28834);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 - s.width___36816);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 - 1);
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = 0;
-    r0 = pxsim_ImageMethods.width(globals.screen___28834);
-    s.tmp_0.arg3 = r0;
-    s.tmp_4 = if_charHeight_1_mk(s);
-    s.tmp_4.arg0 = globals.font8___28777;
-    if (!s.tmp_4.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_4.arg0, "charHeight");
-    } else {
-      s.tmp_4.fn = s.tmp_4.arg0.vtable.iface["charHeight"];
-      if (s.tmp_4.fn == null) { s.retval = s.tmp_4.arg0.fields["charHeight"]; }
-      else if (!s.tmp_4.fn.isGetter) { s.retval = bind(s.tmp_4); }
-     else { s.callLocIdx = 1120; s.pc = 8; return s.tmp_4; }
-    }
-  case 8:
-    r0 = s.retval;
-    s.tmp_3 = r0;
-    r0 = (s.tmp_3 + 2);
-    s.tmp_0.arg4 = r0;
-    r0 = globals.infoState___31469.fields["bgColor"];
-    s.tmp_0.arg5 = r0;
-    s.callLocIdx = 1121; s.pc = 7; return s.tmp_0;
-  case 7:
-    r0 = s.retval;
-    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    s.tmp_0.arg1 = s.num___36812;
-    r0 = pxsim_ImageMethods.width(globals.screen___28834);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 - s.width___36816);
-    s.tmp_0.arg2 = r0;
-    s.tmp_0.arg3 = s.offsetY___36803;
-    r0 = globals.infoState___31469.fields["fontColor"];
-    s.tmp_0.arg4 = r0;
-    s.tmp_0.arg5 = s.font___36802;
-    s.tmp_0.arg6 = undefined;
-    s.callLocIdx = 1122; s.pc = 9; return s.tmp_0;
-  case 9:
-    r0 = s.retval;
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_PlayerInfo_drawScore__P29401.info = {"start":25284,"length":1048,"line":815,"column":8,"endLine":853,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"drawScore","argumentNames":["this"]}
-
-function info_PlayerInfo_drawScore__P29401_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_PlayerInfo_drawScore__P29401, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  s___36798: undefined,
-  font___36802: undefined,
-  offsetY___36803: undefined,
-  num___36812: undefined,
-  width___36816: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function info_PlayerInfo_drawPlayer__P29400(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.state___36896 = undefined;
-    s.font___36899 = undefined;
-    s.score___36901 = undefined;
-    s.life___36902 = undefined;
-    s.height___36903 = undefined;
-    s.scoreWidth___36904 = undefined;
-    s.lifeWidth___36905 = undefined;
-    s.offsetY___36908 = undefined;
-    s.showScore___36909 = undefined;
-    s.showLife___36917 = undefined;
-    s.width___36985 = undefined;
-    s.x___36995 = undefined;
-    s.y___37002 = undefined;
-    s.bump___37035 = undefined;
-    s.xLoc___37060 = undefined;
-    s.mult___37071 = undefined;
-    s.pNum___37133 = undefined;
-    s.iconWidth___37140 = undefined;
-    s.iconHeight___37148 = undefined;
-    s.iconX___37156 = undefined;
-    s.iconY___37168 = undefined;
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
-    s.tmp_0 = info_PlayerInfo_getState__P29388_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.callLocIdx = 1099; s.pc = 43; return s.tmp_0;
-  case 43:
-    r0 = s.retval;
-    s.state___36896 = (r0);
-    s.font___36899 = (globals.font5___28782);
-    s.height___36903 = (4);
-    s.scoreWidth___36904 = (0);
-    s.lifeWidth___36905 = (0);
-    s.offsetY___36908 = (2);
-    r0 = s.arg0.fields["showScore"];
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (r0) { step = 1; continue; }
-    r0 = s.tmp_0;
-    { step = 2; continue; }
-  case 1:
-    r0 = s.state___36896.fields["score"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 !== undefined);
-  case 2:
-    // jmp value (already in r0)
-    s.tmp_2 = r0;
-    s.showScore___36909 = (s.tmp_2);
-    r0 = s.arg0.fields["showLife"];
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (r0) { step = 3; continue; }
-    r0 = s.tmp_0;
-    { step = 4; continue; }
-  case 3:
-    r0 = s.state___36896.fields["life"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 !== undefined);
-  case 4:
-    // jmp value (already in r0)
-    s.tmp_2 = r0;
-    s.showLife___36917 = (s.tmp_2);
-    r0 = pxsim_numops_toBoolDecr(s.showScore___36909);
-    if (!r0) { step = 5; continue; }
-    r0 = pxsim_String_.mkEmpty();
-    s.tmp_0 = r0;
-    r0 = s.state___36896.fields["score"];
-    s.tmp_2 = r0;
-    if ((s.tmp_2) && (s.tmp_2).vtable) {
-    setupResume(s, 44);
-    pxsim_String__stringConv(s.tmp_2);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (s.tmp_2) + ""; }
-  case 44:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = pxsim_String__concat(s.tmp_0, s.tmp_1);
-    s.score___36901 = (r0);
-    r0 = pxsim_String_.length(s.score___36901);
-    s.tmp_1 = r0;
-    s.tmp_3 = if_charWidth_1_mk(s);
-    s.tmp_3.arg0 = s.font___36899;
-    if (!s.tmp_3.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_3.arg0, "charWidth");
-    } else {
-      s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["charWidth"];
-      if (s.tmp_3.fn == null) { s.retval = s.tmp_3.arg0.fields["charWidth"]; }
-      else if (!s.tmp_3.fn.isGetter) { s.retval = bind(s.tmp_3); }
-     else { s.callLocIdx = 1100; s.pc = 45; return s.tmp_3; }
-    }
-  case 45:
-    r0 = s.retval;
-    s.tmp_2 = r0;
-    r0 = (s.tmp_1 * s.tmp_2);
-    s.tmp_0 = r0;
-    r0 = (s.tmp_0 + 3);
-    s.scoreWidth___36904 = (r0);
-    s.tmp_0 = r0 = s.height___36903;
-    s.tmp_2 = if_charHeight_1_mk(s);
-    s.tmp_2.arg0 = s.font___36899;
-    if (!s.tmp_2.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charHeight");
-    } else {
-      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charHeight"];
-      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charHeight"]; }
-      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
-     else { s.callLocIdx = 1101; s.pc = 46; return s.tmp_2; }
-    }
-  case 46:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0 + s.tmp_1);
-    s.height___36903 = (r0);
-    s.tmp_0 = r0 = s.offsetY___36908;
-    s.tmp_3 = if_charHeight_1_mk(s);
-    s.tmp_3.arg0 = s.font___36899;
-    if (!s.tmp_3.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_3.arg0, "charHeight");
-    } else {
-      s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["charHeight"];
-      if (s.tmp_3.fn == null) { s.retval = s.tmp_3.arg0.fields["charHeight"]; }
-      else if (!s.tmp_3.fn.isGetter) { s.retval = bind(s.tmp_3); }
-     else { s.callLocIdx = 1102; s.pc = 47; return s.tmp_3; }
-    }
-  case 47:
-    r0 = s.retval;
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 + 1);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0 + s.tmp_1);
-    s.offsetY___36908 = (r0);
-  case 5:
-  case 6:
-    r0 = pxsim_numops_toBoolDecr(s.showLife___36917);
-    if (!r0) { step = 9; continue; }
-    r0 = s.state___36896.fields["life"];
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (!r0) { step = 7; continue; }
-    r0 = s.tmp_0;
-    { step = 8; continue; }
-  case 7:
-    r0 = 0;
-  case 8:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = pxsim_String_.mkEmpty();
-    s.tmp_2 = r0;
-    if ((s.tmp_1) && (s.tmp_1).vtable) {
-    setupResume(s, 48);
-    pxsim_String__stringConv(s.tmp_1);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (s.tmp_1) + ""; }
-  case 48:
-    r0 = s.retval;
-    s.tmp_3 = r0;
-    r0 = pxsim_String__concat(s.tmp_2, s.tmp_3);
-    s.life___36902 = (r0);
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_3 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_3);
-    s.tmp_2 = r0;
-    r0 = globals.infoState___31469.fields["multiplierImage"];
-    s.tmp_5 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_5);
-    s.tmp_4 = r0;
-    r0 = (s.tmp_2 + s.tmp_4);
-    s.tmp_1 = r0;
-    r0 = pxsim_String_.length(s.life___36902);
-    s.tmp_7 = r0;
-    s.tmp_9 = if_charWidth_1_mk(s);
-    s.tmp_9.arg0 = s.font___36899;
-    if (!s.tmp_9.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_9.arg0, "charWidth");
-    } else {
-      s.tmp_9.fn = s.tmp_9.arg0.vtable.iface["charWidth"];
-      if (s.tmp_9.fn == null) { s.retval = s.tmp_9.arg0.fields["charWidth"]; }
-      else if (!s.tmp_9.fn.isGetter) { s.retval = bind(s.tmp_9); }
-     else { s.callLocIdx = 1103; s.pc = 49; return s.tmp_9; }
-    }
-  case 49:
-    r0 = s.retval;
-    s.tmp_8 = r0;
-    r0 = (s.tmp_7 * s.tmp_8);
-    s.tmp_6 = r0;
-    r0 = (s.tmp_1 + s.tmp_6);
-    s.tmp_0 = r0;
-    r0 = (s.tmp_0 + 3);
-    s.lifeWidth___36905 = (r0);
-    s.tmp_0 = r0 = s.height___36903;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_2 = r0;
-    r0 = pxsim_ImageMethods.height(s.tmp_2);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_0 + s.tmp_1);
-    s.height___36903 = (r0);
-  case 9:
-  case 10:
-    s.tmp_0 = Math_max__P27135_mk(s);
-    s.tmp_0.arg0 = s.scoreWidth___36904;
-    s.tmp_0.arg1 = s.lifeWidth___36905;
-    s.callLocIdx = 1104; s.pc = 50; return s.tmp_0;
-  case 50:
-    r0 = s.retval;
-    s.width___36985 = (r0);
-    s.tmp_0 = r0 = s.showScore___36909;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (r0) { step = 11; continue; }
-    r0 = s.tmp_0;
-    { step = 12; continue; }
-  case 11:
-    r0 = s.showLife___36917;
-  case 12:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_1);
-    if (!r0) { step = 13; continue; }
-    r0 = (s.height___36903 + 1);
-    s.height___36903 = (r0);
-  case 13:
-  case 14:
-    r0 = s.arg0.fields["left"];
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 15; continue; }
-    r0 = s.width___36985;
-    { step = 16; continue; }
-  case 15:
-    r0 = 0;
-  case 16:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = s.arg0.fields["x"];
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 - s.tmp_1);
-    s.x___36995 = (r0);
-    r0 = s.arg0.fields["up"];
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 17; continue; }
-    r0 = s.height___36903;
-    { step = 18; continue; }
-  case 17:
-    r0 = 0;
-  case 18:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = s.arg0.fields["y"];
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 - s.tmp_1);
-    s.y___37002 = (r0);
-    s.tmp_0 = r0 = s.showScore___36909;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (!r0) { step = 19; continue; }
-    r0 = s.tmp_0;
-    { step = 20; continue; }
-  case 19:
-    r0 = s.showLife___36917;
-  case 20:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_1);
-    if (!r0) { step = 21; continue; }
-    s.tmp_2 = helpers_imageFillRect__P28760_mk(s);
-    s.tmp_2.arg0 = globals.screen___28834;
-    s.tmp_2.arg1 = s.x___36995;
-    s.tmp_2.arg2 = s.y___37002;
-    s.tmp_2.arg3 = s.width___36985;
-    s.tmp_2.arg4 = s.height___36903;
-    r0 = s.arg0.fields["border"];
-    s.tmp_2.arg5 = r0;
-    s.callLocIdx = 1105; s.pc = 51; return s.tmp_2;
-  case 51:
-    r0 = s.retval;
-    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    r0 = (s.x___36995 + 1);
-    s.tmp_0.arg1 = r0;
-    r0 = (s.y___37002 + 1);
-    s.tmp_0.arg2 = r0;
-    r0 = (s.width___36985 - 2);
-    s.tmp_0.arg3 = r0;
-    r0 = (s.height___36903 - 2);
-    s.tmp_0.arg4 = r0;
-    r0 = s.arg0.fields["bg"];
-    s.tmp_0.arg5 = r0;
-    s.callLocIdx = 1106; s.pc = 52; return s.tmp_0;
-  case 52:
-    r0 = s.retval;
-  case 21:
-  case 22:
-    r0 = pxsim_numops_toBoolDecr(s.showScore___36909);
-    if (!r0) { step = 25; continue; }
-    r0 = s.arg0.fields["left"];
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 23; continue; }
-    r0 = (s.width___36985 - s.scoreWidth___36904);
-    { step = 24; continue; }
-  case 23:
-    r0 = 0;
-  case 24:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    s.bump___37035 = (s.tmp_1);
-    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    s.tmp_0.arg1 = s.score___36901;
-    r0 = (s.x___36995 + 1);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 + s.bump___37035);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 + 1);
-    s.tmp_0.arg2 = r0;
-    r0 = (s.y___37002 + 2);
-    s.tmp_0.arg3 = r0;
-    r0 = s.arg0.fields["fc"];
-    s.tmp_0.arg4 = r0;
-    s.tmp_0.arg5 = s.font___36899;
-    s.tmp_0.arg6 = undefined;
-    s.callLocIdx = 1107; s.pc = 53; return s.tmp_0;
-  case 53:
-    r0 = s.retval;
-  case 25:
-  case 26:
-    r0 = pxsim_numops_toBoolDecr(s.showLife___36917);
-    if (!r0) { step = 29; continue; }
-    r0 = s.arg0.fields["left"];
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 27; continue; }
-    r0 = (s.width___36985 - s.lifeWidth___36905);
-    { step = 28; continue; }
-  case 27:
-    r0 = 0;
-  case 28:
-    // jmp value (already in r0)
-    s.tmp_1 = r0;
-    r0 = (s.x___36995 + 1);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 + s.tmp_1);
-    s.xLoc___37060 = (r0);
-    r0 = globals.infoState___31469.fields["multiplierImage"];
-    s.tmp_0 = r0;
-    r0 = pxsim_ImageMethods.clone(s.tmp_0);
-    s.mult___37071 = (r0);
-    r0 = s.arg0.fields["fc"];
-    s.tmp_0 = r0;
-    r0 = pxsim_ImageMethods.replace(s.mult___37071, 1, s.tmp_0);
-    s.tmp_0 = r0 = globals.screen___28834;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_1 = r0;
-    s.tmp_2 = r0 = s.xLoc___37060;
-    r0 = (s.y___37002 + s.offsetY___36908);
-    s.tmp_3 = r0;
-    r0 = pxsim_ImageMethods.drawTransparentImage(s.tmp_0, s.tmp_1, s.tmp_2, s.tmp_3);
-    s.tmp_0 = r0 = globals.screen___28834;
-    s.tmp_1 = r0 = s.mult___37071;
-    s.tmp_3 = r0 = s.xLoc___37060;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_5 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_5);
-    s.tmp_4 = r0;
-    r0 = (s.tmp_3 + s.tmp_4);
-    s.tmp_2 = r0;
-    r0 = (s.y___37002 + s.offsetY___36908);
-    s.tmp_9 = r0;
-    s.tmp_11 = if_charHeight_1_mk(s);
-    s.tmp_11.arg0 = s.font___36899;
-    if (!s.tmp_11.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_11.arg0, "charHeight");
-    } else {
-      s.tmp_11.fn = s.tmp_11.arg0.vtable.iface["charHeight"];
-      if (s.tmp_11.fn == null) { s.retval = s.tmp_11.arg0.fields["charHeight"]; }
-      else if (!s.tmp_11.fn.isGetter) { s.retval = bind(s.tmp_11); }
-     else { s.callLocIdx = 1108; s.pc = 54; return s.tmp_11; }
-    }
-  case 54:
-    r0 = s.retval;
-    s.tmp_10 = r0;
-    r0 = (s.tmp_9 + s.tmp_10);
-    s.tmp_8 = r0;
-    r0 = globals.infoState___31469.fields["multiplierImage"];
-    s.tmp_13 = r0;
-    r0 = pxsim_ImageMethods.height(s.tmp_13);
-    s.tmp_12 = r0;
-    r0 = (s.tmp_8 - s.tmp_12);
-    s.tmp_7 = r0;
-    r0 = (s.tmp_7 - 1);
-    s.tmp_6 = r0;
-    r0 = pxsim_ImageMethods.drawTransparentImage(s.tmp_0, s.tmp_1, s.tmp_2, s.tmp_6);
-    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    s.tmp_0.arg1 = s.life___36902;
-    s.tmp_3 = r0 = s.xLoc___37060;
-    r0 = globals.infoState___31469.fields["heartImage"];
-    s.tmp_5 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_5);
-    s.tmp_4 = r0;
-    r0 = (s.tmp_3 + s.tmp_4);
-    s.tmp_2 = r0;
-    r0 = globals.infoState___31469.fields["multiplierImage"];
-    s.tmp_7 = r0;
-    r0 = pxsim_ImageMethods.width(s.tmp_7);
-    s.tmp_6 = r0;
-    r0 = (s.tmp_2 + s.tmp_6);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 + 1);
-    s.tmp_0.arg2 = r0;
-    r0 = (s.y___37002 + s.offsetY___36908);
-    s.tmp_0.arg3 = r0;
-    r0 = s.arg0.fields["fc"];
-    s.tmp_0.arg4 = r0;
-    s.tmp_0.arg5 = s.font___36899;
-    s.tmp_0.arg6 = undefined;
-    s.callLocIdx = 1109; s.pc = 55; return s.tmp_0;
-  case 55:
-    r0 = s.retval;
-  case 29:
-  case 30:
-    r0 = s.arg0.fields["showPlayer"];
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 41; continue; }
-    r0 = pxsim_String_.mkEmpty();
-    s.tmp_1 = r0;
-    r0 = s.arg0.fields["_player"];
-    s.tmp_3 = r0;
-    if ((s.tmp_3) && (s.tmp_3).vtable) {
-    setupResume(s, 56);
-    pxsim_String__stringConv(s.tmp_3);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (s.tmp_3) + ""; }
-  case 56:
-    r0 = s.retval;
-    s.tmp_2 = r0;
-    r0 = pxsim_String__concat(s.tmp_1, s.tmp_2);
-    s.pNum___37133 = (r0);
-    r0 = pxsim_String_.length(s.pNum___37133);
-    s.tmp_1 = r0;
-    s.tmp_3 = if_charWidth_1_mk(s);
-    s.tmp_3.arg0 = s.font___36899;
-    if (!s.tmp_3.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_3.arg0, "charWidth");
-    } else {
-      s.tmp_3.fn = s.tmp_3.arg0.vtable.iface["charWidth"];
-      if (s.tmp_3.fn == null) { s.retval = s.tmp_3.arg0.fields["charWidth"]; }
-      else if (!s.tmp_3.fn.isGetter) { s.retval = bind(s.tmp_3); }
-     else { s.callLocIdx = 1110; s.pc = 57; return s.tmp_3; }
-    }
-  case 57:
-    r0 = s.retval;
-    s.tmp_2 = r0;
-    r0 = (s.tmp_1 * s.tmp_2);
-    s.tmp_0 = r0;
-    r0 = (s.tmp_0 + 1);
-    s.iconWidth___37140 = (r0);
-    s.tmp_0 = Math_max__P27135_mk(s);
-    s.tmp_0.arg0 = s.height___36903;
-    s.tmp_2 = if_charHeight_1_mk(s);
-    s.tmp_2.arg0 = s.font___36899;
-    if (!s.tmp_2.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_2.arg0, "charHeight");
-    } else {
-      s.tmp_2.fn = s.tmp_2.arg0.vtable.iface["charHeight"];
-      if (s.tmp_2.fn == null) { s.retval = s.tmp_2.arg0.fields["charHeight"]; }
-      else if (!s.tmp_2.fn.isGetter) { s.retval = bind(s.tmp_2); }
-     else { s.callLocIdx = 1111; s.pc = 59; return s.tmp_2; }
-    }
-  case 59:
-    r0 = s.retval;
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 + 2);
-    s.tmp_0.arg1 = r0;
-    s.callLocIdx = 1112; s.pc = 58; return s.tmp_0;
-  case 58:
-    r0 = s.retval;
-    s.iconHeight___37148 = (r0);
-    r0 = s.arg0.fields["left"];
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 31; continue; }
-    r0 = (s.x___36995 - s.iconWidth___37140);
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 + 1);
-    { step = 32; continue; }
-  case 31:
-    r0 = (s.x___36995 + s.width___36985);
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 - 1);
-  case 32:
-    // jmp value (already in r0)
-    s.tmp_3 = r0;
-    s.iconX___37156 = (s.tmp_3);
-    s.iconY___37168 = (s.y___37002);
-    r0 = pxsim_numops_toBoolDecr(s.showScore___36909);
-    s.tmp_1 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (r0) { step = 33; continue; }
-    r0 = s.tmp_0;
-    { step = 34; continue; }
-  case 33:
-    r0 = pxsim_numops_toBoolDecr(s.showLife___36917);
-    s.tmp_2 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_2);
-  case 34:
-    // jmp value (already in r0)
-    s.tmp_3 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
-    if (!r0) { step = 39; continue; }
-    r0 = s.arg0.fields["left"];
-    s.tmp_4 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_4);
-    if (!r0) { step = 35; continue; }
-    r0 = -1;
-    { step = 36; continue; }
-  case 35:
-    r0 = 1;
-  case 36:
-    // jmp value (already in r0)
-    s.tmp_5 = r0;
-    r0 = (s.iconX___37156 + s.tmp_5);
-    s.iconX___37156 = (r0);
-    r0 = s.arg0.fields["up"];
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 37; continue; }
-    r0 = (s.iconY___37168 - 3);
-    s.iconY___37168 = (r0);
-  case 37:
-  case 38:
-  case 39:
-  case 40:
-    s.tmp_0 = helpers_imageFillRect__P28760_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    s.tmp_0.arg1 = s.iconX___37156;
-    s.tmp_0.arg2 = s.iconY___37168;
-    s.tmp_0.arg3 = s.iconWidth___37140;
-    s.tmp_0.arg4 = s.iconHeight___37148;
-    r0 = s.arg0.fields["border"];
-    s.tmp_0.arg5 = r0;
-    s.callLocIdx = 1113; s.pc = 60; return s.tmp_0;
-  case 60:
-    r0 = s.retval;
-    s.tmp_0 = helpers_imagePrint__P28792_mk(s);
-    s.tmp_0.arg0 = globals.screen___28834;
-    s.tmp_0.arg1 = s.pNum___37133;
-    r0 = (s.iconX___37156 + 1);
-    s.tmp_0.arg2 = r0;
-    s.tmp_2 = r0 = s.iconY___37168;
-    r0 = (s.iconHeight___37148 >> 1);
-    s.tmp_3 = r0;
-    r0 = (s.tmp_2 + s.tmp_3);
-    s.tmp_1 = r0;
-    s.tmp_6 = if_charHeight_1_mk(s);
-    s.tmp_6.arg0 = s.font___36899;
-    if (!s.tmp_6.arg0.vtable.iface) {
-      s.retval = pxsim_pxtrt.mapGetByString(s.tmp_6.arg0, "charHeight");
-    } else {
-      s.tmp_6.fn = s.tmp_6.arg0.vtable.iface["charHeight"];
-      if (s.tmp_6.fn == null) { s.retval = s.tmp_6.arg0.fields["charHeight"]; }
-      else if (!s.tmp_6.fn.isGetter) { s.retval = bind(s.tmp_6); }
-     else { s.callLocIdx = 1114; s.pc = 62; return s.tmp_6; }
-    }
-  case 62:
-    r0 = s.retval;
-    s.tmp_5 = r0;
-    r0 = (s.tmp_5 >> 1);
-    s.tmp_4 = r0;
-    r0 = (s.tmp_1 - s.tmp_4);
-    s.tmp_0.arg3 = r0;
-    r0 = s.arg0.fields["bg"];
-    s.tmp_0.arg4 = r0;
-    s.tmp_0.arg5 = s.font___36899;
-    s.tmp_0.arg6 = undefined;
-    s.callLocIdx = 1115; s.pc = 61; return s.tmp_0;
-  case 61:
-    r0 = s.retval;
-  case 41:
-  case 42:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_PlayerInfo_drawPlayer__P29400.info = {"start":21639,"length":3635,"line":710,"column":8,"endLine":813,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"drawPlayer","argumentNames":["this"]}
-
-function info_PlayerInfo_drawPlayer__P29400_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_PlayerInfo_drawPlayer__P29400, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  tmp_5: undefined,
-  tmp_6: undefined,
-  tmp_7: undefined,
-  tmp_8: undefined,
-  tmp_9: undefined,
-  tmp_10: undefined,
-  tmp_11: undefined,
-  tmp_12: undefined,
-  tmp_13: undefined,
-  state___36896: undefined,
-  font___36899: undefined,
-  score___36901: undefined,
-  life___36902: undefined,
-  height___36903: undefined,
-  scoreWidth___36904: undefined,
-  lifeWidth___36905: undefined,
-  offsetY___36908: undefined,
-  showScore___36909: undefined,
-  showLife___36917: undefined,
-  width___36985: undefined,
-  x___36995: undefined,
-  y___37002: undefined,
-  bump___37035: undefined,
-  xLoc___37060: undefined,
-  mult___37071: undefined,
-  pNum___37133: undefined,
-  iconWidth___37140: undefined,
-  iconHeight___37148: undefined,
-  iconX___37156: undefined,
-  iconY___37168: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function info_PlayerInfo_raiseLifeZero__P29399(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.state___36874 = undefined;
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
-    s.tmp_0 = info_PlayerInfo_getState__P29388_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.callLocIdx = 1096; s.pc = 9; return s.tmp_0;
-  case 9:
-    r0 = s.retval;
-    s.state___36874 = (r0);
-    r0 = s.state___36874.fields["life"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 !== null);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (r0) { step = 1; continue; }
-    r0 = s.tmp_0;
-    { step = 2; continue; }
-  case 1:
-    r0 = s.state___36874.fields["life"];
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 <= 0);
-  case 2:
-    // jmp value (already in r0)
-    s.tmp_3 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_3);
-    if (!r0) { step = 7; continue; }
-    r0 = (s.state___36874).fields["life"] = (null);
-    r0 = s.state___36874.fields["lifeZeroHandler"];
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 3; continue; }
-    s.tmp_1 = if_lifeZeroHandler_1_mk(s);
-    s.tmp_1.arg0 = s.state___36874;
-    if (!s.tmp_1.arg0.vtable.iface) {
-      setupLambda(s.tmp_1, pxsim_pxtrt.mapGetByString(s.tmp_1.arg0, "lifeZeroHandler"), 1);
-      s.callLocIdx = 1097; s.pc = 10; return s.tmp_1;
-    } else {
-      s.tmp_1.fn = s.tmp_1.arg0.vtable.iface["lifeZeroHandler"];
-      if (s.tmp_1.fn == null) { setupLambda(s.tmp_1, s.tmp_1.arg0.fields["lifeZeroHandler"], 1); s.callLocIdx = 1097; s.pc = 10; return s.tmp_1; }
-      else if (s.tmp_1.fn.isGetter) { s.tmp_1.stage2Call = true; s.callLocIdx = 1097; s.pc = 10; return s.tmp_1;; }
-     else { s.callLocIdx = 1097; s.pc = 10; return s.tmp_1; }
-    }
-  case 10:
-    r0 = s.retval;
-    { step = 6; continue; }
-  case 3:
-    r0 = pxsim_numops_toBoolDecr(s.arg1);
-    if (!r0) { step = 4; continue; }
-    s.tmp_0 = game_over__P29709_mk(s);
-    s.tmp_0.arg0 = false;
-    s.tmp_0.arg1 = undefined;
-    s.callLocIdx = 1098; s.pc = 11; return s.tmp_0;
-  case 11:
-    r0 = s.retval;
-  case 4:
-  case 5:
-  case 6:
-  case 7:
-  case 8:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_PlayerInfo_raiseLifeZero__P29399.info = {"start":21255,"length":374,"line":698,"column":8,"endLine":708,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"raiseLifeZero","argumentNames":["this","gameOver"]}
-
-function info_PlayerInfo_raiseLifeZero__P29399_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_PlayerInfo_raiseLifeZero__P29399, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  state___36874: undefined,
-  arg0: undefined,
-  arg1: undefined,
-} }
-
-
-
-
-
-function info_PlayerInfo_hasLife__P29397(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.state___36785 = undefined;
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
-    s.tmp_0 = info_PlayerInfo_getState__P29388_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.callLocIdx = 1095; s.pc = 3; return s.tmp_0;
-  case 3:
-    r0 = s.retval;
-    s.state___36785 = (r0);
-    r0 = s.state___36785.fields["life"];
-    s.tmp_1 = r0;
-    r0 = (s.tmp_1 !== undefined);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBool(s.tmp_0);
-    if (r0) { step = 1; continue; }
-    r0 = s.tmp_0;
-    { step = 2; continue; }
-  case 1:
-    r0 = s.state___36785.fields["life"];
-    s.tmp_2 = r0;
-    r0 = (s.tmp_2 !== null);
-  case 2:
-    // jmp value (already in r0)
-    s.tmp_3 = r0;
-    r0 = s.tmp_3;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_PlayerInfo_hasLife__P29397.info = {"start":20732,"length":141,"line":681,"column":8,"endLine":684,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"hasLife","argumentNames":["this"]}
-
-function info_PlayerInfo_hasLife__P29397_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_PlayerInfo_hasLife__P29397, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  state___36785: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function info_PlayerInfo_hasScore__P29393(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.state___36865 = undefined;
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
-    s.tmp_0 = info_PlayerInfo_getState__P29388_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.callLocIdx = 1090; s.pc = 1; return s.tmp_0;
-  case 1:
-    r0 = s.retval;
-    s.state___36865 = (r0);
-    r0 = s.state___36865.fields["score"];
-    s.tmp_0 = r0;
-    r0 = (s.tmp_0 !== undefined);
-    return leave(s, r0)
-  default: oops()
-} } }
-info_PlayerInfo_hasScore__P29393.info = {"start":18908,"length":111,"line":622,"column":8,"endLine":625,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"hasScore","argumentNames":["this"]}
-
-function info_PlayerInfo_hasScore__P29393_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_PlayerInfo_hasScore__P29393, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  state___36865: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function helpers_arrayForEach__P27114(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.len___37217 = undefined;
-    s.i___37220 = undefined;
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.lambdaArgs = null;
-    }
-    r0 = pxsim_Array__length(s.arg0);
-    s.len___37217 = (r0);
-    s.i___37220 = (0);
-  case 1:
-    r0 = (s.i___37220 < s.len___37217);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 2; continue; }
-    s.tmp_1 = lambda_3_mk(s);
-    s.tmp_1.argL = s.arg1;
-    r0 = pxsim_Array__getAt(s.arg0, s.i___37220);
-    s.tmp_1.arg0 = r0;
-    s.tmp_1.arg1 = s.i___37220;
-    setupLambda(s.tmp_1, s.tmp_1.argL);
-    s.callLocIdx = 6; s.pc = 3; return s.tmp_1;
-  case 3:
-    r0 = s.retval;
-    r0 = (s.i___37220 + 1);
-    s.i___37220 = (r0);
-    { step = 1; continue; }
-  case 2:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-helpers_arrayForEach__P27114.info = {"start":7439,"length":250,"line":254,"column":4,"endLine":259,"endColumn":5,"fileName":"pxt_modules/base/pxt-helpers.ts","functionName":"arrayForEach","argumentNames":["arr","callbackfn"]}
-
-function helpers_arrayForEach__P27114_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: helpers_arrayForEach__P27114, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  len___37217: undefined,
-  i___37220: undefined,
-  arg0: undefined,
-  arg1: undefined,
-} }
-
-
-
-
-
-function info_PlayerState_constructor__P29350(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_PlayerState__C29346_VT)) failedCast(r0);
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-info_PlayerState_constructor__P29350.info = {"start":684,"length":17,"line":29,"column":8,"endLine":29,"endColumn":25,"fileName":"pxt_modules/game/info.ts","functionName":"inline","argumentNames":["this"]}
-
-function info_PlayerState_constructor__P29350_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_PlayerState_constructor__P29350, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  arg0: undefined,
-} }
-
-
-
-
-
-function forever__P28883(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    s.tmp_0 = game_forever__P29710_mk(s);
-    s.tmp_0.arg0 = s.arg0;
-    s.callLocIdx = 176; s.pc = 1; return s.tmp_0;
-  case 1:
-    r0 = s.retval;
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-forever__P28883.info = {"start":264,"length":62,"line":6,"column":0,"endLine":8,"endColumn":1,"fileName":"pxt_modules/game/gameoverrides.ts","functionName":"forever","argumentNames":["a"]}
-
-function forever__P28883_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: forever__P28883, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function game_forever__P29710(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = pxsim_numops_toBoolDecr(globals.foreverRunning___31598);
-    s.tmp_1 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    globals.foreverRunning___31598 = (true);
-    r0 = pxsim.control.runInParallel(game_forever_inline__P37341);
-  case 1:
-  case 2:
-    r0 = pxsim_pxtcore_mkClassInstance(scene_GameForeverHandler__C29564_VT);
-    s.tmp_0 = r0;
-    s.tmp_1 = scene_GameForeverHandler_constructor__P29566_mk(s);
-    s.tmp_1.arg0 = s.tmp_0;
-    s.tmp_1.arg1 = s.arg0;
-    s.callLocIdx = 1446; s.pc = 3; return s.tmp_1;
-  case 3:
-    r0 = s.retval;
-    s.tmp_3 = game_currentScene__P29699_mk(s);
-    s.callLocIdx = 1445; s.pc = 4; return s.tmp_3;
-  case 4:
-    r0 = s.retval;
-    r0 = r0.fields["gameForeverHandlers"];
-    s.tmp_2 = r0;
-    r0 = pxsim_Array__push(s.tmp_2, s.tmp_0);
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-game_forever__P29710.info = {"start":7421,"length":820,"line":243,"column":4,"endLine":266,"endColumn":5,"fileName":"pxt_modules/game/game.ts","functionName":"forever","argumentNames":["action"]}
-
-function game_forever__P29710_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: game_forever__P29710, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function game_forever_inline__P37341(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.handlers___37343 = undefined;
-  case 1:
-    r0 = pxsim_numops_toBoolDecr(1);
-    if (!r0) { step = 2; continue; }
-    s.tmp_0 = game_currentScene__P29699_mk(s);
-    s.callLocIdx = 1441; s.pc = 3; return s.tmp_0;
-  case 3:
-    r0 = s.retval;
-    r0 = r0.fields["gameForeverHandlers"];
-    s.handlers___37343 = (r0);
-    s.tmp_0 = helpers_arrayForEach__P27114_mk(s);
-    s.tmp_0.arg0 = s.handlers___37343;
-    s.tmp_0.arg1 = game_forever_inline__P37349;
-    s.callLocIdx = 1443; s.pc = 4; return s.tmp_0;
-  case 4:
-    r0 = s.retval;
-    s.tmp_0 = pause__P27418_mk(s);
-    s.tmp_0.arg0 = 20;
-    s.callLocIdx = 1444; s.pc = 5; return s.tmp_0;
-  case 5:
-    r0 = s.retval;
-    { step = 1; continue; }
-  case 2:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-game_forever_inline__P37341.info = {"start":7573,"length":535,"line":246,"column":34,"endLine":260,"endColumn":13,"fileName":"pxt_modules/game/game.ts","functionName":"inline","argumentNames":[]}
-
-function game_forever_inline__P37341_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: game_forever_inline__P37341, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  handlers___37343: undefined,
-} }
-
-
-
-
-
-function game_forever_inline__P37349(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0.fields["lock"];
-    s.tmp_2 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_2);
-    s.tmp_1 = r0;
-    r0 = pxsim_Boolean__bang(s.tmp_1);
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    r0 = (s.arg0).fields["lock"] = (true);
-    r0 = pxsim_pxtcore_mkAction(1, game_forever_inline__P37358);
-    s.tmp_0 = r0;
-    r0 = pxsim_pxtrt_stclo(s.tmp_0, 0, s.arg0);
-    r0 = pxsim.control.runInParallel(s.tmp_0);
-  case 1:
-  case 2:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-game_forever_inline__P37349.info = {"start":7724,"length":319,"line":249,"column":37,"endLine":257,"endColumn":21,"fileName":"pxt_modules/game/game.ts","functionName":"inline","argumentNames":["h"]}
-
-function game_forever_inline__P37349_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: game_forever_inline__P37349, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  arg0: undefined,
-} }
-
-
-
-
-
-function game_forever_inline__P37358(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    s.tmp_0 = if_handler_1_mk(s);
-    s.tmp_0.arg0 = s.caps[0];
-    if (!s.tmp_0.arg0.vtable.iface) {
-      setupLambda(s.tmp_0, pxsim_pxtrt.mapGetByString(s.tmp_0.arg0, "handler"), 1);
-      s.callLocIdx = 1442; s.pc = 1; return s.tmp_0;
-    } else {
-      s.tmp_0.fn = s.tmp_0.arg0.vtable.iface["handler"];
-      if (s.tmp_0.fn == null) { setupLambda(s.tmp_0, s.tmp_0.arg0.fields["handler"], 1); s.callLocIdx = 1442; s.pc = 1; return s.tmp_0; }
-      else if (s.tmp_0.fn.isGetter) { s.tmp_0.stage2Call = true; s.callLocIdx = 1442; s.pc = 1; return s.tmp_0;; }
-     else { s.callLocIdx = 1442; s.pc = 1; return s.tmp_0; }
-    }
-  case 1:
-    r0 = s.retval;
-    r0 = (s.caps[0]).fields["lock"] = (false);
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-game_forever_inline__P37358.info = {"start":7863,"length":130,"line":252,"column":50,"endLine":255,"endColumn":29,"fileName":"pxt_modules/game/game.ts","functionName":"inline","argumentNames":[]}
-
-function game_forever_inline__P37358_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: game_forever_inline__P37358, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-} }
-
-
-
-
-
-function scene_GameForeverHandler_constructor__P29566(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, scene_GameForeverHandler__C29564_VT)) failedCast(r0);
-    r0 = (s.arg0).fields["handler"] = (s.arg1);
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-scene_GameForeverHandler_constructor__P29566.info = {"start":1340,"length":65,"line":47,"column":8,"endLine":49,"endColumn":13,"fileName":"pxt_modules/game/scene.ts","functionName":"inline","argumentNames":["this","handler"]}
-
-function scene_GameForeverHandler_constructor__P29566_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: scene_GameForeverHandler_constructor__P29566, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  arg0: undefined,
-  arg1: undefined,
 } }
 
 
@@ -33220,7 +33220,7 @@ function music_Melody_playCore_inline__P42885_mk(s) {
 
 
 
-function animation2__P53167(s) {
+function animation2__P83709(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -33232,38 +33232,38 @@ switch (step) {
 
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
-    r0 = pxsim.image.ofBuffer(_hex53174);
+    r0 = pxsim.image.ofBuffer(_hex83716);
     s.tmp_1 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
-    r0 = pxsim.image.ofBuffer(_hex53176);
+    r0 = pxsim.image.ofBuffer(_hex83718);
     s.tmp_2 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
-    r0 = pxsim.image.ofBuffer(_hex53178);
+    r0 = pxsim.image.ofBuffer(_hex83720);
     s.tmp_3 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_3);
-    r0 = pxsim.image.ofBuffer(_hex53180);
+    r0 = pxsim.image.ofBuffer(_hex83722);
     s.tmp_4 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_4);
-    r0 = pxsim.image.ofBuffer(_hex53182);
+    r0 = pxsim.image.ofBuffer(_hex83724);
     s.tmp_5 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_5);
-    r0 = pxsim.image.ofBuffer(_hex53184);
+    r0 = pxsim.image.ofBuffer(_hex83726);
     s.tmp_6 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_6);
-    r0 = pxsim.image.ofBuffer(_hex53186);
+    r0 = pxsim.image.ofBuffer(_hex83728);
     s.tmp_7 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_7);
-    r0 = pxsim.image.ofBuffer(_hex53188);
+    r0 = pxsim.image.ofBuffer(_hex83730);
     s.tmp_8 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_8);
-    r0 = pxsim.image.ofBuffer(_hex53190);
+    r0 = pxsim.image.ofBuffer(_hex83732);
     s.tmp_9 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_9);
-    r0 = pxsim.image.ofBuffer(_hex53192);
+    r0 = pxsim.image.ofBuffer(_hex83734);
     s.tmp_10 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_10);
     s.tmp_11 = animation_runImageAnimation__P30079_mk(s);
-    s.tmp_11.arg0 = globals.animaton___53170;
+    s.tmp_11.arg0 = globals.animaton___83712;
     s.tmp_11.arg1 = s.tmp_0;
     s.tmp_11.arg2 = 100;
     s.tmp_11.arg3 = false;
@@ -33274,12 +33274,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-animation2__P53167.info = {"start":27529,"length":203055,"line":282,"column":0,"endLine":1499,"endColumn":1,"fileName":"main.ts","functionName":"animation2","argumentNames":[]}
+animation2__P83709.info = {"start":27529,"length":203055,"line":282,"column":0,"endLine":1499,"endColumn":1,"fileName":"main.ts","functionName":"animation2","argumentNames":[]}
 
-function animation2__P53167_mk(s) {
+function animation2__P83709_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: animation2__P53167, depth: s.depth + 1,
+        parent: s, fn: animation2__P83709, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -33295,16 +33295,16 @@ function animation2__P53167_mk(s) {
   tmp_11: undefined,
 } }
 
-const _hex53174 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444545555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444545555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444444455555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444455555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444454555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444454555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444454555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444444444445555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444444444444444455555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444444444444444555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444444444444444545555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444444444444444545555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444444444444444545555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444444444444444545555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444e44444444444444444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444444e44444444444444444444444444444444444454555555555555555555555555555555555544444444444444444444444444e4eeee4e444ee444e4ee4e444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444e444ee444e4444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444eeee4ee444e444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e44ee444e444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4eeeeeeee44444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444e4eee144444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444e4eeeeeeeeeeee4444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444e444e444e444e44444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444e444e444e444e4444444444444444444444444444444444444545555555555555555555555555555555555555544444444444444444444444444e4eeee44e444e444e4ee4e44444444444444444444444444444444545555555555555555555555555555555555555544444444444444444444444444e4444444e444e44444444e44444444444444444444444444444444545555555555555555555555555555555555555544444444444444444444444444e44444444444444444444e44444444444444444444444444444444545555555555555555555555555555555555555544444444444444444444444444e44444444444444444444e44444444444444444444444444444444545555555555555555555555555555555555555544444444444444444444444444e44444444444444444444e44444444444444444444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444444e444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555")
-const _hex53176 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444444444555555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444444445455555555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444444454555555555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444444454555555555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444444454555555555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444444454555555555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444444454555555555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff44444444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444e44444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444e44444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444eeeeee44e4444e44eeee44444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444e4eeee444e444e44444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444ee444e444e44444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeeeeeee4e44444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e4444444444444444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444ee1e4e44444444444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444eeeeeeeeeeee4e44444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444e444e444e444e44444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444e444e444e444e444444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444eeee4e444e444e44eeee44444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444e4444444e444e4444e444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444e4444444444444444e444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444e4444444444444444e444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444e4444444444444444e44444444444444444444444444444444444444444445555555555555555555555555555554444444444444444444444444444444444444444444444e4444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555")
-const _hex53178 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444444444545555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444444444444445555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444444444444455555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444444444444454555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444444444444454555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444444444444454555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444444444444444555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444444445555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444444444444444555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444444444444444545555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444444444444444445555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444f4ffffff44444444444444444444444444444444444444444455555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555554444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444e4eeee4e444ee444e4ee4e444444444444444444444444444444444444444444444444444454555555555555555544444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444444444444444454555555555555555544444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444444444444444444555555555555555544444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444444444444444444555555555555555544444444444444444444444444444444444e444ee444e4444444444444444444444444444444444444444444444444444444444455555555555555554444444444444444444444444444444444eeee4ee444e444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e44ee444e444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eeeeeeee44444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eee144444444444444444444444444444444444444444444444444444444444444555555555555555544444444444444444444444444444444e4eeeeeeeeeeee4444444444444444444444444444444444444444444444444444444454555555555555555544444444444444444444444444444444e444e444e444e44444444444444444444444444444444444444444444444444444444454555555555555555544444444444444444444444444444444e444e444e444e4444444444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444e4eeee44e444e444e4ee4e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444e4444444e444e44444444e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444e44444444444444444444e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444e44444444444444444444e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444e44444444444444444444e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444444444444444444444444e4444444444444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555")
-const _hex53180 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444444444444444444444444444444545555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444444444444444444444444444444545555554444444444444444444444444444444444444444444444444444ff4f44444444444444444444444444444444444444444444444444444444555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444444444444444444444444444444444444444545555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444444444444444444444444444444555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444444444444444444444444444444555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444444444444444444444444444444444444444454555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444444444444444444444444444444444444444555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444444444444444444444444444444444444444555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444444444444444444444444444444444444444545555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444444444444444444444555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444444444444444444444555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444444444444444444454555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444444444444444444444454555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444444444444444444444455555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444444444444444444444455555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444444444444444444444455555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444444444444444444444444444444454555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444454555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444455555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444455555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444455555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444445455555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444445455555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444444444444444444444444444454555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444444444444444444444444444454555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444444444444444444444444444454555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444444444444444444444444455555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444444444444444444444455555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444444444444444444444555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444444444444444444454555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444444444444444444454555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444444444444444444454555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444444444444444444454555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444444444444444455555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444444444444444455555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444444444444444455555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444444444445555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff4444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444e44444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444eeeeee44e4444e44eeee44444444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444e4eeee444e444e44444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444ee444e444e44444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444eeeeeeee4e44444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445555555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445455555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445455555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444444455555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444444454555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444444454555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444444444555555555555555555555544444444444444444444444444444444444444eeee4e4444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444444444444555555555555555555555544444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444ee1e4e44444444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444eeeeeeeeeeee4e44444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444e444e444e444e44444444444444444444444444444444444444444444444444445455555555555555555544444444444444444444444444444444444e444e444e444e444444444444444444444444444444444444444444444444444444555555555555555555444444444444444444444444444444eeee4e444e444e44eeee44444444444444444444444444444444444444444444444444445555555555555555554444444444444444444444444444444e4444444e444e4444e444444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444444e4444444444444444e444444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444444e4444444444444444e444444444444444444444444444444444444444444444444444444455555555555555554444444444444444444444444444444e4444444444444444e44444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455")
-const _hex53182 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444444444445555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444444444445455555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444444444444455555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444444444444455555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444444444444454555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444444444444454555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff4444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444e4eeee4e444ee444e4ee4e444444444444444444444444444444444444444444444455555555555555555555554444444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444444444455555555555555555555554444444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444444444454555555555555555555554444444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444444444454555555555555555555554444444444444444444444444444444444444e444ee444e4444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444eeee4ee444e444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e44ee444e444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e4eeeeeeee44444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eee144444444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444e4eeeeeeeeeeee4444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444e444e444e444e44444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444e444e444e444e4444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444e4eeee44e444e444e4ee4e44444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444e4444444e444e44444444e44444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444e44444444444444444444e44444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444e44444444444444444444e44444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444e44444444444444444444e44444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555")
-const _hex53184 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444444445555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444444445555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444444444445455555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444444444445555555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444444444445555555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444444444445555555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444444444445555555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444444444445555555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff4444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444e4eeee4e444ee444e4ee4e444444444444444444444444444444444444444454555555555555555555555555554444444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444454555555555555555555555555554444444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444454555555555555555555555555554444444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444454555555555555555555555555554444444444444444444444444444444444444e444ee444e4444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444eeee4ee444e444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e44ee444e444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e4eeeeeeee44444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444e4eee144444444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444e4eeeeeeeeeeee4444444444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444e444e444e444e44444444444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444e444e444e444e4444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444e4eeee44e444e444e4ee4e44444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444e4444444e444e44444444e44444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444e44444444444444444444e44444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444e44444444444444444444e44444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444e44444444444444444444e44444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444e44444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555")
-const _hex53186 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444454555555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444454555555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444454555555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444445555555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444445555555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444445555555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444445555555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444454555555555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444454555555555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444545555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444445555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444445555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444445455555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444445455555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44445455555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44445455555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44445455555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444455555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444545555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444545555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444545555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444445555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444445555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444445555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444445455555555555555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444445555555555555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444445555555555555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444445455555555555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444445455555555555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444445455555555555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444455555555555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444455555555555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444455555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff444444444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444e44444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444e44444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444eeeeee44e4444e44eeee44444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444e4eeee444e444e44444444444444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444ee444e444e44444444444444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444eeeeeeee4e44444444444444444444444444444444444444444455555555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555554444444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444454555555555555555555555555554444444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444445555555555555555555555555544444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444444555555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444555555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445555555555555555555555554444444444444444444444444444444444444444eeee4e4444444444444444444444444444444444444444444444444455555555555555555555555544444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444444445555555555555555555555554444444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444444454555555555555555555555544444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444444445455555555555555555555554444444444444444444444444444444444444444ee1e4e44444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444eeeeeeeeeeee4e44444444444444444444444444444444444444444444445455555555555555555555554444444444444444444444444444444444444e444e444e444e44444444444444444444444444444444444444444444445455555555555555555555554444444444444444444444444444444444444e444e444e444e444444444444444444444444444444444444444444444454555555555555555555555544444444444444444444444444444444eeee4e444e444e44eeee44444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444e4444444e444e4444e444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444e4444444444444444e444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444e4444444444444444e444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444e4444444444444444e44444444444444444444444444444444444444444444444555555555555555555555544444444444444444444444444444444444444444444444444e444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555")
-const _hex53188 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444445555555555555555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444545555555555555555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444455555555555555555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444455555555555555555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444455555555555555555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444455555555555555555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444455555555555555555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444e44444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444e44444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444e4eeee4e444ee444e4ee4e444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444e444ee444e44444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444e444ee444e44444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444e444ee444e44444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444e444ee444e4444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444eeee4ee444e444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e44ee444e444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeeeeeee44444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eee1444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4e1ee444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eee1444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4e1ee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4e1ee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eee1444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4e1ee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eee144444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444e4eeeeeeeeeeee4444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444e444e444e444e44444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444e444e444e444e4444444444444444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444e4eeee44e444e444e4ee4e44444444444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444e4444444e444e44444444e44444444444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444e44444444444444444444e44444444444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444e44444444444444444444e44444444444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444e44444444444444444444e44444444444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444e444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555")
-const _hex53190 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444454555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444454555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444454555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444545555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444545555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444545555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444555555555555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444545555555555555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444445555555555555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444445555555555555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444445555555555555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444445555555555555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444445555555555555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444445555555555555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444445555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444454555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444454555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444454555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444455555555555555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444455555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff44444444444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444e44444444444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444e44444444444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444e4eeee4e444ee444e4ee4e444444444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444e444ee444e44444444444444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444e444ee444e44444444444444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444e444ee444e44444444444444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444e444ee444e4444444444444444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444444444eeee4ee444e444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444e44ee444e444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeeeeeee44444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444e4eee1444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444e4e1ee444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444e4eee1444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4e1ee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4e1ee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eee1444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4e1ee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eee144444444444444444444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444e4eeeeeeeeeeee4444444444444444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444e444e444e444e44444444444444444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444e444e444e444e4444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4eeee44e444e444e4ee4e44444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4444444e444e44444444e44444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e44444444444444444444e44444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e44444444444444444444e44444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e44444444444444444444e44444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444e4444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555555555")
-const _hex53192 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f4444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444445455555555555555554444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444445455555555555555554444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444445455555555555555554444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444445455555555555555554444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444445455555555555555554444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444445455555555555555e5444444444444445455555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffef4f44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444eeeeeeffeffffeffeeee4f4444444444444455555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffefffeffffefffeff4f4444444444444455555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffefffeffffefffeff4f444444444444445455555555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffefffeffffefffeff4f444444444444445455555555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffefffeffffefffeff4f444444444444445455555555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555e5eeee555e555e5555454444444444444455555555555555555555555555555555555555554444444444444444444444444444444444b4cbbc4455555555ee555e555e555545444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b55555555eeeeeeee5e555545444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b55555555eeee5e5555555545444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b55555555ee1e5e5555555545444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555551eee5e5555555545444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffee1efeffffffff44444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffff1eeefeffffffff44444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffeeeefeffffffff44444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffeeeefeffffffff44444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffeeeefeffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffeeeefeffffffff444444444444444444445555555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffeeeefeffffffff444444444444444444445555555555555555555555555555555555554444444444444444444444444444cbccccccbb4b4444555555eeee5e55555545444444444444444444445455555555555555555555555555555555554444444444444444444444444444cbccbcbb44444444555555eeee5e55555545444444444444444444445455555555555555555555555555555555554444444444444444444444444444b4bb4b4444444444555555eeee5e55555545444444444444444444445455555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5eeeefe55555545444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffeeeefeff555545444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444455ffffeeeefeff5f5545444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffff1eeefeff4f44444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffee1efeffff44444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444f4ffff1eeefeffff44444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffee1efeffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4eeeeeeeeeeeefe44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4fefffefffefffe44444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444444444f4fefffefffefffe444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444eeeefefffefffeffeeee44444444444444444444444444445555555555555555555555555555554444444444444444444444444444444444444444444e44ff1ffefffeff4fe444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444444e44ffffffffffff4fe444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444444e44f4ffffffffff44e444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444444e4444f4ffffff4444e44444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444e44444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555")
+const _hex83716 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444545555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444545555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444444455555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444455555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444454555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444454555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444454555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444444444445555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444444444444444455555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444444444444444555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444444444444444545555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444444444444444545555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444444444444444545555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444444444444444545555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444e44444444444444444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444444e44444444444444444444444444444444444454555555555555555555555555555555555544444444444444444444444444e4eeee4e444ee444e4ee4e444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444e444ee444e4444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444eeee4ee444e444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e44ee444e444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4eeeeeeee44444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444e4eee144444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444e4eeeeeeeeeeee4444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444e444e444e444e44444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444e444e444e444e4444444444444444444444444444444444444545555555555555555555555555555555555555544444444444444444444444444e4eeee44e444e444e4ee4e44444444444444444444444444444444545555555555555555555555555555555555555544444444444444444444444444e4444444e444e44444444e44444444444444444444444444444444545555555555555555555555555555555555555544444444444444444444444444e44444444444444444444e44444444444444444444444444444444545555555555555555555555555555555555555544444444444444444444444444e44444444444444444444e44444444444444444444444444444444545555555555555555555555555555555555555544444444444444444444444444e44444444444444444444e44444444444444444444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444444e444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555")
+const _hex83718 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444444444555555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444444445455555555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444444454555555555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444444454555555555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444444454555555555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444444454555555555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444444454555555555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff44444444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444e44444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444e44444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444eeeeee44e4444e44eeee44444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444e4eeee444e444e44444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444ee444e444e44444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeeeeeee4e44444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444eeee4e4444444444444444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444ee1e4e44444444444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444eeeeeeeeeeee4e44444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444e444e444e444e44444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444e444e444e444e444444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444eeee4e444e444e44eeee44444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444e4444444e444e4444e444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444e4444444444444444e444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444e4444444444444444e444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444e4444444444444444e44444444444444444444444444444444444444444445555555555555555555555555555554444444444444444444444444444444444444444444444e4444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555")
+const _hex83720 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444444444545555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444444444444445555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444444444444455555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444444444444454555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444444444444454555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444444444444454555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444444444444444555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444444445555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444444444444444555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444444444444444545555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444444444444444445555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444f4ffffff44444444444444444444444444444444444444444455555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555554444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444e4eeee4e444ee444e4ee4e444444444444444444444444444444444444444444444444444454555555555555555544444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444444444444444454555555555555555544444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444444444444444444555555555555555544444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444444444444444444555555555555555544444444444444444444444444444444444e444ee444e4444444444444444444444444444444444444444444444444444444444455555555555555554444444444444444444444444444444444eeee4ee444e444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e44ee444e444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eeeeeeee44444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444e4eee144444444444444444444444444444444444444444444444444444444444444555555555555555544444444444444444444444444444444e4eeeeeeeeeeee4444444444444444444444444444444444444444444444444444444454555555555555555544444444444444444444444444444444e444e444e444e44444444444444444444444444444444444444444444444444444444454555555555555555544444444444444444444444444444444e444e444e444e4444444444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444e4eeee44e444e444e4ee4e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444e4444444e444e44444444e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444e44444444444444444444e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444e44444444444444444444e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444e44444444444444444444e44444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444444444444444444444444e4444444444444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555")
+const _hex83722 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444444444444444444444444444444545555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444444444444444444444444444444545555554444444444444444444444444444444444444444444444444444ff4f44444444444444444444444444444444444444444444444444444444555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444444444444444444444444444444444444444545555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444444444444444444444444444444555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444444444444444444444444444444555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444444444444444444444444444444444444444454555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444444444444444444444444444444444444444555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444444444444444444444444444444444444444555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444444444444444444444444444444444444444545555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444444444444444444444555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444444444444444444444555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444444444444444444454555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444444444444444444444454555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444444444444444444444455555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444444444444444444444455555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444444444444444444444455555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444444444444444444444444444444454555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444454555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444455555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444455555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444444455555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444445455555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444444444444444445455555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444444444444444444444444444454555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444444444444444444444444444454555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444444444444444444444444444454555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444444444444444444444444455555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444444444444444444444455555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444444444444444444444555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444444444444444444454555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444444444444444444454555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444444444444444444454555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444444444444444444454555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444444444444444455555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444444444444444455555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444444444444444455555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444444444445555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff4444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444e44444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444eeeeee44e4444e44eeee44444444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444e4eeee444e444e44444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444ee444e444e44444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444eeeeeeee4e44444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445555555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445455555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445455555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444444455555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444444454555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444444454555555555555555555555544444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444444444555555555555555555555544444444444444444444444444444444444444eeee4e4444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444444444444555555555555555555555544444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444ee1e4e44444444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444eeeeeeeeeeee4e44444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444e444e444e444e44444444444444444444444444444444444444444444444444445455555555555555555544444444444444444444444444444444444e444e444e444e444444444444444444444444444444444444444444444444444444555555555555555555444444444444444444444444444444eeee4e444e444e44eeee44444444444444444444444444444444444444444444444444445555555555555555554444444444444444444444444444444e4444444e444e4444e444444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444444e4444444444444444e444444444444444444444444444444444444444444444444444445455555555555555554444444444444444444444444444444e4444444444444444e444444444444444444444444444444444444444444444444444444455555555555555554444444444444444444444444444444e4444444444444444e44444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444444444444444444445555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455")
+const _hex83724 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444444444445555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444444444444545555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444444444445455555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444444444444455555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444444444444455555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444444444444454555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444444444444454555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff4444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444e4eeee4e444ee444e4ee4e444444444444444444444444444444444444444444444455555555555555555555554444444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444444444455555555555555555555554444444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444444444454555555555555555555554444444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444444444454555555555555555555554444444444444444444444444444444444444e444ee444e4444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444eeee4ee444e444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e44ee444e444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e4eeeeeeee44444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444444444545555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444444444445555555555555555555544444444444444444444444444444444444444e4eee144444444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444e4eeeeeeeeeeee4444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444e444e444e444e44444444444444444444444444444444444444444444444444444555555555555555555554444444444444444444444444444444444e444e444e444e4444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444e4eeee44e444e444e4ee4e44444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444e4444444e444e44444444e44444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444e44444444444444444444e44444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444e44444444444444444444e44444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444e44444444444444444444e44444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555")
+const _hex83726 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444444445555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444444444444444444445555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444444444445455555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444444444445555555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444444444445555555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444444444445555555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444444444445555555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444444444445555555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444444445455555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff4444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444e44444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444e4eeee4e444ee444e4ee4e444444444444444444444444444444444444444454555555555555555555555555554444444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444454555555555555555555555555554444444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444454555555555555555555555555554444444444444444444444444444444444444e444ee444e44444444444444444444444444444444444444444444454555555555555555555555555554444444444444444444444444444444444444e444ee444e4444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444eeee4ee444e444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e44ee444e444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e4eeeeeeee44444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444444555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444454555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444e4eeee444444444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444e4eee1444444444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444e4e1ee444444444444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444e4eee144444444444444444444444444444444444444444444545555555555555555555555555555554444444444444444444444444444444444e4eeeeeeeeeeee4444444444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444e444e444e444e44444444444444444444444444444444444444444555555555555555555555555555555554444444444444444444444444444444444e444e444e444e4444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444e4eeee44e444e444e4ee4e44444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444e4444444e444e44444444e44444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444e44444444444444444444e44444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444e44444444444444444444e44444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444e44444444444444444444e44444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444e44444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555")
+const _hex83728 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444454555555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444454555555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444454555555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444445555555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444445555555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444445555555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444445555555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444454555555555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444454555555555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444545555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444445555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444445555555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444445455555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444445455555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44445455555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44445455555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44445455555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444455555555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444545555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444545555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444545555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444445555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444445555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444445555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444445455555555555555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444445555555555555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444445555555555555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444445455555555555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444445455555555555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444445455555555555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444444455555555555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444444455555555555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444444455555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444545555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444445455555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444444545555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff444444444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444e44444444444444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444444444e44444444444444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444eeeeee44e4444e44eeee44444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444e444e4444e444e4444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444e4eeee444e444e44444444444444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444ee444e444e44444444444444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444eeeeeeee4e44444444444444444444444444444444444444444455555555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444455555555555555555555555555554444444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444545555555555555555555555555544444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444454555555555555555555555555554444444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444445555555555555555555555555544444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444444555555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444555555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444545555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445555555555555555555555554444444444444444444444444444444444444444eeee4e444444444444444444444444444444444444444444444444445555555555555555555555554444444444444444444444444444444444444444eeee4e4444444444444444444444444444444444444444444444444455555555555555555555555544444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444444445555555555555555555555554444444444444444444444444444444444444444ee1e4e4444444444444444444444444444444444444444444444444454555555555555555555555544444444444444444444444444444444444444441eee4e444444444444444444444444444444444444444444444444445455555555555555555555554444444444444444444444444444444444444444ee1e4e44444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444eeeeeeeeeeee4e44444444444444444444444444444444444444444444445455555555555555555555554444444444444444444444444444444444444e444e444e444e44444444444444444444444444444444444444444444445455555555555555555555554444444444444444444444444444444444444e444e444e444e444444444444444444444444444444444444444444444454555555555555555555555544444444444444444444444444444444eeee4e444e444e44eeee44444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444e4444444e444e4444e444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444e4444444444444444e444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444e4444444444444444e444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444e4444444444444444e44444444444444444444444444444444444444444444444555555555555555555555544444444444444444444444444444444444444444444444444e444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555")
+const _hex83730 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444445555555555555555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444545555555555555555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444455555555555555555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444455555555555555555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444455555555555555555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444455555555555555555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444455555555555555555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444e44444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444e44444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444e4eeee4e444ee444e4ee4e444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444e444ee444e44444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444e444ee444e44444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444e444ee444e44444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444e444ee444e4444444444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444eeee4ee444e444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e44ee444e444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeeeeeee44444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eee1444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4e1ee444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eee1444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4e1ee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eeee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4e1ee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eee1444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4e1ee444444444444444444444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444e4eee144444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444e4eeeeeeeeeeee4444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444e444e444e444e44444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444e444e444e444e4444444444444444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444e4eeee44e444e444e4ee4e44444444444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444e4444444e444e44444444e44444444444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444e44444444444444444444e44444444444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444e44444444444444444444e44444444444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444e44444444444444444444e44444444444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444444e444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555")
+const _hex83732 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444454555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444444454555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444444454555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444545555555555555555444444444444545555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444545555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444545555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f4444444444545555555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffff4f444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffffffffffffffffff4f444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffffffffffffffffff4f444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555555555555555555555454444444444555555555555555555555555555555555555555555554444444444444444444444444444444444b4cbbc44555555555555555555555545444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b555555555555555555555545444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555555555555555555545444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffffffffffffffff44444444444454555555555555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffffffffffffffff444444444444545555555555555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffffffffffffffff444444444444445555555555555555555555555555555555555555554444444444444444444444444444cbccccccbb4b444455555555555555555545444444444444445555555555555555555555555555555555555555554444444444444444444444444444cbccbcbb4444444455555555555555555545444444444444445555555555555555555555555555555555555555554444444444444444444444444444b4bb4b444444444455555555555555555545444444444444445555555555555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5ffffff55555545444444444444445555555555555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffffffffff555545444444444444445555555555555555555555555555555555555555554444444444444444444444444444444444444444444455ffffffffffff5f5545444444444444445555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f44444444444444444454555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444454555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444454555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff44444444444444444444555555555555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffffffffffff4444444444444444444455555555555555555555555555555555555555554444444444444444444444444444444444444444444444ff1fffffffff4f4444444444444444444455555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffff4f4444444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444f4ffffffffff44444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffff44444444444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444e44444444444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444e44444444444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444e4eeee4e444ee444e4ee4e444444444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444e444ee444e44444444444444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444e444ee444e44444444444444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444e444ee444e44444444444444444444444444444445555555555555555555555555555555555555544444444444444444444444444444444444444444e444ee444e4444444444444444444444444444444555555555555555555555555555555555555554444444444444444444444444444444444444444eeee4ee444e444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444e44ee444e444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeeeeeee44444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444e4eee1444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444e4e1ee444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444e4eee1444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4e1ee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eeee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4e1ee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eee1444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4e1ee444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444e4eee144444444444444444444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444e4eeeeeeeeeeee4444444444444444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444e444e444e444e44444444444444444444444444444444455555555555555555555555555555555555544444444444444444444444444444444444444e444e444e444e4444444444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4eeee44e444e444e4ee4e44444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e4444444e444e44444444e44444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e44444444444444444444e44444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e44444444444444444444e44444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444e44444444444444444444e44444444444444444444444444445555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444e4444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555555555")
+const _hex83734 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444f44444444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f44444444444444545555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444444444ff4f444444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444f4ffff444444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f4444444444445455555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444444ffffff4f44444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff44444444444444555555555555555555555555555555555555555555555555444444444444444444444444444444444444444444444444f4ffffffff444444444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445555555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444545555555555554444444444445455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444455555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f44444444444454555555555555555555555555555555555555555555554444444444444444444444444444444444444444444444ffffffffffffff4f4444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444445455555555555555554444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444445455555555555555554444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444445455555555555555554444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444445455555555555555554444444444444455555555555555555555555555555555555555555555444444444444444444444444444444444444444444445455555555555555554444444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444445455555555555555e5444444444444445455555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffffffffffffffffef4f44444444444454555555555555555555555555555555555555555555444444444444444444444444444444444444444444eeeeeeffeffffeffeeee4f4444444444444455555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffefffeffffefffeff4f4444444444444455555555555555555555555555555555555555555544444444444444444444444444444444444444444444ffefffeffffefffeff4f444444444444445455555555555555555555555555555555555555554444444444444444444444444444444444bbbb444444ffefffeffffefffeff4f444444444444445455555555555555555555555555555555555555554444444444444444444444444444444444bbbc444444ffefffeffffefffeff4f444444444444445455555555555555555555555555555555555555554444444444444444444444444444444444b4cc4b445555e5eeee555e555e5555454444444444444455555555555555555555555555555555555555554444444444444444444444444444444444b4cbbc4455555555ee555e555e555545444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b55555555eeeeeeee5e555545444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b55555555eeee5e5555555545444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444cbcc4b55555555ee1e5e5555555545444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444cbccbb555555551eee5e5555555545444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffffee1efeffffffff44444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444cbccbcf4ffffff1eeefeffffffff44444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444bbccbcf4ffffffeeeefeffffffff44444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444b4ccbcf4ffffffeeeefeffffffff44444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444b4bbbcf4ffffffeeeefeffffffff44444444444444444444555555555555555555555555555555555555444444444444444444444444444444b4bbbbbbbbbbf4ffffffeeeefeffffffff444444444444444444445555555555555555555555555555555555554444444444444444444444444444b4cbccccccbcbbf4ffffffeeeefeffffffff444444444444444444445555555555555555555555555555555555554444444444444444444444444444cbccccccbb4b4444555555eeee5e55555545444444444444444444445455555555555555555555555555555555554444444444444444444444444444cbccbcbb44444444555555eeee5e55555545444444444444444444445455555555555555555555555555555555554444444444444444444444444444b4bb4b4444444444555555eeee5e55555545444444444444444444445455555555555555555555555555555555554444444444444444444444444444b44b4444444444445555f5eeeefe55555545444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444455f5ffeeeefeff555545444444444444444444444455555555555555555555555555555555554444444444444444444444444444444444444444444455ffffeeeefeff5f5545444444444444444444444454555555555555555555555555555555554444444444444444444444444444444444444444444444ffff1eeefeff4f44444444444444444444444444545555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffee1efeffff44444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444f4ffff1eeefeffff44444444444444444444444444445555555555555555555555555555555544444444444444444444444444444444444444444444f4ffffee1efeffff44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4eeeeeeeeeeeefe44444444444444444444444444445455555555555555555555555555555544444444444444444444444444444444444444444444f4fefffefffefffe44444444444444444444444444444455555555555555555555555555555544444444444444444444444444444444444444444444f4fefffefffefffe444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444eeeefefffefffeffeeee44444444444444444444444444445555555555555555555555555555554444444444444444444444444444444444444444444e44ff1ffefffeff4fe444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444444e44ffffffffffff4fe444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444444e44f4ffffffffff44e444444444444444444444444444445455555555555555555555555555554444444444444444444444444444444444444444444e4444f4ffffff4444e44444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444e44444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444454555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444444455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444445555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555555555555555555555444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555")
 
 
 
@@ -34967,7 +34967,7 @@ function controller_ButtonHandler_constructor__P28980_mk(s) {
 
 
 
-function create_level__P53002(s) {
+function create_level__P83544(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -34978,70 +34978,70 @@ switch (step) {
   case 0:
 
     s.tmp_0 = scene_setBackgroundImage__P29626_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53005);
+    r0 = pxsim.image.ofBuffer(_hex83547);
     s.tmp_0.arg0 = r0;
     s.callLocIdx = 71; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.bee_hive___53010;
+    s.tmp_0.arg0 = globals.bee_hive___83552;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 72; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.flower___53016;
+    s.tmp_0.arg0 = globals.flower___83558;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 73; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.flower_two___53022;
+    s.tmp_0.arg0 = globals.flower_two___83564;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 74; s.pc = 4; return s.tmp_0;
   case 4:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.flower_three___53028;
+    s.tmp_0.arg0 = globals.flower_three___83570;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 75; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.flower_four___53034;
+    s.tmp_0.arg0 = globals.flower_four___83576;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 76; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.flower_five___53040;
+    s.tmp_0.arg0 = globals.flower_five___83582;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 77; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.honny_bee___53044;
+    s.tmp_0.arg0 = globals.honny_bee___83586;
     s.tmp_0.arg1 = 82;
     s.tmp_0.arg2 = 13;
     s.callLocIdx = 78; s.pc = 8; return s.tmp_0;
   case 8:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53051);
+    r0 = pxsim.image.ofBuffer(_hex83593);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Food___29275;
     s.callLocIdx = 79; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
-    globals.pollen1___53047 = (r0);
+    globals.pollen1___83589 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.pollen1___53047;
+    s.tmp_0.arg0 = globals.pollen1___83589;
     r0 = pxsim.Math_.randomRange(0, 160);
     s.tmp_0.arg1 = r0;
     r0 = pxsim.Math_.randomRange(85, 100);
@@ -35050,15 +35050,15 @@ switch (step) {
   case 10:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53064);
+    r0 = pxsim.image.ofBuffer(_hex83606);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Food___29275;
     s.callLocIdx = 81; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
-    globals.pollen2___53060 = (r0);
+    globals.pollen2___83602 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.pollen2___53060;
+    s.tmp_0.arg0 = globals.pollen2___83602;
     r0 = pxsim.Math_.randomRange(0, 160);
     s.tmp_0.arg1 = r0;
     r0 = pxsim.Math_.randomRange(85, 100);
@@ -35067,15 +35067,15 @@ switch (step) {
   case 12:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53077);
+    r0 = pxsim.image.ofBuffer(_hex83619);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Food___29275;
     s.callLocIdx = 83; s.pc = 13; return s.tmp_0;
   case 13:
     r0 = s.retval;
-    globals.pollen3___53073 = (r0);
+    globals.pollen3___83615 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.pollen3___53073;
+    s.tmp_0.arg0 = globals.pollen3___83615;
     r0 = pxsim.Math_.randomRange(0, 160);
     s.tmp_0.arg1 = r0;
     r0 = pxsim.Math_.randomRange(85, 100);
@@ -35084,15 +35084,15 @@ switch (step) {
   case 14:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53090);
+    r0 = pxsim.image.ofBuffer(_hex83632);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Food___29275;
     s.callLocIdx = 85; s.pc = 15; return s.tmp_0;
   case 15:
     r0 = s.retval;
-    globals.pollen4___53086 = (r0);
+    globals.pollen4___83628 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.pollen4___53086;
+    s.tmp_0.arg0 = globals.pollen4___83628;
     r0 = pxsim.Math_.randomRange(0, 160);
     s.tmp_0.arg1 = r0;
     r0 = pxsim.Math_.randomRange(85, 100);
@@ -35101,15 +35101,15 @@ switch (step) {
   case 16:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53103);
+    r0 = pxsim.image.ofBuffer(_hex83645);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Food___29275;
     s.callLocIdx = 87; s.pc = 17; return s.tmp_0;
   case 17:
     r0 = s.retval;
-    globals.pollen5___53099 = (r0);
+    globals.pollen5___83641 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.pollen5___53099;
+    s.tmp_0.arg0 = globals.pollen5___83641;
     r0 = pxsim.Math_.randomRange(0, 160);
     s.tmp_0.arg1 = r0;
     r0 = pxsim.Math_.randomRange(85, 100);
@@ -35118,36 +35118,36 @@ switch (step) {
   case 18:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53116);
+    r0 = pxsim.image.ofBuffer(_hex83658);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.exit___52985;
+    s.tmp_0.arg1 = globals.exit___83527;
     s.callLocIdx = 89; s.pc = 19; return s.tmp_0;
   case 19:
     r0 = s.retval;
-    globals.Exit___53112 = (r0);
+    globals.Exit___83654 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.Exit___53112;
+    s.tmp_0.arg0 = globals.Exit___83654;
     s.tmp_0.arg1 = 80;
     s.tmp_0.arg2 = 0;
     s.callLocIdx = 90; s.pc = 20; return s.tmp_0;
   case 20:
     r0 = s.retval;
     s.tmp_0 = Sprite_setKind__P29201_mk(s);
-    s.tmp_0.arg0 = globals.Exit___53112;
-    s.tmp_0.arg1 = globals.exit___52985;
+    s.tmp_0.arg0 = globals.Exit___83654;
+    s.tmp_0.arg1 = globals.exit___83527;
     s.callLocIdx = 91; s.pc = 21; return s.tmp_0;
   case 21:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53128);
+    r0 = pxsim.image.ofBuffer(_hex83670);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Enemy___29276;
     s.callLocIdx = 92; s.pc = 22; return s.tmp_0;
   case 22:
     r0 = s.retval;
-    globals.spider___53124 = (r0);
+    globals.spider___83666 = (r0);
     s.tmp_0 = Sprite_sayText__P29205_mk(s);
-    s.tmp_0.arg0 = globals.spider___53124;
+    s.tmp_0.arg0 = globals.spider___83666;
     s.tmp_0.arg1 = "IM GOING TO EAT YOU BEE!";
     s.tmp_0.arg2 = 2000;
     s.tmp_0.arg3 = true;
@@ -35157,7 +35157,7 @@ switch (step) {
   case 23:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.spider___53124;
+    s.tmp_0.arg0 = globals.spider___83666;
     r0 = pxsim.Math_.randomRange(30, 120);
     s.tmp_0.arg1 = r0;
     r0 = pxsim.Math_.randomRange(80, 100);
@@ -35171,8 +35171,8 @@ switch (step) {
   case 25:
     r0 = s.retval;
     s.tmp_0 = Sprite_follow__P29223_mk(s);
-    s.tmp_0.arg0 = globals.spider___53124;
-    s.tmp_0.arg1 = globals.honny_bee___53044;
+    s.tmp_0.arg0 = globals.spider___83666;
+    s.tmp_0.arg1 = globals.honny_bee___83586;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = 400;
     s.callLocIdx = 96; s.pc = 26; return s.tmp_0;
@@ -35182,24 +35182,24 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-create_level__P53002.info = {"start":420,"length":26779,"line":12,"column":0,"endLine":271,"endColumn":1,"fileName":"main.ts","functionName":"create_level","argumentNames":[]}
+create_level__P83544.info = {"start":420,"length":26779,"line":12,"column":0,"endLine":271,"endColumn":1,"fileName":"main.ts","functionName":"create_level","argumentNames":[]}
 
-function create_level__P53002_mk(s) {
+function create_level__P83544_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: create_level__P53002, depth: s.depth + 1,
+        parent: s, fn: create_level__P83544, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
 
-const _hex53005 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555c555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555cccc5c5555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555c5cccccc5c5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555c5cccccccc5c5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555cccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555cccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5cc5cccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5ccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555555555")
-const _hex53051 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000404400000000000040440000000000004044000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex53064 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000404400000000000040440000000000004044000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex53077 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000404400000000000040440000000000004044000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex53090 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000404400000000000040440000000000004044000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex53103 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000404400000000000040440000000000004044000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex53116 = pxsim.BufferMethods.createBufferFromHex("8704a0000800000099999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999")
-const _hex53128 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000e0e0e000000000e0e0e0e000000000e0eeeee0000000000000eeee0000000000e0e0ee0000000000eeeeee00000000001e0e000000000000010e0000000000001e0e000000000000010e0000000000001e0e000000000000ee0e000000000000e0eeee0e00000000ee0e0e0e000000000e0e0e0e")
+const _hex83547 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555c555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555cccc5c5555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555c5cccccc5c5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555c5cccccccc5c5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555cccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555cccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5cc5cccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccc5ccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555bbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555555555555555555555bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c5555555555555555555555555555555555bbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5c55555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555555555bbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555555555555555555555555555")
+const _hex83593 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000404400000000000040440000000000004044000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex83606 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000404400000000000040440000000000004044000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex83619 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000404400000000000040440000000000004044000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex83632 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000404400000000000040440000000000004044000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex83645 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000404400000000000040440000000000004044000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex83658 = pxsim.BufferMethods.createBufferFromHex("8704a0000800000099999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999")
+const _hex83670 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000000e0e0e000000000e0e0e0e000000000e0eeeee0000000000000eeee0000000000e0e0ee0000000000eeeeee00000000001e0e000000000000010e0000000000001e0e000000000000010e0000000000001e0e000000000000ee0e000000000000e0eeee0e00000000ee0e0e0e000000000e0e0e0e")
 
 
 
@@ -35941,7 +35941,7 @@ function sprites_FollowingSprite_constructor__P29069_mk(s) {
 
 
 
-function insideHive__P53252(s) {
+function insideHive__P83794(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -35952,50 +35952,50 @@ switch (step) {
   case 0:
 
     s.tmp_0 = scene_setBackgroundImage__P29626_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53285);
+    r0 = pxsim.image.ofBuffer(_hex83827);
     s.tmp_0.arg0 = r0;
     s.callLocIdx = 129; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.honny_bee___53044;
+    s.tmp_0.arg0 = globals.honny_bee___83586;
     s.tmp_0.arg1 = 78;
     s.tmp_0.arg2 = 24;
     s.callLocIdx = 130; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     s.tmp_0 = Sprite_destroy__P29221_mk(s);
-    s.tmp_0.arg0 = globals.bee_hive___53010;
+    s.tmp_0.arg0 = globals.bee_hive___83552;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
     s.callLocIdx = 131; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53297);
+    r0 = pxsim.image.ofBuffer(_hex83839);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.queen___52991;
+    s.tmp_0.arg1 = globals.queen___83533;
     s.callLocIdx = 132; s.pc = 4; return s.tmp_0;
   case 4:
     r0 = s.retval;
-    globals.queenBee___53293 = (r0);
+    globals.queenBee___83835 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.queenBee___53293;
+    s.tmp_0.arg0 = globals.queenBee___83835;
     s.tmp_0.arg1 = 30;
     s.tmp_0.arg2 = 37;
     s.callLocIdx = 133; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53306);
+    r0 = pxsim.image.ofBuffer(_hex83848);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.exit2___52994;
+    s.tmp_0.arg1 = globals.exit2___83536;
     s.callLocIdx = 134; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
-    globals.exit2___53302 = (r0);
+    globals.exit2___83844 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.exit2___53302;
+    s.tmp_0.arg0 = globals.exit2___83844;
     s.tmp_0.arg1 = 88;
     s.tmp_0.arg2 = 2;
     s.callLocIdx = 135; s.pc = 7; return s.tmp_0;
@@ -36005,19 +36005,19 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-insideHive__P53252.info = {"start":231714,"length":23335,"line":1539,"column":0,"endLine":1690,"endColumn":1,"fileName":"main.ts","functionName":"insideHive","argumentNames":[]}
+insideHive__P83794.info = {"start":231714,"length":23335,"line":1539,"column":0,"endLine":1690,"endColumn":1,"fileName":"main.ts","functionName":"insideHive","argumentNames":[]}
 
-function insideHive__P53252_mk(s) {
+function insideHive__P83794_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: insideHive__P53252, depth: s.depth + 1,
+        parent: s, fn: insideHive__P83794, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
 
-const _hex53285 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555454444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555f55555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555f55555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555ff5f55555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555ff5f555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555555555ffffff5f555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555bb55ffffff5f555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555bb5555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555cb5b55555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555cbbbffffff5f555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555cbbcfbffff5f555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555cbcc5b555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555b5ccffffff5f555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555b5bbffffff5f555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555b5bcffffff5f5555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555b5bbbcfff1ff5f5555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555cbccbcffffff5f55555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555b5cbccbbf5ffff5555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555b5ccbc5b5555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555b5bbbb5555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555454444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555f55555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555f55555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555f55555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555ff5f55555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555ff5f555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b55b55ffffff5f5555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b55b55ffffff5f5555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b5bc55555555555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b5bc5b555555555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b5ccbbffffff5f5555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b5ccbcfbffff5f5555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b5cccc5b555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555cbbcffffff5f555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555bbbbffffff5f5555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555bbbbbcffffff5f55554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555b5ccccbcffffff5f55554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555bbccccbbfff1ff5f55554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555cbccbc5bf5ffff5555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555bbbbbb555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555f55555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555f55555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555f55555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555ff5f55555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555ff5f555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b55b55ffffff5f5555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b55b55ffffff5f5555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b5bc55555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b5bc5b555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b5ccbbffffff5f5555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b5ccbcfbffff5f5555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b5cccc5b5555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b5ccbcffffff5f555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555cbbcffffff5f555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555bbbbffffff5f5555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555bbcbbcfff1ff5f55555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555b5ccccbcffffff5f55555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555bbccccbbf5ffff5555555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555cbccbc5b5555555555555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555bbbbbb5555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444")
-const _hex53297 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000f000000000000000f000000000000000f000000000000f0ff000000000000f0ff000000000000ffff0f0000000050555555000000005055555500000000ffffffff0f000000ffffffff0f0000005055555500000000505555550000000000ffff0f0000000000ffff0f0000000000dfff0f0000000000ffff0f0000")
-const _hex53306 = pxsim.BufferMethods.createBufferFromHex("87040002040000009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000")
+const _hex83827 = pxsim.BufferMethods.createBufferFromHex("8704a000780000004444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555454444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555f55555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555f55555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555ff5f55555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555ff5f555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555555555ffffff5f555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555bb55ffffff5f555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555bb5555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555cb5b55555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555cbbbffffff5f555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555cbbcfbffff5f555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555cbcc5b555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555b5ccffffff5f555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555b5bbffffff5f555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555b5bcffffff5f5555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555b5bbbcfff1ff5f5555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555cbccbcffffff5f55555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555b5cbccbbf5ffff5555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555b5ccbc5b5555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555b5bbbb5555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555454444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444445455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555f55555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555f55555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555f55555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555ff5f55555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555ff5f555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b55b55ffffff5f5555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b55b55ffffff5f5555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b5bc55555555555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b5bc5b555555555555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b5ccbbffffff5f5555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b5ccbcfbffff5f5555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555b5cccc5b555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555cbbcffffff5f555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555bbbbffffff5f5555455555555555555555555555555555455555555555555555555555555555555555554554555555555555555555555554555555bbbbbcffffff5f55554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555b5ccccbcffffff5f55554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555bbccccbbfff1ff5f55554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555cbccbc5bf5ffff5555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555bbbbbb555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555f55555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555f55555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555f55555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555ff5f55555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555ff5f555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555555555555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b55b55ffffff5f5555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b55b55ffffff5f5555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b5bc55555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b5bc5b555555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b5ccbbffffff5f5555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b5ccbcfbffff5f5555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b5cccc5b5555555555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555b5ccbcffffff5f555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555cbbcffffff5f555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555bbbbffffff5f5555555555455455555555555555555555555455555555555555555555555545555555555555555555555555555545555555555555bbcbbcfff1ff5f55555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555b5ccccbcffffff5f55555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555bbccccbbf5ffff5555555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555cbccbc5b5555555555555555554554555555555555555555555554555555555555555555555555455555555555555555555555555555455555555555bbbbbb5555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545545555555555555555555555545555555555555555555555554555555555555555555555555555554555555555555555555555555555555555555545444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444")
+const _hex83839 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000f000000000000000f000000000000000f000000000000f0ff000000000000f0ff000000000000ffff0f0000000050555555000000005055555500000000ffffffff0f000000ffffffff0f0000005055555500000000505555550000000000ffff0f0000000000ffff0f0000000000dfff0f0000000000ffff0f0000")
+const _hex83848 = pxsim.BufferMethods.createBufferFromHex("87040002040000009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000999900009999000099990000")
 
 
 
@@ -36258,7 +36258,7 @@ function sprites_SpriteSet_sprites_inline__P43532_mk(s) {
 
 
 
-function setScene__P53216(s) {
+function setScene__P83758(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -36269,122 +36269,215 @@ switch (step) {
   case 0:
 
     s.tmp_0 = scene_setBackgroundImage__P29626_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53312);
+    r0 = pxsim.image.ofBuffer(_hex83854);
     s.tmp_0.arg0 = r0;
     s.callLocIdx = 136; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53316);
+    r0 = pxsim.image.ofBuffer(_hex83858);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.home___52979;
+    s.tmp_0.arg1 = globals.home___83521;
     s.callLocIdx = 137; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
-    globals.bee_hive___53010 = (r0);
+    globals.bee_hive___83552 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.bee_hive___53010;
+    s.tmp_0.arg0 = globals.bee_hive___83552;
     s.tmp_0.arg1 = 16;
     s.tmp_0.arg2 = 74;
     s.callLocIdx = 138; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53323);
+    r0 = pxsim.image.ofBuffer(_hex83865);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.homeFood___52982;
+    s.tmp_0.arg1 = globals.homeFood___83524;
     s.callLocIdx = 139; s.pc = 4; return s.tmp_0;
   case 4:
     r0 = s.retval;
-    globals.flower___53016 = (r0);
+    globals.flower___83558 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.flower___53016;
+    s.tmp_0.arg0 = globals.flower___83558;
     s.tmp_0.arg1 = 133;
     s.tmp_0.arg2 = 97;
     s.callLocIdx = 140; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53330);
+    r0 = pxsim.image.ofBuffer(_hex83872);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.homeFood___52982;
+    s.tmp_0.arg1 = globals.homeFood___83524;
     s.callLocIdx = 141; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
-    globals.flower_two___53022 = (r0);
+    globals.flower_two___83564 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.flower_two___53022;
+    s.tmp_0.arg0 = globals.flower_two___83564;
     s.tmp_0.arg1 = 73;
     s.tmp_0.arg2 = 91;
     s.callLocIdx = 142; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53337);
+    r0 = pxsim.image.ofBuffer(_hex83879);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.homeFood___52982;
+    s.tmp_0.arg1 = globals.homeFood___83524;
     s.callLocIdx = 143; s.pc = 8; return s.tmp_0;
   case 8:
     r0 = s.retval;
-    globals.flower_three___53028 = (r0);
+    globals.flower_three___83570 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.flower_three___53028;
+    s.tmp_0.arg0 = globals.flower_three___83570;
     s.tmp_0.arg1 = 103;
     s.tmp_0.arg2 = 89;
     s.callLocIdx = 144; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53344);
+    r0 = pxsim.image.ofBuffer(_hex83886);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.homeFood___52982;
+    s.tmp_0.arg1 = globals.homeFood___83524;
     s.callLocIdx = 145; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
-    globals.flower_four___53034 = (r0);
+    globals.flower_four___83576 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.flower_four___53034;
+    s.tmp_0.arg0 = globals.flower_four___83576;
     s.tmp_0.arg1 = 20;
     s.tmp_0.arg2 = 103;
     s.callLocIdx = 146; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P29070_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex53351);
+    r0 = pxsim.image.ofBuffer(_hex83893);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.homeFood___52982;
+    s.tmp_0.arg1 = globals.homeFood___83524;
     s.callLocIdx = 147; s.pc = 12; return s.tmp_0;
   case 12:
     r0 = s.retval;
-    globals.flower_five___53040 = (r0);
+    globals.flower_five___83582 = (r0);
     s.tmp_0 = Sprite_setPosition__P29202_mk(s);
-    s.tmp_0.arg0 = globals.flower_five___53040;
+    s.tmp_0.arg0 = globals.flower_five___83582;
     s.tmp_0.arg1 = 53;
     s.tmp_0.arg2 = 87;
     s.callLocIdx = 148; s.pc = 13; return s.tmp_0;
   case 13:
     r0 = s.retval;
+    r0 = pxsim_Array__mk();
+    s.tmp_0 = r0;
+    r0 = pxsim.image.ofBuffer(_hex83901);
+    s.tmp_1 = r0;
+    r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
+    r0 = pxsim.image.ofBuffer(_hex83903);
+    s.tmp_2 = r0;
+    r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
+    s.tmp_3 = animation_runImageAnimation__P30079_mk(s);
+    s.tmp_3.arg0 = globals.flower___83558;
+    s.tmp_3.arg1 = s.tmp_0;
+    s.tmp_3.arg2 = 100;
+    s.tmp_3.arg3 = true;
+    s.callLocIdx = 149; s.pc = 14; return s.tmp_3;
+  case 14:
+    r0 = s.retval;
+    r0 = pxsim_Array__mk();
+    s.tmp_0 = r0;
+    r0 = pxsim.image.ofBuffer(_hex83908);
+    s.tmp_1 = r0;
+    r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
+    r0 = pxsim.image.ofBuffer(_hex83910);
+    s.tmp_2 = r0;
+    r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
+    s.tmp_3 = animation_runImageAnimation__P30079_mk(s);
+    s.tmp_3.arg0 = globals.flower_two___83564;
+    s.tmp_3.arg1 = s.tmp_0;
+    s.tmp_3.arg2 = 200;
+    s.tmp_3.arg3 = true;
+    s.callLocIdx = 150; s.pc = 15; return s.tmp_3;
+  case 15:
+    r0 = s.retval;
+    r0 = pxsim_Array__mk();
+    s.tmp_0 = r0;
+    r0 = pxsim.image.ofBuffer(_hex83915);
+    s.tmp_1 = r0;
+    r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
+    r0 = pxsim.image.ofBuffer(_hex83917);
+    s.tmp_2 = r0;
+    r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
+    s.tmp_3 = animation_runImageAnimation__P30079_mk(s);
+    s.tmp_3.arg0 = globals.flower_three___83570;
+    s.tmp_3.arg1 = s.tmp_0;
+    s.tmp_3.arg2 = 300;
+    s.tmp_3.arg3 = true;
+    s.callLocIdx = 151; s.pc = 16; return s.tmp_3;
+  case 16:
+    r0 = s.retval;
+    r0 = pxsim_Array__mk();
+    s.tmp_0 = r0;
+    r0 = pxsim.image.ofBuffer(_hex83922);
+    s.tmp_1 = r0;
+    r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
+    r0 = pxsim.image.ofBuffer(_hex83924);
+    s.tmp_2 = r0;
+    r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
+    s.tmp_3 = animation_runImageAnimation__P30079_mk(s);
+    s.tmp_3.arg0 = globals.flower_four___83576;
+    s.tmp_3.arg1 = s.tmp_0;
+    s.tmp_3.arg2 = 400;
+    s.tmp_3.arg3 = true;
+    s.callLocIdx = 152; s.pc = 17; return s.tmp_3;
+  case 17:
+    r0 = s.retval;
+    r0 = pxsim_Array__mk();
+    s.tmp_0 = r0;
+    r0 = pxsim.image.ofBuffer(_hex83929);
+    s.tmp_1 = r0;
+    r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
+    r0 = pxsim.image.ofBuffer(_hex83931);
+    s.tmp_2 = r0;
+    r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
+    s.tmp_3 = animation_runImageAnimation__P30079_mk(s);
+    s.tmp_3.arg0 = globals.flower_five___83582;
+    s.tmp_3.arg1 = s.tmp_0;
+    s.tmp_3.arg2 = 500;
+    s.tmp_3.arg3 = true;
+    s.callLocIdx = 153; s.pc = 18; return s.tmp_3;
+  case 18:
+    r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-setScene__P53216.info = {"start":255050,"length":24828,"line":1691,"column":0,"endLine":1932,"endColumn":1,"fileName":"main.ts","functionName":"setScene","argumentNames":[]}
+setScene__P83758.info = {"start":255050,"length":31938,"line":1691,"column":0,"endLine":2132,"endColumn":1,"fileName":"main.ts","functionName":"setScene","argumentNames":[]}
 
-function setScene__P53216_mk(s) {
+function setScene__P83758_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: setScene__P53216, depth: s.depth + 1,
+        parent: s, fn: setScene__P83758, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
 } }
 
-const _hex53312 = pxsim.BufferMethods.createBufferFromHex("8704a000780000009999999999999999999999999999999999999999999999999999999999999999999999cc99779779777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999999999c99c77777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999999c99cc9977977777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999c99c9999cc799779797777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999c939c93377977977777777777777777777777777777777777777779999999999999999d91d9199999999999999999999999999999999999999999999cc33333379777777777777777777777777777777777777777777779999999999999919dd1d119199999999999999999999999999999999999999999999335333777777777777a77a77777777777777777777777777777799999999999999dd1d11111199999999999999999999999999999999999999999939335533777777777777a77a77777777777777777777777777777799999999999919dd111111b19b9999999999999999999999999999999999999999393353337377777777777777777777777777777777777777777777999999999999d91d111111b11b9999999999999999999999999999999999999999993333339399777777777777777777777777777777777777777777999999999999d91d11111111bb9999999999999999999999999999999999999999993c33339977777777777777777777777777777777777777777777999999999999d91d11111111bb9999999999999999999999999999999999999999993c93997777777777777777777777777777777777777777777777999999999999d91d11111111bb9999999999999999999999999999999999999999999977799777777777777777777777777777777777777777777777999999999999d91d11111111bb99999999999999999999999999999999999999999999777777a77a7777777777777777777777777777777777777777999999999999d91d11111111bb99999999999999999999999999999999999999999999999799777a7777777777777777777777777777777777777777999999999999d91d11111111bb9999999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777999999999999d91d11111111bb99999999999999999999999999999999999999999999c999997977777777777777777777777777777777777777777799999999991111dd11111111bb999999999999999999999999999999999999999999999999797777777a77777777777777777777777777777777777799999999111111d111111111bb999999999999999999999999999999999999999999993993777977777a7777777777a7777777777777777777777777999999191111111111111111bb99999999999999999999999999999999999999993933339377777777777777777777a77777777777777777777777779999991911111111111111b19b9999999999999999999999999999999999999999393333339977777777777777777777777777777777777777777777999999d911111111111111b19b9999999999999999999999999999999999999999333335337777777777777777777777777777777777777777777777999999dd11111111111111b19b9999999999999999999999999999999999999999335355337777777777777777777777777777777777777777777777999999dd11111111111111111b9999999999999999999999999999999999999939333335337797777777777777777777777777777777777777777777999999d91111111111111111bb9999999999999199999999999999999999999999393333337777777777777777777777777777777777777777777777999999d91d11111111111111bb919999999911119199999999999999999999999933333333977777777777a77777777777777777777777777777777799999999dddd1d1111111111bb919999991911111199999999999999999999999999393393999977777777a7777777777777777777777777777777779999999999dddd1111111111bb91999999d91111b19b9999999999999999999999993939999977777777777777777777777777777777777777777777999999999911111111111111bb99999999d91111b19b99999999999999999999999999c9999977777777777777777777777777777777777777777777999999999919111111dd11b11b99999999d91111b19b99999999999999999999999999999999777777777777777777777777777777777777777777779999999999d1111111ddddbd9b99999999d91111119b9999999999999999999999999999999977a77a777777777777777777777777777777777777779999999999dd11111111ddbd9999999999d11111119b9999999999999999999999999999c99c997777777777777777777777777777777777777777779999999999dd11111111119b9999999919dd1111119b99999999999999999999999999ccc99ca97777777777777777777777777777777777777777779999999999dd11111111119b9999999919dd1111b19b99999999999999999999999999cc99a9aa7777777777777777777777777777777777777777779999999999d911111111b19b9999999911d11111b19b999999999999999999999999999999a9a77777777777777777777777777777777777777777779999999999d911111111b19b999999991dd11111b19b99999999999999999999999999999c79777777777777777777777777777777777777777777779999999999d9dd111111b19b999999d91d111111bb9999999999999999999999999999c99c997977777777a77a7777777777777777777777777777779999999999d9dd111111111b999999d91d111111bb9999999999999999999999999999c99979777777777777777777777777777777777777777777779999999999d9dd111111111b999999d91d111111bb999999999999999999999999999999999977777777777777777777777777777777777777777777999999999999dd111111119b999999d91d111111bb999999999999999999999999999999999979777777777777777777777777777777777777777777999999999999dd111111b19b999999d91d111111bb99999999999999999999999999999999797777a77a77777777777777777777777777777777777799999999999919111111b19b999999d911111111b199999999999999999999999999999979777777a77a7777777777aa77777777777777777777777799999999999999111111bb99999999d91d111111b199999999999999999999999999999999997777777777777777777a777777777777777777777777999999999999991911119199999999d91d111111b19b99999999999999999999999999999c9979777777777777777777777777777777777777777777999999999999999999999999999999d91d111111b19b999999999999999999999999c99c99997777777777aa7777777777777777777777777777777799999999999999999999999999999919dd111111bd99999999999999999999999999c99c99797777777777aa7777777777777777777777777777777799999999999999999999999999999911dd111111bd99999999999999999999999999999999797777777777777777777777777777777777777777777799999999999999999999999999999911d11d1111b19999999999999999999999999999999979777777777777777777777777777777777777777777779999999999999999999999999999d91dd11d1111b199999999999999999999999999999999a97a7777777777777777777777777777777777777777779999999999999999999999999999d91d11111111b199999999999999999999999999999999aa7a7777777777777777777777777777777777777777779999999999999999999999999999d91d11111111b19999999999999999999999999999999c997a7777aa7777777777777777777777777777777777779999999999999999999999999999d91111111111bb99999999999999999999999999c9999c997a77777a7777777777777777777777777777777777779999999999999999999999999999d91111111111bb99999999999999999999999999c99999797a7777777777777777777777777777777777777777779999999999999999999999999999d91111111111bb99999999999999999999999999c9999979777777777777777777777777777777777777777777779999999999999999999999999999d91d11111111bb9999999999999999999999999999999979777777777777777777777777777777777777777777779999999999999999999999999999d9dd11111111bb9999999999999999999999999999333379777777777777777777777777777777777777777777779999999999999999999999999999d9dd11111111bb9999999999999999999999999999333393797777777777777777777777777777777777777777779999999999999999999999999999d91d11111111bb999999999999999999999999993333337977777a777777777777777777777777777777777777779999999999999999999999999999dd1111111111bb999999999999999999999999393355337377a7aa7777a77a7777777777777777777777777777779999999999999999999999999999dd1111111111bb99999999999999999999999939333533337777777777777a7777777777777777777777777777779999999999999999999999999999dd1111111111bb9999999999999999999999999933333373777777777777777777777777777777777777777777779999999999999999999999999999dd1111111111b19999999999999999999999999933333373777777777777777777777777777777777777777777779999999999999999999999999999dd111111dd11b19999999999999999999999999939339979777777777777777777777777777777777777777777779999999999999999999999999999d9111111ddddbd999999999999999999999999999999c979777777777777777777777777777777777777777777779999999999999999999999999999d91d111111ddb19b99999999999999999999999999999979777777777777777777777777777777777777777777779999999999999999999999999999d91d11111111b19b999999999999999999999999c999c9997777777777777777a777777777777777777777777777999999999999999999999999999999dd11111111b19b999999999999999999999999c999c99c797777a777777777a777777777777777777777777777999999999999999999999999999999dd11111111b19b99999999999999999999999999999999797777a7777777777777777777777777777777777777999999999999999999999999999999d91d111111b19b999999999999999999999999999999997777777777777777777777777777777777777777777799999999999999999999999999999999dd1d1111b19b99999999999999999999999999999999777777777777777777777777777777777777777777779999999999999999999999999999999911111111b19b9999999999999999999999999999cc79777777777777777777777777777777777777777777779999999999999999999999999999999911111111b19b99999999999999999999999999999999797777777777777777777777777777777777777777779999999999999999999999999999999919111111b19b99999999999999999999999999cc9999797777777777777777777777777777777777777777779999999999999999999999999999999919111111b19b999999999999999999999999999cc99c777777777777777777777777777777777777777777779999999999999999d9dd1d919999999919111111b19b99999999999999999999999999999999777777777777777777777777777777777777777777779999999999999999dd1d11119999999919111111b19b999999999999999999999999999c99c97977777777777777777777777777777777777777777799999999999999d9dd111111bb999999d91d1111b19b99999999999999999999999999cc99cc7977777777777777777777777777777777777777777799999999999999d91d111111bb999999d91d1111b19b9999999999999999999999999999999979777777777777777777777777777777777777777777999999999999d1d111111111bb999999991d1111b19b99999999999999999999999999999999777777777a77777777777777777777777777777777779999999999d9dddd1d111111bb99999999dd1111119b999999999999999999999999999999997777777777777777777777777777777777777777777799999999d9dd1d111d111111bb99999999d91d1111999999999999999999999999999999999979a7777777777777777777777777777777777777777799999999d91d111111111111bb9999999999dd1d91999999999999999999999999999999cc9977a7777777777777777777777777777777777777777799999999dd11111111111111bb9999999999999999999999999999999999999999999999cc997977777777777777777777777777777777777777777799999999dd11111111111111bb999999999999999999999999999999999999999999999c99797777777777777777777777777777777777777777777799999999dd11111111111111bb999999999999999999999999999999999999999999999c997977777777777777a7777777777777777777777777777799999999dd11111111111111bb9999999999999999999999999999999999999999999999999977777777777777a7777777777777777777777777777799999999dd11111111111111bb9999999999999999999999999999999999999999999999999c7777777777777777777777777777777777777777777799999999dd111111dd111111b19b9999999999999999999999999999999999999999999999cc7977777777777777777777777777777777777777777799999999dd1d11d1dd111111b19b999999999999999999999999999999999999999999c99c997a777777a77a7777777777777777777777777777777799999919d11111d11111111111bb999999999999999999999999999999999999999999999caca6777777a7777777777777777777777777777777777799991911111111111111111111bb99999999999999999999999999999999999999999999c9acaa77777777777777777777777777777777777777777799991911111111111111111111b19999999999999999999999999999999999999999999999997977777777777777777777777777777777777777777799991111111111111111111111b19b999999999999999999999999999999999999999999999977777a7777777777777777777777777777777777777799991111111111111111111111b19b9999999999999999999999999999999999999999cc99797777aa7777777777777777777777777777777777777799991111111111111111111111b19b99999999999999999999999999999999999999999979777777777777777777777777777777777777777777777799991111111111111111111111b19b99999999999999999999999999999999999999999977997777777777777777777777777777777777777777777799991d11111111111111111111b19b9999999999999999999999999999999999999999999999797777777777777777777777777777777777777777779999dd11111111111111111111b1999999999999999999999999999999999999999999999999797777777777777777777777777777777777777777779999dd11111111111111111111bb999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777779999d91d111111111111111111bb999999999999999999999999999999999999999999999c77777777777777777777777777777777777777777777779999d91d111111111111d1ddddbd9999999999999999999999999999999999999999c99c999979777777777777777777777777777777777777777777999999dddd1111111111d1dddd9b9999999999999999999999999999999999999999c99c9c7977aa7777777777777777777777777777777777777777999999d9dd1d111111111111b19b999999999999999999999999999999999999999999999c7977aa777777777a777777777777777777777777777777999999991911111111111111b19b9999999999999999999999999999999999999999999999997977777777a77a777777777777777777777777777777999999999911111111111111b19b99999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777999999999911111111111111b19b99999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777999999999919d11d11111111b19b999999999999999999999999999999999999999999cc9999a9777777777777777777777777777777777777777777999999999999dd1d11111111b19b99999999999999999999999999999999999999999999cc99a97777777a77777777777777777777777777777777779999999999d91d1111111111b19999999999999999999999999999999999999999999999cc79777777777a77777777777777777777777777777777779999999999d91d1111111111b199999999999999999999999999999999999999999999999999797777777777777777777777777777777777777777779999999999d91d1111111111b19999999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777999999999999dd111111d11d91999999999999999999999999999999999999999999c9cc997977777777777777777777777777777777777777777777999999999999dd1d11d1dd1199999999999999999999999999999999999999999999c99c999979777777777777777777777777777777777777777777999999999999d9dddddd9d9999999999999999999999999999999999999999999999999c99797777777777777777a77777777777777777777777777799999999999999d9dd9d99999999999999999999999999999999999999999999999999999c797777777777777777a7777777777777777777777777779999999999999999999999999999d91111999999999999999999999999999999999999999c79777777777777777777777777777777777777777777779999999999999999999999999999dd111191999999999999999999999999999999999999cc79777777777777777777777777777777777777777777779999999999999999999999999999dd1111b19b99999999999999999999999999999999999979a77a777777777777777777777777777777777777777799999999999999999999999999991d1111b19b999999999999999999999999999999999999a9a97a777777777777777777777777777777777777777799999999999999999999999999991d1111b19b99999999999999999999999999999999c99ca97a77777777777777777777777777777777777777777799999999999999999999999999d91d1111b19999999999999999999999999999999999c9cc99a977777777777777777777777777777777777777777799999999999999999999999999991d1111b19999999999999999999999999999999999c9cc79a777777777777777777777777777777777777777777799999999999999999999999999991d1111b19999999999999999999999999999999999c99c99777777777777777777777777777777777777777777779999999999999999999999999999dd1111b1999999999999999999999999999939933399999977777777a777777777777777777777777777777777779999999999999999999999999999dd1111b1999999999999999999999999999939333339779779777777a777777777777777777777777777777777779999999999999999999999999999dd1111b19999999999999999999999999999393333337377777777777777777777777777777777777777777777779999999999999999999999999919d11d11b19999999999999999999999999999993355337377777777777777777777777777777777777777777777779999999999999999999999999911d11d11b19b9999999999999999999999999939535533737779777777777777777777777777777777777777777777999999999999999999999999d91d111111b19b9999999999999999999999999939333533779777777777777777777777777777777777777777777777999999999999999999999999dd11111111b19b99999999999999999999999999333933337399777777777777777777777a7777777777777777777777999999999999999999999999dd11111111119b9999999999999999999999999939333333999977777777777777777777777777777777777777777777999999999999999999999999dd11111111119b9999999999999999999999999999933379977977777777777777777777777777777777777777777777999999999999999999999999dd11111111119b999999999999999999999999999999997977777777aa77777777777777777777777777777777777777999999999999999999999999dd11111111b19b9999999999999999999999999999999999997777777777777777777777777777777777777777777777999999999999999999999919d111111111b19b9999999999999999999999999999999999999977777777777777777777777777777777777777777777999999999999999999999911d11d111111b19b9999999999999999999999999999999999999977777777777777777777777777777777777777777777999999999999999999999911d11d111111b19b99999999999999999999999999999999c99999777777777777777777777777777777777777777777779999999999999999999919111111111111bd9b99999999999999999999999999999999cccc997777777777777a7777777777777777777777777777779999999999999999999919111111111111bd9b99999999999999999999999999999999c9cccc797777777777aa77777777777777777777777777777799999999999999999999d91111111111ddbd99999999999999999999999999999999999999997977777777777777777777777777777777777777777799999999999999999999d91d11111111ddbd99999999999999999999999999999999999999999977777777777777777777777777777777777777777799999999999999999999d91d1111111111bd99999999999999999999999999999999999999999777777777777777777777777777777777777777777799999999999999999999d91d1111111111b1999999999999999999999999999999999999c99c777777777777777777777777777777777777777777779999999999999999999999dd1111111111b1999999999999999999999999999999999999c99caa7777777777777777777777777777777777777777779999999999999999999999dd1d11111111b19999999999999999999999999999993993339979777777777777777777777777777777777777777777779999999999999999999999d9dd1d111111b19999999999999999999999999999993333339379aa7a7777777777777777777777777777777777777777999999999999999999999999dd1d111111b199999999999999999999999999999933333393997a7777777777777777777777777777777777777777779999999999999999999999991111111111b19b99999999999999999999999999333353339377777777777777777777777777777777777777777777779999999999999999999999191111111111b19b99999999999999999999999999333355357377777777777777777777777777777777777777777777779999999999999999999999191111111111b19b9999999999999999999999999999b355339377977777a77777777777777777777777777777777777779999999999999999999999191111111111b19999999999999999999999999999393333733377977777a7777777777777777777777777777777777777999999999999999999999919dd11111111bb999999999999999999999999999999393377979977777777777777777a77777777777777777777777777999999999999999999999919dd111111dd91999999999999999999999999999999993379979999777777777777777a77777777777777777777777777999999999999999999999999d11111d11d99999999999999999999999999999999999979777779777777777777777777777777777777777777777777999999999999999999999999d1dddddd119999999999999999999999999999997979777777777777777777777777777777777777777777777777777799999999999999999999999919dddd1d99999999999999999999999999999999797777779799777777777777777777777777777777777777777777779999999999999999999999999999919999999999999999999999999999999999797979777777977977777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999777977777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999c99c9977999979777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999cc9999999999797777777777777777777777777777777777777777")
-const _hex53316 = pxsim.BufferMethods.createBufferFromHex("870414001400000000000000000000000000000000000000000500000000000000000000505f00000000000000000000f5f5040000000000000000505f4f4f0000000000000000f5f5f4f402000000000000505f4f4f2f2f000000000000f5f5f4f4f2f20200000000505f4f4f2f2f2f2f00000000f5f5f4f4f2f2f2f2020000505f4f4f2f2f2f2f2f2f000000f5f5f4f4f2f2f2f202000000505f4f4f2f2f2f2f0000000000f5f5f4f4f2f2020000000000505f4f4f2f2f00000000000000f5f5f4f40200000000000000505f4f4f000000000000000000f5f504000000000000000000505f000000000000000000000005000000000000")
-const _hex53323 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000050000000000000005000000000000000550500000000000055050000000000005505000000005055ff5f550000505555ff5f555577005055ff5f5500000000005505000000000000550500000000000055050000000000005000000000000000500000000000000000000000000000000000000000")
-const _hex53330 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000050000000000000005000000000000000550500000000000055050000000000005505000000005055ff5f550000505555ff5f555577005055ff5f5500000000005505000000000000550500000000000055050000000000005000000000000000500000000000000000000000000000000000000000")
-const _hex53337 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000050000000000000005000000000000000550500000000000055050000000000005505000000005055ff5f550000505555ff5f555577005055ff5f5500000000005505000000000000550500000000000055050000000000005000000000000000500000000000000000000000000000000000000000")
-const _hex53344 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000050000000000000005000000000000000550500000000000055050000000000005505000000005055ff5f550000505555ff5f555577005055ff5f5500000000005505000000000000550500000000000055050000000000005000000000000000500000000000000000000000000000000000000000")
-const _hex53351 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000050000000000000005000000000000000550500000000000055050000000000005505000000005055ff5f550000505555ff5f555577005055ff5f5500000000005505000000000000550500000000000055050000000000005000000000000000500000000000000000000000000000000000000000")
+const _hex83854 = pxsim.BufferMethods.createBufferFromHex("8704a000780000009999999999999999999999999999999999999999999999999999999999999999999999cc99779779777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999999999c99c77777777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999999c99cc9977977777777777777777777777777777777777777777777799999999999999999999999999999999999999999999999999999999999999c99c9999cc799779797777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999c939c93377977977777777777777777777777777777777777777779999999999999999d91d9199999999999999999999999999999999999999999999cc33333379777777777777777777777777777777777777777777779999999999999919dd1d119199999999999999999999999999999999999999999999335333777777777777a77a77777777777777777777777777777799999999999999dd1d11111199999999999999999999999999999999999999999939335533777777777777a77a77777777777777777777777777777799999999999919dd111111b19b9999999999999999999999999999999999999999393353337377777777777777777777777777777777777777777777999999999999d91d111111b11b9999999999999999999999999999999999999999993333339399777777777777777777777777777777777777777777999999999999d91d11111111bb9999999999999999999999999999999999999999993c33339977777777777777777777777777777777777777777777999999999999d91d11111111bb9999999999999999999999999999999999999999993c93997777777777777777777777777777777777777777777777999999999999d91d11111111bb9999999999999999999999999999999999999999999977799777777777777777777777777777777777777777777777999999999999d91d11111111bb99999999999999999999999999999999999999999999777777a77a7777777777777777777777777777777777777777999999999999d91d11111111bb99999999999999999999999999999999999999999999999799777a7777777777777777777777777777777777777777999999999999d91d11111111bb9999999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777999999999999d91d11111111bb99999999999999999999999999999999999999999999c999997977777777777777777777777777777777777777777799999999991111dd11111111bb999999999999999999999999999999999999999999999999797777777a77777777777777777777777777777777777799999999111111d111111111bb999999999999999999999999999999999999999999993993777977777a7777777777a7777777777777777777777777999999191111111111111111bb99999999999999999999999999999999999999993933339377777777777777777777a77777777777777777777777779999991911111111111111b19b9999999999999999999999999999999999999999393333339977777777777777777777777777777777777777777777999999d911111111111111b19b9999999999999999999999999999999999999999333335337777777777777777777777777777777777777777777777999999dd11111111111111b19b9999999999999999999999999999999999999999335355337777777777777777777777777777777777777777777777999999dd11111111111111111b9999999999999999999999999999999999999939333335337797777777777777777777777777777777777777777777999999d91111111111111111bb9999999999999199999999999999999999999999393333337777777777777777777777777777777777777777777777999999d91d11111111111111bb919999999911119199999999999999999999999933333333977777777777a77777777777777777777777777777777799999999dddd1d1111111111bb919999991911111199999999999999999999999999393393999977777777a7777777777777777777777777777777779999999999dddd1111111111bb91999999d91111b19b9999999999999999999999993939999977777777777777777777777777777777777777777777999999999911111111111111bb99999999d91111b19b99999999999999999999999999c9999977777777777777777777777777777777777777777777999999999919111111dd11b11b99999999d91111b19b99999999999999999999999999999999777777777777777777777777777777777777777777779999999999d1111111ddddbd9b99999999d91111119b9999999999999999999999999999999977a77a777777777777777777777777777777777777779999999999dd11111111ddbd9999999999d11111119b9999999999999999999999999999c99c997777777777777777777777777777777777777777779999999999dd11111111119b9999999919dd1111119b99999999999999999999999999ccc99ca97777777777777777777777777777777777777777779999999999dd11111111119b9999999919dd1111b19b99999999999999999999999999cc99a9aa7777777777777777777777777777777777777777779999999999d911111111b19b9999999911d11111b19b999999999999999999999999999999a9a77777777777777777777777777777777777777777779999999999d911111111b19b999999991dd11111b19b99999999999999999999999999999c79777777777777777777777777777777777777777777779999999999d9dd111111b19b999999d91d111111bb9999999999999999999999999999c99c997977777777a77a7777777777777777777777777777779999999999d9dd111111111b999999d91d111111bb9999999999999999999999999999c99979777777777777777777777777777777777777777777779999999999d9dd111111111b999999d91d111111bb999999999999999999999999999999999977777777777777777777777777777777777777777777999999999999dd111111119b999999d91d111111bb999999999999999999999999999999999979777777777777777777777777777777777777777777999999999999dd111111b19b999999d91d111111bb99999999999999999999999999999999797777a77a77777777777777777777777777777777777799999999999919111111b19b999999d911111111b199999999999999999999999999999979777777a77a7777777777aa77777777777777777777777799999999999999111111bb99999999d91d111111b199999999999999999999999999999999997777777777777777777a777777777777777777777777999999999999991911119199999999d91d111111b19b99999999999999999999999999999c9979777777777777777777777777777777777777777777999999999999999999999999999999d91d111111b19b999999999999999999999999c99c99997777777777aa7777777777777777777777777777777799999999999999999999999999999919dd111111bd99999999999999999999999999c99c99797777777777aa7777777777777777777777777777777799999999999999999999999999999911dd111111bd99999999999999999999999999999999797777777777777777777777777777777777777777777799999999999999999999999999999911d11d1111b19999999999999999999999999999999979777777777777777777777777777777777777777777779999999999999999999999999999d91dd11d1111b199999999999999999999999999999999a97a7777777777777777777777777777777777777777779999999999999999999999999999d91d11111111b199999999999999999999999999999999aa7a7777777777777777777777777777777777777777779999999999999999999999999999d91d11111111b19999999999999999999999999999999c997a7777aa7777777777777777777777777777777777779999999999999999999999999999d91111111111bb99999999999999999999999999c9999c997a77777a7777777777777777777777777777777777779999999999999999999999999999d91111111111bb99999999999999999999999999c99999797a7777777777777777777777777777777777777777779999999999999999999999999999d91111111111bb99999999999999999999999999c9999979777777777777777777777777777777777777777777779999999999999999999999999999d91d11111111bb9999999999999999999999999999999979777777777777777777777777777777777777777777779999999999999999999999999999d9dd11111111bb9999999999999999999999999999333379777777777777777777777777777777777777777777779999999999999999999999999999d9dd11111111bb9999999999999999999999999999333393797777777777777777777777777777777777777777779999999999999999999999999999d91d11111111bb999999999999999999999999993333337977777a777777777777777777777777777777777777779999999999999999999999999999dd1111111111bb999999999999999999999999393355337377a7aa7777a77a7777777777777777777777777777779999999999999999999999999999dd1111111111bb99999999999999999999999939333533337777777777777a7777777777777777777777777777779999999999999999999999999999dd1111111111bb9999999999999999999999999933333373777777777777777777777777777777777777777777779999999999999999999999999999dd1111111111b19999999999999999999999999933333373777777777777777777777777777777777777777777779999999999999999999999999999dd111111dd11b19999999999999999999999999939339979777777777777777777777777777777777777777777779999999999999999999999999999d9111111ddddbd999999999999999999999999999999c979777777777777777777777777777777777777777777779999999999999999999999999999d91d111111ddb19b99999999999999999999999999999979777777777777777777777777777777777777777777779999999999999999999999999999d91d11111111b19b999999999999999999999999c999c9997777777777777777a777777777777777777777777777999999999999999999999999999999dd11111111b19b999999999999999999999999c999c99c797777a777777777a777777777777777777777777777999999999999999999999999999999dd11111111b19b99999999999999999999999999999999797777a7777777777777777777777777777777777777999999999999999999999999999999d91d111111b19b999999999999999999999999999999997777777777777777777777777777777777777777777799999999999999999999999999999999dd1d1111b19b99999999999999999999999999999999777777777777777777777777777777777777777777779999999999999999999999999999999911111111b19b9999999999999999999999999999cc79777777777777777777777777777777777777777777779999999999999999999999999999999911111111b19b99999999999999999999999999999999797777777777777777777777777777777777777777779999999999999999999999999999999919111111b19b99999999999999999999999999cc9999797777777777777777777777777777777777777777779999999999999999999999999999999919111111b19b999999999999999999999999999cc99c777777777777777777777777777777777777777777779999999999999999d9dd1d919999999919111111b19b99999999999999999999999999999999777777777777777777777777777777777777777777779999999999999999dd1d11119999999919111111b19b999999999999999999999999999c99c97977777777777777777777777777777777777777777799999999999999d9dd111111bb999999d91d1111b19b99999999999999999999999999cc99cc7977777777777777777777777777777777777777777799999999999999d91d111111bb999999d91d1111b19b9999999999999999999999999999999979777777777777777777777777777777777777777777999999999999d1d111111111bb999999991d1111b19b99999999999999999999999999999999777777777a77777777777777777777777777777777779999999999d9dddd1d111111bb99999999dd1111119b999999999999999999999999999999997777777777777777777777777777777777777777777799999999d9dd1d111d111111bb99999999d91d1111999999999999999999999999999999999979a7777777777777777777777777777777777777777799999999d91d111111111111bb9999999999dd1d91999999999999999999999999999999cc9977a7777777777777777777777777777777777777777799999999dd11111111111111bb9999999999999999999999999999999999999999999999cc997977777777777777777777777777777777777777777799999999dd11111111111111bb999999999999999999999999999999999999999999999c99797777777777777777777777777777777777777777777799999999dd11111111111111bb999999999999999999999999999999999999999999999c997977777777777777a7777777777777777777777777777799999999dd11111111111111bb9999999999999999999999999999999999999999999999999977777777777777a7777777777777777777777777777799999999dd11111111111111bb9999999999999999999999999999999999999999999999999c7777777777777777777777777777777777777777777799999999dd111111dd111111b19b9999999999999999999999999999999999999999999999cc7977777777777777777777777777777777777777777799999999dd1d11d1dd111111b19b999999999999999999999999999999999999999999c99c997a777777a77a7777777777777777777777777777777799999919d11111d11111111111bb999999999999999999999999999999999999999999999caca6777777a7777777777777777777777777777777777799991911111111111111111111bb99999999999999999999999999999999999999999999c9acaa77777777777777777777777777777777777777777799991911111111111111111111b19999999999999999999999999999999999999999999999997977777777777777777777777777777777777777777799991111111111111111111111b19b999999999999999999999999999999999999999999999977777a7777777777777777777777777777777777777799991111111111111111111111b19b9999999999999999999999999999999999999999cc99797777aa7777777777777777777777777777777777777799991111111111111111111111b19b99999999999999999999999999999999999999999979777777777777777777777777777777777777777777777799991111111111111111111111b19b99999999999999999999999999999999999999999977997777777777777777777777777777777777777777777799991d11111111111111111111b19b9999999999999999999999999999999999999999999999797777777777777777777777777777777777777777779999dd11111111111111111111b1999999999999999999999999999999999999999999999999797777777777777777777777777777777777777777779999dd11111111111111111111bb999999999999999999999999999999999999999999999977777777777777777777777777777777777777777777779999d91d111111111111111111bb999999999999999999999999999999999999999999999c77777777777777777777777777777777777777777777779999d91d111111111111d1ddddbd9999999999999999999999999999999999999999c99c999979777777777777777777777777777777777777777777999999dddd1111111111d1dddd9b9999999999999999999999999999999999999999c99c9c7977aa7777777777777777777777777777777777777777999999d9dd1d111111111111b19b999999999999999999999999999999999999999999999c7977aa777777777a777777777777777777777777777777999999991911111111111111b19b9999999999999999999999999999999999999999999999997977777777a77a777777777777777777777777777777999999999911111111111111b19b99999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777999999999911111111111111b19b99999999999999999999999999999999999999999999999979777777777777777777777777777777777777777777999999999919d11d11111111b19b999999999999999999999999999999999999999999cc9999a9777777777777777777777777777777777777777777999999999999dd1d11111111b19b99999999999999999999999999999999999999999999cc99a97777777a77777777777777777777777777777777779999999999d91d1111111111b19999999999999999999999999999999999999999999999cc79777777777a77777777777777777777777777777777779999999999d91d1111111111b199999999999999999999999999999999999999999999999999797777777777777777777777777777777777777777779999999999d91d1111111111b19999999999999999999999999999999999999999999999997977777777777777777777777777777777777777777777999999999999dd111111d11d91999999999999999999999999999999999999999999c9cc997977777777777777777777777777777777777777777777999999999999dd1d11d1dd1199999999999999999999999999999999999999999999c99c999979777777777777777777777777777777777777777777999999999999d9dddddd9d9999999999999999999999999999999999999999999999999c99797777777777777777a77777777777777777777777777799999999999999d9dd9d99999999999999999999999999999999999999999999999999999c797777777777777777a7777777777777777777777777779999999999999999999999999999d91111999999999999999999999999999999999999999c79777777777777777777777777777777777777777777779999999999999999999999999999dd111191999999999999999999999999999999999999cc79777777777777777777777777777777777777777777779999999999999999999999999999dd1111b19b99999999999999999999999999999999999979a77a777777777777777777777777777777777777777799999999999999999999999999991d1111b19b999999999999999999999999999999999999a9a97a777777777777777777777777777777777777777799999999999999999999999999991d1111b19b99999999999999999999999999999999c99ca97a77777777777777777777777777777777777777777799999999999999999999999999d91d1111b19999999999999999999999999999999999c9cc99a977777777777777777777777777777777777777777799999999999999999999999999991d1111b19999999999999999999999999999999999c9cc79a777777777777777777777777777777777777777777799999999999999999999999999991d1111b19999999999999999999999999999999999c99c99777777777777777777777777777777777777777777779999999999999999999999999999dd1111b1999999999999999999999999999939933399999977777777a777777777777777777777777777777777779999999999999999999999999999dd1111b1999999999999999999999999999939333339779779777777a777777777777777777777777777777777779999999999999999999999999999dd1111b19999999999999999999999999999393333337377777777777777777777777777777777777777777777779999999999999999999999999919d11d11b19999999999999999999999999999993355337377777777777777777777777777777777777777777777779999999999999999999999999911d11d11b19b9999999999999999999999999939535533737779777777777777777777777777777777777777777777999999999999999999999999d91d111111b19b9999999999999999999999999939333533779777777777777777777777777777777777777777777777999999999999999999999999dd11111111b19b99999999999999999999999999333933337399777777777777777777777a7777777777777777777777999999999999999999999999dd11111111119b9999999999999999999999999939333333999977777777777777777777777777777777777777777777999999999999999999999999dd11111111119b9999999999999999999999999999933379977977777777777777777777777777777777777777777777999999999999999999999999dd11111111119b999999999999999999999999999999997977777777aa77777777777777777777777777777777777777999999999999999999999999dd11111111b19b9999999999999999999999999999999999997777777777777777777777777777777777777777777777999999999999999999999919d111111111b19b9999999999999999999999999999999999999977777777777777777777777777777777777777777777999999999999999999999911d11d111111b19b9999999999999999999999999999999999999977777777777777777777777777777777777777777777999999999999999999999911d11d111111b19b99999999999999999999999999999999c99999777777777777777777777777777777777777777777779999999999999999999919111111111111bd9b99999999999999999999999999999999cccc997777777777777a7777777777777777777777777777779999999999999999999919111111111111bd9b99999999999999999999999999999999c9cccc797777777777aa77777777777777777777777777777799999999999999999999d91111111111ddbd99999999999999999999999999999999999999997977777777777777777777777777777777777777777799999999999999999999d91d11111111ddbd99999999999999999999999999999999999999999977777777777777777777777777777777777777777799999999999999999999d91d1111111111bd99999999999999999999999999999999999999999777777777777777777777777777777777777777777799999999999999999999d91d1111111111b1999999999999999999999999999999999999c99c777777777777777777777777777777777777777777779999999999999999999999dd1111111111b1999999999999999999999999999999999999c99caa7777777777777777777777777777777777777777779999999999999999999999dd1d11111111b19999999999999999999999999999993993339979777777777777777777777777777777777777777777779999999999999999999999d9dd1d111111b19999999999999999999999999999993333339379aa7a7777777777777777777777777777777777777777999999999999999999999999dd1d111111b199999999999999999999999999999933333393997a7777777777777777777777777777777777777777779999999999999999999999991111111111b19b99999999999999999999999999333353339377777777777777777777777777777777777777777777779999999999999999999999191111111111b19b99999999999999999999999999333355357377777777777777777777777777777777777777777777779999999999999999999999191111111111b19b9999999999999999999999999999b355339377977777a77777777777777777777777777777777777779999999999999999999999191111111111b19999999999999999999999999999393333733377977777a7777777777777777777777777777777777777999999999999999999999919dd11111111bb999999999999999999999999999999393377979977777777777777777a77777777777777777777777777999999999999999999999919dd111111dd91999999999999999999999999999999993379979999777777777777777a77777777777777777777777777999999999999999999999999d11111d11d99999999999999999999999999999999999979777779777777777777777777777777777777777777777777999999999999999999999999d1dddddd119999999999999999999999999999997979777777777777777777777777777777777777777777777777777799999999999999999999999919dddd1d99999999999999999999999999999999797777779799777777777777777777777777777777777777777777779999999999999999999999999999919999999999999999999999999999999999797979777777977977777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999999999777977777777777777777777777777777777777777777777779999999999999999999999999999999999999999999999999999999999999999c99c9977999979777777777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999cc9999999999797777777777777777777777777777777777777777")
+const _hex83858 = pxsim.BufferMethods.createBufferFromHex("870414001400000000000000000000000000000000000000000500000000000000000000505f00000000000000000000f5f5040000000000000000505f4f4f0000000000000000f5f5f4f402000000000000505f4f4f2f2f000000000000f5f5f4f4f2f20200000000505f4f4f2f2f2f2f00000000f5f5f4f4f2f2f2f2020000505f4f4f2f2f2f2f2f2f000000f5f5f4f4f2f2f2f202000000505f4f4f2f2f2f2f0000000000f5f5f4f4f2f2020000000000505f4f4f2f2f00000000000000f5f5f4f40200000000000000505f4f4f000000000000000000f5f504000000000000000000505f000000000000000000000005000000000000")
+const _hex83865 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000050000000000000005000000000000000550500000000000055050000000000005505000000005055ff5f550000505555ff5f555566005055ff5f5500000000005505000000000000550500000000000055050000000000005000000000000000500000000000000000000000000000000000000000")
+const _hex83872 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000050000000000000005000000000000000550500000000000055050000000000005505000000005055ff5f550000505555ff5f555577005055ff5f5500000000005505000000000000550500000000000055050000000000005000000000000000500000000000000000000000000000000000000000")
+const _hex83879 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000050000000000000005000000000000000550500000000000055050000000000005505000000005055ff5f550000505555ff5f555577005055ff5f5500000000005505000000000000550500000000000055050000000000005000000000000000500000000000000000000000000000000000000000")
+const _hex83886 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000050000000000000005000000000000000550500000000000055050000000000005505000000005055ff5f550000505555ff5f555577005055ff5f5500000000005505000000000000550500000000000055050000000000005000000000000000500000000000000000000000000000000000000000")
+const _hex83893 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000080000000000000008000000000000000880800000000000088080000000000008808000000008088ff8f880000808888ff8f888877008088ff8f8800000000008808000000000000880800000000000088080000000000008000000000000000800000000000000000000000000000000000000000")
+const _hex83901 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000050000000000000005000000000000000550500000000000055050000000000005505000000005055ff5f550000505555ff5f555566005055ff5f5500000000005505000000000000550500000000000055050000000000005000000000000000500000000000000000000000000000000000000000")
+const _hex83903 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000050000000000050000005000000000500005055005055000000505500505500000050550050550000000000ff0f000000000000ff6f666666000000ff0f0000000050550050550000005055005055000000505500505500000005000000000500500000000000500000000000000000000000000000000000")
+const _hex83908 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000030000000000000003000000000000000330300000000000033030000000000003303000000003033ff3f330000303333ff3f333366003033ff3f3300000000003303000000000000330300000000000033030000000000003000000000000000300000000000000000000000000000000000000000")
+const _hex83910 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000030000000000030000003000000000300003033003033000000303300303300000030330030330000000000ff0f000000000000ff6f666666000000ff0f0000000030330030330000003033003033000000303300303300000003000000000300300000000000300000000000000000000000000000000000")
+const _hex83915 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000040000000000000004000000000000000440400000000000044040000000000004404000000004044ff4f440000404444ff4f444466004044ff4f4400000000004404000000000000440400000000000044040000000000004000000000000000400000000000000000000000000000000000000000")
+const _hex83917 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000040000000000040000004000000000400004044004044000000404400404400000040440040440000000000ff0f000000000000ff6f666666000000ff0f0000000040440040440000004044004044000000404400404400000004000000000400400000000000400000000000000000000000000000000000")
+const _hex83922 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000a000000000000000a000000000000000aa0a000000000000aa0a000000000000aa0a00000000a0aaffafaa0000a0aaaaffafaaaa6600a0aaffafaa0000000000aa0a000000000000aa0a000000000000aa0a000000000000a000000000000000a00000000000000000000000000000000000000000")
+const _hex83924 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000a00000000000a000000a000000000a0000a0aa00a0aa000000a0aa00a0aa000000a0aa00a0aa0000000000ff0f000000000000ff6f666666000000ff0f00000000a0aa00a0aa000000a0aa00a0aa000000a0aa00a0aa0000000a000000000a00a00000000000a00000000000000000000000000000000000")
+const _hex83929 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000000080000000000000008000000000000000880800000000000088080000000000008808000000008088ff8f880000808888ff8f888866008088ff8f8800000000008808000000000000880800000000000088080000000000008000000000000000800000000000000000000000000000000000000000")
+const _hex83931 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000080000000000080000008000000000800008088008088000000808800808800000080880080880000000000ff0f000000000000ff6f666666000000ff0f0000000080880080880000008088008088000000808800808800000008000000000800800000000000800000000000000000000000000000000000")
 
 
 
@@ -58090,40 +58183,6 @@ function animation_ImageAnimation_update__P30075_mk(s) {
 
 
 
-function info_PlayerInfo_id__P29389(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.lambdaArgs = null;
-    }
-    r0 = s.arg0;
-    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
-    r0 = s.arg0.fields["_player"];
-    return leave(s, r0)
-  default: oops()
-} } }
-info_PlayerInfo_id__P29389.info = {"start":17450,"length":57,"line":572,"column":8,"endLine":574,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"id","argumentNames":["this"]}
-
-function info_PlayerInfo_id__P29389_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: info_PlayerInfo_id__P29389, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  arg0: undefined,
-} }
-
-
-
-
-
 function effects_ImageEffect_startScreenEffect__P29988(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
@@ -58410,6 +58469,40 @@ function music_Melody_toString__P28626_mk(s) {
     checkStack(s.depth);
     return {
         parent: s, fn: music_Melody_toString__P28626, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  arg0: undefined,
+} }
+
+
+
+
+
+function info_PlayerInfo_id__P29389(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.lambdaArgs = null;
+    }
+    r0 = s.arg0;
+    if (!checkSubtype(r0, info_PlayerInfo__C29375_VT)) failedCast(r0);
+    r0 = s.arg0.fields["_player"];
+    return leave(s, r0)
+  default: oops()
+} } }
+info_PlayerInfo_id__P29389.info = {"start":17450,"length":57,"line":572,"column":8,"endLine":574,"endColumn":9,"fileName":"pxt_modules/game/info.ts","functionName":"id","argumentNames":["this"]}
+
+function info_PlayerInfo_id__P29389_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: info_PlayerInfo_id__P29389, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   arg0: undefined,
 } }
@@ -63868,113 +63961,6 @@ function sprites_RenderText_drawLine__P29028_mk(s) {
 
 
 
-function lambda_1_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: null, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  arg0: undefined,
-} }
-
-
-function if_onPlayFinished_1_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: null, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  arg0: undefined,
-} }
-
-
-function lambda_5_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: null, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  arg0: undefined,
-  arg1: undefined,
-  arg2: undefined,
-  arg3: undefined,
-  arg4: undefined,
-} }
-
-
-function lambda_3_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: null, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  arg0: undefined,
-  arg1: undefined,
-  arg2: undefined,
-} }
-
-
-function PhysicsEngine__C29304_v2_4_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: null, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  arg0: undefined,
-  arg1: undefined,
-  arg2: undefined,
-  arg3: undefined,
-} }
-
-
-function if_handler_1_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: null, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  arg0: undefined,
-} }
-
-
-function if_condition_1_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: null, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  tmp_3: undefined,
-  tmp_4: undefined,
-  arg0: undefined,
-} }
-
-
 function if_countdownEndHandler_1_mk(s) {
     checkStack(s.depth);
     return {
@@ -64089,6 +64075,113 @@ function if_id_2_mk(s) {
 
 
 function if_lifeZeroHandler_1_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: null, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  arg0: undefined,
+} }
+
+
+function lambda_3_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: null, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  arg0: undefined,
+  arg1: undefined,
+  arg2: undefined,
+} }
+
+
+function lambda_1_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: null, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  arg0: undefined,
+} }
+
+
+function if_onPlayFinished_1_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: null, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  arg0: undefined,
+} }
+
+
+function lambda_5_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: null, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  arg0: undefined,
+  arg1: undefined,
+  arg2: undefined,
+  arg3: undefined,
+  arg4: undefined,
+} }
+
+
+function if_handler_1_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: null, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  arg0: undefined,
+} }
+
+
+function PhysicsEngine__C29304_v2_4_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: null, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  tmp_3: undefined,
+  tmp_4: undefined,
+  arg0: undefined,
+  arg1: undefined,
+  arg2: undefined,
+  arg3: undefined,
+} }
+
+
+function if_condition_1_mk(s) {
     checkStack(s.depth);
     return {
         parent: s, fn: null, depth: s.depth + 1,
@@ -65611,213 +65704,11 @@ const StatusBarSprite__C31057_VT = mkVTable({
     "__draw": sprites_BaseSprite___draw__P28900,
   },
 });
-const music_Melody__C28617_VT = mkVTable({
-  name: "Melody",
-  numFields: 2,
-  classNo: 25,
-  lastSubtypeNo: 25,
-  maxBgInstances: null,
-  methods: {
-  },
-  iface: {
-    "_text": null,
-    "set/_text": null,
-    "_player": null,
-    "set/_player": null,
-    "stop": music_Melody_stop__P28622,
-    "registerMelody": music_Melody_registerMelody__P31280,
-    "unregisterMelody": music_Melody_unregisterMelody__P31281,
-    "playCore": music_Melody_playCore__P31282,
-    "play": music_Melody_play__P28624,
-    "playUntilDone": music_Melody_playUntilDone__P28625,
-    "toString": music_Melody_toString__P28626,
-  },
-  toStringMethod: music_Melody_toString__P28626,
-});
-const music_MelodyPlayer__C28627_VT = mkVTable({
-  name: "MelodyPlayer",
-  numFields: 2,
-  classNo: 26,
-  lastSubtypeNo: 26,
-  maxBgInstances: null,
-  methods: {
-  },
-  iface: {
-    "melody": null,
-    "set/melody": null,
-    "onPlayFinished": null,
-    "set/onPlayFinished": null,
-    "stop": music_MelodyPlayer_stop__P28631,
-    "queuePlayInstructions": music_MelodyPlayer_queuePlayInstructions__P31285,
-    "play": music_MelodyPlayer_play__P28632,
-  },
-});
-const effects_ImageEffect__C29984_VT = mkVTable({
-  name: "ImageEffect",
-  numFields: 4,
-  classNo: 27,
-  lastSubtypeNo: 27,
-  maxBgInstances: null,
-  methods: {
-  },
-  iface: {
-    "preferredDelay": null,
-    "set/preferredDelay": null,
-    "effect": null,
-    "set/effect": null,
-    "fastRandom": null,
-    "set/fastRandom": null,
-    "times": null,
-    "set/times": null,
-    "applyTo": effects_ImageEffect_applyTo__P29986,
-    "change": effects_ImageEffect_change__P29987,
-    "startScreenEffect": effects_ImageEffect_startScreenEffect__P29988,
-  },
-});
-const scene_Background__C29414_VT = mkVTable({
-  name: "Background",
-  numFields: 4,
-  classNo: 28,
-  lastSubtypeNo: 28,
-  maxBgInstances: null,
-  methods: {
-  },
-  iface: {
-    "color": null,
-    "set/color": null,
-    "_image": null,
-    "set/_image": null,
-    "camera": null,
-    "set/camera": null,
-    "_layers": null,
-    "set/_layers": null,
-    "image": scene_Background_image__P29420,
-    "set/image": scene_Background_image__P29421,
-    "hasBackgroundImage": scene_Background_hasBackgroundImage__P29422,
-    "draw": scene_Background_draw__P29423,
-  },
-});
-const PhysicsEngine__C29304_VT = mkVTable({
-  name: "PhysicsEngine",
-  numFields: 0,
-  classNo: 29,
-  lastSubtypeNo: 30,
-  maxBgInstances: null,
-  methods: {
-    "addSprite": PhysicsEngine_addSprite__P29306,
-    "removeSprite": PhysicsEngine_removeSprite__P29307,
-    "moveSprite": PhysicsEngine_moveSprite__P29308,
-    "draw": PhysicsEngine_draw__P29309,
-    "move": PhysicsEngine_move__P29310,
-  },
-  iface: {
-    "addSprite": PhysicsEngine_addSprite__P29306,
-    "removeSprite": PhysicsEngine_removeSprite__P29307,
-    "moveSprite": PhysicsEngine_moveSprite__P29308,
-    "draw": PhysicsEngine_draw__P29309,
-    "move": PhysicsEngine_move__P29310,
-  },
-});
-const control_EventContext__C27400_VT = mkVTable({
-  name: "EventContext",
-  numFields: 9,
-  classNo: 31,
-  lastSubtypeNo: 31,
-  maxBgInstances: null,
-  methods: {
-  },
-  iface: {
-    "handlers": null,
-    "set/handlers": null,
-    "frameCallbacks": null,
-    "set/frameCallbacks": null,
-    "frameWorker": null,
-    "set/frameWorker": null,
-    "framesInSample": null,
-    "set/framesInSample": null,
-    "timeInSample": null,
-    "set/timeInSample": null,
-    "deltaTimeMillis": null,
-    "set/deltaTimeMillis": null,
-    "prevTimeMillis": null,
-    "set/prevTimeMillis": null,
-    "idleCallbacks": null,
-    "set/idleCallbacks": null,
-    "runningCallbacks": null,
-    "set/runningCallbacks": null,
-    "deltaTime": control_EventContext_deltaTime__P27405,
-    "runCallbacks": control_EventContext_runCallbacks__P31238,
-    "registerFrameCallbacks": control_EventContext_registerFrameCallbacks__P31239,
-    "register": control_EventContext_register__P27406,
-    "unregister": control_EventContext_unregister__P27407,
-    "registerFrameHandler": control_EventContext_registerFrameHandler__P27408,
-    "registerHandler": control_EventContext_registerHandler__P27410,
-  },
-});
-const control_FrameCallback__C27397_VT = mkVTable({
-  name: "FrameCallback",
-  numFields: 2,
-  classNo: 32,
-  lastSubtypeNo: 32,
-  maxBgInstances: null,
-  methods: {
-  },
-  iface: {
-    "order": null,
-    "set/order": null,
-    "handler": null,
-    "set/handler": null,
-  },
-});
-const control_PollEvent__C31212_VT = mkVTable({
-  name: "PollEvent",
-  numFields: 6,
-  classNo: 33,
-  lastSubtypeNo: 33,
-  maxBgInstances: null,
-  methods: {
-  },
-  iface: {
-    "eid": null,
-    "set/eid": null,
-    "vid": null,
-    "set/vid": null,
-    "start": null,
-    "set/start": null,
-    "timeOut": null,
-    "set/timeOut": null,
-    "condition": null,
-    "set/condition": null,
-    "once": null,
-    "set/once": null,
-  },
-});
-const control_EventHandler__C31233_VT = mkVTable({
-  name: "EventHandler",
-  numFields: 4,
-  classNo: 34,
-  lastSubtypeNo: 34,
-  maxBgInstances: null,
-  methods: {
-  },
-  iface: {
-    "src": null,
-    "set/src": null,
-    "value": null,
-    "set/value": null,
-    "handler": null,
-    "set/handler": null,
-    "flags": null,
-    "set/flags": null,
-    "register": control_EventHandler_register__P31234,
-    "unregister": control_EventHandler_unregister__P31235,
-  },
-});
 const info_PlayerInfo__C29375_VT = mkVTable({
   name: "PlayerInfo",
   numFields: 12,
-  classNo: 35,
-  lastSubtypeNo: 35,
+  classNo: 25,
+  lastSubtypeNo: 25,
   maxBgInstances: null,
   methods: {
   },
@@ -65865,8 +65756,8 @@ const info_PlayerInfo__C29375_VT = mkVTable({
 const info_PlayerState__C29346_VT = mkVTable({
   name: "PlayerState",
   numFields: 3,
-  classNo: 36,
-  lastSubtypeNo: 36,
+  classNo: 26,
+  lastSubtypeNo: 26,
   maxBgInstances: null,
   methods: {
   },
@@ -65882,8 +65773,8 @@ const info_PlayerState__C29346_VT = mkVTable({
 const scene_Scene__C29585_VT = mkVTable({
   name: "Scene",
   numFields: 24,
-  classNo: 37,
-  lastSubtypeNo: 37,
+  classNo: 27,
+  lastSubtypeNo: 27,
   maxBgInstances: null,
   methods: {
   },
@@ -65947,8 +65838,8 @@ const scene_Scene__C29585_VT = mkVTable({
 const info_InfoState__C31466_VT = mkVTable({
   name: "InfoState",
   numFields: 10,
-  classNo: 38,
-  lastSubtypeNo: 38,
+  classNo: 28,
+  lastSubtypeNo: 28,
   maxBgInstances: null,
   methods: {
   },
@@ -66004,11 +65895,52 @@ const scene_Renderable__C29544_VT = mkVTable({
     "__update": sprites_BaseSprite___update__P28902,
   },
 });
+const music_Melody__C28617_VT = mkVTable({
+  name: "Melody",
+  numFields: 2,
+  classNo: 29,
+  lastSubtypeNo: 29,
+  maxBgInstances: null,
+  methods: {
+  },
+  iface: {
+    "_text": null,
+    "set/_text": null,
+    "_player": null,
+    "set/_player": null,
+    "stop": music_Melody_stop__P28622,
+    "registerMelody": music_Melody_registerMelody__P31280,
+    "unregisterMelody": music_Melody_unregisterMelody__P31281,
+    "playCore": music_Melody_playCore__P31282,
+    "play": music_Melody_play__P28624,
+    "playUntilDone": music_Melody_playUntilDone__P28625,
+    "toString": music_Melody_toString__P28626,
+  },
+  toStringMethod: music_Melody_toString__P28626,
+});
+const music_MelodyPlayer__C28627_VT = mkVTable({
+  name: "MelodyPlayer",
+  numFields: 2,
+  classNo: 30,
+  lastSubtypeNo: 30,
+  maxBgInstances: null,
+  methods: {
+  },
+  iface: {
+    "melody": null,
+    "set/melody": null,
+    "onPlayFinished": null,
+    "set/onPlayFinished": null,
+    "stop": music_MelodyPlayer_stop__P28631,
+    "queuePlayInstructions": music_MelodyPlayer_queuePlayInstructions__P31285,
+    "play": music_MelodyPlayer_play__P28632,
+  },
+});
 const scene_GameForeverHandler__C29564_VT = mkVTable({
   name: "GameForeverHandler",
   numFields: 2,
-  classNo: 39,
-  lastSubtypeNo: 39,
+  classNo: 31,
+  lastSubtypeNo: 31,
   maxBgInstances: null,
   methods: {
   },
@@ -66017,6 +65949,167 @@ const scene_GameForeverHandler__C29564_VT = mkVTable({
     "set/lock": null,
     "handler": null,
     "set/handler": null,
+  },
+});
+const effects_ImageEffect__C29984_VT = mkVTable({
+  name: "ImageEffect",
+  numFields: 4,
+  classNo: 32,
+  lastSubtypeNo: 32,
+  maxBgInstances: null,
+  methods: {
+  },
+  iface: {
+    "preferredDelay": null,
+    "set/preferredDelay": null,
+    "effect": null,
+    "set/effect": null,
+    "fastRandom": null,
+    "set/fastRandom": null,
+    "times": null,
+    "set/times": null,
+    "applyTo": effects_ImageEffect_applyTo__P29986,
+    "change": effects_ImageEffect_change__P29987,
+    "startScreenEffect": effects_ImageEffect_startScreenEffect__P29988,
+  },
+});
+const scene_Background__C29414_VT = mkVTable({
+  name: "Background",
+  numFields: 4,
+  classNo: 33,
+  lastSubtypeNo: 33,
+  maxBgInstances: null,
+  methods: {
+  },
+  iface: {
+    "color": null,
+    "set/color": null,
+    "_image": null,
+    "set/_image": null,
+    "camera": null,
+    "set/camera": null,
+    "_layers": null,
+    "set/_layers": null,
+    "image": scene_Background_image__P29420,
+    "set/image": scene_Background_image__P29421,
+    "hasBackgroundImage": scene_Background_hasBackgroundImage__P29422,
+    "draw": scene_Background_draw__P29423,
+  },
+});
+const PhysicsEngine__C29304_VT = mkVTable({
+  name: "PhysicsEngine",
+  numFields: 0,
+  classNo: 34,
+  lastSubtypeNo: 35,
+  maxBgInstances: null,
+  methods: {
+    "addSprite": PhysicsEngine_addSprite__P29306,
+    "removeSprite": PhysicsEngine_removeSprite__P29307,
+    "moveSprite": PhysicsEngine_moveSprite__P29308,
+    "draw": PhysicsEngine_draw__P29309,
+    "move": PhysicsEngine_move__P29310,
+  },
+  iface: {
+    "addSprite": PhysicsEngine_addSprite__P29306,
+    "removeSprite": PhysicsEngine_removeSprite__P29307,
+    "moveSprite": PhysicsEngine_moveSprite__P29308,
+    "draw": PhysicsEngine_draw__P29309,
+    "move": PhysicsEngine_move__P29310,
+  },
+});
+const control_EventContext__C27400_VT = mkVTable({
+  name: "EventContext",
+  numFields: 9,
+  classNo: 36,
+  lastSubtypeNo: 36,
+  maxBgInstances: null,
+  methods: {
+  },
+  iface: {
+    "handlers": null,
+    "set/handlers": null,
+    "frameCallbacks": null,
+    "set/frameCallbacks": null,
+    "frameWorker": null,
+    "set/frameWorker": null,
+    "framesInSample": null,
+    "set/framesInSample": null,
+    "timeInSample": null,
+    "set/timeInSample": null,
+    "deltaTimeMillis": null,
+    "set/deltaTimeMillis": null,
+    "prevTimeMillis": null,
+    "set/prevTimeMillis": null,
+    "idleCallbacks": null,
+    "set/idleCallbacks": null,
+    "runningCallbacks": null,
+    "set/runningCallbacks": null,
+    "deltaTime": control_EventContext_deltaTime__P27405,
+    "runCallbacks": control_EventContext_runCallbacks__P31238,
+    "registerFrameCallbacks": control_EventContext_registerFrameCallbacks__P31239,
+    "register": control_EventContext_register__P27406,
+    "unregister": control_EventContext_unregister__P27407,
+    "registerFrameHandler": control_EventContext_registerFrameHandler__P27408,
+    "registerHandler": control_EventContext_registerHandler__P27410,
+  },
+});
+const control_FrameCallback__C27397_VT = mkVTable({
+  name: "FrameCallback",
+  numFields: 2,
+  classNo: 37,
+  lastSubtypeNo: 37,
+  maxBgInstances: null,
+  methods: {
+  },
+  iface: {
+    "order": null,
+    "set/order": null,
+    "handler": null,
+    "set/handler": null,
+  },
+});
+const control_PollEvent__C31212_VT = mkVTable({
+  name: "PollEvent",
+  numFields: 6,
+  classNo: 38,
+  lastSubtypeNo: 38,
+  maxBgInstances: null,
+  methods: {
+  },
+  iface: {
+    "eid": null,
+    "set/eid": null,
+    "vid": null,
+    "set/vid": null,
+    "start": null,
+    "set/start": null,
+    "timeOut": null,
+    "set/timeOut": null,
+    "condition": null,
+    "set/condition": null,
+    "once": null,
+    "set/once": null,
+  },
+});
+const control_EventHandler__C31233_VT = mkVTable({
+  name: "EventHandler",
+  numFields: 4,
+  classNo: 39,
+  lastSubtypeNo: 39,
+  maxBgInstances: null,
+  methods: {
+  },
+  iface: {
+    "src": null,
+    "set/src": null,
+    "value": null,
+    "set/value": null,
+    "handler": null,
+    "set/handler": null,
+    "flags": null,
+    "set/flags": null,
+    "register": control_EventHandler_register__P31234,
+    "unregister": control_EventHandler_unregister__P31235,
   },
 });
 const controller_Controller__C28934_VT = mkVTable({
@@ -66765,8 +66858,8 @@ const tiles_TileMapData__C29462_VT = mkVTable({
 const ArcadePhysicsEngine__C29320_VT = mkVTable({
   name: "ArcadePhysicsEngine",
   numFields: 6,
-  classNo: 30,
-  lastSubtypeNo: 30,
+  classNo: 35,
+  lastSubtypeNo: 35,
   maxBgInstances: null,
   methods: {
     "addSprite": ArcadePhysicsEngine_addSprite__P29329,
@@ -67466,7 +67559,7 @@ const animation_PathNode__C30045_VT = mkVTable({
   },
 });
 
-const breakpoints = setupDebugger(1, ["home___52979","homeFood___52982","exit___52985","video___52988","queen___52991","exit2___52994","pollen___52997","ammo___53000","statusbar___53151","statusbar2___53157","honny_bee___53044","Exit___53112","pollen1___53047","pollen2___53060","pollen3___53073","pollen4___53086","pollen5___53099","spider___53124","honnyBall___53268","animaton___53170","exit2___53302","queenBee___53293","bee_hive___53010","flower___53016","flower_two___53022","flower_three___53028","flower_four___53034","flower_five___53040"])
+const breakpoints = setupDebugger(1, ["home___83521","homeFood___83524","exit___83527","video___83530","queen___83533","exit2___83536","pollen___83539","ammo___83542","statusbar___83693","statusbar2___83699","honny_bee___83586","Exit___83654","pollen1___83589","pollen2___83602","pollen3___83615","pollen4___83628","pollen5___83641","spider___83666","honnyBall___83810","animaton___83712","exit2___83844","queenBee___83835","bee_hive___83552","flower___83558","flower_two___83564","flower_three___83570","flower_four___83576","flower_five___83582"])
 
-return _main___P57393
+return _main___P84609
 })
