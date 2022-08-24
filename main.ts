@@ -268,7 +268,7 @@ function create_level () {
     spider.sayText("IM GOING TO EAT YOU BEE!", 2000, true)
     spider.setPosition(randint(30, 120), randint(80, 100))
     pause(1500)
-    spider.follow(honny_bee, 100)
+    spider.follow(honny_bee, 80)
 }
 sprites.onOverlap(SpriteKind.Player, SpriteKind.queen, function (sprite, otherSprite) {
     if (statusbar.value >= 100) {
@@ -1522,7 +1522,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.homeFood, function (sprite, othe
     create_level()
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    if (statusbar2.value >= 50) {
+    if (statusbar2.value >= 20) {
         honnyBall = sprites.createProjectileFromSprite(img`
             5 5 5 5 5 5 
             5 4 4 4 4 5 
@@ -1532,7 +1532,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
             5 5 5 5 5 5 
             `, honny_bee, 80, 0)
         honnyBall.setKind(SpriteKind.Projectile)
-        statusbar2.value += -50
+        statusbar2.value += -20
     } else {
     	
     }
